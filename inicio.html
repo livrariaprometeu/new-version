@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Livraria Prometeu — Início</title>
+  <meta name="description" content="Livraria Prometeu: democratizando o conhecimento com curadoria de clássicos. Conheça nossa missão e explore e-books gratuitos." />
+  <meta name="keywords" content="livros, clássicos, ebooks gratuitos, literatura, Livraria Prometeu" />
+  <meta property="og:title" content="Livraria Prometeu — Início" />
+  <meta property="og:description" content="Conheça nossa missão e acesse gratuitamente livros clássicos selecionados." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EM7DDY63WN');
+  </script>
+
+  <style>
+    :root {
+      --bg: #faf9f7;
+      --paper: #ffffff;
+      --ink: #673e32;
+      --muted: #6b6b6b;
+      --accent: #393939; /* verde sofisticado, linkado ao gratuito */
+      --radius: 12px;
+      --shadow: 0 6px 22px rgba(10,10,10,0.06);
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:var(--bg);
+      color:var(--ink);
+      line-height:1.5;
+    }
+
+    .container { max-width:1100px; margin:0 auto; padding:36px 24px; }
+
+    header { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+    .logo { font-weight:700; letter-spacing:0.06em; }
+    nav { display:flex; gap:18px; align-items:center; }
+    nav a { color:var(--muted); text-decoration:none; font-size:0.95rem; }
+
+    /* Hero */
+    .hero {
+      padding:70px 0;
+      text-align:center;
+      /* background-color: #301e18; */
+    }
+    .hero h1 {
+      font-size:2.4rem;
+      font-weight:600;
+      margin:0 0 16px;
+    }
+    .hero p {
+      color:var(--muted);
+      max-width:650px;
+      margin:0 auto 26px;
+      font-size:1.05rem;
+    }
+    .btn {
+      padding:14px 28px;
+      border-radius:8px;
+      border:none;
+      font-weight:600;
+      cursor:pointer;
+      font-size:1rem;
+    }
+    .btn-main {
+      background: #673e32;
+      color:#fff;
+    }
+    .btn-main:hover {
+      opacity:0.9;
+    }
+
+    /* Quem somos */
+    .about {
+      margin:70px 0;
+      display:flex;
+      gap:36px;
+      align-items:center;
+    }
+    .about img {
+      width:360px;
+      max-width:100%;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    .about .text h2 {
+      margin:0 0 14px;
+    }
+    .about .text p {
+      color:var(--muted);
+      font-size:1rem;
+    }
+
+    /* Contato */
+    .contact {
+      margin:70px 0;
+      text-align:center;
+    }
+    .contact h2 { margin-bottom:20px; }
+    .contact p { color:var(--muted); margin-bottom:8px; }
+    .contact a {
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    footer {
+      margin-top:60px;
+      padding:28px 0;
+      border-top:1px solid #eee;
+    }
+    footer .foot-inner {
+      display:flex; justify-content:space-between; align-items:center;
+    }
+    footer small { color:var(--muted); }
+
+    @media(max-width:900px){
+      .about { flex-direction:column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="logo">Prometeu</div>
+    <nav>
+      <a href="inicio.html">Início</a>
+      <a href="ebooks-gratuitos.html">E-books</a>
+      <a href="blog.html">Destaques</a>
+      <a href="links.html">Loja</a>      
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container">
+      <h1>Livraria Prometeu</h1>
+      <p>Unimos sofisticação e democratização do conhecimento, oferecendo livros clássicos em edições refinadas e também gratuitos, para que todos tenham acesso à sabedoria que atravessa séculos.</p>
+      <a href="/ebooks.html"><button class="btn btn-main">Explorar E-books Gratuitos</button></a>
+    </section>
+
+    <!-- Quem somos -->
+    <section class="about container">
+      <img src="img\imgLogo_prometeu.png" alt="Imagem de livros clássicos">
+      <div class="text">
+        <h2>Quem somos</h2>
+        <p>A Prometeu nasceu com a missão de democratizar o conhecimento sem abrir mão da estética. Nossa curadoria valoriza obras que moldaram a cultura, oferecendo tanto edições sofisticadas quanto versões digitais gratuitas. Acreditamos que cada leitura pode iluminar o mundo.</p>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact container">
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:livrariaprometeu@gmail.com">livrariaprometeu@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/livrariaprometeu" target="_blank">@livrariaprometeu</a></p>
+      <!-- <p>Telefone/WhatsApp: <a href="https://wa.me/5500000000000" target="_blank">+55 (00) 00000-0000</a></p> -->
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="foot-inner">
+      <div>
+        <strong>Prometeu</strong>
+        <div style="color:var(--muted)">Clássicos para todos</div>
+      </div>
+      <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
+    </div>
+  </footer>
+</body>
+</html>

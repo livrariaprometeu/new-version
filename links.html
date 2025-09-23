@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Livraria Prometeu — Loja</title>
+  <meta name="description" content="Loja da Livraria Prometeu — edições clássicas com acabamento premium. Minimalismo, curadoria e experiência de compra refinada." />
+  <meta name="keywords" content="livraria, clássicos, livros, edição premium, Prometeu" />
+  <meta property="og:title" content="Livraria Prometeu — Loja" />
+  <meta property="og:description" content="Edições selecionadas de clássicos. Design minimalista e experiência de compra elegante." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EM7DDY63WN');
+  </script>
+
+  <!-- JSON-LD básico para SEO (exemplo com um produto) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Livraria Prometeu",
+    "url": "https://seusite.exemplo/"
+  }
+  </script>
+
+  <!-- Tipografia: usar preferencialmente Inter / SF Pro; fallback para system-ui -->
+  <style>
+    :root{
+      --bg: #faf9f7;
+      --paper: #ffffff;
+      --ink: #673e32;
+      --muted: #6b6b6b;
+      --accent: #C9A14A; /* dourado discreto */
+      --radius: 12px;
+      --shadow: 0 6px 22px rgba(10,10,10,0.06);
+      --card-shadow: 0 8px 30px rgba(15,15,15,0.05);
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family: Inter, "SF Pro Text", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:var(--ink);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+
+    /* Container */
+    .container{max-width:1100px;margin:0 auto;padding:40px 24px;}
+
+    /* Header */
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .logo{font-weight:700;letter-spacing:0.06em}
+    nav{display:flex;gap:20px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-size:0.95rem}
+    .icon{background:transparent;border:1px solid #e6e6e6;padding:8px;border-radius:8px}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns: 1fr 1fr;gap:48px;align-items:center;padding:48px 0}
+    .hero .cover{display:flex;justify-content:center}
+    .cover img{width:340px;max-width:100%;height:auto;border-radius:8px;box-shadow:var(--shadow)}
+    .hero h1{font-size:2.4rem;margin:0 0 12px;font-weight:600}
+    .hero p{color:var(--muted);margin:0 0 22px}
+    .cta{display:flex;gap:12px;align-items:center}
+    .btn{padding:12px 18px;border-radius:10px;border:none;font-weight:600;cursor:pointer;}
+    .btn-primary{background:var(--ink);color:white;box-shadow:var(--card-shadow)}
+    .btn-ghost{background:transparent;border:1px solid #ddd;color:var(--ink)}
+
+    /* Product grid */
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:30px}
+    .card{background:var(--paper);padding:18px;border-radius:12px;text-align:left;box-shadow:var(--card-shadow);display:flex;flex-direction:column;gap:12px}
+    .card .img-wrap{height:180px;display:flex;align-items:center;justify-content:center}
+    .card img{max-height:160px;max-width:100%;object-fit:contain}
+    .title{font-weight:600}
+    .author{font-size:0.9rem;color:var(--muted)}
+    .price{font-weight:700;margin-top:6px}
+    .card .buy{margin-top:auto}
+
+    /* Highlights */
+    .highlights{margin:56px 0;padding:28px;border-radius:14px;background:#f6f7f5;display:flex;gap:20px;align-items:center}
+    .highlights img{width:110px;border-radius:6px}
+    .highlights .txt h3{margin:0 0 8px}
+    .highlights .txt p{margin:0;color:var(--muted)}
+
+    /* Footer */
+    footer{margin-top:60px;padding:28px 0;border-top:1px solid #eee}
+    footer .foot-inner{display:flex;justify-content:space-between;align-items:center}
+    footer small{color:var(--muted)}
+
+    /* Responsive */
+    @media (max-width:980px){
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .hero{grid-template-columns:1fr;gap:28px}
+      .hero .cover{order:-1}
+    }
+    @media (max-width:520px){
+      .grid{grid-template-columns:1fr}
+      .container{padding:20px}
+      .hero h1{font-size:1.6rem}
+    }
+
+    /* Small helpers */
+    .muted{color:var(--muted)}
+    .pill{padding:6px 10px;border-radius:999px;border:1px solid #eee;font-size:0.85rem}
+
+    /* tiny toast */
+    .toast{position:fixed;right:20px;bottom:20px;background:#0b0b0b;color:white;padding:12px 16px;border-radius:10px;box-shadow:var(--card-shadow);display:none}
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="logo">Prometeu</div>
+    <nav>
+      <a href="inicio.html">Início</a>
+      <a href="ebooks-gratuitos.html">E-books</a>
+      <a href="blog.html">Destaques</a>
+      <a href="links.html">Loja</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" aria-label="Destaque principal">
+      <div class="cover">
+        <!-- Substitua o src pelas suas imagens de capa em alta resolução -->
+        <img src="img/livraria/coleção-estoica.png" alt="Capa: Coleção estóica" />
+      </div>
+      <div>
+        <h1>Conhecimento que atravessa séculos</h1>
+        <p>Edição exclusiva, com acabamento refinado e curadoria que respeita a tradição.</p>
+        <div class="cta">
+          <a href="https://amzn.to/4pAe7vV"><button class="btn btn-primary">Adquirir agora</button></a>
+          <button class="btn btn-ghost" onclick="scrollToGrid()">Ver coleção</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID DE PRODUTOS -->
+    <section id="colecoes">
+      <div class="grid" id="productGrid">
+        <!-- Cards gerados via JS -->
+      </div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section id="destaques">
+      <h2 style="margin-top:48px">Destaques da Prometeu</h2>
+      <div class="highlights" style="margin-top:18px">
+        <img src="img\livraria\meditacoes-de-marco-aurelio.png" alt="Dom Casmurro" />
+        <div class="txt">
+          <h3>Meditações</h3>
+          <p>Um legado íntimo de sabedoria e disciplina — edição especial Prometeu.</p>
+        </div>
+        <img src="img\livraria\meditacoes-de-marco-aurelio-aberto.png" alt="Dom Casmurro" />
+      </div>
+    </section>
+
+    <p style="margin-top:40px;font-size:1.1rem">Não vendemos apenas páginas impressas, oferecemos a experiência de pensar diferente.</p>
+  </main>
+
+  <footer class="container">
+    <div class="foot-inner">
+      <div>
+        <strong>Prometeu</strong><div class="muted">Curadoria e design</div>
+      </div>
+      <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Adicionado ao carrinho</div>
+
+  <script>
+    // Mock de produtos — substitua por dados reais do seu CMS ou API
+    const products = [
+      {id:1,title:'Meditações',author:'Marco Aurelio',img:'img/livraria/meditacoes-de-marco-aurelio.png',link:'https://amzn.to/3K9vpQx'},
+      {id:2,title:'A arte da guerra',author:'Sun Tzu',img:'img/livraria/a-arte-da-guerra-de-sun-tzu.png',link:'https://amzn.to/48w8etv'},
+      {id:3,title:'O príncipe',author:'Maquiavel',img:'img/livraria/o-principe-de-maquiavel.png',link:'https://amzn.to/4nJshsQ'},
+    ];
+    
+    const grid = document.getElementById('productGrid');
+    products.forEach(p=>{
+      const card = document.createElement('article');
+      card.className='card';
+      card.innerHTML = `
+        <div class="img-wrap"><img src="${p.img}" alt="Capa ${p.title}"></div>
+        <div class="title">${p.title}</div>
+        <div class="author">${p.author}</div>
+        <a class="buy" href="${p.link}"><button class="btn btn-ghost" onclick="addToCart('${p.link},${p.title}')">Comprar na amazon</button></a>
+      `;
+      grid.appendChild(card);
+    });
+
+    function scrollToGrid(){
+      document.getElementById('productGrid').scrollIntoView({behavior:'smooth',block:'start'});
+    }
+  </script>
+</body>
+</html>

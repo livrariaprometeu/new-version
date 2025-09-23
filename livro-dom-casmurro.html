@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Leitor — Prometeu</title>
+
+<!-- epub.js (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
+<style>
+  :root{
+    --bg:#faf9f7;
+    --paper:#fff;
+    --ink:#0b0b0b;
+    --muted:#6b6b6b;
+    --accent:#2b8c82;
+    --radius:10px;
+  }
+  html,body{height:100%;margin:0;font-family:Inter,system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:var(--ink);background:var(--bg)}
+  header{height:64px;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-bottom:1px solid #eee;position:sticky;top:0;background:linear-gradient(180deg,rgba(255,255,255,0.7),rgba(255,255,255,0.65));backdrop-filter: blur(4px);z-index:20}
+  .brand{font-weight:700;letter-spacing:0.06em;text-decoration: none; color: #0b0b0b;}
+  .controls{display:flex;gap:10px;align-items:center}
+  .btn{background:transparent;border:1px solid #e6e6e6;padding:8px 10px;border-radius:8px;cursor:pointer;font-weight:600}
+  .btn-strong{background:var(--ink);color:#fff;border:none}
+  .small{font-size:0.9rem;color:var(--muted)}
+  .viewer-wrap{height:calc(100vh - 64px);display:flex;overflow:hidden}
+  #viewer{flex:1;height:100%;background:var(--paper);}
+
+  /* Controls bar inside reader */
+  .reader-bar{display:flex;gap:12px;align-items:center;padding:8px;border-bottom:1px solid #f0f0f0;background:transparent}
+  .page-box{min-width:130px;display:flex;gap:8px;align-items:center}
+  input[type="number"]{width:72px;padding:6px;border-radius:8px;border:1px solid #eee}
+  select{padding:6px;border-radius:8px;border:1px solid #eee}
+  .muted{color:var(--muted)}
+  /* responsive */
+  @media (max-width:720px){
+    .controls{gap:6px}
+    .page-box{min-width:100px}
+  }
+</style>
+</head>
+<body class="light">
+
+<header>
+  <a class="brand" href="ebooks-gratuitos.html"><div class="brand">Prometeu — Leitor</div></a>
+
+  <div class="controls" aria-hidden="false">
+    <div class="small muted">Capítulo</div>
+    <select id="chapters" aria-label="Escolher capítulo"></select>
+
+    <div class="page-box">
+      <button id="prevBtn" class="btn" title="Página anterior">‹</button>
+      <div class="small" id="pageDisplay">— / —</div>
+      <button id="nextBtn" class="btn" title="Próxima página">›</button>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:8px">
+      <input id="pageInput" type="number" min="1" placeholder="Ir à pág."/>
+      <button id="gotoBtn" class="btn">Ir</button>
+    </div>
+
+    <label class="small muted">Tamanho</label>
+    <select id="fontSize" title="Tamanho da fonte">
+      <option value="90%">P</option>
+      <option value="100%" selected>M</option>
+      <option value="120%">G</option>
+      <option value="140%">GG</option>
+    </select>
+
+    <button id="themeBtn" class="btn" title="Tema escuro/claro">🌙</button>
+  </div>
+</header>
+
+<div class="viewer-wrap">
+  <div style="width:320px;display:flex;flex-direction:column;border-right:1px solid #f0f0f0;gap:8px;padding:12px;background:linear-gradient(180deg,#fff,#fafafa)">
+    <div style="font-weight:600">Informações</div>
+    <div class="small muted" id="bookTitle">Carregando...</div>
+    <div style="margin-top:8px">
+      <div class="small muted">Progresso</div>
+      <div id="progressBar" style="height:8px;background:#eee;border-radius:999px;margin-top:6px;overflow:hidden">
+        <div id="progressFill" style="height:100%;width:0%;background:var(--accent)"></div>
+      </div>
+    </div>
+    <div style="margin-top:10px">
+      <div class="small muted">Navegação</div>
+      <div style="margin-top:8px;display:flex;gap:8px">
+        <button id="tocBtn" class="btn">Índice</button>
+        <button id="bookmarkBtn" class="btn">🔖 Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- container onde epub.js renderiza -->
+  <div id="viewer" role="main" aria-label="Conteúdo do livro"></div>
+</div>
+
+<script>
+  // ---------- CONFIG ---------- //
+  // Substitua essa URL pelo seu EPub (pode ser um link público S3 ou URL do seu servidor)
+  const epubUrl = 'https://s3.amazonaws.com/epubjs/books/moby-dick.epub'; // exemplo de demo
+
+  // ---------- INICIALIZAÇÃO epub.js ---------- //
+  const book = ePub(epubUrl);
+  const rendition = book.renderTo("viewer", {
+    width: "100%",
+    height: "100%",
+    flow: "paginated", // paginado para avançar por páginas
+    snap: true
+  });
+
+  // Renderiza (começa no início)
+  rendition.display();
+
+  // Elementos UI
+  const chaptersSel = document.getElementById('chapters');
+  const pageDisplay = document.getElementById('pageDisplay');
+  const pageInput = document.getElementById('pageInput');
+  const gotoBtn = document.getElementById('gotoBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const fontSizeSel = document.getElementById('fontSize');
+  const themeBtn = document.getElementById('themeBtn');
+  const bookTitleEl = document.getElementById('bookTitle');
+  const progressFill = document.getElementById('progressFill');
+  const tocBtn = document.getElementById('tocBtn');
+
+  // Estado
+  let totalPages = null;        // número total de "páginas" geradas (locations)
+  let lastPercent = 0;          // progresso (0..1)
+  let locationsGenerated = false;
+
+  // Gera as locations (divide o livro em 'páginas' lógicas)
+  // O número (1600) controla o tamanho de cada location; ajuste conforme necessário.
+  book.ready.then(() => {
+    // Preenche título
+    const meta = book.package ? book.package.metadata : null;
+    if (meta && meta.title) bookTitleEl.textContent = meta.title;
+
+    // Preencher o TOC (quando pronto)
+    book.loaded.navigation.then((toc) => {
+      // Limpa
+      chaptersSel.innerHTML = '';
+      toc.forEach((item, idx) => {
+        const opt = document.createElement('option');
+        opt.value = item.href;
+        opt.textContent = item.label || `Cap ${idx+1}`;
+        chaptersSel.appendChild(opt);
+      });
+    });
+
+    // Carregar / gerar locations
+    const key = book.key() + '-locations';
+    const stored = localStorage.getItem(key);
+    const generateChars = 1600; // valor razoável; pode ajustar para mais ou menos 'páginas'
+
+    if (stored) {
+      try {
+        book.locations.load(stored);
+        locationsGenerated = true;
+        // tenta descobrir total imediamente
+        if (book.locations && typeof book.locations.length === 'function') {
+          totalPages = book.locations.length();
+        }
+      } catch (e) {
+        // se falhar, gera de novo
+        book.locations.generate(generateChars).then(afterLocations);
+      }
+    } else {
+      book.locations.generate(generateChars).then(afterLocations);
+    }
+  });
+
+  function afterLocations(locations){
+    // 'locations' normalmente é um objeto com as posições; salvamos para rapidez futura
+    try { localStorage.setItem(book.key() + '-locations', book.locations.save()); } catch(e){}
+    locationsGenerated = true;
+
+    // tentativa direta de obter total (apenas se a API expõe length())
+    if (book.locations && typeof book.locations.length === 'function') {
+      try { totalPages = book.locations.length(); } catch(e){ totalPages = null; }
+    }
+
+    // se não conseguiu, tentamos inferir a partir do objeto salvo (fallback)
+    if (!totalPages) {
+      try {
+        const saved = JSON.parse(book.locations.save());
+        // formato interno pode variar; tentamos contar chaves
+        if (saved && saved.locations) {
+          totalPages = Object.keys(saved.locations).length || null;
+        }
+      } catch (e) { totalPages = null; }
+    }
+
+    // atualiza display depois da geração
+    updateFromCurrentLocation();
+  }
+
+  // ---------- Navegação básica: prev / next ---------- //
+  prevBtn.addEventListener('click', (e) => { rendition.prev(); });
+  nextBtn.addEventListener('click', (e) => { rendition.next(); });
+
+  // setas do teclado
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'ArrowLeft') rendition.prev();
+    if (ev.key === 'ArrowRight') rendition.next();
+  });
+
+  // Capítulo selecionado (TOC)
+  chaptersSel.addEventListener('change', (e) => {
+    rendition.display(e.target.value);
+  });
+
+  // Ir para página (usuário digita número)
+  gotoBtn.addEventListener('click', () => {
+    const n = parseInt(pageInput.value, 10);
+    if (!locationsGenerated || !totalPages || isNaN(n)) {
+      alert('Não foi possível saltar — aguarde a geração de páginas ou insira um número válido.');
+      return;
+    }
+    const pct = Math.max(0, Math.min(1, (n - 1) / totalPages)); // 0..1
+    try {
+      const cfi = book.locations.cfiFromPercentage(pct);
+      rendition.display(cfi);
+    } catch (err) {
+      // fallback: tenta localizar por índice se API expõe locationFromCfi
+      console.warn('Erro em cfiFromPercentage:', err);
+    }
+  });
+
+  // Ajuste de fonte
+  fontSizeSel.addEventListener('change', (e) => {
+    rendition.themes.default({ "font-size": e.target.value });
+  });
+
+  // Tema claro / escuro
+  themeBtn.addEventListener('click', () => {
+    if (document.body.classList.contains('light')) {
+      document.body.classList.remove('light'); document.body.classList.add('dark');
+      themeBtn.textContent = '☀️';
+      rendition.themes.default({"background":"#111111","color":"#f2f2f2"});
+    } else {
+      document.body.classList.remove('dark'); document.body.classList.add('light');
+      themeBtn.textContent = '🌙';
+      rendition.themes.default({"background":"#ffffff","color":"#111111"});
+    }
+  });
+
+  // TOC quick open (mostra lista de capítulos em alert simples — troque por modal)
+  tocBtn.addEventListener('click', async () => {
+    const toc = await book.loaded.navigation;
+    // simples: abre prompt com lista indexada
+    const labels = toc.map((t,i) => `${i+1}. ${t.label}`).join('\n');
+    alert('Índice:\n\n' + labels);
+  });
+
+  // ---------- Atualização de UI quando a posição muda ---------- //
+  // 'relocated' é o evento que o epub.js emite quando a localização mudou.
+  // Usamos a CFI do 'location.start.cfi' para calcular porcentagem -> página.
+  rendition.on('relocated', (location) => {
+    updateFromLocation(location);
+  });
+
+  // também atualiza quando a exibição inicial for completada
+  rendition.on('rendered', () => {
+    updateFromCurrentLocation();
+  });
+
+  async function updateFromCurrentLocation(){
+    // tentativa segura de obter a localização atual (pode retornar Promise)
+    try {
+      const cur = await rendition.currentLocation();
+      if (cur) {
+        updateFromLocation({ start: cur });
+      }
+    } catch (e) {
+      // nada
+    }
+  }
+
+  function updateFromLocation(location){
+    // 1) Tenta usar dados 'displayed' (algumas versões de epub.js expõem page/total diretamente).
+    try {
+      if (location && location.start && location.start.displayed && typeof location.start.displayed.page !== 'undefined') {
+        const p = location.start.displayed.page;
+        const t = location.start.displayed.total;
+        pageDisplay.textContent = `${p} / ${t}`;
+        // atualiza barra de progresso
+        const pct = t ? (p / t) : 0;
+        progressFill.style.width = Math.round((pct*100)) + '%';
+        return;
+      }
+    } catch(e){ /* ignorar */ }
+
+    // 2) Fallback: usa percentageFromCfi -> converte para página com base em totalPages gerado
+    try {
+      const cfi = location.start.cfi;
+      if (book.locations && typeof book.locations.percentageFromCfi === 'function') {
+        const pct = book.locations.percentageFromCfi(cfi); // 0..1
+        lastPercent = Math.max(0, Math.min(1, pct));
+        // se totalPages conhecido, transforma em número puro
+        if (totalPages && totalPages > 0) {
+          const curr = Math.max(1, Math.min(totalPages, Math.ceil(lastPercent * totalPages)));
+          pageDisplay.textContent = `${curr} / ${totalPages}`;
+          progressFill.style.width = Math.round(lastPercent * 100) + '%';
+        } else {
+          // sem total, mostramos porcentagem legível
+          const percentInt = Math.round(lastPercent * 100);
+          pageDisplay.textContent = `${percentInt}% lido`;
+          progressFill.style.width = percentInt + '%';
+        }
+      } else {
+        // se não há API, apenas mostra '—'
+        pageDisplay.textContent = `— / —`;
+      }
+    } catch (err) {
+      console.warn('Erro atualizando posição:', err);
+      pageDisplay.textContent = `— / —`;
+    }
+  }
+
+  // OPTIONAL: salvar progresso no localStorage ao mudar (boas práticas)
+  rendition.on('relocated', (loc) => {
+    try {
+      const cfi = loc.start.cfi;
+      localStorage.setItem(book.key() + '-last', cfi);
+    } catch(e){}
+  });
+
+  // Ao abrir, tenta carregar de onde parou
+  book.ready.then(async () => {
+    const savedCfi = localStorage.getItem(book.key() + '-last');
+    if (savedCfi) {
+      try { await rendition.display(savedCfi); } catch(e){ /* falha silenciosa */ }
+    }
+  });
+
+  // Nota técnica:
+  // - A técnica usada (generate + percentageFromCfi + cfiFromPercentage) é a abordagem
+  //   recomendada/mais comum para criar "páginas" com epub.js. Veja exemplos oficiais e exemplos 'locations'. :contentReference[oaicite:1]{index=1}
+  // - Se quiser *páginas idênticas ao impresso*, gere/insira no EPUB um <nav epub:type="page-list"> (page-list), aí o leitor pode mapear páginas reais. Para entender o padrão de localizadores veja o W3C EPUB locators. :contentReference[oaicite:2]{index=2}
+
+</script>
+</body>
+</html>
