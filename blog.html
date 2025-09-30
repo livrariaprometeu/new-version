@@ -13,14 +13,101 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    function searchArticles() {
+      const term = document.getElementById('searchInput').value.toLowerCase().trim();
+      const grid = document.getElementById('articleGrid');
+      grid.innerHTML = '';
 
-      gtag('config', 'G-EM7DDY63WN');
+      const results = artigos.filter(a =>
+        a.titulo.toLowerCase().includes(term) || a.categoria.toLowerCase().includes(term)
+      );
+
+      if(results.length === 0){
+        grid.innerHTML = `<p style="grid-column:1/-1;color:var(--muted)">Nenhum artigo encontrado.</p>`;
+      } else {
+        results.forEach(a => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <img src="${a.imagem}" alt="Imagem do artigo: ${a.titulo}">
+            <div class="content">
+              <span class="tag">${a.categoria}</span>
+              <div class="title">${a.titulo}</div>
+              <div class="excerpt">${a.resumo}</div>
+              <div class="meta">
+                <span>${a.autor}</span>
+                <span>${a.data}</span>
+              </div>
+              <a class="btn btn-read" href="${a.link}">Ler mais</a>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EM7DDY63WN');
   </script>
 
   <style>
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--paper);
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      width: 100%;
+      max-width: 320px;
+      transition: all 0.3s ease;
+    }
+
+    .search:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 28px rgba(15,15,15,0.08);
+    }
+
+    .search input {
+      border: none;
+      outline: none;
+      font-size: 0.95rem;
+      flex: 1;
+      background: transparent;
+      padding: 4px 0;
+    }
+
+    .search button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .search-icon {
+      width: 20px;   /* ajuste do tamanho da lupa */
+      height: 20px;
+      object-fit: contain;
+      filter: grayscale(100%) brightness(50%); /* deixa a lupa discreta */
+      transition: filter 0.2s ease;
+    }
+
+    .search button:hover .search-icon {
+      filter: none; /* destaca a lupa ao passar o mouse */
+    }
+
+    @media(max-width:600px){
+      .search {flex:1;}
+    }
+
     :root{
       --bg: #faf9f7;
       --paper: #ffffff;
@@ -66,7 +153,7 @@
     .btn-read{background:transparent;border:2px solid var(--accent);color:var(--accent);text-decoration: none; align-self: center;}
 
     /* Destaque */
-    .featured{margin:60px 0;padding:36px;border-radius:14px;background:#f5f3fa;display:flex;gap:28px;align-items:center}
+    .featured{margin:60px 0;padding:36px;border-radius:14px;background:#c98f7d13;display:flex;gap:28px;align-items:center}
     .featured img{width:280px;max-width:100%;border-radius:var(--radius);box-shadow:var(--shadow)}
     .featured .txt h2{margin:0 0 12px}
     .featured .txt p{color:var(--muted);margin:0 0 18px}
@@ -103,6 +190,19 @@
       <h1>Reflexões, análises e curiosidades literárias</h1>
       <p>O Blog da Prometeu oferece um olhar sofisticado sobre clássicos, filosofia e cultura. Conteúdo autoral e curadoria minimalista.</p>
     </section>
+
+    <form class="search" onsubmit="event.preventDefault();">
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Buscar artigos..." 
+        aria-label="Buscar artigos"
+        oninput="searchArticles()" 
+      />
+      <button type="submit" aria-label="Pesquisar">
+        <img src="search.png" alt="Pesquisar" class="search-icon"/>
+      </button>
+    </form>
 
     <!-- ARTIGOS EM GRID -->
     <section>
@@ -167,5 +267,4 @@
     });
   </script>
 </body>
-
 </html>

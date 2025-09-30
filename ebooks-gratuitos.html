@@ -18,6 +18,42 @@
     gtag('js', new Date());
 
     gtag('config', 'G-EM7DDY63WN');
+
+    function searchEbooks(){
+      const term = document.getElementById('searchInput').value.toLowerCase().trim();
+      const grid = document.getElementById('ebookGrid');
+      grid.innerHTML = '';
+
+      const results = ebooks.filter(e =>
+        e.title.toLowerCase().includes(term) || e.author.toLowerCase().includes(term)
+      );
+
+      if(results.length === 0){
+        grid.innerHTML = `<p style="grid-column:1/-1;color:var(--muted)">Nenhum resultado encontrado.</p>`;
+      } else {
+        results.forEach(e => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <div style="position:relative">
+              <div class="label-free">GRÁTIS</div>
+              <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
+            </div>
+            <div class="title">${e.title}</div>
+            <div class="author">${e.author}</div>
+            <div class="meta">
+              <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
+              <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
+            </div>
+            <div class="actions">
+              <a href="${e.fileDownload}"><button class="btn btn-download">⬇ Baixar</button></a>
+              <a class="btn btn-ghost" href="em-breve.html">Ler</a>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+    }
   </script>
 
   <!-- JSON-LD básico -->
@@ -32,6 +68,60 @@
   </script>
 
   <style>
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--paper);
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      width: 100%;
+      max-width: 320px;
+      transition: all 0.3s ease;
+    }
+
+    .search:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 28px rgba(15,15,15,0.08);
+    }
+
+    .search input {
+      border: none;
+      outline: none;
+      font-size: 0.95rem;
+      flex: 1;
+      background: transparent;
+      padding: 4px 0;
+    }
+
+    .search button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .search-icon {
+      width: 20px;   /* ajuste do tamanho da lupa */
+      height: 20px;
+      object-fit: contain;
+      filter: grayscale(100%) brightness(50%); /* deixa a lupa discreta */
+      transition: filter 0.2s ease;
+    }
+
+    .search button:hover .search-icon {
+      filter: none; /* destaca a lupa ao passar o mouse */
+    }
+
+    @media(max-width:600px){
+      .search {flex:1;}
+    }
+
     :root{
       --bg: #faf9f7;
       --paper: #ffffff;
@@ -140,6 +230,19 @@
         <p style="margin-top:12px;color:var(--muted);font-size:0.95rem">Curadoria humana, acesso universal. Sem registro.</p>
       </div>
     </section>
+
+    <form class="search" onsubmit="event.preventDefault();">
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Buscar e-books..." 
+        aria-label="Buscar e-books"
+        oninput="searchEbooks()" 
+      />
+      <button type="submit" aria-label="Pesquisar">
+        <img src="search.png" alt="Pesquisar" class="search-icon"/>
+      </button>
+    </form>
 
     <!-- GRID DE EBOOKS -->
     <section id="ebooks">
@@ -296,5 +399,3 @@
   </script>
 </body>
 </html>
-
-
