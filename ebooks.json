@@ -1,0 +1,38 @@
+[
+  {
+    "id": 2,
+    "title": "O Primo Basílio",
+    "author": "Eça de Queirós",
+    "cover": "img/livraria/o-primo-basilio-de-eca-queiros.png",
+    "fileName": "Primo_Basilio.epub",
+    "file": null,
+    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Os Sertões",
+    "author": "Euclides da Cunha",
+    "cover": "img/livraria/os-sertoes-de-euclides-da-cunha.png",
+    "fileName": "Os_Sertoes.epub",
+    "file": null,
+    "fileDownload": "livros/pdf/os-sertoes-euclides-da-cunha.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Memórias Póstumas de Brás Cubas",
+    "author": "Machado de Assis",
+    "cover": "img/livraria/memorias-postumas-de-bras-cubas-de-machado-de-assis.png",
+    "fileName": "Bras_Cubas.epub",
+    "file": null,
+    "fileDownload": "livros/pdf/memorias-postumas-de-bras-cubas.pdf"
+  },
+  {
+    "id": 5,
+    "title": "Vidas Secas",
+    "author": "Graciliano Ramos",
+    "cover": "img/livraria/vidas-secas-graciliano-ramos.png",
+    "fileName": "Vidas_Secas.epub",
+    "file": null,
+    "fileDownload": "livros/pdf/vidas-secas.pdf"
+  }
+]

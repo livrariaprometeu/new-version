@@ -295,114 +295,50 @@
 
   <div class="toast" id="toast">Download iniciado</div>
 
+  <!-- JSON ler arquivo ebooks.json -->
   <script>
-    /**
-     * Mock de e-books gratuitos.
-     * Substitua os campos 'file' por URLs reais dos seus PDFs/EPUBs (pode ser link direto ou pré-signed).
-     * Cada item aceita um atributo data-affiliate caso queira rastrear via querystring.
-     */
-    const ebooks = [
-      {id:2,title:'O Primo Basílio',author:'Eça de Queirós',cover:'img/livraria/o-primo-basilio-de-eca-queiros.png',fileName:'Primo_Basilio.epub',file:null,fileDownload:'livros/pdf/o-primo-basilio.pdf'},
-      {id:3,title:'Os Sertões',author:'Euclides da Cunha',cover:'img/livraria/os-sertoes-de-euclides-da-cunha.png',fileName:'Os_Sertoes.epub',file:null,fileDownload:'livros/pdf/os-sertoes-euclides-da-cunha.pdf'},
-      {id:4,title:'Memórias Póstumas de Brás Cubas',author:'Machado de Assis',cover:'img/livraria/memorias-postumas-de-bras-cubas-de-machado-de-assis.png',fileName:'Bras_Cubas.',file:null,fileDownload:'livros/pdf/memorias-postumas-de-bras-cubas.pdf'},
-      {id:5,title:'Vidas Secas',author:'Graciliano Ramos',cover:'img/livraria/vidas-secas-graciliano-ramos.png',fileName:'Vidas_Secas.epub',file:null,fileDownload:'livros/pdf/vidas-secas.pdf'},
-    ];
+    let ebooks = [];
 
-    const grid = document.getElementById('ebookGrid');
-    const curation = document.getElementById('curationList');
+    fetch('ebooks.json')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
 
-    // Preencher grid e curadoria
-    ebooks.forEach((e, idx) => {
-      // Card principal
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.innerHTML = `
-        <div style="position:relative">
-          <div class="label-free">GRÁTIS</div>
-          <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
-        </div>
-        <div class="title">${e.title}</div>
-        <div class="author">${e.author}</div>
-        <div class="meta">
-          <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
-          <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
-        </div>
-        <div class="actions">
-          <a href="${e.fileDownload}"><button class="btn btn-download" onclick="downloadEbook({e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button></a>
-          <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
-        </div>
-      `;
-      grid.appendChild(card);
+    function renderEbooks() {
+      const grid = document.getElementById('ebookGrid');
+      const curation = document.getElementById('curationList');
 
-      // Curadoria (slides)
-      const small = document.createElement('div');
-      small.className = 'card-small';
-      small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
-      curation.appendChild(small);
-    });
+      ebooks.forEach(e => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div style="position:relative">
+            <div class="label-free">GRÁTIS</div>
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
+          </div>
+          <div class="title">${e.title}</div>
+          <div class="author">${e.author}</div>
+          <div class="meta">
+            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
+            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
+          </div>
+          <div class="actions">
+            <a href="${e.fileDownload}">
+              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
+            </a>
+            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
+          </div>
+        `;
+        grid.appendChild(card);
 
-    // Funções de interação:
-    function showToast(text){
-      const t = document.getElementById('toast');
-      t.textContent = text;
-      t.style.display = 'block';
-      setTimeout(()=>t.style.display='none',2000);
+        const small = document.createElement('div');
+        small.className = 'card-small';
+        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+        curation.appendChild(small);
+      });
     }
-
-    // Simula download de arquivo. Se você tem links reais, substitua criando <a href="URL" download> e clicando.
-    function downloadEbook(id){
-      const book = ebooks.find(b=>b.id===id);
-      showToast(`Iniciando download: ${book.title}`);
-      // Exemplo: gerar um arquivo de texto simples contendo metadados (substituir pela URL real)
-      const content = `Título: ${book.title}\nAutor: ${book.author}\nEdição: Prometeu - E-book gratuito\n\nEste é um placeholder. Substitua por um arquivo EPUB/PDF real no código.`;
-      const blob = new Blob([content], {type: 'text/plain'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = book.fileName || `${book.title.replace(/\s+/g,'_')}.txt`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-      // Caso você tenha tracking/affiliate, adicione params aqui antes de iniciar o download.
-    }
-
-    // Abre preview -- pode ser um modal com leitura incorporada; aqui apenas uma demo leve.
-    function openPreview(id){
-      const book = ebooks.find(b=>b.id===id);
-      const preview = window.open('', '_blank', 'noopener,noreferrer');
-      preview.document.write(`
-        <title>Preview — ${book.title}</title>
-        <style>body{font-family:Inter,system-ui;padding:36px;color:${getComputedStyle(document.documentElement).getPropertyValue('--ink')}}h1{font-size:20px}p{color:${getComputedStyle(document.documentElement).getPropertyValue('--muted')}}</style>
-        <h1>${book.title}</h1><h3 style="color:var(--muted)">${book.author}</h3>
-        <p>Este é um preview. Substitua por um viewer EPUB/PDF real ou por um iframe apontando para o arquivo hospedado.</p>
-      `);
-    }
-
-    function scrollToGrid(){
-      document.getElementById('ebooks').scrollIntoView({behavior:'smooth', block:'start'});
-    }
-
-    // Exemplo: baixar um pacote ZIP (aqui apenas simula)
-    function downloadBundle(){
-      showToast('Gerando pacote — aguarde...');
-      // Em produção: gerar ZIP no servidor e retornar URL; aqui fazemos um placeholder
-      const content = 'Pacote Prometeu — Arquivos digitais gratuitos\nSubstitua por um ZIP real no servidor.';
-      const blob = new Blob([content], {type:'application/zip'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'Prometeu_Ebooks_Pacote.zip';
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      URL.revokeObjectURL(url);
-    }
-
-    // Nota de integração:
-    // - Para arquivos reais, troque o comportamento de downloadEbook para:
-    //    a.href = 'https://seuserver.exemplo/ebooks/arquivo.epub'; a.download = 'arquivo.epub'; a.click();
-    // - Para rastrear downloads via afiliado/analytics, adicione querystrings ou chame seu endpoint de tracking antes do download.
   </script>
 </body>
 </html>
