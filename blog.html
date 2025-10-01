@@ -238,45 +238,29 @@
     </div>
   </footer>
 
-  <!-- JSON ler arquivo ebooks.json -->
+
+  <script src="json/artigos.json"></script>
   <script>
-    let ebooks = [];
+    const grid = document.getElementById('articleGrid');
 
-    fetch('json/artigos.json')
-      .then(res => res.json())
-      .then(data => {
-        ebooks = data;
-        renderEbooks();
-      });
-
-    function renderEbooks() {
-      const grid = document.getElementById('articleGrid');
-      const curation = document.getElementById('curationList');
-
-      ebooks.forEach(e => {
-        const card = document.createElement('article');
-        card.className = 'card';
-        card.innerHTML = `
-            <img src="${a.imagem}" alt="Imagem do artigo: ${a.titulo}">
-            <div class="content">
-            <span class="tag">${a.categoria}</span>
-            <div class="title">${a.titulo}</div>
-            <div class="excerpt">${a.resumo}</div>
-            <div class="meta">
-                <span>${a.autor}</span>
-                <span>${a.data}</span>
-            </div>
-            <a class="btn btn-read" href="${a.link}">Ler mais</a>
-            </div>
-        `;
-        grid.appendChild(card);
-
-        const small = document.createElement('div');
-        small.className = 'card-small';
-        small.innerHTML = `<img src="${e.imagem}" alt=""><div><strong style="display:block">${e.titulo}</strong><span style="color:var(--muted);font-size:0.92rem">${e.autor}</span></div>`;
-        curation.appendChild(small);
-      });
-    }
+    artigos.forEach(a => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <img src="${a.imagem}" alt="Imagem do artigo: ${a.titulo}">
+        <div class="content">
+          <span class="tag">${a.categoria}</span>
+          <div class="title">${a.titulo}</div>
+          <div class="excerpt">${a.resumo}</div>
+          <div class="meta">
+            <span>${a.autor}</span>
+            <span>${a.data}</span>
+          </div>
+          <a class="btn btn-read" href="${a.link}">Ler mais</a>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
   </script>
 </body>
 </html>
