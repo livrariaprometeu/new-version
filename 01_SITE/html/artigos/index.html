@@ -247,27 +247,21 @@
         card.className = 'card';
         card.innerHTML = `
           <div style="position:relative">
-            <div class="label-free">GRÁTIS</div>
             <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
           </div>
-          <div class="title">${e.title}</div>
-          <div class="author">${e.author}</div>
-          <div class="meta">
-            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
-            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
-          </div>
+          <div class="titulo">${e.titulo}</div>
+          <div class="resumo">${e.resumo}</div>
           <div class="actions">
-            <a href="${e.fileDownload}">
-              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
+            <a href="${e.link}">
+              <button class="btn btn-download" >Ler artigo</button>
             </a>
-            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
           </div>
         `;
         grid.appendChild(card);
 
         const small = document.createElement('div');
         small.className = 'card-small';
-        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+        small.innerHTML = `<img src="${e.resumo}" alt=""><div><strong style="display:block">${e.titulo}</strong><span style="color:var(--muted);font-size:0.92rem">${e.autor}</span></div>`;
         curation.appendChild(small);
       });
     }
@@ -275,4 +269,5 @@
 </body>
 
 </html>
+
 
