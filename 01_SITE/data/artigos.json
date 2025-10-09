@@ -1,11 +1,12 @@
 [
   {
     "titulo": "A Arte da Guerra: Sabedoria que atravessa séculos",
-    "imagem": "img/artigos/resumo-a-arte-da-guerra.png",
+    "imagem": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "categoria": "Estratégia",
     "resumo": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
     "autor": "Equipe Prometeu",
     "link": "artigos/resumo-a-arte-da-guerra.html",
     "data": "17/09/2025"
   }
+
 ]
