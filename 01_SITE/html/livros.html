@@ -179,31 +179,48 @@
   <script>
     let ebooks = [];
 
-    fetch('https://livrariaprometeu.com/01_SITE/js/header.js')
+    fetch('https://livrariaprometeu.com/01_SITE/data/livros.json')
       .then(res => res.json())
       .then(data => {
         ebooks = data;
         renderEbooks();
       });
 
-    const grid = document.getElementById('productGrid');
-    products.forEach(p=>{
-      const card = document.createElement('article');
-      card.className='card';
-      card.innerHTML = `
-        <div class="img-wrap"><img src="${p.img}" alt="Capa ${p.title}"></div>
-        <div class="title">${p.title}</div>
-        <div class="author">${p.author}</div>
-        <a class="buy" href="${p.link-amz}"><button class="btn btn-ghost" onclick="addToCart('${p.link-amz},${p.title}')">Comprar na amazon</button></a>
-      `;
-      grid.appendChild(card);
-    });
+    function renderEbooks() {
+      const grid = document.getElementById('productGrid');
 
-    function scrollToGrid(){
-      document.getElementById('productGrid').scrollIntoView({behavior:'smooth',block:'start'});
+      ebooks.forEach(e => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div style="position:relative">
+            <div class="label-free">GRÁTIS</div>
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
+          </div>
+          <div class="title">${e.title}</div>
+          <div class="author">${e.author}</div>
+          <div class="meta">
+            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
+            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
+          </div>
+          <div class="actions">
+            <a href="${e.fileDownload}">
+              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
+            </a>
+            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
+          </div>
+        `;
+        grid.appendChild(card);
+
+        const small = document.createElement('div');
+        small.className = 'card-small';
+        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+        curation.appendChild(small);
+      });
     }
   </script>
 </body>
 
 </html>
+
 
