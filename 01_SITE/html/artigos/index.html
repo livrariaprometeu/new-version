@@ -246,16 +246,16 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <div class="tag">${e.categoria}</div>
-          <div class="card">
-            <img class="content" src="${e.cover}" alt="Capa ${e.title}">
-            <div class="title">${e.titulo}</div>
-            <div class="excerpt">${e.resumo}</div>
-            <div class="actions">
-              <a href="${e.link}">
-                <button class="btn btn-read meta" >Ler artigo</button>
-              </a>
+          <img src="${a.imagem}" alt="Imagem do artigo: ${a.titulo}">
+          <div class="content">
+            <span class="tag">${a.categoria}</span>
+            <div class="title">${a.titulo}</div>
+            <div class="excerpt">${a.resumo}</div>
+            <div class="meta">
+              <span>${a.autor}</span>
+              <span>${a.data}</span>
             </div>
+            <a class="btn btn-read" href="${a.link}">Ler mais</a>
           </div>
         `;
         grid.appendChild(card);
@@ -270,6 +270,7 @@
 </body>
 
 </html>
+
 
 
 
