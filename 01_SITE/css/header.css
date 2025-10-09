@@ -1,0 +1,15 @@
+*{box-sizing: border-box;}
+
+:root{
+    --bg-paper: #673e32;
+    --muted: #6b6b6b;
+}
+
+/* Header */
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0;color:var(--bg-paper)}
+.brand{display:flex;gap:14px;align-items:center}
+.brand img{width:48px;height:48px;object-fit:contain;border-radius:8px}
+.brand .title{font-family: "Playfair Display", serif;color:var(--bg-paper);font-weight:700;font-size:1.05rem;letter-spacing:0.03em}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:0.95rem}
+nav a:hover{color:var(--bg-paper)}
+.nav-wrap{display:flex;gap:18px;align-items:center}

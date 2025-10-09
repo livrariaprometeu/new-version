@@ -11,7 +11,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Favicon -->
-  <link rel="icon" href="img\imgLogo_prometeu.png" type="image/x-icon">
+  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
   
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
@@ -66,7 +66,7 @@
     "@type": "CollectionPage",
     "name": "E-books Gratuitos - Livraria Prometeu",
     "description": "Coleção de e-books gratuitos e de domínio público, curadoria Prometeu.",
-    "url": "https://seusite.exemplo/ebooks-gratuitos"
+    "url": "https://livrariaprometeu.com/01_SITE/html/ebooks.html"
   }
   </script>
 
@@ -207,16 +207,7 @@
   </style>
 </head>
 <body>
-  <!-- <header class="container">
-    <div class="logo">Prometeu</div>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="ebooks-gratuitos.html">E-books</a>
-      <a href="blog.html">Destaques</a>
-      <a href="links.html">Loja</a>      
-    </nav>
-  </header> -->
-  <script src="header.js"></script>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
   <script>
     loadHeader(); // insere o header
   </script>
@@ -225,14 +216,14 @@
     <!-- HERO -->
     <section class="hero" aria-label="Ebooks gratuitos">
       <div class="visual" aria-hidden="true">
-        <img src="img\ebook\hero-ebook.jpg" alt="" />
+        <img src="https://livrariaprometeu.com/01_SITE/assets/img/hero-ebooks.webp" alt="" />
       </div>
       <div>
         <h1>Conhecimento sem barreiras</h1>
         <p>A coleção gratuita da Prometeu: clássicos de domínio público e edições digitais pensadas para leitura confortável.</p>
         <div style="display:flex;gap:12px;align-items:center">
           <button class="btn btn-download" onclick="scrollToGrid()">Explorar e-books</button>
-          <a href="em-breve.html"><button class="btn btn-ghost" onclick="downloadBundle">Baixar pacote (zip)</button></a>
+          <a href="https://livrariaprometeu.com/em-breve.html"><button class="btn btn-ghost" onclick="downloadBundle">Baixar pacote (zip)</button></a>
         </div>
         <p style="margin-top:12px;color:var(--muted);font-size:0.95rem">Curadoria humana, acesso universal. Sem registro.</p>
       </div>
@@ -247,7 +238,7 @@
         oninput="searchEbooks()" 
       />
       <button type="submit" aria-label="Pesquisar">
-        <img src="img/icons/search.png" alt="Pesquisar" class="search-icon"/>
+        <img src="https://livrariaprometeu.com/01_SITE/assets/icons/search.webp" alt="Pesquisar" class="search-icon"/>
       </button>
     </form>
 
@@ -299,7 +290,7 @@
   <script>
     let ebooks = [];
 
-    fetch('json/ebooks.json')
+    fetch('https://livrariaprometeu.com/01_SITE/data/ebooks.json')
       .then(res => res.json())
       .then(data => {
         ebooks = data;

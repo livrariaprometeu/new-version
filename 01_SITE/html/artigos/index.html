@@ -11,7 +11,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Favicon -->
-  <link rel="icon" href="img\imgLogo_prometeu.png" type="image/x-icon">
+  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
@@ -177,16 +177,7 @@
   </style>
 </head>
 <body>
-  <!-- <header class="container">
-    <div class="logo">Prometeu</div>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="ebooks-gratuitos.html">E-books</a>
-      <a href="blog.html">Destaques</a>
-      <a href="links.html">Loja</a>      
-    </nav>
-  </header> -->
-  <script src="header.js"></script>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
   <script>
     loadHeader(); // insere o header
   </script>
@@ -207,7 +198,7 @@
         oninput="searchArticles()" 
       />
       <button type="submit" aria-label="Pesquisar">
-        <img src="img/icons/search.png" alt="Pesquisar" class="search-icon"/>
+        <img src="https://livrariaprometeu.com/01_SITE/assets/icons/search.webp" alt="Pesquisar" class="search-icon"/>
       </button>
     </form>
 
@@ -220,11 +211,11 @@
 
     <!-- ARTIGO DESTAQUE -->
     <section class="featured" aria-label="Artigo em destaque">
-      <img src="img\artigos\por-que-os-classicos-importam.png" alt="Imagem do artigo em destaque">
+      <img src="https://livrariaprometeu.com/01_SITE/assets/img/artigos/por-que-os-classicos-importam.webp" alt="Imagem do artigo em destaque">
       <div class="txt">
         <h2>Em foco: Por que os clássicos ainda importam?</h2>
         <p>Em uma era de imediatismo, revisitamos o valor atemporal da literatura clássica e como ela molda nossa compreensão do mundo.</p>
-        <a href="por-que-os-classicos-importam.html"><button class="btn btn-read">Ler agora</button></a>
+        <a href="https://livrariaprometeu.com/01_SITE/html/artigos/por-que-os-classicos-importam.html"><button class="btn btn-read">Ler agora</button></a>
       </div>
     </section>
   </main>
@@ -237,29 +228,15 @@
       <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
     </div>
   </footer>
-
   <script>
-    const artigos = [ 
-                        { 
-                        titulo: 'A Arte da Guerra: Sabedoria que atravessa séculos', 
-                        imagem: 'img/artigos/resumo-a-arte-da-guerra.png', 
-                        categoria: 'Estratégia', 
-                        resumo: 'Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.', 
-                        autor: 'Equipe Prometeu', 
-                        link: 'artigos/resumo-a-arte-da-guerra.html', 
-                        data: '17/09/2025'
-                        }, 
-                        { 
-                        titulo: 'O Realismo de Eça de Queirós em O Primo Basílio', 
-                        imagem: 'img/artigos/resumo-a-arte-da-guerra.png', 
-                        categoria: 'Clássico', 
-                        resumo: 'Descubra como Eça de Queirós, em O Primo Basílio, expõe as contradições da burguesia lisboeta através do realismo e da crítica social.', 
-                        autor: 'Equipe Prometeu', 
-                        link: 'artigos/o-realismo-de-eca-de-queiros.html', 
-                        data: '01/10/2025'
-                        },                         
-                    ];
+    let ebooks = [];
 
+    fetch('https://livrariaprometeu.com/01_SITE/data/artigos.json')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
 
     const grid = document.getElementById('articleGrid');
 

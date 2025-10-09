@@ -12,7 +12,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Favicon -->
-  <link rel="icon" href="img\imgLogo_prometeu.png" type="image/x-icon">
+  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
     
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Livraria Prometeu",
-    "url": "https://seusite.exemplo/"
+    "url": "https://livrariaprometeu.com/01_SITE/html/livros.html"
   }
   </script>
 
@@ -120,16 +120,7 @@
   </style>
 </head>
 <body>
-  <!-- <header class="container">
-    <div class="logo">Prometeu</div>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="ebooks-gratuitos.html">E-books</a>
-      <a href="blog.html">Destaques</a>
-      <a href="links.html">Loja</a>      
-    </nav>
-  </header> -->
-  <script src="header.js"></script>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
   <script>
     loadHeader(); // insere o header
   </script>
@@ -139,7 +130,7 @@
     <section class="hero" aria-label="Destaque principal">
       <div class="cover">
         <!-- Substitua o src pelas suas imagens de capa em alta resolução -->
-        <img src="img/livraria/coleção-estoica.png" alt="Capa: Coleção estóica" />
+        <img src="https://livrariaprometeu.com/01_SITE/assets/img/hero-colecao-estoica.webp" alt="Capa: Coleção estóica" />
       </div>
       <div>
         <h1>Conhecimento que atravessa séculos</h1>
@@ -162,12 +153,12 @@
     <section id="destaques">
       <h2 style="margin-top:48px">Destaques da Prometeu</h2>
       <div class="highlights" style="margin-top:18px">
-        <img src="img\livraria\meditacoes-de-marco-aurelio.png" alt="Dom Casmurro" />
+        <img src="https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio.webp" alt="Dom Casmurro" />
         <div class="txt">
           <h3>Meditações</h3>
           <p>Um legado íntimo de sabedoria e disciplina — edição especial Prometeu.</p>
         </div>
-        <img src="img\livraria\meditacoes-de-marco-aurelio-aberto.png" alt="Dom Casmurro" />
+        <img src="https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio-aberto.webp" alt="Dom Casmurro" />
       </div>
     </section>
 
@@ -183,16 +174,17 @@
     </div>
   </footer>
 
-  <div class="toast" id="toast">Adicionado ao carrinho</div>
-
+  <!-- JSON ler arquivo ebooks.json -->
   <script>
-    // Mock de produtos — substitua por dados reais do seu CMS ou API
-    const products = [
-      {id:1,title:'Meditações',author:'Marco Aurelio',img:'img/livraria/meditacoes-de-marco-aurelio.png',link:'https://amzn.to/3K9vpQx'},
-      {id:2,title:'A arte da guerra',author:'Sun Tzu',img:'img/livraria/a-arte-da-guerra-de-sun-tzu.png',link:'https://amzn.to/48w8etv'},
-      {id:3,title:'O príncipe',author:'Maquiavel',img:'img/livraria/o-principe-de-maquiavel.png',link:'https://amzn.to/4nJshsQ'},
-    ];
-    
+    let ebooks = [];
+
+    fetch('https://livrariaprometeu.com/01_SITE/js/header.js')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
+
     const grid = document.getElementById('productGrid');
     products.forEach(p=>{
       const card = document.createElement('article');
@@ -201,7 +193,7 @@
         <div class="img-wrap"><img src="${p.img}" alt="Capa ${p.title}"></div>
         <div class="title">${p.title}</div>
         <div class="author">${p.author}</div>
-        <a class="buy" href="${p.link}"><button class="btn btn-ghost" onclick="addToCart('${p.link},${p.title}')">Comprar na amazon</button></a>
+        <a class="buy" href="${p.link-amz}"><button class="btn btn-ghost" onclick="addToCart('${p.link-amz},${p.title}')">Comprar na amazon</button></a>
       `;
       grid.appendChild(card);
     });
