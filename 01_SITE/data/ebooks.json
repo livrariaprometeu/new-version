@@ -12,7 +12,7 @@
     "id": 3,
     "title": "Os Sertões",
     "author": "Euclides da Cunha",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/os-sertoes-de-euclides-da-cunha.png",
+    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "fileName": "Os_Sertoes.epub",
     "file": null,
     "fileDownload": "livros/pdf/os-sertoes-euclides-da-cunha.pdf"
@@ -21,7 +21,7 @@
     "id": 4,
     "title": "Memórias Póstumas de Brás Cubas",
     "author": "Machado de Assis",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/memorias-postumas-de-bras-cubas-de-machado-de-assis.png",
+    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
     "fileName": "Bras_Cubas.epub",
     "file": null,
     "fileDownload": "livros/pdf/memorias-postumas-de-bras-cubas.pdf"
@@ -30,7 +30,7 @@
     "id": 5,
     "title": "Vidas Secas",
     "author": "Graciliano Ramos",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/vidas-secas-graciliano-ramos.png",
+    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
     "fileName": "Vidas_Secas.epub",
     "file": null,
     "fileDownload": "livros/pdf/vidas-secas.pdf"
