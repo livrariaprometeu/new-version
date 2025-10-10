@@ -246,22 +246,19 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <div style="position:relative">
-            <div class="label-free">GRÁTIS</div>
+          <a href="#">
+            <div style="position:relative">
+              <div class="label-free">GRÁTIS</div>
+            </div>
             <div class="img-wrap"><img src="${e.resumo}" alt="Capa ${e.title}"></div>
+            <div class="title">${e.titulo}</div>
+            <div class="author">${e.autor}</div>
+            <div class="actions">
+              <a href="${e.fileDownload}">
+                <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Ler artigo</button>
+              </a>
           </div>
-          <div class="title">${e.titulo}</div>
-          <div class="author">${e.autor}</div>
-          <div class="meta">
-            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
-            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
-          </div>
-          <div class="actions">
-            <a href="${e.fileDownload}">
-              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
-            </a>
-            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
-          </div>
+          </a>
         `;
         grid.appendChild(card);
 
@@ -275,6 +272,7 @@
 </body>
 
 </html>
+
 
 
 
