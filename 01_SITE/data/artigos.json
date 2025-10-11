@@ -5,8 +5,7 @@
     "author": "Equipe Prometeu",
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "fileName": "Primo_Basilio.epub",
-    "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
+    "file": null
   },
   {
     "id": 3,
@@ -14,7 +13,7 @@
     "author": "Euclides da Cunha",
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "fileName": "Os_Sertoes.epub",
-    "file": null,
+    "file": null
   },
   {
     "id": 4,
@@ -25,6 +24,7 @@
     "file": null
   }
 ]
+
 
 
 
