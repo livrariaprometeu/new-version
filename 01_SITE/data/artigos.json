@@ -14,7 +14,7 @@
     "author": "Euclides da Cunha",
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "fileName": "Os_Sertoes.epub",
-    "file": null
+    "file": null,
     "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   },
   {
@@ -23,10 +23,11 @@
     "author": "Machado de Assis",
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
     "fileName": "Bras_Cubas.epub",
-    "file": null
+    "file": null,
     "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   }
 ]
+
 
 
 
