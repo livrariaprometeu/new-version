@@ -327,8 +327,8 @@
           </div>
         `;
         // Condicional para verificar se o link 'link-amz' existe
-        if (e['link-amz']) {
-          card.innerHTML += `<a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['link-amz']}">Ler</a>`;
+        if (e['fileDownload']) {
+          card.innerHTML += `<a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['fileDownload']}">Ler</a>`;
         }
   
         card.innerHTML += `</div>`; // Fechamento da div actions 
@@ -345,5 +345,6 @@
 </body>
 
 </html>
+
 
 
