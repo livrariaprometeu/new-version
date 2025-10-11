@@ -326,6 +326,13 @@
             <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
           </div>
         `;
+        // Condicional para verificar se o link 'link-amz' existe
+        if (e['link-amz']) {
+          card.innerHTML += `<a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['link-amz']}">Ler</a>`;
+        }
+  
+        card.innerHTML += `</div>`; // Fechamento da div actions 
+        
         grid.appendChild(card);
 
         const small = document.createElement('div');
@@ -338,4 +345,5 @@
 </body>
 
 </html>
+
 
