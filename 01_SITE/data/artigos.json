@@ -5,7 +5,8 @@
     "author": "Equipe Prometeu",
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "fileName": "Primo_Basilio.epub",
-    "file": null
+    "file": null,
+    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   },
   {
     "id": 3,
@@ -24,6 +25,7 @@
     "file": null
   }
 ]
+
 
 
 
