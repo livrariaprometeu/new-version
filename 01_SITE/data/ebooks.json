@@ -34,5 +34,15 @@
     "fileName": "Vidas_Secas.epub",
     "file": null,
     "fileDownload": "livros/pdf/vidas-secas.pdf"
+  },
+  {
+    "id": 6,
+    "title": "Meditações",
+    "author": "Marco Aurelio",
+    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio-aberto.webp",
+    "fileName": null,
+    "file": null,
+    "fileDownload": "livros/pdf/vidas-secas.pdf"
+    "link-amz": "https://amzn.to/3K9vpQx"
   }
 ]
