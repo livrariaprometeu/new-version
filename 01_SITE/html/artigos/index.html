@@ -248,7 +248,7 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <a href="${e.link}" class="link" style="text-decoration:none">
+          <a href="${e.file || '#'}" class="link" style="text-decoration:none">
             <div class="img-wrap"><img src="${e.imagem}" alt="Capa ${e.titulo}"></div>
             <div class="texto" style="padding:20px">
               <div class="title" style="color:var(--ink)">${e.titulo}</div>
@@ -272,4 +272,5 @@
 </body>
 
 </html>
+
 
