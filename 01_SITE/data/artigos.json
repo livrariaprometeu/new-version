@@ -6,7 +6,6 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "fileName": "Primo_Basilio.epub",
     "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   },
   {
     "id": 3,
@@ -15,7 +14,6 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "fileName": "Os_Sertoes.epub",
     "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   },
   {
     "id": 4,
@@ -24,17 +22,8 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
     "fileName": "Bras_Cubas.epub",
     "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
-  },
-  {
-    "id": 5,
-    "title": "Vidas Secas",
-    "author": "Graciliano Ramos",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
-    "fileName": "Vidas_Secas.epub",
-    "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
   }
 ]
+
 
 
