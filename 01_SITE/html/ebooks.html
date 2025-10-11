@@ -321,14 +321,14 @@
           </div>
           <div class="actions">
             <a href="${e.fileDownload}">
-              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
+              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Comprar na Amazon</button>
             </a>
             <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
           </div>
         `;
         // Condicional para verificar se o link 'link-amz' existe
         if (e['fileDownload']) {
-          card.innerHTML += `<a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['fileDownload']}">Ler</a>`;
+          card.innerHTML += `<a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['fileDownload']}">Ler agora</a>`;
         }
   
         card.innerHTML += `</div>`; // Fechamento da div actions 
@@ -345,6 +345,7 @@
 </body>
 
 </html>
+
 
 
 
