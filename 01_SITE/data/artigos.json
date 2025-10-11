@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titulo": "A Arte da Guerra: Sabedoria que atravessa séculos",
     "imagem": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "categoria": "Estratégia",
@@ -9,6 +10,7 @@
     "data": "17/09/2025"
   }
 ]
+
 
 
 
