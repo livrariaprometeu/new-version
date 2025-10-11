@@ -230,68 +230,55 @@
       <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
     </div>
   </footer>
-<script>
-  let ebooks = [];
+  <!-- JSON ler arquivo ebooks.json -->
+  <script>
+    let ebooks = [];
 
-  fetch('https://livrariaprometeu.com/01_SITE/data/artigos.json')
-    .then(res => res.json())
-    .then(data => {
-      ebooks = data;
-      renderEbooks();
-    })
-    .catch(err => console.error('Erro ao carregar JSON:', err));
+    fetch('https://livrariaprometeu.com/01_SITE/data/artigos.json')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
 
-  function renderEbooks() {
-    const grid = document.getElementById('articleGrid');
-    const curation = document.getElementById('curation'); // <-- precisa existir no HTML
+    function renderEbooks() {
+      const grid = document.getElementById('ebookGrid');
+      const curation = document.getElementById('curationList');
 
-    if (!grid) {
-      console.warn('Elemento #articleGrid não encontrado.');
-      return;
-    }
-
-    grid.innerHTML = ''; // limpa o grid antes de renderizar
-    if (curation) curation.innerHTML = ''; // idem para o curation
-
-    ebooks.forEach(e => {
-      // CARD PRINCIPAL
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.innerHTML = `
-        <a href="${e.link}" class="link" style="text-decoration:none">
-          <div class="img-wrap"><img src="${e.imagem}" alt="Capa ${e.titulo}"></div>
-          <div class="texto" style="padding:20px">
-            <div class="title" style="color:var(--ink)">${e.titulo}</div>
-            <div class="resumo" style="color:var(--muted)">${e.resumo}</div>
-            <div class="rodape-artigo" style="display:flex; color:var(--muted)">
-              <div class="categoria">${e.categoria}</div>
-              <div class="separador" style="padding:0px 10px">|</div>
-              <div class="data" style="display:flex; align-self:end">${e.data}</div>
-            </div>
+      ebooks.forEach(e => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div style="position:relative">
+            <div class="label-free">GRÁTIS</div>
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
           </div>
-        </a>
-      `;
-      grid.appendChild(card);
-
-      // CARD CURATION (SECUNDÁRIO)
-      if (curation) {
-        const small = document.createElement('div');
-        small.className = 'card-small';
-        small.innerHTML = `
-          <img src="${e.imagem}" alt="Miniatura ${e.titulo}">
-          <div>
-            <strong style="display:block">${e.titulo}</strong>
-            <span style="color:var(--muted);font-size:0.92rem">${e.autor}</span>
+          <div class="title">${e.title}</div>
+          <div class="author">${e.author}</div>
+          <div class="meta">
+            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
+            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
+          </div>
+          <div class="actions">
+            <a href="${e.fileDownload}">
+              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
+            </a>
+            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
           </div>
         `;
+        grid.appendChild(card);
+
+        const small = document.createElement('div');
+        small.className = 'card-small';
+        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
         curation.appendChild(small);
-      }
-    });
-  }
-</script>
+      });
+    }
+  </script>
 </body>
 
 </html>
+
 
 
 
