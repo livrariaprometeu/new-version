@@ -231,8 +231,6 @@
     </div>
   </footer>
   <script>
-    const itemsPerPage = 10;
-    let currentPage = 1;
     let ebooks = [];
 
     fetch('https://livrariaprometeu.com/01_SITE/data/artigos.json')
@@ -241,43 +239,7 @@
         ebooks = data;
         renderEbooks();
       });
-    function pagination() {
-      const pagination = document.getElementById('pagination');
-      const results = artigos.filter(a =>
-        a.titulo.toLowerCase().includes(term) || a.categoria.toLowerCase().includes(term)
-      );
-
-      const totalPages = Math.ceil(results.length / itemsPerPage);
-      currentPage = Math.min(page, totalPages)
-      
-      const start = (currentPage - 1) * itemsPerPage;
-      const end = start + itemsPerPage;
-      const pageResults = results.slice(start, end);
-
-      // Cria botões de paginação
-      if (totalPages > 1) {
-      if (currentPage > 1) {
-        const prevBtn = document.createElement('button');
-        prevBtn.textContent = '← Anterior';
-        prevBtn.className = 'btn btn-pagination';
-        prevBtn.onclick = () => searchArticles(currentPage - 1);
-        pagination.appendChild(prevBtn);
-      }
-    }
-
-      const info = document.createElement('span');
-      info.textContent = `Página ${currentPage} de ${totalPages}`;
-      info.style.margin = '0 1rem';
-      pagination.appendChild(info);
-
-      if (currentPage < totalPages) {
-          const nextBtn = document.createElement('button');
-          nextBtn.textContent = 'Próxima →';
-          nextBtn.className = 'btn btn-pagination';
-          nextBtn.onclick = () => searchArticles(currentPage + 1);
-          pagination.appendChild(nextBtn) 
-      }
-    }
+    
     function renderEbooks() {
       const grid = document.getElementById('articleGrid');
 
@@ -310,6 +272,7 @@
 </body>
 
 </html>
+
 
 
 
