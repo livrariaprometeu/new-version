@@ -1,9 +1,9 @@
 [
   {
     "id": 2,
-    "title": "O Primo Basílio",
-    "author": "Eça de Queirós",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-o-primo-basilio-de-eca-queiros.webp",
+    "title": "A Arte da Guerra: Sabedoria que atravessa séculos",
+    "author": "Equipe Prometeu",
+    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/artigos/resumo-a-arte-da-guerra.webp",
     "fileName": "Primo_Basilio.epub",
     "file": null,
     "fileDownload": "livros/pdf/o-primo-basilio.pdf"
@@ -36,3 +36,4 @@
     "fileDownload": "livros/pdf/vidas-secas.pdf"
   }
 ]
+
