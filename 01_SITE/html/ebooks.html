@@ -323,9 +323,9 @@
               <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e['fileDownload']}">Comprar na Amazon</a>
           </div>
         `;
-        // Condicional para verificar se o link 'link-amz' existe
+        // Condicional para verificar se o link 'fileDownload' existe
         if (e['fileDownload']) {
-          card.innerHTML += `<button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Ler agora</button>`;
+          card.innerHTML += `<button class="btn btn-download" onclick="downloadEbook(${e.id})" href="${e.fileDownload}" aria-label="Baixar ${e.title}">Ler agora</button>`;
         }
   
         card.innerHTML += `</div>`; // Fechamento da div actions 
@@ -342,6 +342,7 @@
 </body>
 
 </html>
+
 
 
 
