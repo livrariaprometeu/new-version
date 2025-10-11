@@ -248,22 +248,18 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <div style="position:relative">
-            <div class="label-free">GRÁTIS</div>
-            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
-          </div>
-          <div class="title">${e.title}</div>
-          <div class="author">${e.author}</div>
-          <div class="meta">
-            <div style="color:var(--muted);font-size:0.95rem">Formato: EPUB</div>
-            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: —</div>
-          </div>
-          <div class="actions">
-            <a href="${e.fileDownload}">
-              <button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">⬇ Baixar</button>
-            </a>
-            <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="em-breve.html">Ler</a>
-          </div>
+          <a href="${e.link}" class="link" style="text-decoration:none">
+            <div class="img-wrap"><img src="${e.imagem}" alt="Capa ${e.titulo}"></div>
+            <div class="texto" style="padding:20px">
+              <div class="title" style="color:var(--ink)">${e.titulo}</div>
+              <div class="resumo" style="color:var(--muted)">${e.resumo}</div>
+              <div class="rodape-artigo" style="display:flex; color:var(--muted)">
+                <div class="categoria">${e.categoria}</div>
+                <div class="separador" style="padding:0px 10px">|</div>
+                <div class="data" style="display:flex; align-self:end">${e.data}</div>
+              </div>
+            </div>
+          </a>
         `;
         grid.appendChild(card);
 
@@ -276,3 +272,4 @@
 </body>
 
 </html>
+
