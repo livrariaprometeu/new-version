@@ -242,8 +242,7 @@
       });
 
     function renderEbooks() {
-      const grid = document.getElementById('ebookGrid');
-      const curation = document.getElementById('curationList');
+      const grid = document.getElementById('articleGrid');
 
       ebooks.forEach(e => {
         const card = document.createElement('article');
@@ -271,13 +270,13 @@
         const small = document.createElement('div');
         small.className = 'card-small';
         small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
-        curation.appendChild(small);
       });
     }
   </script>
 </body>
 
 </html>
+
 
 
 
