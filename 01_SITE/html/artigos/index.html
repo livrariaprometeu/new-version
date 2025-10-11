@@ -248,7 +248,7 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.innerHTML = `
-          <a href="${e.file || '#'}" class="link" style="text-decoration:none">
+          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
             <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
             <div class="texto" style="padding:20px">
               <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
@@ -272,6 +272,7 @@
 </body>
 
 </html>
+
 
 
 
