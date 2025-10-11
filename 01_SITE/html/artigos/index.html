@@ -249,14 +249,14 @@
         card.className = 'card';
         card.innerHTML = `
           <a href="${e.file || '#'}" class="link" style="text-decoration:none">
-            <div class="img-wrap"><img src="${e.imagem}" alt="Capa ${e.titulo || 'Arquivo sem imagem configurada'}"></div>
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
             <div class="texto" style="padding:20px">
-              <div class="title" style="color:var(--ink)">${e.titulo || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:var(--muted)">${e.resumo || 'Arquivo sem resumo configurado'}</div>
+              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
+              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
               <div class="rodape-artigo" style="display:flex; color:var(--muted)">
-                <div class="categoria">${e.categoria || 'Não definida'}</div>
+                <div class="categoria">${e.category || 'Não definida'}</div>
                 <div class="separador" style="padding:0px 10px">|</div>
-                <div class="data" style="display:flex; align-self:end">${e.data || 'Não informada'}</div>
+                <div class="data" style="display:flex; align-self:end">${e.date || 'Não informada'}</div>
               </div>
             </div>
           </a>
@@ -272,6 +272,7 @@
 </body>
 
 </html>
+
 
 
 
