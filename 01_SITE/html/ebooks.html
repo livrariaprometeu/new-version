@@ -320,8 +320,8 @@
           <div class="title">${e.title}</div>
           <div class="author">${e.author}</div>
           <div class="meta">
-            <div style="color:var(--muted);font-size:0.95rem">Idioma: ${e.idioma || 'Não informado'}</div>
-            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: ${e.tamanho} || '-'</div>
+            <div style="color:var(--muted);font-size:0.95rem">Idioma: ${e.idioma || '-'}</div>
+            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: ${e.tamanho || '-'}</div>
           </div>
           <div class="actions">
               <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e.linkamz}">Comprar na Amazon</a>
@@ -345,6 +345,7 @@
 </body>
 
 </html>
+
 
 
 
