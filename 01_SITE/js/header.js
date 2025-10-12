@@ -1,12 +1,12 @@
 function loadHeader() {
   const headerHTML = `
     <header class="container" role="banner" aria-label="Cabeçalho do site">
-      <a href="https://livrariaprometeu.com/index.html" class="brand" aria-hidden="false">
+      <a href="https://livrariaprometeu.com" class="brand" aria-hidden="false">
         <img src="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" alt="Logotipo Livraria Prometeu">
       <a>  
       <nav class="nav-wrap" role="navigation" arial-label="Menu principal">
-        <a href="https://livrariaprometeu.com/01_SITE/html/artigos/index.html">Blog</a>
-        <a href="https://livrariaprometeu.com/01_SITE/html/ebooks.html">Livros</a>
+        <a href="https://livrariaprometeu.com/blog">Blog</a>
+        <a href="https://livrariaprometeu.com/livros">Livros</a>
       </nav>
     </header>
   `;
