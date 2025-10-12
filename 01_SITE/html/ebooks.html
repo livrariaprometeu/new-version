@@ -310,7 +310,11 @@
         card.className = 'card';
         card.innerHTML = `
           <div style="position:relative">
-            <div class="label-free">GRÁTIS</div>
+            ${
+              e.valor
+                ?`<div class="label-free">${e.valor}</div>`
+                :''
+            }
             <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
           </div>
           <div class="title">${e.title}</div>
@@ -347,6 +351,7 @@
 </body>
 
 </html>
+
 
 
 
