@@ -8,7 +8,7 @@ function loadHeader() {
         <a href="https://livrariaprometeu.com/blog">Blog</a>
         <a href="https://livrariaprometeu.com/livros">Livros</a>
       </nav>
-    </header>
+    </header>livros
   `;
 
   document.body.insertAdjacentHTML('afterbegin', headerHTML);
