@@ -11,13 +11,13 @@
   },
   {
     "id": 2,
-    "date": "17/09/2025",
+    "date": "09/10/2025",
     "title": "Como escolher o próximo livro que vai mudar sua vida",
     "author": "Equipe Prometeu",
     "category": "Estratégia",
     "summary": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
-    "cover": "https://livrariaprometeu.com/blog/como-escolher-o-proximo-livro-que-vai-mudar-sua-vida/como-escolher-o-proximo-livro-que-vai-mudar-sua-vida.webp",
-    "file": "https://livrariaprometeu.com/blog/como-escolher-o-proximo-livro-que-vai-mudar-sua-vida"
+    "cover": "https://livrariaprometeu.com/blog/blog/como-escolhero-proximo-livro/como-escolhero-proximo-livro.webp",
+    "file": "https://livrariaprometeu.com/blog/blog/como-escolhero-proximo-livro"
   },
   {
     "id": 3,
@@ -30,6 +30,7 @@
     "file": "https://livrariaprometeu.com/blog/o-mito-de-prometeu"
   }
 ]
+
 
 
 
