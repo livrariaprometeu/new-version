@@ -7,7 +7,8 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-o-primo-basilio-de-eca-queiros.webp",
     "fileName": "Primo_Basilio.epub",
     "file": null,
-    "fileDownload": "livros/pdf/o-primo-basilio.pdf"
+    "fileDownload": "livros/pdf/o-primo-basilio.pdf",
+    "link-amz": "https://amzn.to/3La2gVu"
   },
   {
     "id": 3,
@@ -17,7 +18,8 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "fileName": "Os_Sertoes.epub",
     "file": null,
-    "fileDownload": "livros/pdf/os-sertoes-euclides-da-cunha.pdf"
+    "fileDownload": "livros/pdf/os-sertoes-euclides-da-cunha.pdf",
+    "link-amz": "https://amzn.to/3La2qw4"
   },
   {
     "id": 4,
@@ -27,7 +29,8 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
     "fileName": "Bras_Cubas.epub",
     "file": null,
-    "fileDownload": "livros/pdf/memorias-postumas-de-bras-cubas.pdf"
+    "fileDownload": "livros/pdf/memorias-postumas-de-bras-cubas.pdf",
+    "link-amz": "https://amzn.to/4nO6G2S"
   },
   {
     "id": 5,
@@ -37,7 +40,8 @@
     "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
     "fileName": "Vidas_Secas.epub",
     "file": null,
-    "fileDownload": "livros/pdf/vidas-secas.pdf"
+    "fileDownload": "livros/pdf/vidas-secas.pdf",
+    "link-amz": "https://amzn.to/46O9nvo"
   },
   {
     "id": 6,
