@@ -332,7 +332,9 @@
             <div style="font-size:0.9rem;color:var(--muted)">Tamanho: ${e.tamanho || '-'}</div>
           </div>
           <div class="actions">
-              <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e.linkamz}">Comprar na Amazon</a>
+              <a href="{e.linkamz}"
+                <a class="btn btn-ghost" aria-label="Ler ${e.title}">Comprar na Amazon</a>
+              </a>
               ${
                 e.fileDownload
                   ?`<a href="${e.fileDownload}"><button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Ler agora</button></a>`
@@ -351,5 +353,6 @@
     }
   </script>
 </body>
+
 
 </html>
