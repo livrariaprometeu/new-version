@@ -1,23 +1,13 @@
 [
   {
-    "id": 1,
-    "date": "17/09/2025",
-    "title": "A Arte da Guerra: Sabedoria que atravessa séculos",
+    "id": 4,
+    "date": "15/10/2025",
+    "title": "Feliz Dia dos Professores",
     "author": "Equipe Prometeu",
-    "category": "Estratégia",
-    "summary": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
-    "cover": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra/resumo-a-arte-da-guerra.webp",
-    "file": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra"
-  },
-  {
-    "id": 2,
-    "date": "09/10/2025",
-    "title": "Como escolher o próximo livro que vai mudar sua vida",
-    "author": "Equipe Prometeu",
-    "category": "Estratégia",
-    "summary": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
-    "cover": "https://livrariaprometeu.com/blog/como-escolhero-proximo-livro/como-escolhero-proximo-livro.webp",
-    "file": "https://livrariaprometeu.com/blog/como-escolhero-proximo-livro"
+    "category": "Cultura & Educação",
+    "summary": "Homenagem da Livraria Prometeu aos professores — os guardiões do fogo do saber.",
+    "cover": "https://livrariaprometeu.com/blog/a-chama-da-curiosidade.png",
+    "file": "https://livrariaprometeu.com/blog/feliz-dia-dos-professores.html"
   },
   {
     "id": 3,
@@ -30,16 +20,27 @@
     "file": "https://livrariaprometeu.com/blog/o-mito-de-prometeu"
   },
   {
-    "id": 4,
-    "date": "15/10/2025",
-    "title": "Feliz Dia dos Professores",
+    "id": 2,
+    "date": "09/10/2025",
+    "title": "Como escolher o próximo livro que vai mudar sua vida",
     "author": "Equipe Prometeu",
-    "category": "Cultura & Educação",
-    "summary": "Homenagem da Livraria Prometeu aos professores — os guardiões do fogo do saber.",
-    "cover": "https://livrariaprometeu.com/blog/a-chama-da-curiosidade.png",
-    "file": "https://livrariaprometeu.com/blog/feliz-dia-dos-professores.html"
+    "category": "Estratégia",
+    "summary": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
+    "cover": "https://livrariaprometeu.com/blog/como-escolhero-proximo-livro/como-escolhero-proximo-livro.webp",
+    "file": "https://livrariaprometeu.com/blog/como-escolhero-proximo-livro"
+  },
+  {
+    "id": 1,
+    "date": "17/09/2025",
+    "title": "A Arte da Guerra: Sabedoria que atravessa séculos",
+    "author": "Equipe Prometeu",
+    "category": "Estratégia",
+    "summary": "Sun Tzu e suas lições que ainda ecoam no mundo moderno — do campo de batalha às empresas.",
+    "cover": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra/resumo-a-arte-da-guerra.webp",
+    "file": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra"
   }
 ]
+
 
 
 
