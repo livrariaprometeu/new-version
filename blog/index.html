@@ -33,17 +33,18 @@
           const card = document.createElement('article');
           card.className = 'card';
           card.innerHTML = `
-            <img src="${a.imagem}" alt="Imagem do artigo: ${a.titulo}">
-            <div class="content">
-              <span class="tag">${a.categoria}</span>
-              <div class="title">${a.titulo}</div>
-              <div class="excerpt">${a.resumo}</div>
-              <div class="meta">
-                <span>${a.autor}</span>
-                <span>${a.data}</span>
+          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
+            <div class="texto" style="padding:20px">
+              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
+              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
+              <div class="rodape-artigo" style="display:flex;color:var(--muted)">
+                <div class="categoria">${e.category || 'Não definida'}</div>
+                <div class="separador" style="padding:0px 10px">|</div>
+                <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
               </div>
-              <a class="btn btn-read" href="${a.link}">Ler mais</a>
             </div>
+          </a>
           `;
           grid.appendChild(card);
         });
@@ -273,4 +274,5 @@
 
 
 </html>
+
 
