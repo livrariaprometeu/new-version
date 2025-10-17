@@ -1,0 +1,53 @@
+function renderEbooks() {
+  const grid = document.getElementById('ebookGrid');
+  const curation = document.getElementById('curationList');
+  grid.innerHTML = '';
+  curation.innerHTML = '';
+
+  // Agrupa por categoria
+  const categorias = {};
+  ebooks.forEach(e => {
+    if (!categorias[e.categoria]) categorias[e.categoria] = [];
+    categorias[e.categoria].push(e);
+  });
+
+  // Renderiza cada categoria
+  for (const categoria in categorias) {
+    const section = document.createElement('section');
+    section.innerHTML = `<h2 style="margin-top:40px">${categoria}</h2>`;
+    
+    const catGrid = document.createElement('div');
+    catGrid.className = 'grid';
+
+    categorias[categoria].forEach(e => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <div style="position:relative">
+          ${e.valor ? `<div class="label-free">${e.valor}</div>` : ''}
+          <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
+        </div>
+        <div class="title">${e.title}</div>
+        <div class="author">${e.author}</div>
+        <div class="meta">
+          <div style="color:var(--muted);font-size:0.95rem">Idioma: ${e.idioma || '-'}</div>
+          <div style="font-size:0.9rem;color:var(--muted)">Tamanho: ${e.tamanho || '-'}</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e.linkamz}">Comprar na Amazon</a>
+          ${e.fileDownload ? `<a href="${e.fileDownload}"><button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Ler agora</button></a>` : ''}
+        </div>
+      `;
+      catGrid.appendChild(card);
+
+      // Curadoria
+      const small = document.createElement('div');
+      small.className = 'card-small';
+      small.innerHTML = `<img src="${e.cover}" alt=""><div><strong>${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+      curation.appendChild(small);
+    });
+
+    section.appendChild(catGrid);
+    grid.appendChild(section);
+  }
+}
