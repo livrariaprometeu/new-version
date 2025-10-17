@@ -1,4 +1,315 @@
-function renderEbooks() {
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Livraria Prometeu — E-books Gratuitos</title>
+  <meta name="description" content="E-books gratuitos selecionados pela Livraria Prometeu. Clássicos em edição digital — acesso livre e curadoria minimalista." />
+  <meta name="keywords" content="ebooks gratuitos, clássicos, download, Livraria Prometeu" />
+  <meta property="og:title" content="Livraria Prometeu — E-books Gratuitos" />
+  <meta property="og:description" content="Acesse gratuitamente clássicos selecionados. Curadoria minimalista e experiência refinada." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
+  <link rel="stylesheet" type"text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
+  <link rel="canonical" href="https://livrariaprometeu.com/ebooks">
+
+  <meta name="slug" content="ebooks"
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EM7DDY63WN');
+
+    function searchEbooks(){
+      const term = document.getElementById('searchInput').value.toLowerCase().trim();
+      const grid = document.getElementById('ebookGrid');
+      grid.innerHTML = '';
+
+      const results = ebooks.filter(e =>
+        e.title.toLowerCase().includes(term) || e.author.toLowerCase().includes(term)
+      );
+
+      if(results.length === 0){
+        grid.innerHTML = `<p style="grid-column:1/-1;color:var(--muted)">Nenhum resultado encontrado.</p>`;
+      } else {
+        results.forEach(e => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+          <div style="position:relative">
+            ${
+              e.valor
+                ?`<div class="label-free">${e.valor}</div>`
+                :''
+            }
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title}"></div>
+          </div>
+          <div class="title">${e.title}</div>
+          <div class="author">${e.author}</div>
+          <div class="meta">
+            <div style="color:var(--muted);font-size:0.95rem">Idioma: ${e.idioma || '-'}</div>
+            <div style="font-size:0.9rem;color:var(--muted)">Tamanho: ${e.tamanho || '-'}</div>
+          </div>
+          <div class="actions">
+              <a class="btn btn-ghost" aria-label="Ler ${e.title}" href="${e.linkamz}">Comprar na Amazon</a>
+              ${
+                e.fileDownload
+                  ?`<a href="${e.fileDownload}"><button class="btn btn-download" onclick="downloadEbook(${e.id})" aria-label="Baixar ${e.title}">Ler agora</button></a>`
+                  :''
+              }
+          </div>
+        `;
+          grid.appendChild(card);
+        });
+      }
+    }
+  </script>
+
+  <!-- JSON-LD básico -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "E-books Gratuitos - Livraria Prometeu",
+    "description": "Coleção de e-books gratuitos e de domínio público, curadoria Prometeu.",
+    "url": "https://livrariaprometeu.com/01_SITE/html/ebooks.html"
+  }
+  </script>
+
+  <style>
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--paper);
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      width: 100%;
+      max-width: 320px;
+      transition: all 0.3s ease;
+    }
+
+    .search:hover {
+      border-color: var(--accent);
+      box-shadow: 0 8px 28px rgba(15,15,15,0.08);
+    }
+
+    .search input {
+      border: none;
+      outline: none;
+      font-size: 0.95rem;
+      flex: 1;
+      background: transparent;
+      padding: 4px 0;
+    }
+
+    .search button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .search-icon {
+      width: 20px;   /* ajuste do tamanho da lupa */
+      height: 20px;
+      object-fit: contain;
+      filter: grayscale(100%) brightness(50%); /* deixa a lupa discreta */
+      transition: filter 0.2s ease;
+    }
+
+    .search button:hover .search-icon {
+      filter: none; /* destaca a lupa ao passar o mouse */
+    }
+
+    @media(max-width:600px){
+      .search {flex:1;}
+    }
+
+    :root{
+      --bg: #faf9f7;
+      --paper: #ffffff;
+      --ink: #673e32;
+      --muted: #6b6b6b;
+      --accent: #393939; /* verde-menta discreto para gratuitos */
+      --radius: 12px;
+      --shadow: 0 6px 22px rgba(10,10,10,0.06);
+      --card-shadow: 0 8px 30px rgba(15,15,15,0.05);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, "SF Pro Text", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:var(--ink);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+
+    .container{max-width:1100px;margin:0 auto;padding:36px 24px;}
+
+    /* Header (mesma identidade visual da loja) */
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .logo{font-weight:700;letter-spacing:0.06em}
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-size:0.95rem}
+    .icon{background:transparent;border:1px solid #eaeaea;padding:8px;border-radius:8px}
+
+    /* Hero para gratuitos */
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;padding:36px 0}
+    .hero .visual{display:flex;justify-content:center}
+    .hero .visual img{width:300px;max-width:100%;height:auto;border-radius:10px;box-shadow:var(--shadow)}
+    .hero h1{font-size:2.1rem;margin:0 0 10px;font-weight:600}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .btn{padding:12px 18px;border-radius:10px;border:none;font-weight:600;cursor:pointer}
+    .btn-download{background:transparent;border:1px solid #ddd;color:var(--ink);text-decoration:none}
+    .btn-ghost{background:transparent;border:2px solid var(--accent);color:var(--accent);text-decoration:none}
+
+    /* Grid de ebooks */
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px}
+    .card{background:var(--paper);padding:16px;border-radius:12px;box-shadow:var(--card-shadow);display:flex;flex-direction:column;gap:10px;min-height:320px}
+    .card .img-wrap{height:180px;display:flex;align-items:center;justify-content:center}
+    .card img{max-height:170px;max-width:100%;object-fit:contain;border-radius:6px}
+    .label-free{position:absolute;left:12px;top:12px;background:rgba(255,255,255,0.9);padding:6px 8px;border-radius:999px;border:1px solid #eee;font-size:0.8rem;color:var(--muted)}
+    .title{font-weight:600}
+    .author{font-size:0.92rem;color:var(--muted)}
+    .card .meta{display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .card .actions{display:flex;gap:10px;align-items:center;margin-top:auto}
+
+    /* Banner explicativo */
+    .why{margin:40px 0;padding:28px;border-radius:14px;background:#f6f7f5;display:flex;gap:20px;align-items:center}
+    .why .txt h3{margin:0 0 6px}
+    .why .txt p{margin:0;color:var(--muted)}
+
+    /* Curadoria (carrossel simplificado) */
+    .curation{margin-top:28px;display:flex;gap:18px;overflow:auto;padding-bottom:6px}
+    .curation .card-small{flex:0 0 260px;background:var(--paper);padding:14px;border-radius:12px;box-shadow:var(--card-shadow);display:flex;gap:12px;align-items:center}
+    .card-small img{width:72px;height:96px;object-fit:cover;border-radius:4px}
+
+    footer{margin-top:60px;padding:28px 0;border-top:1px solid #eee}
+    footer .foot-inner{display:flex;justify-content:space-between;align-items:center}
+    footer small{color:var(--muted)}
+
+    @media (max-width:980px){
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .hero{grid-template-columns:1fr;gap:20px}
+    }
+    @media (max-width:600px){
+      .grid{grid-template-columns:1fr}
+      .container{padding:20px}
+      .hero h1{font-size:1.6rem}
+      .curation{gap:12px}
+    }
+
+    /* toast */
+    .toast{position:fixed;right:20px;bottom:20px;background:var(--ink);color:white;padding:12px 16px;border-radius:10px;box-shadow:var(--card-shadow);display:none}
+  </style>
+</head>
+<body>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
+  <script>
+    loadHeader(); // insere o header
+  </script>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" aria-label="Ebooks gratuitos">
+      <div class="visual" aria-hidden="true">
+        <img src="https://livrariaprometeu.com/01_SITE/assets/img/hero-ebooks.webp" alt="" />
+      </div>
+      <div>
+        <h1>Conhecimento sem barreiras</h1>
+        <p>A coleção gratuita da Prometeu: clássicos de domínio público e edições digitais pensadas para leitura confortável.</p>
+        <div style="display:flex;gap:12px;align-items:center">
+          <button class="btn btn-download" onclick="scrollToGrid()">Explorar e-books</button>
+          <a href="https://livrariaprometeu.com/em-breve.html"><button class="btn btn-ghost" onclick="downloadBundle">Baixar pacote (zip)</button></a>
+        </div>
+        <p style="margin-top:12px;color:var(--muted);font-size:0.95rem">Curadoria humana, acesso universal. Sem registro.</p>
+      </div>
+    </section>
+
+    <form class="search" onsubmit="event.preventDefault();">
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Buscar e-books..." 
+        aria-label="Buscar e-books"
+        oninput="searchEbooks()" 
+      />
+      <button type="submit" aria-label="Pesquisar">
+        <img src="https://livrariaprometeu.com/01_SITE/assets/icons/search.webp" alt="Pesquisar" class="search-icon"/>
+      </button>
+    </form>
+
+    <!-- GRID DE EBOOKS -->
+    <section id="ebooks">
+      <div class="grid" id="ebookGrid">
+        <!-- Cards gerados pelo JS -->
+      </div>
+    </section>
+
+    <!-- POR QUE GRATUITO -->
+    <section class="why" aria-label="Por que gratuito">
+      <div style="flex:0 0 120px">
+        <svg width="96" height="96" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="3" width="22" height="18" rx="2" stroke="#673e32" stroke-width="1.6" fill="none"/>
+          <path d="M6 8.5H18" stroke="#673e32" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M6 11.5H14" stroke="#673e32" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="txt">
+        <h3>Por que oferecemos e-books gratuitos?</h3>
+        <p>Acreditamos que leitura e educação devem ser amplas. Selecionamos obras de domínio público e as formatamos com cuidado — tipografia legível, metadados e download fácil.</p>
+      </div>
+    </section>
+
+    <!-- CURADORIA -->
+    <section aria-label="Curadoria Prometeu">
+      <h2 style="margin-top:28px">Curadoria Prometeu</h2>
+      <div class="curation" id="curationList" aria-hidden="false">
+        <!-- slides gerados por JS -->
+      </div>
+    </section>
+
+    <p style="margin-top:40px;font-size:1.05rem">Baixe, leia, compartilhe — conhecimento pertence à humanidade.</p>
+  </main>
+
+  <footer class="container">
+    <div class="foot-inner">
+      <div>
+        <strong>Prometeu</strong><div style="color:var(--muted)">Curadoria e design</div>
+      </div>
+      <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Download iniciado</div>
+
+  <!-- JSON ler arquivo ebooks.json -->
+  <script>
+    let ebooks = [];
+
+    fetch('https://livrariaprometeu.com/livros/ebooks.json')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
+
+    function renderEbooks() {
   const grid = document.getElementById('ebookGrid');
   const curation = document.getElementById('curationList');
   grid.innerHTML = '';
@@ -51,3 +362,6 @@ function renderEbooks() {
     grid.appendChild(section);
   }
 }
+  </script>
+</body>
+</html>
