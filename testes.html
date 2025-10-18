@@ -139,22 +139,23 @@
       <div id="modalCover" style="display:flex;align-items:center;justify-content:center"></div>
       <div>
         <button id="closeModal" style="float:right" aria-label="Fechar">✕</button>
-        <h3 id="modalTitle"></h3>
-        <div id="modalAuthor" class="micro"></div>
-        <div style="margin-top:8px" id="modalMeta" class="micro"></div>
-        <hr>
-        <div id="modalExcerpt" style="max-height:260px;overflow:auto;color:#111"></div>
-        <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
-          <a id="modalDownload" class="btn btn-primary" href="#" target="_blank" rel="noopener">Ler / Baixar</a>
-          <button id="modalSave" class="btn btn-ghost">Salvar</button>
-          <div id="shareWrap" style="margin-left:auto">
-            <button id="shareBtn" class="btn-small" title="Compartilhar">Compartilhar</button>
+        <div style="display:flex;flex-direction:column">
+          <h3 id="modalTitle"></h3>
+          <div id="modalAuthor" class="micro"></div>
+          <div style="margin-top:8px" id="modalMeta" class="micro"></div>
+          <hr>
+          <div id="modalExcerpt" style="max-height:260px;overflow:auto;color:#111"></div>
+          <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
+            <a id="modalDownload" class="btn btn-primary" href="#" target="_blank" rel="noopener">Ler / Baixar</a>
+            <button id="modalSave" class="btn btn-ghost">Salvar</button>
+            <div id="shareWrap" style="margin-left:auto">
+              <button id="shareBtn" class="btn-small" title="Compartilhar">Compartilhar</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <div class="toast" id="toast">Ação realizada</div>
 
   <script>
@@ -388,3 +389,4 @@
   </script>
 </body>
 </html>
+
