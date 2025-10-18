@@ -1,5 +1,15 @@
 [
   {
+    "id": 5,
+    "date": "17/10/2025",
+    "title": "Como nasce uma livraria de ideias: a história da Prometeu",
+    "author": "Equipe Prometeu",
+    "category": "Institucional",
+    "summary": "A história da Livraria Prometeu é o relato do nascimento de uma chama — um espaço onde ideias ganham corpo, livros se tornam fogo e a curiosidade humana encontra abrigo. Uma livraria que nasce do desejo de compartilhar o conhecimento como luz e despertar novas consciências.",
+    "cover": "https://livrariaprometeu.com/blog/como-nasce-uma-livraria-de-ideias/como-nasce-uma-livraria-de-ideias.webp",
+    "file": "https://livrariaprometeu.com/blog/como-nasce-uma-livraria-de-ideias"
+  },
+  {
     "id": 4,
     "date": "15/10/2025",
     "title": "Feliz Dia dos Professores",
@@ -40,6 +50,7 @@
     "file": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra"
   }
 ]
+
 
 
 
