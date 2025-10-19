@@ -551,8 +551,8 @@
     fetch('https://livrariaprometeu.com/blog/artigos.json')
       .then(res => res.json())
       .then(data => {
-        ebooks = data;
-        renderEbooks();
+        artigo = data;
+        renderArtigos();
       });
 
     function renderArtigos() {
@@ -585,5 +585,6 @@
   </script>
 </body>
 </html>
+
 
 
