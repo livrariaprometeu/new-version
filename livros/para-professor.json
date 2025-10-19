@@ -1,0 +1,189 @@
+[
+  {
+    "id": 16,
+    "titulo": "Pedagogia do Oprimido",
+    "autor": "Paulo Freire",
+    "categoria": "Filosofia da Educação",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/pedagogia-do-oprimido.webp",
+    "descricao": "Reflexão sobre educação libertadora e transformação social.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4qxCdrQ"
+  },
+  {
+    "id": 15,
+    "titulo": "Como Aprendemos",
+    "autor": "Benedict Carey",
+    "categoria": "Neuroeducação",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/como-aprendemos.webp",
+    "descricao": "Explica de forma prática como a mente aprende e retém conhecimento.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4hgCriC"
+  },
+  {
+    "id": 14,
+    "titulo": "Mindset: A Nova Psicologia do Sucesso",
+    "autor": "Carol S. Dweck",
+    "categoria": "Desenvolvimento Pessoal",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/mindset.webp",
+    "descricao": "Aprenda sobre mentalidade de crescimento aplicada à educação.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4ncbn5C"
+  },
+  {
+    "id": 13,
+    "titulo": "Aprendizagem Baseada em Projetos",
+    "autor": "John Larmer",
+    "categoria": "Metodologias Ativas",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/aprendizagem-baseada-em-projetos.webp",
+    "descricao": "Guia prático para aplicar metodologias ativas em sala de aula.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/42MOzlw"
+  },
+  {
+    "id": 12,
+    "titulo": "The Courage to Teach",
+    "autor": "Parker J. Palmer",
+    "categoria": "Desenvolvimento Pessoal",
+    "valor": null,
+    "idioma": "Inglês",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/courage-to-teach.webp",
+    "descricao": "Reflexão sobre propósito e paixão na carreira docente.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/46Zz8ZL"
+  },
+  {
+    "id": 11,
+    "titulo": "Inteligência Emocional",
+    "autor": "Daniel Goleman",
+    "categoria": "Desenvolvimento Pessoal",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/inteligencia-emocional.webp",
+    "descricao": "Como desenvolver habilidades emocionais para a sala de aula.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/3Whmmj8"
+  },
+  {
+    "id": 10,
+    "titulo": "O Poder do Hábito",
+    "autor": "Charles Duhigg",
+    "categoria": "Desenvolvimento Pessoal",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/o-poder-do-habito.webp",
+    "descricao": "Como hábitos moldam o comportamento e a aprendizagem.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4qeKxN3"
+  },
+  {
+    "id": 9,
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "categoria": "Literatura Inspiradora",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/o-pequeno-principe.webp",
+    "descricao": "Reflexão sobre humanidade, criatividade e empatia.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4nf9wwK"
+  },
+  {
+    "id": 8,
+    "titulo": "Histórias Extraordinárias",
+    "autor": "Diversos Autores",
+    "categoria": "Literatura Inspiradora",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/historias-extraordinarias.webp",
+    "descricao": "Coleção de contos para estimular leitura e discussão em classe.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4osmxE7"
+  },
+  {
+    "id": 7,
+    "titulo": "Educação 4.0",
+    "autor": "Diversos Autores",
+    "categoria": "Educação Digital",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/educacao-4-0.webp",
+    "descricao": "Guia sobre competências do século XXI e educação inovadora.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4oa4XVG"
+  },
+  {
+    "id": 6,
+    "titulo": "O Mito da Caverna",
+    "autor": "Platão",
+    "categoria": "Filosofia",
+    "valor": null,
+    "idioma": "Português",
+    "tamanho": null,
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/o-mito-da-caverna.webp",
+    "descricao": "Reflexão sobre percepção, conhecimento e educação.",
+    "archivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/4ni1RxU"
+  }
+]
