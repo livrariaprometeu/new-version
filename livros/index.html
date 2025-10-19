@@ -242,31 +242,12 @@
     <p style="margin-top:28px" class="micro">Baixe, leia, compartilhe — o conhecimento pertence a quem o cultiva.</p>
 
     <!-- Recomendações de artigos -->
-    <section style="margin-top:64px;padding-top:32px;border-top:1px solid #eee">
-      <h2 style="margin-bottom:16px">Leituras recomendadas</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px">
-        <article style="background:var(--paper);padding:16px;border-radius:12px;box-shadow:var(--card-shadow)">
-          <img src="https://livrariaprometeu.com/01_SITE/assets/img/artigos/o-mito-de-prometeu.webp" alt="O mito de Prometeu" style="width:100%;height:150px;object-fit:cover;border-radius:8px">
-          <h3 style="margin:12px 0 6px;font-size:1.1rem">O mito de Prometeu e o poder da leitura</h3>
-          <p class="micro">A faísca da curiosidade que transformou o fogo em conhecimento humano.</p>
-          <a href="https://livrariaprometeu.com/artigos/o-mito-de-prometeu" class="btn btn-ghost" style="margin-top:10px">Ler artigo</a>
-        </article>
-
-        <article style="background:var(--paper);padding:16px;border-radius:12px;box-shadow:var(--card-shadow)">
-          <img src="https://livrariaprometeu.com/01_SITE/assets/img/artigos/leitura-fogo-da-consciencia.webp" alt="Leitura: o primeiro fogo da consciência humana" style="width:100%;height:150px;object-fit:cover;border-radius:8px">
-          <h3 style="margin:12px 0 6px;font-size:1.1rem">Leitura: o primeiro fogo da consciência humana</h3>
-          <p class="micro">Por que ler é um ato de criar o mundo, não apenas compreendê-lo.</p>
-          <a href="https://livrariaprometeu.com/artigos/leitura-primeiro-fogo" class="btn btn-ghost" style="margin-top:10px">Ler artigo</a>
-        </article>
-
-        <article style="background:var(--paper);padding:16px;border-radius:12px;box-shadow:var(--card-shadow)">
-          <img src="https://livrariaprometeu.com/01_SITE/assets/img/artigos/como-escolher-livro.webp" alt="Como escolher o próximo livro que vai mudar sua vida" style="width:100%;height:150px;object-fit:cover;border-radius:8px">
-          <h3 style="margin:12px 0 6px;font-size:1.1rem">Como escolher o próximo livro que vai mudar sua vida</h3>
-          <p class="micro">Uma curadoria prometeica para encontrar livros que acendem ideias.</p>
-          <a href="https://livrariaprometeu.com/artigos/como-escolher-o-proximo-livro" class="btn btn-ghost" style="margin-top:10px">Ler artigo</a>
-        </article>
+    <section>
+      <div class="grid" id="articleGrid">
+        <!-- Cards via JS -->
       </div>
     </section>
+    <div id="curation"></div>
   </main>
 
   <!-- Modal Cinemático -->
@@ -563,6 +544,45 @@
     // Keyboard accessibility: Esc fecha modal
     document.addEventListener('keydown', (ev) => { if(ev.key === 'Escape') closeModal(); });
 
+
+    // CARREGAR ARTIGOS
+    let ebooks = [];
+
+    fetch('https://livrariaprometeu.com/blog/artigos.json')
+      .then(res => res.json())
+      .then(data => {
+        ebooks = data;
+        renderEbooks();
+      });
+
+    function renderEbooks() {
+      const grid = document.getElementById('articleGrid');
+
+      ebooks.slice(0, 3).forEach(e => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
+            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
+            <div class="texto" style="padding:20px">
+              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
+              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
+              <div class="rodape-artigo" style="display:flex;color:var(--muted)">
+                <div class="categoria">${e.category || 'Não definida'}</div>
+                <div class="separador" style="padding:0px 10px">|</div>
+                <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
+              </div>
+            </div>
+          </a>
+        `;
+        grid.appendChild(card);
+
+        const small = document.createElement('div');
+        small.className = 'card-small';
+        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+      });
+    }
   </script>
 </body>
 </html>
+
