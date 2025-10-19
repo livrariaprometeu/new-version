@@ -131,6 +131,16 @@
       gap: 10px;
     }
 
+    .modal-content img {
+      display: block;
+      width: 100%;
+      height: auto;           /* mantém a proporção */
+      max-height: 70vh;       /* impede de ultrapassar a tela */
+      object-fit: contain;    /* garante que a imagem inteira apareça */
+      border-radius: 8px;
+    }
+
+
     .close-btn {
       position: absolute;
       right: 12px;
@@ -586,6 +596,7 @@
   </script>
 </body>
 </html>
+
 
 
 
