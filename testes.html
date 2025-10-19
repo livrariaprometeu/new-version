@@ -410,9 +410,18 @@
       // excerpt
       $('#modalExcerpt').innerHTML = e.excerpt ? `<em>${escapeHtml(e.excerpt)}</em>` : '<div class="micro">Sem trecho disponível</div>';
       // download
-      const dl = $('#modalDownload');
-      dl.href = e.fileDownload || e.linkamz || '#';
-      dl.setAttribute('aria-label', 'Baixar ou abrir ' + e.title);
+      const downloadBtn = $('#modalDownload');
+
+      if (e.fileDownload) {
+        downloadBtn.href = e.fileDownload;
+        downloadBtn.textContent = '📖 Ler / Baixar';
+      } else if (e.linkamz) {
+        downloadBtn.href = e.linkamz;
+        downloadBtn.textContent = '🛒 Comprar na Amazon';
+      } else {
+        downloadBtn.href = '#';
+        downloadBtn.textContent = 'Indisponível';
+      }
 
       // salvar
       $('#modalSave').onclick = () => { toggleFavorite(e); updateModalSaveState(e); };
@@ -557,3 +566,4 @@
   </script>
 </body>
 </html>
+
