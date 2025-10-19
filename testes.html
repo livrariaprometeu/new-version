@@ -4,30 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Título com palavra-chave principal no início -->
-  <title>Livraria Prometeu — O fogo do conhecimento acessível a todos</title>
+  <title>Livraria Prometeu — O conhecimento é chama, acenda a sua</title>
 
-  <!-- Meta description clara e persuasiva -->
-  <meta name="description" content="Na Livraria Prometeu, o conhecimento é chama compartilhada. Explore livros clássicos, e-books gratuitos e conteúdos que iluminam o pensamento.">
+  <meta name="description" content="Livraria Prometeu — onde o conhecimento é tratado como arte e o acesso é liberdade. Descubra e-books gratuitos e obras clássicas que atravessam os séculos.">
+  <meta name="keywords" content="Livraria Prometeu, e-books gratuitos, livros clássicos, filosofia, literatura, conhecimento, leitura, sabedoria">
 
-  <!-- Palavras-chave -->
-  <meta name="keywords" content="Livraria Prometeu, livros clássicos, leitura, e-books gratuitos, literatura, filosofia, conhecimento">
-
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Livraria Prometeu — O fogo do conhecimento acessível a todos">
-  <meta property="og:description" content="Explore livros clássicos e e-books gratuitos com a curadoria da Livraria Prometeu. Leitura como chama que transforma.">
+  <meta property="og:title" content="Livraria Prometeu — O conhecimento é chama, acenda a sua">
+  <meta property="og:description" content="Entre no universo Prometeu. Descubra livros gratuitos e clássicos que acendem o pensamento.">
   <meta property="og:image" content="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp">
   <meta property="og:url" content="https://livrariaprometeu.com">
   <meta property="og:site_name" content="Livraria Prometeu">
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Livraria Prometeu — O fogo do conhecimento acessível a todos">
-  <meta name="twitter:description" content="Livraria Prometeu oferece livros clássicos e conteúdos exclusivos para amantes da leitura atemporal.">
+  <meta name="twitter:title" content="Livraria Prometeu — O conhecimento é chama, acenda a sua">
+  <meta name="twitter:description" content="Livraria Prometeu oferece livros clássicos e gratuitos para mentes que buscam luz e profundidade.">
   <meta name="twitter:image" content="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp">
 
-  <!-- Schema.org -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -42,43 +35,36 @@
   }
   </script>
 
-  <!-- Favicon -->
   <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
-  
-  <!-- Google tag -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EM7DDY63WN');
-  </script>
 
   <style>
     :root {
       --bg: #faf9f7;
       --paper: #ffffff;
-      --ink: #673e32;
+      --ink: #40231b;
       --muted: #6b6b6b;
-      --accent: #393939;
+      --accent: #673e32;
       --radius: 12px;
       --shadow: 0 6px 22px rgba(10,10,10,0.06);
     }
+
     * { box-sizing:border-box; }
     body {
       margin:0;
       font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
       background:var(--bg);
       color:var(--ink);
-      line-height:1.5;
+      line-height:1.6;
     }
     .container { max-width:1100px; margin:0 auto; padding:36px 24px; }
 
     /* Hero */
     .hero {
-      padding:80px 0;
+      padding:90px 0 70px;
       text-align:center;
+      background:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%), url('https://livrariaprometeu.com/03_MIDIA/texturas/textura-pergaminho.webp');
+      background-size:cover;
       animation: fadeIn 1.2s ease-in-out;
     }
     @keyframes fadeIn {
@@ -86,53 +72,77 @@
       to { opacity:1; transform:translateY(0); }
     }
     .hero h1 {
-      font-size:2.6rem;
+      font-size:2.8rem;
       font-weight:600;
       margin:0 0 18px;
     }
     .hero p {
       color:var(--muted);
-      max-width:640px;
-      margin:0 auto 28px;
-      font-size:1.08rem;
+      max-width:700px;
+      margin:0 auto 34px;
+      font-size:1.1rem;
     }
     .btn {
-      padding:14px 28px;
+      padding:15px 32px;
       border-radius:8px;
       border:none;
       font-weight:600;
       cursor:pointer;
-      font-size:1rem;
+      font-size:1.05rem;
       transition:all 0.25s ease;
     }
     .btn-main {
-      background: #673e32;
+      background: var(--accent);
       color:#fff;
+      letter-spacing:0.3px;
+      box-shadow:0 6px 16px rgba(0,0,0,0.1);
     }
     .btn-main:hover {
-      opacity:0.92;
-      transform:translateY(-1px);
+      opacity:0.95;
+      transform:translateY(-2px);
     }
 
     /* Quem somos */
     .about {
-      margin:90px 0;
+      margin:100px 0;
       display:flex;
-      gap:40px;
+      gap:42px;
       align-items:center;
     }
     .about img {
-      width:360px;
+      width:380px;
       max-width:100%;
       border-radius:var(--radius);
       box-shadow:var(--shadow);
     }
     .about .text h2 {
       margin:0 0 14px;
+      font-size:1.8rem;
     }
     .about .text p {
       color:var(--muted);
       font-size:1rem;
+    }
+
+    /* Chamada intermediária */
+    .call {
+      text-align:center;
+      padding:70px 0;
+      background:#fffdfb;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      margin-bottom:100px;
+    }
+    .call h3 {
+      font-weight:600;
+      font-size:1.6rem;
+      margin-bottom:16px;
+    }
+    .call p {
+      color:var(--muted);
+      max-width:650px;
+      margin:0 auto 24px;
+      font-size:1.05rem;
     }
 
     /* Contato */
@@ -159,7 +169,7 @@
     footer small { color:var(--muted); }
 
     @media(max-width:900px){
-      .about { flex-direction:column; }
+      .about { flex-direction:column; text-align:center; }
     }
   </style>
 </head>
@@ -171,22 +181,30 @@
   <main>
     <!-- Hero -->
     <section class="hero container">
-      <h1>O fogo do conhecimento</h1>
-      <p>Prometeu roubou o fogo dos deuses para entregá-lo à humanidade.  
-      Nós o transformamos em livros — chamas que iluminam mentes e atravessam séculos.  
-      Aqui, o conhecimento é livre, belo e compartilhado.</p>
-      <a href="https://livrariaprometeu.com/livros"><button class="btn btn-main">Acenda sua leitura</button></a>
+      <h1>Livraria Prometeu</h1>
+      <p>Prometeu desafiou os deuses para oferecer aos humanos o fogo — símbolo do saber.  
+      Aqui, reacendemos essa chama por meio de livros que transformam o pensamento.  
+      Leia o que resiste ao tempo. Descubra o que te faz eterno.</p>
+      <a href="https://livrariaprometeu.com/livros"><button class="btn btn-main">Explorar o Fogo do Conhecimento</button></a>
     </section>
 
     <!-- Quem somos -->
     <section class="about container">
-      <img src="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" alt="Livros clássicos e o fogo do conhecimento">
+      <img src="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" alt="Símbolo da Livraria Prometeu — o fogo do conhecimento">
       <div class="text">
-        <h2>Quem somos</h2>
-        <p>A Prometeu nasceu para democratizar o conhecimento sem perder a sofisticação.  
-        Selecionamos obras que moldaram o pensamento humano, oferecendo edições refinadas e versões digitais gratuitas.  
-        Cada leitura é uma centelha capaz de reacender o mundo.</p>
+        <h2>Mais do que livros, centelhas</h2>
+        <p>A Prometeu nasceu para democratizar o conhecimento e devolver à leitura o seu poder de despertar.  
+        Cada obra é escolhida como quem acende uma chama — clássicos que moldaram a cultura, textos que convidam à lucidez e à beleza.  
+        Aqui, ler é um ato de liberdade.</p>
       </div>
+    </section>
+
+    <!-- Chamada -->
+    <section class="call container">
+      <h3>Todo fogo começa com uma faísca</h3>
+      <p>Descubra e-books gratuitos, mergulhe em coleções comentadas e deixe a chama da curiosidade te guiar.  
+      Cada clique é uma fagulha que pode acender um novo pensamento.</p>
+      <a href="https://livrariaprometeu.com/livros"><button class="btn btn-main">Começar minha jornada</button></a>
     </section>
 
     <!-- Contato -->
