@@ -546,7 +546,7 @@
 
 
     // CARREGAR ARTIGOS
-    let ebooks = [];
+    let artigo = [];
 
     fetch('https://livrariaprometeu.com/blog/artigos.json')
       .then(res => res.json())
@@ -555,7 +555,7 @@
         renderEbooks();
       });
 
-    function renderEbooks() {
+    function renderArtigos() {
       const grid = document.getElementById('articleGrid');
 
       ebooks.slice(0, 3).forEach(e => {
@@ -585,4 +585,5 @@
   </script>
 </body>
 </html>
+
 
