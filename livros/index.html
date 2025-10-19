@@ -43,7 +43,6 @@
     .btn{padding:10px 14px;border-radius:12px;border:0;font-weight:600;cursor:pointer}
     .btn-primary{background:var(--accent);color:white}
     .btn-ghost{background:transparent;border:2px solid var(--accent);color:var(--accent)}
-    .btn-amz{background-color:var(--accent);color:var(--paper);}
     .micro{color:var(--muted);font-size:0.95rem}
 
     /* Mobile: empilha CTAs */
@@ -359,7 +358,7 @@
           <div style="font-size:0.9rem;color:var(--muted)">${e.tamanho || '-'}</div>
         </div>
         <div class="actions">
-          <button class="btn-small btn-open btn-amz" data-id="${e.id}" aria-label="Abrir ${e.titulo}">Comprar na Amazon</button>
+          <button class="btn-small btn-open" data-id="${e.id}" aria-label="Abrir ${e.titulo}" style="background-color:var(--accent);color:var(--paper);">Comprar na Amazon</button>
           ${e.arquivo.url ? `<a class="btn-small" href="${e.arquivo.url}" target="_blank" rel="noopener">Ler Gratuitamente</a>` : ''}
           <button class="btn-small save-btn" data-id="${e.id}" aria-label="Salvar ${e.titulo}">♥</button>
         </div>
@@ -588,6 +587,7 @@
   </script>
 </body>
 </html>
+
 
 
 
