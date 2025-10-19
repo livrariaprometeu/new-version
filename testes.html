@@ -101,6 +101,18 @@
     /* microcopy & toast */
     .micro{color:var(--muted);font-size:0.95rem}
     .toast{position:fixed;right:20px;bottom:20px;background:var(--accent-2);color:white;padding:10px 12px;border-radius:10px;display:none}
+
+    /* MODAL */
+    .modal-card {
+      display: flex;
+      flex-direction: column; /* antes era grid */
+      gap: 12px;
+      max-width: 600px;
+    }
+    #modalCover img {
+      width: 100%; /* cobre toda a largura */
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
@@ -195,28 +207,21 @@
 </section>
   </main>
 
-  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal-card" role="document">
-      <div id="modalCover" style="display:flex;align-items:center;justify-content:center"></div>
+  <div class="modal" id="modal">
+  <div class="modal-card">
+    <div id="modalCover"></div>
+    <div>
+      <h3 id="modalTitle"></h3>
+      <div id="modalAuthor"></div>
+      <div id="modalMeta"></div>
+      <div id="modalExcerpt"></div>
       <div>
-        <button id="closeModal" style="float:right" aria-label="Fechar">✕</button>
-        <div style="display:flex;flex-direction:column">
-          <h3 id="modalTitle"></h3>
-          <div id="modalAuthor" class="micro"></div>
-          <div style="margin-top:8px" id="modalMeta" class="micro"></div>
-          <hr>
-          <div id="modalExcerpt" style="max-height:260px;overflow:auto;color:#111"></div>
-          <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
-            <a id="modalDownload" class="btn btn-primary" href="#" target="_blank" rel="noopener">Ler / Baixar</a>
-            <button id="modalSave" class="btn btn-ghost">Salvar</button>
-            <div id="shareWrap" style="margin-left:auto">
-              <button id="shareBtn" class="btn-small" title="Compartilhar">Compartilhar</button>
-            </div>
-          </div>
-        </div>
+        <a id="modalDownload"></a>
+        <button id="modalSave"></button>
       </div>
     </div>
   </div>
+</div>
   <div class="toast" id="toast">Ação realizada</div>
 
   <script>
@@ -326,6 +331,7 @@
       document.getElementById('modalExcerpt').innerHTML = e.excerpt ? `<em>${escapeHtml(e.excerpt)}</em>` : '<div class="micro">Sem trecho disponível</div>';
       const coverWrap = document.getElementById('modalCover');
       coverWrap.innerHTML = `<img src="${e.cover}" alt="${escapeHtml(e.title)}" style="width:180px;border-radius:8px;object-fit:cover">`;
+
       const dl = document.getElementById('modalDownload');
       dl.href = e.fileDownload || e.linkamz || '#';
       dl.setAttribute('aria-label', 'Baixar ou abrir ' + e.title);
@@ -450,6 +456,7 @@
   </script>
 </body>
 </html>
+
 
 
 
