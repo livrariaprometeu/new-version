@@ -5,6 +5,8 @@
     "autor": "Eça de Queirós",
     "categoria": "Clássico",
     "valor": "Grátis",
+    "idioma": "português",
+    "tamanho": null,
     "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-o-primo-basilio-de-eca-queiros.webp",
     "descricao": "Romance realista de Eça de Queirós sobre o adultério e a hipocrisia na sociedade lisboeta do século XIX.",
     "arquivo": {
@@ -20,6 +22,8 @@
     "autor": "Euclides da Cunha",
     "categoria": "Clássico",
     "valor": "Grátis",
+    "idioma": "português",
+    "tamanho": null,
     "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
     "descricao": "Análise épica e trágica da Guerra de Canudos — mistura de ciência, literatura e jornalismo.",
     "arquivo": {
@@ -35,6 +39,8 @@
     "autor": "Machado de Assis",
     "categoria": "Clássico",
     "valor": "Grátis",
+    "idioma": "português",
+    "tamanho": null,
     "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
     "descricao": "Narrado por um defunto, o romance inaugura o realismo no Brasil e a ironia filosófica de Machado.",
     "arquivo": {
@@ -50,6 +56,8 @@
     "autor": "Graciliano Ramos",
     "categoria": "Clássico",
     "valor": "Grátis",
+    "idioma": "português",
+    "tamanho": null,
     "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
     "descricao": "A jornada árida de uma família sertaneja pela sobrevivência e dignidade no Nordeste brasileiro.",
     "arquivo": {
@@ -65,6 +73,8 @@
     "autor": "Marco Aurélio",
     "categoria": "Filosofia",
     "valor": null,
+    "idioma": "português",
+    "tamanho": null,
     "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio.webp",
     "descricao": "Reflexões estoicas do imperador romano sobre virtude, destino e serenidade interior.",
     "arquivo": {
