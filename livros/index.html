@@ -359,7 +359,7 @@
         </div>
         <div class="actions">
           <button class="btn-small btn-open" data-id="${e.id}" aria-label="Abrir ${e.titulo}" style="background-color:var(--accent);color:var(--paper);">Comprar na Amazon</button>
-          ${e.arquivo.url ? `<a class="btn-small" href="${e.arquivo.url}" target="_blank" rel="noopener">Ler Gratuitamente</a>` : ''}
+          ${e.arquivo.url ? `<a class="btn-small" href="${e.arquivo.url}" target="_blank" rel="noopener" style="color:var(--accent);">Ler Gratuitamente</a>` : ''}
           <button class="btn-small save-btn" data-id="${e.id}" aria-label="Salvar ${e.titulo}">♥</button>
         </div>
         <div class="tip">${escapeHtml(excerpt)}</div>
@@ -587,6 +587,7 @@
   </script>
 </body>
 </html>
+
 
 
 
