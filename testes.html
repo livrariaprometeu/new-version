@@ -412,13 +412,13 @@
       // download
       const downloadBtn = $('#modalDownload');
 
-      if (e.fileDownload) {
-        downloadBtn.href = e.fileDownload;
-        downloadBtn.textContent = '📖 Ler / Baixar';
-      } else if (e.linkamz) {
-        downloadBtn.href = e.linkamz;
-        downloadBtn.textContent = '🛒 Comprar na Amazon';
+      if (ebook.arquivo.downloadDisponivel) {
+      // Mostra botão "Baixar"
+        modalButton.innerHTML = `<a href="${ebook.arquivo.url}" download>Baixar PDF</a>`;
       } else {
+        // Mostra botão "Comprar na Amazon"
+        modalButton.innerHTML = `<a href="${ebook.linkAmazon}" target="_blank">Comprar na Amazon</a>`;
+      }else {
         downloadBtn.href = '#';
         downloadBtn.textContent = 'Indisponível';
       }
@@ -566,4 +566,5 @@
   </script>
 </body>
 </html>
+
 
