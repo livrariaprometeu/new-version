@@ -115,15 +115,6 @@
       animation: modalIn 0.45s forwards cubic-bezier(0.2,0,0.2,1);
     }
 
-    #modalCover img {
-      width: 100%;
-      max-height: 380px;
-      object-fit: cover;
-      transform: translateY(-24px);
-      opacity: 0;
-      animation: coverIn 0.5s forwards 0.12s;
-    }
-
     .modal-content {
       padding: 18px;
       display: flex;
@@ -131,7 +122,7 @@
       gap: 10px;
     }
 
-    .modal-content img {
+    #modalCover img {
       display: block;
       width: 100%;
       height: auto;           /* mantém a proporção */
@@ -596,6 +587,7 @@
   </script>
 </body>
 </html>
+
 
 
 
