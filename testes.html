@@ -399,10 +399,10 @@
     function openModal(e){
       const modal = $('#modal');
       // capa
-      $('#modalCover').innerHTML = `<img src="${e.cover}" alt="${escapeHtml(e.title)}">`;
+      $('#modalCover').innerHTML = `<img src="${e.capa}" alt="${escapeHtml(e.titulo)}">`;
       // textos
-      $('#modalTitle').textContent = e.title;
-      $('#modalAuthor').textContent = e.author || '';
+      $('#modalTitle').textContent = e.titulo;
+      $('#modalAuthor').textContent = e.autor || '';
       $('#modalMeta').textContent = `${e.categoria || '-'} • ${e.idioma || '-'} • ${e.tamanho || '-'}`;
       // tags
       const tagContainer = $('#modalTags');
@@ -431,7 +431,7 @@
       $('#shareBtn').onclick = () => {
         const url = e.fileDownload || e.linkamz || window.location.href;
         if(navigator.share){
-          navigator.share({title: e.title, text: e.excerpt || '', url});
+          navigator.share({titulo: e.titulo, text: e.excerpt || '', url});
         } else {
           copyToClipboard(url);
           toast('Link copiado para a área de transferência');
@@ -442,7 +442,7 @@
       modal.classList.add('open');
       modal.setAttribute('aria-hidden','false');
       // update featured title in aside
-      $('#featuredTitle').textContent = e.title;
+      $('#featuredTitle').textContent = e.titulo;
     }
 
     // fechar modal
@@ -566,6 +566,7 @@
   </script>
 </body>
 </html>
+
 
 
 
