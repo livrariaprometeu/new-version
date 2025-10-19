@@ -278,7 +278,7 @@
 
   <script>
     // CONFIG
-    const JSON_URL = 'https://livrariaprometeu.com/livros/ebooks.json'; // ajuste se preciso
+    const JSON_URL = 'https://livrariaprometeu.com/livros/para-professor.json'; // ajuste se preciso
     let ebooks = [];
     let shown = 0;
     const PAGE_SIZE = 9;
@@ -550,7 +550,7 @@
     // CARREGAR ARTIGOS
     let artigo = [];
 
-    fetch('https://livrariaprometeu.com/blog/para-professor.json')
+    fetch('https://livrariaprometeu.com/blog/artigos.json')
       .then(res => res.json())
       .then(data => {
         artigo = data;
