@@ -336,7 +336,7 @@
       picks.forEach(e => {
         const node = document.createElement('div');
         node.className = 'card-small';
-        node.innerHTML = `<img src="${e.cover}" alt="${escapeHtml(e.title)}" loading="lazy"><div><strong style="display:block">${e.title}</strong><span class="micro">${e.author||''}</span></div>`;
+        node.innerHTML = `<img src="${e.capa}" alt="${escapeHtml(e.titulo)}" loading="lazy"><div><strong style="display:block">${e.titulo}</strong><span class="micro">${e.autor||''}</span></div>`;
         node.onclick = () => openModal(e);
         strip.appendChild(node);
       });
@@ -566,6 +566,7 @@
   </script>
 </body>
 </html>
+
 
 
 
