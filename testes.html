@@ -408,7 +408,7 @@
       const tagContainer = $('#modalTags');
       tagContainer.innerHTML = (e.tags && e.tags.length) ? e.tags.map(t => `<span class="chip">${t}</span>`).join('') : '';
       // excerpt
-      $('#modalExcerpt').innerHTML = e.excerpt ? `<em>${escapeHtml(e.excerpt)}</em>` : '<div class="micro">Sem trecho disponível</div>';
+      $('#modalExcerpt').innerHTML = e.descricao ? `<em>${escapeHtml(e.descricao)}</em>` : '<div class="micro">Sem trecho disponível</div>';
       // download
       const downloadBtn = $('#modalDownload');
 
@@ -566,6 +566,7 @@
   </script>
 </body>
 </html>
+
 
 
 
