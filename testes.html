@@ -412,13 +412,13 @@
       // download
       const downloadBtn = $('#modalDownload');
 
-      if (ebook.arquivo.downloadDisponivel) {
-      // Mostra botão "Baixar"
-        modalButton.innerHTML = `<a href="${ebook.arquivo.url}" download>Baixar PDF</a>`;
+      if (e.arquivo && e.arquivo.downloadDisponivel && e.arquivo.url) {
+        downloadBtn.href = e.arquivo.url;
+        downloadBtn.textContent = 'Ler / Baixar';
+      } else if (e.linkAmazon) {
+        downloadBtn.href = e.linkAmazon;
+        downloadBtn.textContent = 'Comprar na Amazon';
       } else {
-        // Mostra botão "Comprar na Amazon"
-        modalButton.innerHTML = `<a href="${ebook.linkAmazon}" target="_blank">Comprar na Amazon</a>`;
-      }else {
         downloadBtn.href = '#';
         downloadBtn.textContent = 'Indisponível';
       }
@@ -478,11 +478,11 @@
 
       if (q){
         list = list.filter(e =>
-          (e.title && e.title.toLowerCase().includes(q)) ||
-          (e.author && e.author.toLowerCase().includes(q)) ||
-          (e.categoria && e.categoria.toLowerCase().includes(q)) ||
-          (e.excerpt && e.excerpt.toLowerCase().includes(q))
-        );
+        (e.titulo && e.titulo.toLowerCase().includes(q)) ||
+        (e.autor && e.autor.toLowerCase().includes(q)) ||
+        (e.categoria && e.categoria.toLowerCase().includes(q)) ||
+        (e.excerpt && e.excerpt.toLowerCase().includes(q))
+      );
       }
 
       // destaque first if exists
@@ -566,6 +566,7 @@
   </script>
 </body>
 </html>
+
 
 
 
