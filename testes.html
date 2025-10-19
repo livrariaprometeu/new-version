@@ -61,32 +61,6 @@
 
     /* Hero */
     .hero {
-  padding: 6rem 2rem; /* espaçamento padrão em telas grandes */
-  text-align: center;
-}
-
-/* Ajuste específico para telas pequenas */
-@media (max-width: 768px) {
-  .hero {
-    padding: 4rem 1.5rem; /* reduz um pouco a altura e adiciona laterais */
-  }
-
-  .hero h1 {
-    font-size: 2rem; /* título proporcional ao mobile */
-    line-height: 1.3;
-  }
-
-  .hero p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .hero .btn {
-    font-size: 1rem;
-    padding: 0.9rem 1.6rem;
-  }
-}
-    .hero {
       padding:90px 0 70px;
       text-align:center;
       background:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%), url('https://livrariaprometeu.com/03_MIDIA/texturas/textura-pergaminho.webp');
@@ -195,6 +169,7 @@
     footer small { color:var(--muted); }
 
     @media(max-width:900px){
+      .hero p { padding: 0rem 2rem; }
       .about { flex-direction:column; text-align:center; }
     }
   </style>
@@ -252,4 +227,5 @@
   </footer>
 </body>
 </html>
+
 
