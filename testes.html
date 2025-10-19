@@ -367,17 +367,17 @@
       const excerpt = e.excerpt ? e.excerpt.slice(0,220) + (e.excerpt.length>220?'…':'') : '—';
 
       card.innerHTML = `
-        <div class="img-wrap"><img src="${e.cover}" alt="Capa ${escapeHtml(e.title)}" loading="lazy"></div>
-        <div class="title">${e.title}</div>
-        <div class="author">${e.author || ''}</div>
+        <div class="img-wrap"><img src="${e.capa}" alt="Capa ${escapeHtml(e.titulo)}" loading="lazy"></div>
+        <div class="title">${e.titulo}</div>
+        <div class="author">${e.autor || ''}</div>
         <div class="meta">
           <div style="color:var(--muted);font-size:0.95rem">${e.idioma || '-'}</div>
           <div style="font-size:0.9rem;color:var(--muted)">${e.tamanho || '-'}</div>
         </div>
         <div class="actions">
-          <button class="btn-small btn-open" data-id="${e.id}" aria-label="Abrir ${e.title}">Abrir</button>
-          ${e.fileDownload ? `<a class="btn-small" href="${e.fileDownload}" target="_blank" rel="noopener">Ler</a>` : ''}
-          <button class="btn-small save-btn" data-id="${e.id}" aria-label="Salvar ${e.title}">♥</button>
+          <button class="btn-small btn-open" data-id="${e.id}" aria-label="Abrir ${e.titulo}">Abrir</button>
+          ${e.arquivo.url ? `<a class="btn-small" href="${e.arquivo.url}" target="_blank" rel="noopener">Ler</a>` : ''}
+          <button class="btn-small save-btn" data-id="${e.id}" aria-label="Salvar ${e.titulo}">♥</button>
         </div>
         <div class="tip">${escapeHtml(excerpt)}</div>
       `;
@@ -566,5 +566,6 @@
   </script>
 </body>
 </html>
+
 
 
