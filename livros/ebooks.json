@@ -1,62 +1,77 @@
 [
   {
     "id": 5,
-    "title": "O Primo Basílio",
-    "author": "Eça de Queirós",
-    "valor": "Grátis",
+    "titulo": "O Primo Basílio",
+    "autor": "Eça de Queirós",
     "categoria": "Clássico",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-o-primo-basilio-de-eca-queiros.webp",
-    "fileName": null,
-    "file": null,
-    "fileDownload": "01_SITE/assets/livros/pdf/o-primo-basilio.pdf",
-    "linkamz": "https://amzn.to/3La2gVu"
+    "valor": "Grátis",
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-o-primo-basilio-de-eca-queiros.webp",
+    "descricao": "Romance realista de Eça de Queirós sobre o adultério e a hipocrisia na sociedade lisboeta do século XIX.",
+    "arquivo": {
+      "nome": "o-primo-basilio.pdf",
+      "url": "https://livrariaprometeu.com/01_SITE/assets/livros/pdf/o-primo-basilio.pdf",
+      "downloadDisponivel": true
+    },
+    "linkAmazon": "https://amzn.to/3La2gVu"
   },
   {
     "id": 4,
-    "title": "Os Sertões",
-    "author": "Euclides da Cunha",
+    "titulo": "Os Sertões",
+    "autor": "Euclides da Cunha",
     "categoria": "Clássico",
     "valor": "Grátis",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
-    "fileName": null,
-    "file": null,
-    "fileDownload": "01_SITE/assets/livros/pdf/os-sertoes-euclides-da-cunha.pdf",
-    "linkamz": "https://amzn.to/3La2qw4"
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-os-sertoes-de-euclides-da-cunha.webp",
+    "descricao": "Análise épica e trágica da Guerra de Canudos — mistura de ciência, literatura e jornalismo.",
+    "arquivo": {
+      "nome": "os-sertoes.pdf",
+      "url": "https://livrariaprometeu.com/01_SITE/assets/livros/pdf/os-sertoes-euclides-da-cunha.pdf",
+      "downloadDisponivel": true
+    },
+    "linkAmazon": "https://amzn.to/3La2qw4"
   },
   {
     "id": 3,
-    "title": "Memórias Póstumas de Brás Cubas",
-    "author": "Machado de Assis",
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
     "categoria": "Clássico",
     "valor": "Grátis",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
-    "fileName": null,
-    "file": null,
-    "fileDownload": "01_SITE/assets/livros/pdf/memorias-postumas-de-bras-cubas.pdf",
-    "linkamz": "https://amzn.to/4nO6G2S"
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-memorias-postumas-de-bras-cubas-de-machado-de-assis.webp",
+    "descricao": "Narrado por um defunto, o romance inaugura o realismo no Brasil e a ironia filosófica de Machado.",
+    "arquivo": {
+      "nome": "memorias-postumas.pdf",
+      "url": "https://livrariaprometeu.com/01_SITE/assets/livros/pdf/memorias-postumas-de-bras-cubas.pdf",
+      "downloadDisponivel": true
+    },
+    "linkAmazon": "https://amzn.to/4nO6G2S"
   },
   {
     "id": 2,
-    "title": "Vidas Secas",
-    "author": "Graciliano Ramos",
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
     "categoria": "Clássico",
     "valor": "Grátis",
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
-    "fileName": null,
-    "file": null,
-    "fileDownload": "01_SITE/assets/livros/pdf/vidas-secas.pdf",
-    "linkamz": "https://amzn.to/46O9nvo"
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-vidas-secas-graciliano-ramos.webp",
+    "descricao": "A jornada árida de uma família sertaneja pela sobrevivência e dignidade no Nordeste brasileiro.",
+    "arquivo": {
+      "nome": "vidas-secas.pdf",
+      "url": "https://livrariaprometeu.com/01_SITE/assets/livros/pdf/vidas-secas.pdf",
+      "downloadDisponivel": true
+    },
+    "linkAmazon": "https://amzn.to/46O9nvo"
   },
   {
     "id": 1,
-    "title": "Meditações",
-    "author": "Marco Aurelio",
+    "titulo": "Meditações",
+    "autor": "Marco Aurélio",
     "categoria": "Filosofia",
     "valor": null,
-    "cover": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio.webp",
-    "fileName": null,
-    "file": null,
-    "fileDownload": null,
-    "linkamz": "https://amzn.to/3K9vpQx"
+    "capa": "https://livrariaprometeu.com/01_SITE/assets/img/livros/livro-meditacoes-de-marco-aurelio.webp",
+    "descricao": "Reflexões estoicas do imperador romano sobre virtude, destino e serenidade interior.",
+    "arquivo": {
+      "nome": null,
+      "url": null,
+      "downloadDisponivel": false
+    },
+    "linkAmazon": "https://amzn.to/3K9vpQx"
   }
 ]
