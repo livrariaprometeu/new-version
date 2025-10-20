@@ -1,15 +1,131 @@
-*{box-sizing: border-box;}
-
-:root{
-    --bg-paper: #673e32;
-    --muted: #6b6b6b;
+* {
+  box-sizing: border-box;
 }
 
-/* Header */
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 0;color:var(--bg-paper)}
-.brand{display:flex;gap:14px;align-items:center}
-.brand img{width:48px;height:48px;object-fit:contain;border-radius:8px}
-.brand .title{font-family: "Playfair Display", serif;color:var(--bg-paper);font-weight:700;font-size:1.05rem;letter-spacing:0.03em}
-nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:0.95rem}
-nav a:hover{color:var(--bg-paper)}
-.nav-wrap{display:flex;gap:18px;align-items:center}
+:root {
+  --bg-paper: #673e32; /* tom principal terroso */
+  --muted: #6b6b6b;
+  --paper-light: #fff8f3; /* leve fundo off-white */
+}
+
+/* Header fixo com sombra dinâmica */
+header.container.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--paper-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 2rem;
+  color: var(--bg-paper);
+  z-index: 1000;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efeito de sombra ao rolar */
+body.scrolled header.container.site-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Espaçamento para o conteúdo não ficar escondido */
+body {
+  padding-top: 82px;
+}
+
+/* Marca */
+.brand {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.brand img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.brand .title {
+  font-family: "Playfair Display", serif;
+  color: var(--bg-paper);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+
+/* Navegação */
+.nav-wrap {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav-wrap a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.nav-wrap a:hover {
+  color: var(--bg-paper);
+}
+
+/* “Meus livros” */
+.meus-livros {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-meus-livros {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--muted);
+  cursor: pointer;
+  margin-left: 18px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.btn-meus-livros:hover {
+  color: var(--bg-paper);
+}
+
+/* Lista suspensa */
+.lista-livros {
+  display: none;
+  position: absolute;
+  top: 2.3rem;
+  right: 0;
+  background: var(--paper-light);
+  border: 1px solid rgba(103, 62, 50, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 1rem;
+  list-style: none;
+  z-index: 1001;
+  min-width: 180px;
+  border-radius: 6px;
+}
+
+.lista-livros.visivel {
+  display: block;
+}
+
+.lista-livros li {
+  margin: 0.25rem 0;
+}
+
+.lista-livros a {
+  text-decoration: none;
+  color: var(--bg-paper);
+  font-size: 0.93rem;
+}
+
+.lista-livros a:hover {
+  text-decoration: underline;
+}
