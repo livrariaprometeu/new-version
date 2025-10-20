@@ -277,6 +277,12 @@
   <div class="toast" id="toast">Ação realizada</div>
 
   <script>
+    // SALVA LIVRO
+    function salvarLivro(livro) {
+      sessionStorage.setItem('livroSalvo', JSON.stringify(livro));
+      window.dispatchEvent(new Event('livroSalvoAtualizado'));
+    }
+    
     // CONFIG
     const JSON_URL = 'https://livrariaprometeu.com/livros/ebooks.json'; // ajuste se preciso
     let ebooks = [];
@@ -587,6 +593,7 @@
   </script>
 </body>
 </html>
+
 
 
 
