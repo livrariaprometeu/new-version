@@ -5,7 +5,7 @@
 :root {
   --bg-paper: #fff8f3; /* tom principal terroso */
   --muted: #6b6b6b;
-  --paper-light: #fff8f3; /* leve fundo off-white */
+  --paper-light: #fff; /* leve fundo off-white */
 }
 
 /* Header fixo com sombra dinâmica */
