@@ -1,5 +1,5 @@
 function loadHeader() {
-  const livrosSalvos = JSON.parse(sessionStorage.getItem('meusLivros')) || [];
+  const livrosSalvos = JSON.parse(localStorage.getItem('meusLivros')) || [];
 
   const headerHTML = `
     <header class="container site-header" role="banner" aria-label="Cabeçalho do site">
