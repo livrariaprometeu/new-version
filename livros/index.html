@@ -279,7 +279,7 @@
   <script>
     // SALVA LIVRO
     function salvarLivro(livro) {
-      sessionStorage.setItem('livroSalvo', JSON.stringify(livro));
+      localStorage.setItem('livroSalvo', JSON.stringify(livro));
       window.dispatchEvent(new Event('livroSalvoAtualizado'));
     }
     
@@ -593,6 +593,7 @@
   </script>
 </body>
 </html>
+
 
 
 
