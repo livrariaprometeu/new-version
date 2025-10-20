@@ -11,5 +11,16 @@ function loadHeader() {
     </header>
   `;
 
+  /* salva livro no js */
+  window.addEventListener('livroSalvoAtualizado', () => {
+    document.querySelector('.livro-salvo')?.remove();
+    const livro = JSON.parse(sessionStorage.getItem('livroSalvo'));
+    if (livro) {
+      const nav = document.querySelector('.nav-wrap');
+      nav.insertAdjacentHTML('beforeend', `<span class="livro-salvo">📖 ${livro.titulo}</span>`);
+    }
+  });
+
+  /* insere o header no html */
   document.body.insertAdjacentHTML('afterbegin', headerHTML);
 }
