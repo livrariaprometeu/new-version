@@ -43,6 +43,9 @@ function loadHeader() {
   }
 }
 
+// garante que só executa quando o DOM estiver pronto
+window.addEventListener('DOMContentLoaded', loadHeader);
+
 // atualiza o header ao salvar novos livros
 window.addEventListener('livrosAtualizados', () => {
   document.querySelector('.site-header')?.remove();
