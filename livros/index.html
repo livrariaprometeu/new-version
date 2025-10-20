@@ -279,8 +279,15 @@
   <script>
     // SALVA LIVRO
     function salvarLivro(livro) {
-      localStorage.setItem('livroSalvo', JSON.stringify(livro));
-      window.dispatchEvent(new Event('livroSalvoAtualizado'));
+      // recupera os já salvos
+      const livros = JSON.parse(localStorage.getItem('meusLivros')) || [];
+      // adiciona o novo
+      livros.push(livro);
+      // salva novamente
+      localStorage.setItem('meusLivros', JSON.stringify(livros));
+
+      // emite um evento para o header reagir
+      window.dispatchEvent(new Event('livrosAtualizados'));
     }
     
     // CONFIG
@@ -593,6 +600,7 @@
   </script>
 </body>
 </html>
+
 
 
 
