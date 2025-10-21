@@ -203,7 +203,7 @@
     <!-- Recomendações de artigos -->
     <section>
       <h2 style="margin-bottom:16px">Leituras recomendadas</h2>
-      <div class="grid" id="recomendedGrid">
+      <div class="grid" id="articleGrid">
         <!-- Cards via JS -->
       </div>
     </section>
@@ -214,45 +214,46 @@
   </footer>
   
   <script>  
-    // CARREGAR ARTIGOS
-    let recomended = [];
+  // CARREGAR ARTIGOS
+  let artigo = [];
 
-    fetch('https://livrariaprometeu.com/blog/artigos.json')
-      .then(res => res.json())
-      .then(data => {
-        recomended = data;
-        renderRecomended();
-      });
+  fetch('https://livrariaprometeu.com/blog/artigos.json')
+    .then(res => res.json())
+    .then(data => {
+      artigo = data;
+      renderArtigos();
+    });
 
-    function renderRecomended() {
-      const grid = document.getElementById('recomendedGrid');
+  function renderArtigos() {
+    const grid = document.getElementById('articleGrid');
 
-      artigo.slice(0, 3).forEach(e => {
-        const card = document.createElement('article');
-        card.className = 'card';
-        card.innerHTML = `
-          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
-            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
-            <div class="texto" style="padding:20px">
-              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
-              <div class="rodape-artigo" style="display:flex;color:var(--muted)">
-                <div class="categoria">${e.category || 'Não definida'}</div>
-                <div class="separador" style="padding:0px 10px">|</div>
-                <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
-              </div>
+    artigo.slice(0, 3).forEach(e => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
+          <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
+          <div class="texto" style="padding:20px">
+            <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
+            <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
+            <div class="rodape-artigo" style="display:flex;color:var(--muted)">
+              <div class="categoria">${e.category || 'Não definida'}</div>
+              <div class="separador" style="padding:0px 10px">|</div>
+              <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
             </div>
-          </a>
-        `;
-        grid.appendChild(card);
+          </div>
+        </a>
+      `;
+      grid.appendChild(card);
 
-        const small = document.createElement('div');
-        small.className = 'card-small';
-        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
-      });
-    }
+      const small = document.createElement('div');
+      small.className = 'card-small';
+      small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+    });
+  }
   </script>
 </body>
 </html>
+
 
 
