@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artigo Dinâmico</title>
-  <link rel="stylesheet" href="article_complete.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>teste</p>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
+  <script>
+    loadHeader(); // insere o header
+  </script>
+  
   <main></main>
 
-  <script src="article_complete.js" defer></script>
+  <script src="article.js" defer></script>
+  <script defer>
+    // Aqui você escolhe qual artigo carregar pelo ID
+    document.addEventListener('DOMContentLoaded', () => {
+      loadArticle(2); // substitua 2 pelo ID do artigo que quer exibir
+    });
+  </script>
 </body>
 </html>
