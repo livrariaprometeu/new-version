@@ -206,8 +206,12 @@
     </div>
 
     <div id="articleGrid"></div>
-    <script src="https://livrariaprometeu.com/art_recomended.js"></script>
-    <script>carregarArtigos('filosofia')</script>
+    <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
+    <script defer>
+      document.addEventListener('DOMContentLoaded', () => {
+        carregarArtigos('filosofia'); // pode trocar para qualquer categoria
+      });
+    </script>
   </main>
 
   <footer>
