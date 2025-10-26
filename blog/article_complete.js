@@ -1,10 +1,12 @@
 // article.js
 async function loadArticle(id, jsonPath = 'artigos_complete.json') {
   try {
+    // Caminho relativo local, igual antes
     const res = await fetch(jsonPath);
     if (!res.ok) throw new Error('Não foi possível carregar o JSON');
-    
+
     const articles = await res.json();
+
     const article = articles.find(a => a.id === id);
     if (!article) {
       console.error('Artigo não encontrado:', id);
@@ -14,7 +16,7 @@ async function loadArticle(id, jsonPath = 'artigos_complete.json') {
     const main = document.querySelector('main');
     main.innerHTML = ''; // limpa conteúdo antes de inserir
 
-    // Header do artigo
+    // Header
     const headerDiv = document.createElement('div');
     headerDiv.classList.add('header');
     headerDiv.innerHTML = `
