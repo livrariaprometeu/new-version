@@ -4,7 +4,7 @@ fetch('https://livrariaprometeu.com/blog/artigos.json')
   .then(res => res.json())
   .then(data => {
     artigos = data;
-    renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    renderArtigosRelacionados(tituloArtigo);
   });
 
 // Renderiza artigos relacionados automaticamente
