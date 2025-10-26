@@ -15,9 +15,7 @@
 <body>
   <!-- Header -->
   <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
-  <script>
-    loadHeader(); // Insere o header
-  </script>
+  <script>loadHeader();</script>
 
   <!-- Conteúdo principal -->
   <main>
@@ -31,22 +29,16 @@
   <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
 
   <!-- JS que carrega artigo + SEO + hero -->
-  <script src="https://livrariaprometeu.com/blog/blog/seo.js" defer></script>
-  <script defer>
-    // Aguarda o DOM e os scripts defer serem carregados
-    document.addEventListener("DOMContentLoaded", () => {
-      const articleId = 2; // substitua pelo ID do artigo
-      if (typeof carregarArtigoESEO === "function") {
-        carregarArtigoESEO(articleId);
-      } else {
-        console.error("Função carregarArtigoESEO não encontrada. Verifique seo.js");
-      }
+  <script src="https://livrariaprometeu.com/blog/blog/seo.js"></script>
+  <script>
+    // Chamada da função APÓS o carregamento do seo.js
+    const articleId = 2; // substitua pelo ID do artigo
+    carregarArtigoESEO(articleId);
 
-      // Artigos relacionados
-      if (typeof renderArtigosRelacionados === "function") {
-        renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
-      }
-    });
+    // Artigos relacionados
+    if (typeof renderArtigosRelacionados === "function") {
+      renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    }
   </script>
 </body>
 </html>
