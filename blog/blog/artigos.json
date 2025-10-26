@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "title": "Como escolher o próximo livro",
+    "author": "Equipe Prometeu",
+    "category": "Estratégia",
+    "summary": "Resumo curto do artigo...",
+    "cover": "cover.jpg",
+    "file": "article.html"
+  },
+  {
+    "id": 3,
+    "title": "Outro artigo",
+    "author": "Outro autor",
+    "category": "Dicas",
+    "summary": "Resumo do outro artigo...",
+    "cover": "cover2.jpg",
+    "file": "article.html"
+  }
+]
