@@ -7,6 +7,13 @@
 
   <link rel="stylesheet" type="text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
   <link rel="stylesheet" href="https://livrariaprometeu.com/blog/blog/style.css">
+  
+  <script src="seo.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      carregarSEO(2); // ID do artigo
+    });
+  </script>
 </head>
 <body onload="carregarArtigo(2)">
   <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
@@ -14,8 +21,22 @@
     loadHeader(); // insere o header
   </script>
 
-  <main id="artigoContainer"></main>
-  <script src="https://livrariaprometeu.com/blog/blog/article.js"></script>
+  <figure class="hero" id="heroImage" aria-hidden="false"></figure>
+
+  <main>
+    <div id="artigoContainer"></div>
+    <figure class="hero" id="heroImage"></figure>
+  </main>
+
+  <!-- Incluindo o JS -->
+  <script src="https://livrariaprometeu.com/blog/blog/seo.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const articleId = 2; // ID do artigo
+      carregarArtigoESEO(articleId); // Carrega texto + SEO
+    });
+  </script>
+
 
   <div id="articleGrid" class="grid"></div>
   <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
@@ -23,6 +44,9 @@
   <script defer>
     document.addEventListener('DOMContentLoaded', () => {
       renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    });
+    document.addEventListener('DOMContentLoaded', () => {
+      carregarSEO(2); // substitua pelo ID do artigo
     });
   </script>
 </body>
