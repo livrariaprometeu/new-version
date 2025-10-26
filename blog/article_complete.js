@@ -1,6 +1,6 @@
 // article.js
 async function loadArticle(id) {
-  const res = await fetch('articles.json');
+  const res = await fetch('artigos_complete.json');
   const articles = await res.json();
   const article = articles.find(a => a.id === id);
   if (!article) return;
