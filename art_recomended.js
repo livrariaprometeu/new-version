@@ -66,10 +66,11 @@ function renderArtigos(lista) {
 
     card.innerHTML = `
       <a href="${art.link || '#'}" class="article-card-link">
-        <img src="${art.image}" alt="${art.title}">
+        <img src="${art.cover}" alt="${art.title}">
         <div class="article-content">
           <h3>${art.title}</h3>
           <p class="article-category">${art.category}</p>
+          <p class="article-summary">${art.summary}</p>
         </div>
       </a>
     `;
