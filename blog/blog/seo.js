@@ -16,16 +16,7 @@ async function carregarArtigoESEO(id) {
     // 3. Hero (imagem principal)
     if (artigo.hero) {
       document.getElementById("heroImage").innerHTML = `
-        <img
-          src="${artigo.hero}"
-          srcset="
-            ${artigo.hero} 372w,
-            ${artigo.hero} 744w,
-            ${artigo.hero} 1240w
-          "
-          sizes="(max-width: 480px) 372px, (max-width: 900px) 744px, 1240px"
-          alt="${artigo.title}"
-        />
+        <img src="${artigo.hero}" alt="${artigo.title}"/>
       `;
       document.getElementById("heroImage").setAttribute("aria-hidden", "false");
     }
