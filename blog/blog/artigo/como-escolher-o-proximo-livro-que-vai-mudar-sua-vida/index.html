@@ -3,32 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artigo Dinâmico</title>
-  <link rel="stylesheet" href="article_complete.css">
-  <link rel="stylesheet" href="https://livrariaprometeu.com/01_SITE/css/header.css">
+  <title>Artigo | Livraria Prometeu</title>
+  <link rel="stylesheet" href="https://livrariaprometeu.com/blog/blog/style.css">
 </head>
-<body>
-  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
-  <script>
-    loadHeader(); // insere o header
-  </script>
-
-  <p>teste</p>
-  <main>teste</main>
-
-  <script src="https://livrariaprometeu.com/blog/blog/article.js" defer></script>
-  <script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-      loadArticle(2); // ID do artigo que você quer carregar
-    });
-  </script>
-  <div id="articleGrid" class="grid"></div>
-  <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
-  <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
-  <script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-      renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
-    });
-  </script>
+<body onload="carregarArtigo(1)">
+  <main id="artigoContainer"></main>
+  <script src="https://livrariaprometeu.com/blog/blog/article.js"></script>
 </body>
 </html>
