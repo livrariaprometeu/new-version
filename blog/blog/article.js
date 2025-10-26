@@ -19,7 +19,7 @@ async function loadArticle(id) {
   main.appendChild(resumoP);
 
   // 3. Carrega conteúdo do arquivo de texto
-  const conteudoRes = await fetch(`article_content/${id}.txt`);
+  const conteudoRes = await fetch(`https://livrariaprometeu.com/blog/blog/article_content/${id}.txt`);
   const conteudo = await conteudoRes.text();
 
   // 4. Insere o conteúdo no main
