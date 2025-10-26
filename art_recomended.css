@@ -32,13 +32,14 @@
 
 /* Conteúdo textual */
 .article-content {
+  text-decoration: none;
   padding: 1rem 1.2rem;
 }
 
 .article-content h3 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #3a2a18; /* tom terroso, combina com a estética clássica */
+  color: #673e32; /* tom terroso, combina com a estética clássica */
   margin: 0 0 0.5rem;
 }
 
@@ -51,6 +52,14 @@
 .article-category {
   font-size: 0.8rem;
   color: #a27d50;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.article-summary {
+  font-size: 0.8rem;
+  color: black;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
