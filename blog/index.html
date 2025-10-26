@@ -27,7 +27,7 @@
       );
 
       if(results.length === 0){
-        grid.innerHTML = `<p style="grid-column:1/-1;color:var(--muted)">Nenhum artigo encontrado.</p>`;
+        grid.innerHTML = `<p style="grid-column:1/-1;color:#6b6b6b">Nenhum artigo encontrado.</p>`;
       } else {
         results.forEach(a => {
           const card = document.createElement('article');
@@ -36,9 +36,9 @@
           <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
             <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
             <div class="texto" style="padding:20px">
-              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
-              <div class="rodape-artigo" style="display:flex;color:var(--muted)">
+              <div class="title" style="color:#673e32">${e.title || 'Arquivo sem titulo configurado'}</div>
+              <div class="resumo" style="color:#6b6b6b">${e.summary || 'Arquivo sem resumo configurado'}</div>
+              <div class="rodape-artigo" style="display:flex;color:#6b6b6b">
                 <div class="categoria">${e.category || 'Não definida'}</div>
                 <div class="separador" style="padding:0px 10px">|</div>
                 <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
@@ -58,125 +58,7 @@
     gtag('config', 'G-EM7DDY63WN');
   </script>
 
-  <style>
-    .search {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--paper);
-      border: 1px solid #ddd;
-      padding: 8px 12px;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      width: 100%;
-      max-width: 320px;
-      transition: all 0.3s ease;
-    }
-
-    .search:hover {
-      border-color: var(--accent);
-      box-shadow: 0 8px 28px rgba(15,15,15,0.08);
-    }
-
-    .search input {
-      border: none;
-      outline: none;
-      font-size: 0.95rem;
-      flex: 1;
-      background: transparent;
-      padding: 4px 0;
-    }
-
-    .search button {
-      background: none;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-    }
-
-    .search-icon {
-      width: 20px;   /* ajuste do tamanho da lupa */
-      height: 20px;
-      object-fit: contain;
-      filter: grayscale(100%) brightness(50%); /* deixa a lupa discreta */
-      transition: filter 0.2s ease;
-    }
-
-    .search button:hover .search-icon {
-      filter: none; /* destaca a lupa ao passar o mouse */
-    }
-
-    @media(max-width:600px){
-      .search {flex:1;}
-    }
-
-    :root{
-      --bg: #faf9f7;
-      --paper: #ffffff;
-      --ink: #673e32;
-      --muted: #6b6b6b;
-      --accent: #393939; /* roxo elegante para o blog */
-      --radius: 12px;
-      --shadow: 0 6px 22px rgba(10,10,10,0.06);
-      --card-shadow: 0 8px 30px rgba(15,15,15,0.05);
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-      background:var(--bg);
-      color:var(--ink);
-      line-height:1.5;
-    }
-
-    .container{max-width:1100px;margin:0 auto;padding:36px 24px;}
-
-    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
-    .logo{font-weight:700;letter-spacing:0.06em}
-    nav{display:flex;gap:18px;align-items:center}
-    nav a{color:var(--muted);text-decoration:none;font-size:0.95rem}
-    .icon{background:transparent;border:1px solid #eaeaea;padding:8px;border-radius:8px}
-
-    /* Hero */
-    .hero{padding:60px 0;text-align:center}
-    .hero h1{font-size:2.2rem;font-weight:600;margin:0 0 12px}
-    .hero p{color:var(--muted);margin:0 auto;max-width:600px;font-size:1.05rem}
-
-    /* Grid de artigos */
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
-    .card{background:var(--paper);border-radius:var(--radius);box-shadow:var(--card-shadow);overflow:hidden;display:flex;flex-direction:column}
-    .card img{width:100%;height:180px;object-fit:cover}
-    .card .content{padding:18px;display:flex;flex-direction:column;gap:12px}
-    .tag{background:var(--accent);color:#fff;font-size:0.8rem;padding:4px 10px;border-radius:999px;align-self:flex-start}
-    .title{font-weight:600;font-size:1.1rem}
-    .excerpt{color:var(--muted);font-size:0.95rem;flex-grow:1}
-    .meta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:0.85rem}
-    .btn{padding:8px 14px;border-radius:8px;border:none;font-weight:600;cursor:pointer;font-size:0.9rem}
-    .btn-read{background:transparent;border:2px solid var(--accent);color:var(--accent);text-decoration: none; align-self: center;}
-
-    /* Destaque */
-    .featured{margin:60px 0;padding:36px;border-radius:14px;background:#c98f7d13;display:flex;gap:28px;align-items:center}
-    .featured img{width:280px;max-width:100%;border-radius:var(--radius);box-shadow:var(--shadow)}
-    .featured .txt h2{margin:0 0 12px}
-    .featured .txt p{color:var(--muted);margin:0 0 18px}
-
-    footer{margin-top:60px;padding:28px 0;border-top:1px solid #eee}
-    footer .foot-inner{display:flex;justify-content:space-between;align-items:center}
-    footer small{color:var(--muted)}
-
-    @media (max-width:980px){
-      .grid{grid-template-columns:repeat(2,1fr)}
-      .featured{flex-direction:column}
-    }
-    @media (max-width:600px){
-      .grid{grid-template-columns:1fr}
-      .container{padding:20px}
-      .hero h1{font-size:1.7rem}
-    }
-  </style>
+  <link rel="stylesheet" href="https://livrariaprometeu.com/blog/style.css">
 </head>
 <body>
   <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
@@ -226,7 +108,7 @@
   <footer class="container">
     <div class="foot-inner">
       <div>
-        <strong>Prometeu</strong><div style="color:var(--muted)">Curadoria e design</div>
+        <strong>Prometeu</strong><div style="color:#6b6b6b">Curadoria e design</div>
       </div>
       <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
     </div>
@@ -252,9 +134,9 @@
           <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
             <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
             <div class="texto" style="padding:20px">
-              <div class="title" style="color:var(--ink)">${e.title || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:var(--muted)">${e.summary || 'Arquivo sem resumo configurado'}</div>
-              <div class="rodape-artigo" style="display:flex;color:var(--muted)">
+              <div class="title" style="color:#673e32">${e.title || 'Arquivo sem titulo configurado'}</div>
+              <div class="resumo" style="color:#6b6b6b">${e.summary || 'Arquivo sem resumo configurado'}</div>
+              <div class="rodape-artigo" style="display:flex;color:#6b6b6b">
                 <div class="categoria">${e.category || 'Não definida'}</div>
                 <div class="separador" style="padding:0px 10px">|</div>
                 <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
@@ -266,7 +148,7 @@
 
         const small = document.createElement('div');
         small.className = 'card-small';
-        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:var(--muted);font-size:0.92rem">${e.author}</span></div>`;
+        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:#6b6b6b;font-size:0.92rem">${e.author}</span></div>`;
       });
     }
   </script>
