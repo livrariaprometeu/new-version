@@ -27,5 +27,6 @@ function converterParaHTML(texto) {
     .replace(/\n(?=\<li\>)/g, "<ul>")
     .replace(/(<\/li>)(?!\s*<li>)/g, "$1</ul>")
     .replace(/\n{2,}/g, "</p><p>")
-    .replace(/^([^<].*)$/gim, "<p>$1</p>");
+    .replace(/^([^<].*)$/gim, "<p>$1</p>")
+    .replace(/\[botao:(.*?)\]\((.*?)\)/gim, `<a href="$2" target="_blank" class="botao-artigo">$1</a>`);
 }
