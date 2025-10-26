@@ -1,7 +1,7 @@
 let artigos = [];
 
 // Carrega o JSON de artigos
-fetch('https://livrariaprometeu.com/blog/artigos.json')
+fetch('https://livrariaprometeu.com/blog/config/artigos.json')
   .then(res => res.json())
   .then(data => {
     artigos = data;
