@@ -65,7 +65,7 @@ function renderArtigos(lista) {
     card.classList.add('article-card');
 
     card.innerHTML = `
-      <a href="${art.file || '#'}" class="article-card-link">
+      <a style="text-decoration:none;" href="${art.file || '#'}" class="article-card-link">
         <img src="${art.cover}" alt="${art.title}">
         <div class="article-content">
           <h3 style="text-decoration:none;">${art.title}</h3>
