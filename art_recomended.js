@@ -68,9 +68,9 @@ function renderArtigos(lista) {
       <a href="${art.file || '#'}" class="article-card-link">
         <img src="${art.cover}" alt="${art.title}">
         <div class="article-content">
-          <h3>${art.title}</h3>
-          <p class="article-category">${art.category}</p>
-          <p class="article-summary">${art.summary}</p>
+          <h3 style="text-decoration:none;">${art.title}</h3>
+          <p class="article-category" style="text-decoration:none;">${art.category}</p>
+          <p class="article-summary" style="text-decoration:none;color:black">${art.summary}</p>
         </div>
       </a>
     `;
