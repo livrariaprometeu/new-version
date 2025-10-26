@@ -1,0 +1,118 @@
+==============================
+GUIA DE ESCRITA DE ARTIGOS
+==============================
+
+Este guia explica como escrever artigos em formato de texto (.txt) que serão automaticamente convertidos para HTML no site da Livraria Prometeu.
+
+------------------------------
+1. NOME E LOCAL DO ARQUIVO
+------------------------------
+- Salve cada artigo em /blog/blog/article_content/
+- Nome do arquivo: {ID}.txt (ex.: 1.txt, 2.txt)
+- O ID deve ser único e usado para chamar o artigo no HTML e no SEO.
+
+------------------------------
+2. ESTRUTURA DE TÍTULOS
+------------------------------
+Use símbolos de Markdown simplificado:
+
+# Título principal (h1)
+Exemplo:
+# Como escolher o próximo livro
+
+## Subtítulo (h2)
+Exemplo:
+## Dicas de leitura
+
+### Sub-subtítulo (h3)
+Exemplo:
+### Sugestões práticas
+
+------------------------------
+3. PARÁGRAFOS
+------------------------------
+- Cada linha de texto normal será convertida em <p>.
+- Separe parágrafos com uma linha em branco.
+
+Exemplo:
+Escolher um livro é mais do que abrir páginas — é escolher experiências.
+
+Leia sempre a sinopse e observe recomendações.
+
+------------------------------
+4. BLOCOS DE CITAÇÃO
+------------------------------
+- Use > para citações ou frases de destaque.
+- Será convertido para <blockquote>.
+
+Exemplo:
+> Ler é viver várias vidas em uma só.
+
+------------------------------
+5. LISTAS
+------------------------------
+- Use - para itens de lista não ordenada.
+- O sistema converte para <ul><li>...</li></ul> automaticamente.
+
+Exemplo:
+- Observe o autor
+- Leia a sinopse
+- Verifique recomendações
+
+------------------------------
+6. BOTÕES (CALL TO ACTION)
+------------------------------
+- Sintaxe:
+[botao:Texto do botão](https://link.com)
+- Será convertido em link com classe "botao-artigo".
+
+Exemplo:
+[botao:Ver livros recomendados](https://livrariaprometeu.com/colecao/livros)
+
+------------------------------
+7. IMAGENS E SEO
+------------------------------
+- Hero image e cover image devem ser definidas no arquivo artigos.json.
+- Estrutura no JSON:
+
+{
+  "id": 2,
+  "title": "Como escolher o próximo livro",
+  "author": "Equipe Prometeu",
+  "category": "Estratégia",
+  "summary": "Resumo curto do artigo...",
+  "cover": "cover.jpg",
+  "file": "2.txt",
+  "hero": "https://livrariaprometeu.com/blog/feliz-dia-dos-professores/hero-feliz-dia-dos-professores.webp.JPG"
+}
+
+- cover → imagem de preview (grid e redes sociais)
+- hero → imagem principal do artigo (dentro da <figure>)
+- summary → meta description para SEO
+
+------------------------------
+8. BOAS PRÁTICAS DE SEO
+------------------------------
+- Título claro e com palavra-chave principal.
+- Summary com máximo de 160 caracteres.
+- Categoria bem definida para organização.
+- Nome de imagens descritivo, sem espaços, usando "-" (ex.: como-escolher-o-livro.webp).
+
+------------------------------
+9. EXEMPLO COMPLETO DE ARTIGO
+------------------------------
+# Como escolher o próximo livro
+
+Escolher um livro é mais do que abrir páginas — é escolher experiências.
+
+## Dicas de leitura
+
+- Observe o autor
+- Leia a sinopse
+- Verifique recomendações
+
+> Ler é viver várias vidas em uma só.
+
+### Sugestões práticas
+
+[botao:Ver livros recomendados](https://livrariaprometeu.com/colecao/livros)
