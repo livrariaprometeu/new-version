@@ -21,5 +21,13 @@
       loadArticle(2); // ID do artigo que você quer carregar
     });
   </script>
+  <div id="articleGrid" class="grid"></div>
+  <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
+  <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    });
+  </script>
 </body>
 </html>
