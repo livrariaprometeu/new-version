@@ -8,15 +8,15 @@
   <link rel="stylesheet" type="text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
   <link rel="stylesheet" href="https://livrariaprometeu.com/blog/blog/style.css">
 </head>
-<body>
+<body onload="carregarArtigo(2)">
   <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
   <script>
     loadHeader(); // insere o header
   </script>
 
-  <main onload="carregarArtigo(2)" id="artigoContainer"></main>
+  <main id="artigoContainer"></main>
   <script src="https://livrariaprometeu.com/blog/blog/article.js"></script>
-  
+
   <div id="articleGrid" class="grid"></div>
   <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
   <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
