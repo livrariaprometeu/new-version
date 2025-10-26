@@ -16,8 +16,8 @@ function carregarArtigos(categoria) {
     .then(res => res.json())
     .then(data => {
       // Filtra por categoria
-      const daCategoria = data.filter(item => item.categoria === categoria);
-      const foraCategoria = data.filter(item => item.categoria !== categoria);
+      const daCategoria = data.filter(item => item.category === categoria);
+      const foraCategoria = data.filter(item => item.category !== categoria);
 
       let resultadoFinal = [];
 
