@@ -4,10 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artigo | Livraria Prometeu</title>
+
+  <link rel="stylesheet" type="text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
   <link rel="stylesheet" href="https://livrariaprometeu.com/blog/blog/style.css">
 </head>
-<body onload="carregarArtigo(2)">
-  <main id="artigoContainer"></main>
+<body>
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
+  <script>
+    loadHeader(); // insere o header
+  </script>
+
+  <main onload="carregarArtigo(2)" id="artigoContainer"></main>
   <script src="https://livrariaprometeu.com/blog/blog/article.js"></script>
+  
+  <div id="articleGrid" class="grid"></div>
+  <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
+  <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    });
+  </script>
 </body>
-</html>
+</html> 
