@@ -2,13 +2,13 @@
 async function carregarArtigoESEO(id) {
   try {
     // 1. Carrega o conteúdo do artigo (.txt)
-    const response = await fetch(`https://livrariaprometeu.com/blog/blog/article_content/${id}.txt`);
+    const response = await fetch(`https://livrariaprometeu.com/blog/article_content/${id}.txt`);
     if (!response.ok) throw new Error("Artigo não encontrado");
     const texto = await response.text();
     document.getElementById("artigoContainer").innerHTML = converterParaHTML(texto);
 
     // 2. Carrega o JSON com os dados do artigo
-    const resJson = await fetch("https://livrariaprometeu.com/blog/artigos.json");
+    const resJson = await fetch("https://livrariaprometeu.com/blog/config/artigos.json");
     const data = await resJson.json();
     const artigo = data.find(a => a.id === id);
     if (!artigo) return;

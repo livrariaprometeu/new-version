@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artigo | Livraria Prometeu</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://livrariaprometeu.com/01_SITE/css/header.css">
+  <link rel="stylesheet" href="https://livrariaprometeu.com/blog/config/style.css">
+
+  <!-- favicon -->
+  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
+</head>
+<body>
+  <!-- Header -->
+  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
+  <script>loadHeader();</script>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <div id="artigoContainer"></div>
+    <figure class="hero" id="heroImage" aria-hidden="true"></figure>
+  </main>
+
+  <!-- Grid de artigos relacionados -->
+  <div id="articleGrid" class="grid"></div>
+  <link rel="stylesheet" href="https://livrariaprometeu.com/art_recomended.css">
+  <script src="https://livrariaprometeu.com/art_recomended.js" defer></script>
+
+  <!-- JS que carrega artigo + SEO + hero -->
+  <script src="https://livrariaprometeu.com/blog/config/script.js"></script>
+  <script>
+    // Chamada da função APÓS o carregamento do seo.js
+    const articleId = 2; // substitua pelo ID do artigo
+    carregarArtigoESEO(articleId);
+
+    // Artigos relacionados
+    if (typeof renderArtigosRelacionados === "function") {
+      renderArtigosRelacionados("Como escolher o próximo livro que vai mudar sua vida");
+    }
+  </script>
+</body>
+</html>

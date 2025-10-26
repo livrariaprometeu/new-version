@@ -1,5 +1,45 @@
 [
   {
+    "id": 9,
+    "date": "26/10/2025",
+    "title": "Por que ainda precisamos de livros",
+    "author": "Equipe Prometeu",
+    "category": "Literatura & Filosofia",
+    "summary": "Em um mundo acelerado e saturado de informações, a leitura continua essencial: desacelera o tempo, transforma o pensamento e reacende a consciência humana.",
+    "cover": "https://livrariaprometeu.com/blog/por-que-ainda-precisamos-de-livros/por-que-ainda-precisamos-de-livros.webp",
+    "file": "https://livrariaprometeu.com/blog/por-que-ainda-precisamos-de-livros"
+  },
+  {
+    "id": 8,
+    "date": "26/10/2025",
+    "title": "Por que os clássicos ainda importam?",
+    "author": "Equipe Prometeu",
+    "category": "Filosofia da Leitura",
+    "summary": "Os clássicos continuam vivos porque falam sobre o que não muda em nós: as paixões, os dilemas e as perguntas humanas. Descubra por que lê-los é um ato de resistência e profundidade.",
+    "cover": "https://livrariaprometeu.com/blog/por-que-os-classicos-ainda-importam/por-que-os-classicos-ainda-importam.webp",
+    "file": "https://livrariaprometeu.com/blog/por-que-os-classicos-ainda-importam"
+  },
+  {
+    "id": 7,
+    "date": "26/10/2025",
+    "title": "Leitura: o primeiro fogo da consciência humana",
+    "author": "Equipe Prometeu",
+    "category": "Filosofia da Leitura",
+    "summary": "A leitura é o primeiro fogo da consciência humana — a chama que desperta o pensamento e acende a imaginação. Descubra o poder prometeico dos livros.",
+    "cover": "https://livrariaprometeu.com/blog/leitura-o-primeiro-fogo-da-consciencia-humana/leitura-o-primeiro-fogo-da-consciencia-humana.webp",
+    "file": "https://livrariaprometeu.com/blog/leitura-o-primeiro-fogo-da-consciencia-humana"
+  },
+  {
+    "id": 6,
+    "date": "26/10/2025",
+    "title": "O Realismo de Eça de Queirós e a crítica social em O Primo Basílio",
+    "author": "Equipe Prometeu",
+    "category": "Literatura Clássica",
+    "summary": "Em O Primo Basílio, Eça de Queirós transforma a crítica social em arte, expondo as contradições da burguesia lisboeta e revelando o olhar lúcido do realismo sobre a condição humana.",
+    "cover": "https://livrariaprometeu.com/blog/realismo-eca-de-queiros/realismo-eca-de-queiros.webp",
+    "file": "https://livrariaprometeu.com/blog/realismo-eca-de-queiros"
+  },
+  {
     "id": 5,
     "date": "17/10/2025",
     "title": "Como nasce uma livraria de ideias: a história da Prometeu",
@@ -51,13 +91,3 @@
     "file": "https://livrariaprometeu.com/blog/resumo-a-arte-da-guerra"
   }
 ]
-
-
-
-
-
-
-
-
-
-
