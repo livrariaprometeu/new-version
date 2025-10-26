@@ -4,7 +4,15 @@ fetch('https://livrariaprometeu.com/blog/artigos.json')
   .then(res => res.json())
   .then(data => {
     artigos = data;
-    renderArtigosRelacionados(tituloArtigo);
+
+    // Detecta o título automaticamente
+    const tituloElemento = document.querySelector('h1');
+    if (tituloElemento) {
+      const titulo = tituloElemento.textContent.trim();
+      renderArtigosRelacionados(titulo);
+    } else {
+      console.warn("Nenhum <h1> encontrado para identificar o artigo atual.");
+    }
   });
 
 // Renderiza artigos relacionados automaticamente
