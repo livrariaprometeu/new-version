@@ -1,5 +1,5 @@
 // article.js
-async function loadArticle(id, jsonPath = 'artigos_complete.json') {
+async function loadArticle(id, jsonPath = 'https://livrariaprometeu.com/blog/artigos_complete.json') {
   try {
     const res = await fetch(jsonPath);
     if (!res.ok) throw new Error('Não foi possível carregar o JSON');
