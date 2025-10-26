@@ -60,6 +60,8 @@
   letter-spacing: 0.05em;
 }
 
+/* Garante que links dentro do summary não sejam sublinhados nem coloridos */
+.article-summary,
 .article-summary a {
   color: #000000;
   text-decoration: none;
