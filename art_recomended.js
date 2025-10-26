@@ -51,17 +51,20 @@ function renderArtigosRelacionados(tituloArtigo) {
   relacionados = relacionados.sort(() => 0.5 - Math.random()).slice(0, 3);
 
   // Renderiza os cards
-  relacionados.forEach(a => {
+function renderArtigos(artigos) {
+  const grid = document.getElementById('articleGrid');
+  grid.innerHTML = '';
+
+  artigos.forEach(art => {
     const card = document.createElement('div');
-    card.classList.add('artigo-card');
+    card.classList.add('article-card');
+
     card.innerHTML = `
-      <a href="${a.file}" class="artigo-link">
-        <img src="${a.cover}" alt="${a.title}" loading="lazy">
-        <div class="artigo-info">
-          <h3>${a.title}</h3>
-          <p class="artigo-category">${a.category}</p>
-        </div>
-      </a>
+      <img src="${art.image}" alt="${art.title}">
+      <div class="article-content">
+        <h3>${art.title}</h3>
+        <p class="article-category">${art.category}</p>
+      </div>
     `;
     grid.appendChild(card);
   });
