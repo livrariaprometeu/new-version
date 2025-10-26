@@ -1,59 +1,64 @@
-// === Carregar artigos de forma aleatória com fallback ===
+let artigos = [];
 
-// Função de embaralhar — algoritmo de Fisher–Yates
-function embaralhar(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
+fetch('https://livrariaprometeu.com/blog/artigos.json')
+  .then(res => res.json())
+  .then(data => {
+    artigos = data;
+  });
 
-// Função principal
-function carregarArtigos(categoria) {
-  fetch('https://livrariaprometeu.com/blog/artigos.json')
-    .then(res => res.json())
-    .then(data => {
-      // Filtra artigos por categoria exata (case-insensitive)
-      const daCategoria = data.filter(item => item.category.toLowerCase() === categoria.toLowerCase());
-      const foraCategoria = data.filter(item => item.category.toLowerCase() !== categoria.toLowerCase());
-
-      let resultadoFinal = [];
-
-      // Se há pelo menos 3 da categoria, usa só eles
-      if (daCategoria.length >= 3) {
-        resultadoFinal = embaralhar(daCategoria).slice(0, 3);
-      } else {
-        // Caso contrário, completa com artigos aleatórios de outras categorias
-        const faltam = 3 - daCategoria.length;
-        const adicionais = embaralhar(foraCategoria).slice(0, faltam);
-        resultadoFinal = embaralhar([...daCategoria, ...adicionais]);
-      }
-
-      renderArtigos(resultadoFinal);
-    })
-    .catch(err => console.error('Erro ao carregar artigos:', err));
-}
-
-// Função de renderização
-function renderArtigos(lista) {
+// Renderiza artigos relacionados automaticamente
+function renderArtigosRelacionados(tituloArtigo) {
   const grid = document.getElementById('articleGrid');
   grid.innerHTML = '';
 
-  lista.forEach(e => {
-    const card = document.createElement('a');
-    card.href = e.file;
-    card.className = 'artigo-card';
-    card.style.display = 'block';
-    card.style.marginBottom = '2rem';
-    card.style.textDecoration = 'none';
-    card.style.color = 'inherit';
+  // Normaliza o título para comparar sem acentos e sem diferença de maiúsculas
+  const tituloNormalizado = removerAcentos(tituloArtigo.toLowerCase());
+
+  // Encontra o artigo original no JSON
+  const artigoBase = artigos.find(a =>
+    removerAcentos(a.title.toLowerCase()) === tituloNormalizado
+  );
+
+  if (!artigoBase) {
+    console.warn('Artigo não encontrado no JSON.');
+    return;
+  }
+
+  const categoria = artigoBase.category;
+
+  // Filtra artigos da mesma categoria (exclui o próprio)
+  let relacionados = artigos.filter(
+    a => a.category === categoria && a.title !== artigoBase.title
+  );
+
+  // Fallback: se houver menos de 3 artigos, preenche com aleatórios de outras categorias
+  if (relacionados.length < 3) {
+    const restantes = artigos.filter(a => a.title !== artigoBase.title && !relacionados.includes(a));
+    const aleatorios = restantes.sort(() => 0.5 - Math.random()).slice(0, 3 - relacionados.length);
+    relacionados = relacionados.concat(aleatorios);
+  }
+
+  // Embaralha e limita a 3
+  relacionados = relacionados.sort(() => 0.5 - Math.random()).slice(0, 3);
+
+  // Renderiza os cards
+  relacionados.forEach(a => {
+    const card = document.createElement('div');
+    card.classList.add('artigo-card');
     card.innerHTML = `
-      <img src="${e.cover}" alt="${e.title}" style="width:100%; border-radius:8px; box-shadow:0 8px 25px rgba(0,0,0,0.08);">
-      <h3 style="margin-top:1rem;">${e.title}</h3>
-      <p style="color:#555; font-size:0.9rem;">${e.category} — ${e.date}</p>
-      <p style="color:#333; font-size:0.95rem;">${e.summary}</p>
+      <a href="${a.file}" class="artigo-link">
+        <img src="${a.cover}" alt="${a.title}" loading="lazy">
+        <div class="artigo-info">
+          <h3>${a.title}</h3>
+          <p class="artigo-category">${a.category}</p>
+        </div>
+      </a>
     `;
     grid.appendChild(card);
   });
+}
+
+// Função para remover acentos e normalizar texto
+function removerAcentos(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
