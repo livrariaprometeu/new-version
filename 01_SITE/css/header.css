@@ -34,6 +34,14 @@ body {
   padding-top: 82px;
 }
 
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 1.25rem 0;
+  box-shadow: var(--shadow);
+}
+
 /* Marca */
 .brand {
   display: flex;
