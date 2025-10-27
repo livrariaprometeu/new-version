@@ -145,6 +145,13 @@ main.container .grid {
   gap: 1.2rem;
 }
 
+main.container #ebookGrid {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+}
+
 @media (min-width: 480px) {
   main.container .grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
