@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 :root {
@@ -45,7 +45,12 @@ body {
   width: 48px;
   height: 48px;
   object-fit: contain;
-  border-radius: 8px;
+  
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 1.25rem 0;
+  box-shadow: var(--shadow);
 }
 
 .brand .title {
