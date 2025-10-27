@@ -268,3 +268,17 @@ main .actions { display: flex; gap: 8px; margin-top: auto; align-items: center; 
   #modalCover img { max-height: 260px; }
   .modal-content h3 { font-size: 1.3rem; }
 }
+
+/* PRIORIDADE */
+.modal {
+  position: fixed !important;
+  inset: 0 !important;
+  display: none !important;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.65);
+  z-index: 9999 !important;
+}
+.modal.open {
+  display: flex !important;
+}
