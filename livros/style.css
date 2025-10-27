@@ -9,7 +9,7 @@
   --card-shadow-blog: 0 8px 30px rgba(15,15,15,0.05);
 }
 
-body {
+main {
   margin: 0;
   font-family: "Inter", system-ui, sans-serif;
   background: var(--bg-blog);
