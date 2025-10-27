@@ -169,11 +169,13 @@ main.container .card:hover {
 
 main.container .card img {
   width: 100%;
-  height: auto;            /* ← mantém proporção natural */
-  object-fit: contain;     /* ← não corta a imagem */
-  background: #f5f4f2;     /* cor neutra no fundo das capas */
-  aspect-ratio: 2 / 3;     /* garante harmonia visual (ex: 120x180) */
+  max-height: 180px;       /* limite visual */
+  object-fit: contain;     /* mantém proporção */
+  background: #f5f4f2;
   display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 6px;
 }
 
 main.container .card h3 {
