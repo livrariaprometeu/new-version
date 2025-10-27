@@ -1,14 +1,23 @@
+/* ===== Header & elementos globais ===== */
+
+/* Box-sizing global (afeta header e filhos) */
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
+/* Variáveis usadas pelo header */
 :root {
-  --bg-paper: #fff8f3; /* tom principal terroso */
-  --muted: #6b6b6b;
-  --paper-light: #faf9f7; /* leve fundo off-white */
+  --bg-paper: #fff8f3;  /* cor do texto/logo */
+  --muted: #6b6b6b;     /* links secundários */
+  --paper-light: #faf9f7; /* fundo header */
 }
 
-/* Header fixo com sombra dinâmica */
+/* Body com padding para não cobrir conteúdo */
+body {
+  padding-top: 82px; /* necessário para o header fixo */
+}
+
+/* ===== Header fixo ===== */
 header.container.site-header {
   position: fixed;
   top: 0;
@@ -24,25 +33,12 @@ header.container.site-header {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-/* Efeito de sombra ao rolar */
+/* Sombra ao rolar */
 body.scrolled header.container.site-header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Espaçamento para o conteúdo não ficar escondido */
-body {
-  padding-top: 82px;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 10px;
-  display: block;
-  margin: 1.25rem 0;
-  box-shadow: var(--shadow);
-}
-
-/* Marca */
+/* ===== Marca / Logo ===== */
 .brand {
   display: flex;
   gap: 14px;
@@ -53,12 +49,7 @@ img {
   width: 48px;
   height: 48px;
   object-fit: contain;
-  
-  max-width: 100%;
-  border-radius: 10px;
-  display: block;
-  margin: 1.25rem 0;
-  box-shadow: var(--shadow);
+  border-radius: 8px;
 }
 
 .brand .title {
@@ -69,7 +60,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* Navegação */
+/* ===== Navegação ===== */
 .nav-wrap {
   display: flex;
   gap: 18px;
@@ -88,7 +79,7 @@ img {
   color: var(--bg-paper);
 }
 
-/* “Meus livros” */
+/* ===== “Meus livros” ===== */
 .meus-livros {
   position: relative;
   display: inline-block;
@@ -141,4 +132,15 @@ img {
 
 .lista-livros a:hover {
   text-decoration: underline;
+}
+
+/* ===== Regras que podem interferir no header ===== */
+header img,
+header p,
+header a {
+  /* Garante que o header não seja afetado por estilos globais de style.css */
+  max-width: none;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
 }
