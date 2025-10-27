@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let shown = 0;
   const PAGE_SIZE = 9;
   let activeFilter = 'all';
+  let searchTerm = '';
 
   function escapeHtml(s){ if(!s) return ''; return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;'); }
   function toast(msg){ const t = document.getElementById('toast'); t.textContent=msg; t.style.display='block'; setTimeout(()=>t.style.display='none',1600); }
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       ebooks = Array.isArray(data) ? data : (data.items||[]);
       document.getElementById('totalCount').textContent = ebooks.length;
-      renderInitial();
+      renderEbooks();
       restoreFavoritesUI();
     }).catch(err => {
       console.error('Erro ao carregar ebooks', err);
@@ -90,13 +91,24 @@ document.addEventListener('DOMContentLoaded', () => {
     modalSave.textContent = favs.find(f=>f.id===e.id)?'Remover':'Salvar';
   }
 
+  // FILTRO + PESQUISA INTEGRADOS
+  function getFilteredEbooks(){
+    return ebooks.filter(e=>{
+      const matchFilter = activeFilter==='all' || (e.categoria||'').toLowerCase().includes(activeFilter.toLowerCase());
+      const matchSearch = (e.titulo||'').toLowerCase().includes(searchTerm.toLowerCase()) || (e.autor||'').toLowerCase().includes(searchTerm.toLowerCase());
+      return matchFilter && matchSearch;
+    });
+  }
+
   // RENDER
-  function renderEbooks(filtered){
+  function renderEbooks(){
     ebookGrid.innerHTML='';
     shown=0;
-    loadMore(filtered);
+    loadMoreEbooks();
   }
-  function loadMore(filtered){
+
+  function loadMoreEbooks(){
+    const filtered = getFilteredEbooks();
     const items = filtered.slice(shown, shown+PAGE_SIZE);
     items.forEach(e=>{
       const div = document.createElement('div');
@@ -107,39 +119,29 @@ document.addEventListener('DOMContentLoaded', () => {
       div.addEventListener('click', ()=>openModal(e));
       ebookGrid.appendChild(div);
     });
-    shown+=items.length;
-    loadMoreBtn.style.display=(shown<filtered.length)?'inline-block':'none';
+    shown += items.length;
+    loadMoreBtn.style.display = (shown < filtered.length) ? 'inline-block' : 'none';
   }
 
-  function renderInitial(){
-    renderEbooks(ebooks);
-  }
-
-  // FILTROS
+  // EVENTOS
   filterChips.forEach(chip=>{
     chip.addEventListener('click', ()=>{
       filterChips.forEach(c=>c.classList.remove('active'));
       chip.classList.add('active');
       activeFilter = chip.dataset.filter;
-      const filtered = ebooks.filter(e=>activeFilter==='all'||(e.categoria||'').toLowerCase().includes(activeFilter.toLowerCase()));
-      renderEbooks(filtered);
+      renderEbooks();
     });
   });
 
-  // PESQUISA
   searchInput.addEventListener('input', ()=>{
-    const q = searchInput.value.toLowerCase();
-    const filtered = ebooks.filter(e=>(e.titulo||'').toLowerCase().includes(q) || (e.autor||'').toLowerCase().includes(q));
-    renderEbooks(filtered);
+    searchTerm = searchInput.value;
+    renderEbooks();
   });
   clearSearchBtn.addEventListener('click', ()=>{
+    searchTerm='';
     searchInput.value='';
-    renderEbooks(ebooks);
+    renderEbooks();
   });
 
-  // LOAD MORE
-  loadMoreBtn.addEventListener('click', ()=>{
-    const filtered = ebooks.filter(e=>activeFilter==='all'||(e.categoria||'').toLowerCase().includes(activeFilter.toLowerCase()));
-    loadMore(filtered);
-  });
+  loadMoreBtn.addEventListener('click', loadMoreEbooks);
 });
