@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Leitor EPUB | Livraria Prometeu</title>
+
+  <!-- Biblioteca epub.js -->
+  <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #faf9f7;
+      font-family: system-ui, sans-serif;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background: #673e32;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+
+    #artigoContainer {
+      flex: 1;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 12px;
+      background: #fff;
+      border-top: 1px solid #ddd;
+    }
+
+    button {
+      background: #673e32;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 16px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover {
+      background: #40241d;
+    }
+
+    .erro {
+      text-align: center;
+      color: #900;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Leitor EPUB — Livraria Prometeu</header>
+
+  <div id="artigoContainer"></div>
+
+  <footer>
+    <button id="prev">◀ Anterior</button>
+    <button id="next">Próximo ▶</button>
+  </footer>
+
+  <script>
+    const container = document.getElementById("artigoContainer");
+    const livroUrl = "https://livrariaprometeu.com/livros/exemplo.epub"; // Caminho do seu arquivo
+
+    try {
+      const livro = ePub(livroUrl);
+      const rendition = livro.renderTo(container, {
+        width: "100%",
+        height: "100%"
+      });
+
+      livro.ready.then(() => rendition.display());
+
+      // Navegação
+      document.getElementById("next").addEventListener("click", () => rendition.next());
+      document.getElementById("prev").addEventListener("click", () => rendition.prev());
+    } catch (erro) {
+      container.innerHTML = `<p class="erro">Erro ao carregar o livro. Verifique o arquivo EPUB.</p>`;
+      console.error("Erro EPUB:", erro);
+    }
+  </script>
+
+</body>
+</html>
