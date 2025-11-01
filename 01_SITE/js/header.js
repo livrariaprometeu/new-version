@@ -10,9 +10,9 @@ function loadHeader() {
       </a>
 
       <nav class="nav-wrap" role="navigation" aria-label="Menu principal">
+        <a href="https://livrariaprometeu.com">Home</a>
         <a href="https://livrariaprometeu.com/blog">Blog</a>
         <a href="https://livrariaprometeu.com/livros">Books</a>
-        <a href="https://livrariaprometeu.com">Home</a>
 
         ${
           livrosSalvos.length > 0
