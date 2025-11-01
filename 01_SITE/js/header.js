@@ -11,7 +11,7 @@ function loadHeader() {
 
       <nav class="nav-wrap" role="navigation" aria-label="Menu principal">
         <a href="https://livrariaprometeu.com/blog">Blog</a>
-        <a href="https://livrariaprometeu.com/livros">Livros</a>
+        <a href="https://livrariaprometeu.com/livros">Books</a>
         <a href="https://livrariaprometeu.com">Home</a>
 
         ${

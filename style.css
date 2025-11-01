@@ -1,68 +1,70 @@
 /* =========================
-   Variáveis Globais
+   HOME — LIVRARIA PROMETEU
    ========================= */
-:root {
-  --bg: #faf9f7;
-  --paper: #ffffff;
-  --ink: #40231b;
-  --muted: #6b6b6b;
-  --accent: #673e32;
-  --radius: 12px;
-  --shadow: 0 6px 22px rgba(10,10,10,0.06);
+
+/* Container principal */
+main.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 36px 24px;
 }
 
 /* =========================
-   Reset e Básicos
-   ========================= */
-main * { box-sizing: border-box; }
-main body, main html { margin: 0; padding: 0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; background: var(--bg); color: var(--ink); line-height:1.6; }
-main a { text-decoration: none; color: inherit; }
-
-/* =========================
-   Container Principal
-   ========================= */
-main .container { max-width: 1100px; margin: 0 auto; padding: 36px 24px; }
-
-/* =========================
-   Hero Section
+   HERO
    ========================= */
 main .hero {
   padding: 90px 0 70px;
   text-align: center;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%), url('https://livrariaprometeu.com/03_MIDIA/texturas/textura-pergaminho.webp');
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, var(--bg) 90%), 
+              url('https://livrariaprometeu.com/03_MIDIA/texturas/textura-pergaminho.webp');
   background-size: cover;
-  animation: fadeIn 1.2s ease-in-out;
+  animation: fadeIn 1.2s var(--transition) ease-in-out;
 }
 
-@keyframes fadeIn { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn { 
+  from { opacity:0; transform:translateY(20px); } 
+  to { opacity:1; transform:translateY(0); } 
+}
 
-main .hero h1 { font-size: 2.8rem; font-weight: 600; margin: 0 0 18px; }
-main .hero p { color: var(--muted); max-width: 700px; margin: 0 auto 34px; font-size: 1.1rem; }
+main .hero h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 0 0 18px;
+  color: var(--ink);
+}
 
+main .hero p {
+  color: var(--muted);
+  max-width: 700px;
+  margin: 0 auto 34px;
+  font-size: 1.1rem;
+}
+
+/* Botões da Hero */
 main .btn {
   padding: 15px 32px;
-  border-radius: 8px;
+  border-radius: var(--radius-large);
   border: none;
   font-weight: 600;
   cursor: pointer;
   font-size: 1.05rem;
-  transition: all 0.25s ease;
+  transition: all var(--transition-fast);
 }
 
 main .btn-main {
   background: var(--accent);
   color: #fff;
   letter-spacing: 0.3px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-soft);
 }
 
 main .btn-main:hover {
-  opacity: 0.95;
+  background: var(--accent-dark);
   transform: translateY(-2px);
 }
 
 /* =========================
-   Quem Somos
+   SOBRE / QUEM SOMOS
    ========================= */
 main .about {
   margin: 100px 0;
@@ -75,42 +77,77 @@ main .about img {
   width: 380px;
   max-width: 100%;
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-medium);
 }
 
-main .about .text h2 { margin: 0 0 14px; font-size: 1.8rem; }
-main .about .text p { color: var(--muted); font-size: 1rem; }
+main .about .text h2 {
+  margin: 0 0 14px;
+  font-size: 1.8rem;
+  color: var(--ink);
+}
+
+main .about .text p {
+  color: var(--muted);
+  font-size: 1rem;
+}
 
 /* =========================
-   Chamada intermediária
+   CHAMADA INTERMEDIÁRIA
    ========================= */
 main .call {
   text-align: center;
   padding: 70px 0;
-  background: #fffdfb;
+  background: var(--paper);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-medium);
   margin-bottom: 100px;
 }
 
-main .call h3 { font-weight: 600; font-size: 1.6rem; margin-bottom: 16px; }
-main .call p { color: var(--muted); max-width: 650px; margin: 0 auto 24px; font-size: 1.05rem; }
+main .call h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  color: var(--ink);
+}
+
+main .call p {
+  color: var(--muted);
+  max-width: 650px;
+  margin: 0 auto 24px;
+  font-size: 1.05rem;
+}
 
 /* =========================
-   Contato
+   CONTATO
    ========================= */
-main .contact { margin: 90px 0; text-align: center; }
-main .contact h2 { margin-bottom: 20px; }
-main .contact p { color: var(--muted); margin-bottom: 8px; }
-main .contact a { color: var(--accent); font-weight: 600; }
+main .contact {
+  margin: 90px 0;
+  text-align: center;
+}
+
+main .contact h2 {
+  margin-bottom: 20px;
+  color: var(--ink);
+}
+
+main .contact p {
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+main .contact a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
 
 /* =========================
-   Footer
+   FOOTER
    ========================= */
 main footer {
   margin-top: 60px;
   padding: 28px 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(0,0,0,0.06);
 }
 
 main footer .foot-inner {
@@ -120,10 +157,12 @@ main footer .foot-inner {
   align-items: center;
 }
 
-main footer small { color: var(--muted); }
+main footer small {
+  color: var(--muted);
+}
 
 /* =========================
-   Responsivo
+   RESPONSIVO
    ========================= */
 @media(max-width: 900px) {
   main .hero p { padding: 0 2rem; }
