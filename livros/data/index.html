@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="seo-title">Leitor | Livraria Prometeu</title>
+        <!-- HEAD -->
+        <link rel="icon" href="/header/logo/livraria_prometeu_original.webp" type="image/x-icon">
+
+        <link rel="stylesheet" href="/header/style_header.css">
+        <link rel="stylesheet" href="style_livro.css">
+        <link rel="stylesheet" href="/style_geral.css">
+    </head>
+    <body>
+
+        <header>
+            <div id="header-container"></div>
+        </header>
+
+        <div class="definir-tamanho-aba">
+            <main id="main">
+                <!-- Comandos-->
+                <div id="toggleToc"></div>
+                <div id="toc" style="display: none;"></div>
+
+                <!-- Livro -->
+                <div id="viewer"></div> 
+
+                <div id="controls">
+                    <div class="passador-livro" id="prev">⬅ Anterior</div>
+                    <div id="n-pag"></div>
+                    <div class="passador-livro" id="next">Próximo ➡</div>
+                </div>
+            </main>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+        <script src="https://unpkg.com/epubjs/dist/epub.min.js"></script>
+        <script src="utiliza_id.js"></script>
+        <script src="/insert_header.js"></script>
+        <script src="/header/script_header.js"></script>
+    </body>
+</html>

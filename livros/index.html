@@ -1,120 +1,86 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Livraria Prometeu — Descubra E-books Gratuitos</title>
-  <meta name="description" content="Coleção gratuita da Prometeu. Clássicos e descobertas para ler agora." />
-  <meta name="keywords" content="ebooks gratuitos, clássicos, leitura, Livraria Prometeu" />
-  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
-  <link rel="canonical" href="https://livrariaprometeu.com/ebooks">
-  <link rel="stylesheet" href="https://livrariaprometeu.com/01_SITE/css/header.css">
-  <link rel="stylesheet" href="https://livrariaprometeu.com/livros/style.css">
-</head>
-<body>
-  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
-  <script> if(window.loadHeader) loadHeader(); </script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- SEO - TAGS BASICAS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>E-books Grátis | Livraria Prometeu</title>
 
-  <main class="container" id="app">
-    <!-- HERO -->
-    <section class="hero" aria-label="Explorar e-books gratuitos">
-      <div>
-        <h1 style="color:var(--accent)">Que livro vai acender sua próxima ideia?</h1>
-        <p class="micro">Curadoria humana — clássicos e descobertas, formatados para leitura confortável. Sem cadastro.</p>
+        <meta name="description" content="Descubra clássicos, obras de filosofia, negócios e desenvolvimento pessoal em uma seleção feita para leitores ambiciosos.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://livrariaprometeu.com/livros/">
+        <meta name="author" content="Livraria Prometeu">
 
-        <div class="ctas" style="margin-top:12px">
-          <button class="btn btn-primary" id="exploreBtn">Explorar obras que mudaram o mundo</button>
-          <button class="btn btn-ghost" id="surpriseBtn">Surpreenda-me 🔀</button>
-          <span class="micro" style="align-self:center;margin-left:8px">Já são <strong id="totalCount">—</strong> títulos</span>
+        <!-- SEO - OPEN GRAPH -->
+        <meta property="og:title" content="Livros Online Grátis | Livraria Prometeu">
+        <meta property="og:description" content="Entre no universo Prometeu. Descubra livros gratuitos e clássicos que acendem o pensamento.">
+        <meta property="og:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
+        <meta property="og:url" content="https://livrariaprometeu.com/livros/">
+        <meta property="og:type" content="website">
+
+        <!-- SEO - TWITTER CARDS -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Livros Online Grátis | Livraria Prometeu">
+        <meta property="twitter:description" content="Entre no universo Prometeu. Descubra livros gratuitos e clássicos que acendem o pensamento.">
+        <meta name="twitter:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
+
+        <!-- SEO - ESTRUTRAÇÃO -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Livraria Prometeu",
+        "url": "https://livrariaprometeu.com/livros/",
+        "logo": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
+            "https://www.instagram.com/livrariaprometeu"
+        ]
+        }
+        </script>
+
+        <!-- HEAD -->
+        <link rel="icon" href="/header/logo/livraria_prometeu_original.webp" type="image/x-icon">
+
+        <link rel="stylesheet" href="/header/style_header.css">
+        <link rel="stylesheet" href="/footer/style_footer.css">
+        <link rel="stylesheet" href="style_livros.css">
+        <link rel="stylesheet" href="/style_geral.css">
+        <link rel="stylesheet" href="style_container.css">
+    </head>
+    <body>
+        <header>
+            <div id="header-container"></div>
+        </header>
+        <div class="definir-tamanho-aba">
+            <main id="main">
+                <div id="filtro-livros">
+                    <div id="style-pesquisa">
+                        <input type="text" id="pesquisa" placeholder="Pesquisar..." />
+                        <img id="lupa-pesquisa" src="/footer/img/search.webp">
+                    </div>
+                    <div id="filtro-estrelas-dois">
+                        <span class="estrela" data-valor="1">☆</span>
+                        <span class="estrela" data-valor="2">☆</span>
+                        <span class="estrela" data-valor="3">☆</span>
+                        <span class="estrela" data-valor="4">☆</span>
+                        <span class="estrela" data-valor="5">☆</span>
+                    </div>
+                </div>
+                <div id="lista-livros"></div>
+                <div class="aba" id="aba">
+                    <div id="conteudo-mais"></p>
+                </div>
+            </main>
         </div>
-
-        <p style="margin-top:12px" class="micro">Curadoria humana • Tipografia otimizada • Download fácil • Compartilhe ideias</p>
-
-        <div class="toolbar" style="margin-top:14px">
-          <div class="search" role="search" aria-label="Pesquisar e-books">
-            <input id="q" type="search" placeholder="Buscar por título, autor, assunto..." aria-label="Buscar e-books">
-            <button id="clearSearch" title="Limpar" class="btn-small" aria-label="Limpar busca">✕</button>
-          </div>
-
-          <div class="filters" aria-hidden="false">
-            <div class="chip" data-filter="all">Todos</div>
-            <div class="chip" data-filter="pensar">Para pensar</div>
-            <div class="chip" data-filter="acalmar">Para acalmar</div>
-            <div class="chip" data-filter="ensino">Ensino & Referência</div>
-            <div class="chip" data-filter="poesia">Poesia</div>
-          </div>
-        </div>
-      </div>
-
-      <aside class="hero-aside" aria-hidden="true">
-        <div style="display:flex;gap:12px;align-items:center">
-          <img src="https://livrariaprometeu.com/01_SITE/assets/img/hero-ebooks.webp" alt="" style="width:78px;height:110px;object-fit:cover;border-radius:8px" loading="lazy">
-          <div>
-            <div class="stat" id="featuredTitle">Descubra algo novo</div>
-            <div class="micro" style="margin-top:6px">Clique em <strong>Surpreenda-me</strong> para ver um destaque e ler um trecho.</div>
-          </div>
-        </div>
-
-        <div style="margin-top:14px">
-          <div class="micro"><strong>Favoritos</strong></div>
-          <div id="favList" style="margin-top:8px;color:var(--muted)">Nenhum ainda — salve capas que gostar.</div>
-        </div>
-      </aside>
-    </section>
-
-    <!-- Curadoria -->
-    <section aria-label="Curadoria Prometeu">
-      <h2 style="margin:8px 0">Curadorias rápidas</h2>
-      <div class="curation" id="curationStrip" aria-hidden="false"></div>
-    </section>
-
-    <!-- Grid de ebooks -->
-    <section id="ebooks">
-      <div id="ebookGrid" class="grid" aria-live="polite"></div>
-      <div style="text-align:center;margin-top:18px">
-        <button id="loadMore" class="btn btn-ghost" style="display:none">Carregar mais</button>
-      </div>
-    </section>
-
-    <p style="margin-top:28px" class="micro">Baixe, leia, compartilhe — o conhecimento pertence a quem o cultiva.</p>
-
-    <!-- Recomendações de artigos -->
-    <section>
-      <h2 style="margin-bottom:16px">Leituras recomendadas</h2>
-      <div class="grid" id="articleGrid">
-        <!-- Cards via JS -->
-      </div>
-    </section>
-    <div id="curation"></div>
-  </main>
-
-  <!-- Modal Cinemático -->
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitleDesc">
-      <button class="close-btn" id="closeModal" aria-label="Fechar">✕</button>
-      <div id="modalCover"></div>
-
-      <div class="modal-content">
-        <h3 id="modalTitle"></h3>
-        <div id="modalAuthor" class="modal-micro"></div>
-        <div id="modalTags" class="tags" aria-hidden="true"></div>
-        <div id="modalMeta" class="modal-micro"></div>
-        <div id="modalExcerpt" class="modal-excerpt"></div>
-
-        <div class="modal-actions">
-          <a id="modalDownload" class="btn btn-primary" target="_blank" rel="noopener" style="text-decoration:none;text-align:center">Ler / Baixar</a>
-          <button id="modalSave" class="btn btn-ghost">Salvar</button>
-          <button id="shareBtn" class="btn btn-ghost">Compartilhar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="toast" id="toast">Ação realizada</div>
-
-  <!-- LINK PARA O JS EXTERNO -->
-  <script src="https://livrariaprometeu.com/livros/script.js"></script>
-</body>
-
+        <footer>
+            <div id="footer-container"></div>
+        </footer>
+        <script src="acessa_json.js"></script>
+        <script src="/insert_footer.js"></script>
+        <script src="/insert_header.js"></script>
+        <script src="/header/script_header.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </body>
 </html>
-

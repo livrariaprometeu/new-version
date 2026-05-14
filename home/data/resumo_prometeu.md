@@ -1,0 +1,2 @@
+# Livraria Prometeu
+Prometeu desafiou os deuses para oferecer aos humanos o fogo — símbolo do saber. Aqui, reacendemos essa chama por meio de livros que transformam o pensamento. Leia o que resiste ao tempo. Descubra o que te faz eterno.

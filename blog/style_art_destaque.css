@@ -1,0 +1,137 @@
+.capa-artigo-container {
+  position: relative;
+  height: 300px;
+}
+.capa-destaque {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container-destaque {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+
+  overflow: hidden;
+}
+#track-destaque {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.card-destaque {
+  min-width: 100%;
+  box-sizing: border-box;
+
+  background: #1e1e1e;
+}
+
+.card-destaque.artigo-destaque {
+  width: 100%;
+  max-width: 500px;
+
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 16px;
+
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-destaque.artigo-destaque:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.container-artigo-destaque {
+  padding: 16px;
+  height: 300px;
+  position: relative;
+  color: #1e1e1e00;
+}
+
+.container-artigo-destaque:hover {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  color: var(--bg-white);
+
+  background-color: rgba(0, 0, 0, 0.685);
+  height: 300px;
+}
+
+.idioma-artigo-destaque {
+  font-size: 12px;
+  font-weight: bold;
+
+  background: var(--bg-marca);
+  color: var(--bg-white);
+
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  width: fit-content;
+}
+
+.titulo-artigo-destaque {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+
+  margin: 0;
+}
+
+.conteudo-artigo-destaque {
+  font-size: 14px;
+  color: #bdbdbd;
+
+  line-height: 1.5;
+
+  max-height: 80px;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.fade-enter-destaque {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-enter-active-destaque {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+
+#indicadores {
+  display: flex;
+  align-self: end;
+  
+  gap: 8px;
+  position: absolute;
+ 
+  z-index: 9998;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.bolinha {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+  background: #777;
+
+  transition: all 0.3s ease;
+}
+
+.bolinha.ativa {
+  background: var(--bg-marca);
+  transform: scale(1.2);
+}

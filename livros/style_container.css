@@ -1,0 +1,132 @@
+/* ___ Container ___ */
+#idioma-livro {
+    font-size: 14px;
+    position: absolute;
+    padding: 2px 15px;
+    border-radius: 100px;
+
+    align-self: end;
+    margin: 10px 30px;
+    background-color: var(--bg-paper);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#lista-livros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 por linha */
+  gap: 20px; /* espaço entre os cards */
+}
+#container-livro {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-white);
+    padding: 20px;
+    border-radius: 8px;
+}
+.capa-livro {
+    align-self: center;
+    width: 200px;
+    height: 250px;
+    background-color: var(--bg-marca);
+}
+#titulo-livro {
+    font-size: 18px;
+    font-weight:bold;
+    color: var(--bg-marca);
+}
+#informacoes-livro {
+    display: flex;
+    align-items: center;
+}
+#categoria-livro {
+    align-items: center;
+    width: 130px;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+#ler-livro {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: var(--bg-white);
+    background-color: var(--bg-marca);
+    margin: 10px 0%;
+}
+#ler-livro:hover {
+    background-color: var(--bg-marca);
+}
+
+#mais-livro {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: var(--bg-marca);
+    background-color: var(--bg-white);
+    border: 1px solid var(--bg-marca);
+    margin: 0%;
+}
+
+/* ___ Ler Mais ___ */
+
+    /* -- Markdown -- */
+#markdown-resumo-livro {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.2;
+}
+
+#markdown-resumo-livro h1, 
+#markdown-resumo-livro h2 {
+  font-weight: bold;
+}
+
+#markdown-resumo-livro p {
+  margin: 10px 0;
+}
+
+    /* -- Outros -- */
+#btns-resumo-livro {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.btn-resumo-livro {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--bg-marca);
+    font-family:'Times New Roman', Times, serif;
+}
+#compartilhar-livro-resumo {
+    color: var(--bg-marca);
+}
+#ler-livro-resumo {
+    color: var(--bg-white);
+    background-color: var(--bg-marca);
+}
+
+
+/* _____--- HOVER ---_____ */
+#fechar-mais:hover, #ler-livro:hover, #ler-livro-resumo:hover {
+    background-color: var(--bg-marca-ativo);
+}
+#mais-livro:hover, #compartilhar-livro-resumo:hover {
+    background-color: var(--bg-paper);
+}
+
+#fechar-mais:active, #ler-livro:active, #ler-livro-resumo:active {
+    background-color: var(--bg-paper);
+    transform: scale(0.93);
+}
+#mais-livro:active, #compartilhar-livro-resumo:active {
+    background-color: var(--bg-paper);
+    transform: scale(0.93);
+}
+
+
+.teste {
+    height: 100px;
+    width: 100px;
+}

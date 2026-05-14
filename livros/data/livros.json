@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "titulo": "Moby Dick or the white whale",
+    "categoria": ["Romance"],
+    "avaliacao": 5,
+    "idioma": "Ingles",
+    "autor": "Herman Melville"
+  },
+  {
+    "id": 1,
+    "titulo": "Top-Notch Magazine",
+    "categoria": ["Pulp"],
+    "avaliacao": 4,
+    "idioma": "Ingles",
+    "autor": "Street & Smith"
+  }
+]

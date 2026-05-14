@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-paper);
+}
+
+main {
+    padding: 80px 0px;
+}
+
+
+.aba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 35rem;
+    width: 30rem;
+    padding: 15px 15px 15px 25px;
+    background: var(--bg-white);
+    border-radius: 10px;
+    display: none;
+    z-index: 9999;
+}
+
+#corpo-mais {
+    margin-top: 20px;
+    max-height: 32rem;
+    overflow-y:scroll;
+}
+#corpo-mais::-webkit-scrollbar {
+  width: 8px;
+}
+#corpo-mais::-webkit-scrollbar-thumb {
+  background: #88888852;
+  border-radius: 4px;
+}
+
+#corpo-mais::-webkit-scrollbar-thumb:hover {
+  background: #5555551c;
+}
+
+#fechar-mais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+
+    color: var(--bg-paper);
+
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-marca);
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+#filtro-livros {
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+    justify-self: end;
+    margin: 20px;
+    gap: 10px;
+    align-items: end;
+
+    width: 200px;
+}
+#filtro-estrelas-dois {
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 23px;
+    color: var(--bg-marca);
+}
+#pesquisa {
+    border: 0cm;
+    background-color: var(--bg-white);
+    outline: none;
+}
+#lupa-pesquisa {
+    width: 20px;
+    height: 20px;
+}
+#style-pesquisa {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-white);
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.18);
+    border-radius: 17px;
+}

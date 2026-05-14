@@ -1,0 +1,58 @@
+/* --- Configurações gerais --- */
+#header-body{
+    margin:0%;
+    z-index: 9999;
+}
+
+#header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    background-color: var(--bg-header);
+    position: fixed;
+    z-index: 9999;
+}
+
+/* --- Elementos do header --- */
+.element-header{
+    color: var(--cl-paper);
+    padding: 17px 40px 17px 40px;
+}
+
+#container-element-header{
+  display: flex;
+  align-content: end;
+  
+  justify-content: end;
+
+  width: 70%;
+}
+
+/* --- Clique + Animação do header --- */
+.element-header:hover {
+  color: var(--cl-paper-ativo);
+  background-color: white;
+  font-size:17px;
+}
+.ativo-header {
+  color: var(--cl-paper-ativo);
+  background-color: white;
+}
+
+.logo-header {
+  padding: 5px 30px;
+  height: 50px;
+  width: 50px;
+
+  align-self: center;
+}
+
+#definir-posicao-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}

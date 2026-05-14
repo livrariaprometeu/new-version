@@ -1,0 +1,34 @@
+:root {
+    /* Background */
+    --bg-header: #dfddd8;
+    --bg-paper: #edecea;
+    --bg-white: rgba(255, 255, 255);
+    --bg-marca: rgb(103, 62, 50);
+    --bg-marca-ativo: rgb(81, 48, 38);
+
+    /* Color */
+    --cl-paper: #464847;
+    --cl-paper-ativo: #6e6f6e;
+
+    --muted: #6b6b6b;
+    --paper-light: #faf9f7;
+}
+
+:root.dark {
+    --bg-header: #1e1e1e;
+    --bg-paper: #2a2a2a;
+    --bg-white: #121212;
+    --bg-marca: rgb(140, 90, 70);
+    --bg-marca-ativo: rgb(110, 70, 55);
+
+    --cl-paper: #e0e0e0;
+    --cl-paper-ativo: #bdbdbd;
+
+    --muted: #9e9e9e;
+    --paper-light: #1a1a1a;
+}
+
+.definir-tamanho-aba{
+    align-self: center;
+    width:  clamp(20rem, 90%, 60rem);
+}

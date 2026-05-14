@@ -1,0 +1,48 @@
+async function lerArquivoHome(arquivo) {
+  try {
+    const response = await fetch(`/home/data/${arquivo}.md`);
+
+    if (!response.ok) {
+      throw new Error(`Erro HTTP: ${response.status}`);
+    }
+
+    return await response.text();
+
+  } catch (erro) {
+    console.error('Erro ao buscar arquivo:', erro);
+  }
+}
+
+async function carregarResumo() {
+  const conteudoMais = document.getElementById("texto-principal");
+
+  if (!conteudoMais) {
+    console.error("Elemento não encontrado!");
+    return;
+  }
+
+  const divMais = document.createElement("div");
+  divMais.classList.add("card");
+
+  try {
+    const texto = await lerArquivoHome("resumo_prometeu");
+
+    console.log("Texto carregado:", texto);
+
+    const markdown = marked.parse(texto);
+
+    divMais.innerHTML = `
+      <div id="markdown-resumo-livro">${markdown}</div>
+      <a class="links" href="/livros" rel="noopener noreferrer">
+        <div id="btn-livros-home">Explorar livros</div>
+      </a>
+    `;
+
+    conteudoMais.appendChild(divMais);
+
+  } catch (erro) {
+    console.error("Erro ao carregar resumo:", erro);
+  }
+}
+
+carregarResumo();

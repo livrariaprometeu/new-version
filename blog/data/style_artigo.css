@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-paper);
+}
+
+main {
+    padding: 80px 0px;
+}
+
+#texto-principal {
+    padding: 0px 50px 50px 50px;
+    
+}
+
+#btn-livros-home {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--bg-marca);
+    padding: 10px;
+
+    color: var(--bg-white);
+
+    margin: 50px 20% 0px 20%;
+    border-radius: 10px;
+}
+#btn-livros-home:hover {
+    background-color: var(--bg-marca-ativo);
+}
+
+
+/*  MARKDOWN  */
+
+#markdown blockquote {
+    margin: 50px 0px;
+    border-left: 4px solid var(--bg-marca);
+    padding-left: 10px;
+    color: var(--cl-paper);
+}
+
+#markdown h1, h2 {
+    color: var(--bg-marca);
+}
+
+#markdown h1 {
+    text-align: justify;
+}
+
+#markdown h2 {
+    margin: 30px 0px 0px 0px;
+}
+
+#markdown img {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+}
+
+.definir-tamanho-aba{
+    display: flex;
+    justify-self: center;
+}

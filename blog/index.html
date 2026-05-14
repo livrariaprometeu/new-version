@@ -1,160 +1,91 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Livraria Prometeu — Blog</title>
-  <meta name="description" content="Blog da Livraria Prometeu: reflexões, análises literárias e curiosidades sobre clássicos. Sofisticação e minimalismo em cada artigo." />
-  <meta name="keywords" content="blog, literatura, clássicos, análises, curiosidades, Livraria Prometeu" />
-  <meta property="og:title" content="Livraria Prometeu — Blog" />
-  <meta property="og:description" content="Artigos sobre literatura clássica, história e cultura. Conteúdo refinado e curadoria Prometeu." />
-  <meta name="twitter:card" content="summary_large_image" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- SEO - TAGS BASICAS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Blog | Livraria Prometeu</title>
 
-  <!-- Favicon -->
-  <link rel="icon" href="https://livrariaprometeu.com/03_MIDIA/logos/livraria_prometeu_original.webp" type="image/x-icon">
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
-  <script>
-    function searchArticles() {
-      const term = document.getElementById('searchInput').value.toLowerCase().trim();
-      const grid = document.getElementById('articleGrid');
-      grid.innerHTML = '';
+        <meta name="description" content="Resumos, recomendações e reflexões sobre clássicos, filosofia, produtividade e negócios.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://livrariaprometeu.com/blog/">
+        <meta name="author" content="Livraria Prometeu">
 
-      const results = artigos.filter(a =>
-        a.titulo.toLowerCase().includes(term) || a.categoria.toLowerCase().includes(term)
-      );
+        <!-- SEO - OPEN GRAPH -->
+        <meta property="og:title" content="Blog | Livraria Prometeu">
+        <meta property="og:description" content="Resumos, recomendações e reflexões sobre clássicos, filosofia, produtividade e negócios.">
+        <meta property="og:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
+        <meta property="og:url" content="https://livrariaprometeu.com/livros/">
+        <meta property="og:type" content="website">
 
-      if(results.length === 0){
-        grid.innerHTML = `<p style="grid-column:1/-1;color:#6b6b6b">Nenhum artigo encontrado.</p>`;
-      } else {
-        results.forEach(a => {
-          const card = document.createElement('article');
-          card.className = 'card';
-          card.innerHTML = `
-          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
-            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
-            <div class="texto" style="padding:20px">
-              <div class="title" style="color:#673e32">${e.title || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:#6b6b6b">${e.summary || 'Arquivo sem resumo configurado'}</div>
-              <div class="rodape-artigo" style="display:flex;color:#6b6b6b">
-                <div class="categoria">${e.category || 'Não definida'}</div>
-                <div class="separador" style="padding:0px 10px">|</div>
-                <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
-              </div>
-            </div>
-          </a>
-          `;
-          grid.appendChild(card);
-        });
-      }
-    }
+        <!-- SEO - TWITTER CARDS -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Blog | Livraria Prometeu">
+        <meta property="twitter:description" content="Resumos, recomendações e reflexões sobre clássicos, filosofia, produtividade e negócios.">
+        <meta name="twitter:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        <!-- SEO - ESTRUTRAÇÃO -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "name": "Livraria Prometeu",
+        "url": "https://livrariaprometeu.com/blog/",
+        "logo": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
+            "https://www.instagram.com/livrariaprometeu"
+        ]
+        }
+        </script>
 
-    gtag('config', 'G-EM7DDY63WN');
-  </script>
+        <!-- HEAD -->
+        <link rel="icon" href="/header/logo/livraria_prometeu_original.webp" type="image/x-icon">
 
-  <link rel="stylesheet" type"text/css" href="https://livrariaprometeu.com/01_SITE/css/header.css">
-  <link rel="stylesheet" href="https://livrariaprometeu.com/blog/style.css">
-</head>
-<body>
-  <script src="https://livrariaprometeu.com/01_SITE/js/header.js"></script>
-  <script>
-    loadHeader(); // insere o header
-  </script>
+        <link rel="stylesheet" href="/header/style_header.css">
+        <link rel="stylesheet" href="style_blog.css">
+        <link rel="stylesheet" href="style_container.css">
+        <link rel="stylesheet" href="/style_geral.css">
+        <link rel="stylesheet" href="style_art_destaque.css">
+    </head>
+    <body>
+        <header>
+            <div id="header-container"></div>
+        </header>
 
-  <main class="container">
-    <!-- HERO -->
-    <section class="hero">
-      <h1>Reflexões, análises e curiosidades literárias</h1>
-      <p>O Blog da Prometeu oferece um olhar sofisticado sobre clássicos, filosofia e cultura. Conteúdo autoral e curadoria minimalista.</p>
-    </section>
+        <div class="definir-tamanho-aba">
+            <main id="main">
+                <div id="container-destaque">
+                    <div id="indicadores"></div>
+                    <div id="track-destaque"></div>
+                </div>
 
-    <form class="search" onsubmit="event.preventDefault();">
-      <input 
-        type="text" 
-        id="searchInput" 
-        placeholder="Buscar artigos..." 
-        aria-label="Buscar artigos"
-        oninput="searchArticles()" 
-      />
-      <button type="submit" aria-label="Pesquisar">
-        <img src="https://livrariaprometeu.com/01_SITE/assets/icons/search.webp" alt="Pesquisar" class="search-icon"/>
-      </button>
-    </form>
+                <div id="filtro-artigos">
+                    <div id="style-pesquisa">
+                        <input type="text" id="pesquisa" placeholder="Pesquisar..." />
+                        <img id="lupa-pesquisa" src="/footer/img/search.webp">
+                    </div>
+                </div>
 
-    <!-- ARTIGOS EM GRID -->
-    <section>
-      <div class="grid" id="articleGrid">
-        <!-- Cards via JS -->
-      </div>
-    </section>
-    <div id="curation"></div>
+                <div id="lista-artigos"></div>
+                <div class="aba" id="aba">
+                    <div id="conteudo-mais"></p>
+                </div>
+                <div id="blog-recomendacao"></div>
+            </main>
+        </div>
 
-    <!-- ARTIGO DESTAQUE -->
-    <section class="featured" aria-label="Artigo em destaque">
-      <img src="https://livrariaprometeu.com/blog/artigo/por-que-os-classicos-ainda-importam/image.webp" alt="Imagem do artigo em destaque">
-      <div class="txt">
-        <h2>Em foco: Por que os clássicos ainda importam?</h2>
-        <p>Em uma era de imediatismo, revisitamos o valor atemporal da literatura clássica e como ela molda nossa compreensão do mundo.</p>
-        <a href="https://livrariaprometeu.com/blog/artigo/por-que-os-classicos-ainda-importam"><button class="btn btn-read">Ler agora</button></a>
-      </div>
-    </section>
-  </main>
+        <footer>
+            <div id="footer-container"></div>
+        </footer>
 
-  <footer class="container">
-    <div class="foot-inner">
-      <div>
-        <strong>Prometeu</strong><div style="color:#6b6b6b">Curadoria e design</div>
-      </div>
-      <small>© 2025 Livraria Prometeu — Todos os direitos reservados</small>
-    </div>
-  </footer>
-  <!-- JSON ler arquivo ebooks.json -->
-  <script>
-    let ebooks = [];
-
-    fetch('https://livrariaprometeu.com/blog/config/artigos.json')
-      .then(res => res.json())
-      .then(data => {
-        ebooks = data;
-        renderEbooks();
-      });
-
-    function renderEbooks() {
-      const grid = document.getElementById('articleGrid');
-
-      ebooks.forEach(e => {
-        const card = document.createElement('article');
-        card.className = 'card';
-        card.innerHTML = `
-          <a href="${e.file || 'https://livrariaprometeu.com/em-breve.html'}" class="link" style="text-decoration:none">
-            <div class="img-wrap"><img src="${e.cover}" alt="Capa ${e.title || 'Arquivo sem imagem configurada'}"></div>
-            <div class="texto" style="padding:20px">
-              <div class="title" style="color:#673e32">${e.title || 'Arquivo sem titulo configurado'}</div>
-              <div class="resumo" style="color:#6b6b6b">${e.summary || 'Arquivo sem resumo configurado'}</div>
-              <div class="rodape-artigo" style="display:flex;color:#6b6b6b">
-                <div class="categoria">${e.category || 'Não definida'}</div>
-                <div class="separador" style="padding:0px 10px">|</div>
-                <div class="data" style="display:flex;align-self:end">${e.date || 'Não informada'}</div>
-              </div>
-            </div>
-          </a>
-        `;
-        grid.appendChild(card);
-
-        const small = document.createElement('div');
-        small.className = 'card-small';
-        small.innerHTML = `<img src="${e.cover}" alt=""><div><strong style="display:block">${e.title}</strong><span style="color:#6b6b6b;font-size:0.92rem">${e.author}</span></div>`;
-      });
-    }
-  </script>
-</body>
-
-
+        <script src="acessa_json.js"></script>
+        <script src="artigo_destaque.js"></script>
+        <script src="blog.js"></script>
+        <script src="/insert_footer.js"></script>
+        <script src="/insert_header.js"></script>
+        <script src="/header/script_header.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </body>
 </html>
-
-
