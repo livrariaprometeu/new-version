@@ -1,7 +1,7 @@
 // função para ler arquivo .txt
 async function lerArquivo(id) {
   try {
-    const response = await fetch(`data/resumo/${id}.md`);
+    const response = await fetch(`/livros/data/resumo/${id}.md`);
     const texto = await response.text();
     return texto;
   } catch (erro) {
