@@ -1,6 +1,8 @@
 async function lerArquivoHome(arquivo) {
+  const caminhoAtual = console.log(window.location.pathname);
+
   try {
-    const response = await fetch(`texto.md`);
+    const response = await fetch(`${caminhoAtual}/texto.md`);
 
     if (!response.ok) {
       throw new Error(`Erro HTTP: ${response.status}`);
