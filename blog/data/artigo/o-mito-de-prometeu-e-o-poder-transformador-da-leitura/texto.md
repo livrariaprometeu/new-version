@@ -1,4 +1,4 @@
-![Capa do blog](capa.webp)
+![Capa do blog](/blog/data/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura/capa.webp)
 
 # O mito de Prometeu e o poder transformador da leitura
 No coração da mitologia grega, Prometeu ousou fazer o impensável:

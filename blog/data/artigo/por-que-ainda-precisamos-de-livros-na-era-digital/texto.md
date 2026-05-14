@@ -1,4 +1,4 @@
-![Capa do blog](capa.webp)
+![Capa do blog](/blog/data/artigo/por-que-ainda-precisamos-de-livros-na-era-digital/capa.webp)
 
 # Por que ainda precisamos de livros na era digital?
 
