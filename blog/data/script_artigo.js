@@ -1,8 +1,14 @@
-async function lerArquivoHome(arquivo) {
-  const caminhoAtual = console.log(window.location.pathname);
+async function lerArquivoHome() {
+
+  const caminhoMarkdown = new URL(
+    "texto.md",
+    window.location.href
+  );
+
+  console.log("Arquivo:", caminhoMarkdown.href);
 
   try {
-    const response = await fetch(`${caminhoAtual}/texto.md`);
+    const response = await fetch(caminhoMarkdown);
 
     if (!response.ok) {
       throw new Error(`Erro HTTP: ${response.status}`);
@@ -12,6 +18,7 @@ async function lerArquivoHome(arquivo) {
 
   } catch (erro) {
     console.error('Erro ao buscar arquivo:', erro);
+    return null;
   }
 }
 
