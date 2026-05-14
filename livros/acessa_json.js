@@ -22,7 +22,7 @@ function compartilhar(titulo, id) {
 }
 
 // 1) Utiliza .json para fazer o layout dos livros
-fetch("data/livros.json")
+fetch("/livros/data/livros.json")
   .then(res => res.json())
   .then(dados => {
         const container = document.getElementById("lista-livros");
