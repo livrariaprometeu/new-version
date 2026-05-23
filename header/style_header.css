@@ -56,3 +56,10 @@
   justify-content: center;
   justify-self: center;
 }
+
+@media (max-width: 768px) {
+  .element-header{
+      color: var(--cl-paper);
+      padding: 20px 30px 10px 30px;
+  }
+}

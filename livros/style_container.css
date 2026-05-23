@@ -130,3 +130,11 @@
     height: 100px;
     width: 100px;
 }
+
+@media (max-width: 768px) {
+    #lista-livros {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 por linha */
+    gap: 20px; /* espaço entre os cards */
+    }
+}

@@ -86,3 +86,11 @@
     background-color: rgb(255, 255, 255);
     transform: scale(0.93);
 }
+
+@media (max-width: 768px) {
+    #lista-artigos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 por linha */
+    gap: 20px; /* espaço entre os cards */
+    }
+}
