@@ -134,7 +134,7 @@ main {
     left: 175px;
 
     width: 180px;
-    height: 320px;
+    height: 70dvh;
 
     background: var(--bg-white);
     border: 1px solid var(--bg-paper);

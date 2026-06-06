@@ -66,13 +66,13 @@ main {
 @media (max-width: 768px) {
     #markdown blockquote {
         margin: 50px 0px;
-        border-left: 4px solid var(--bg-marca);
+        border-left: 0px solid var(--bg-marca);
         padding-left: 0px;
         color: var(--cl-paper);
     }
 
     #texto-principal {
-        padding: 0px 10px;
+        padding: 0px 20px;
     }
 
     #markdown img {
