@@ -36,7 +36,7 @@ main {
 #markdown blockquote {
     margin: 50px 0px;
     border-left: 4px solid var(--bg-marca);
-    padding-left: 10px;
+    padding-left: 0px;
     color: var(--cl-paper);
 }
 

@@ -100,7 +100,7 @@ button {
 /* DEFINIÇÕES PARA DISPOSITIVO MÓVEL */
 @media (max-width: 768px) {
     #filtro-livros {
-        margin: 3px;
-        gap: 20px;
+        margin: 20px 20px 20px 150px;
+        gap: 10px;
     }
 }
