@@ -125,12 +125,6 @@
     transform: scale(0.93);
 }
 
-
-.teste {
-    height: 100px;
-    width: 100px;
-}
-
 @media (max-width: 768px) {
     #lista-livros {
     display: grid;
@@ -140,7 +134,7 @@
 
     #mais-livro {
         display: flex;
-        width: 100%;
+        width: 100px;
         height: 30px;
         align-items: center;
         justify-content: center;

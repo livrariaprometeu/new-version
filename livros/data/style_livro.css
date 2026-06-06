@@ -111,8 +111,8 @@ main {
 @media (max-width: 768px) {
   #viewer {
     width: 100%;
-    min-height: 30vh;
-    margin: 10px;
+    height: 30vh;
+    margin: 2px;
   }
 
   #toggleToc {
@@ -130,8 +130,8 @@ main {
 
   #toc {
     position: absolute;
-    top: 115px; /* abaixo do botão */
-    left: 120px;
+    top: 113px; /* abaixo do botão */
+    left: 160px;
 
     width: 180px;
     height: 320px;

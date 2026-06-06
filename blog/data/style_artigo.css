@@ -36,7 +36,7 @@ main {
 #markdown blockquote {
     margin: 50px 0px;
     border-left: 4px solid var(--bg-marca);
-    padding-left: 0px;
+    padding-left: 20px;
     color: var(--cl-paper);
 }
 
@@ -53,7 +53,7 @@ main {
 }
 
 #markdown img {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-self: center;
 }
@@ -61,4 +61,22 @@ main {
 .definir-tamanho-aba{
     display: flex;
     justify-self: center;
+}
+
+@media (max-width: 768px) {
+
+    #markdown blockquote {
+        margin: 50px 0px;
+        border-left: 4px solid var(--bg-marca);
+        padding-left: 0px;
+        color: var(--cl-paper);
+    }
+
+    #markdown img {
+        width: 100%;
+        height: 230px;
+        display: flex;
+        justify-self: center;
+    }
+
 }
