@@ -111,7 +111,7 @@ main {
 @media (max-width: 768px) {
   #viewer {
     width: 100%;
-    height: 55vh;
+    height: 65vh;
     margin: 2px;
   }
 
