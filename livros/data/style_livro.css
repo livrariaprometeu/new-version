@@ -111,7 +111,43 @@ main {
 @media (max-width: 768px) {
   #viewer {
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     margin: 10px;
+  }
+
+  #toggleToc {
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-self: end;
+    margin: 0px 10px 0px 0px;
+    color: var(--bg-paper);
+    padding: 4px;
+    background-color: var(--bg-marca);
+    border: 2px solid var(--bg-marca);
+    border-radius: 7px;
+  }
+
+  #toc {
+    position: absolute;
+    top: 115px; /* abaixo do botão */
+    left: 2px;
+
+    width: 180px;
+    height: 320px;
+
+    background: var(--bg-white);
+    border: 1px solid var(--bg-paper);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    z-index: 1000; /* garante que fique por cima */
+
+    overflow-y: auto; /* 👈 ativa scroll vertical */
+    overflow-x: hidden;
+
+    display: flex;
+    margin: 0px 10px 0px 0px;
+    align-self: end;
+    padding: 4px;
   }
 }

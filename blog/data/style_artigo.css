@@ -53,7 +53,7 @@ main {
 }
 
 #markdown img {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-self: center;
 }

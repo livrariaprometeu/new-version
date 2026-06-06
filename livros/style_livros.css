@@ -101,6 +101,6 @@ button {
 @media (max-width: 768px) {
     #filtro-livros {
         margin: 3px;
-        gap: 10px;
+        gap: 20px;
     }
 }
