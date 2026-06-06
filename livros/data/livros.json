@@ -1,13 +1,5 @@
 [
   {
-    "id": 3,
-    "titulo": "Guia - Inicio",
-    "categoria": ["Guia"],
-    "avaliacao": 0,
-    "idioma": "Ingles",
-    "autor": "John Schember"
-  },
-  {
     "id": 2,
     "titulo": "Moby Dick or the white whale",
     "categoria": ["Romance"],

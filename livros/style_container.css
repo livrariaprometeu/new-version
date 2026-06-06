@@ -178,7 +178,7 @@
         position: fixed;
         bottom: 20px;
         right: 0px;
-        height: 100dvh;
+        height: 80dvh;
         width: 360px;
         padding: 0px 10px 0px 10px;
         background: var(--bg-white);
