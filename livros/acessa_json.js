@@ -93,7 +93,7 @@ fetch("/livros/data/livros.json")
                     
                     // Define layout do card
                     divMais.innerHTML = `
-                        <div>
+                        <div class="container-mais">
                             <div class="mais-livro" id="fechar-mais">x</div>
                             <div id="corpo-mais">
                                 <div id="markdown-resumo-livro">${markdown}</div>
