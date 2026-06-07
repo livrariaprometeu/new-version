@@ -46,3 +46,31 @@ async function carregarResumo() {
 }
 
 carregarResumo();
+
+// CARROSSEL
+const carrossel = document.getElementById("carrossel");
+const slides = document.querySelectorAll(".card");
+const indicadores = document.querySelector(".indicadores");
+
+slides.forEach((_, index) => {
+    const dot = document.createElement("span");
+
+    dot.classList.add("dot");
+
+    if(index === 0){
+        dot.classList.add("ativo");
+    }
+
+    indicadores.appendChild(dot);
+});
+
+const dots = document.querySelectorAll(".dot");
+
+carrossel.addEventListener("scroll", () => {
+    const indice = Math.round(
+        carrossel.scrollLeft / carrossel.offsetWidth
+    );
+
+    dots.forEach(dot => dot.classList.remove("ativo"));
+    dots[indice]?.classList.add("ativo");
+});

@@ -1,13 +1,5 @@
 [
   {
-    "id": 3,
-    "titulo": "Don Quixote de La Mancha",
-    "categoria": ["Romance"],
-    "avaliacao": 5,
-    "idioma": "Português",
-    "autor": "Miguel de Cervantes"
-  },
-  {
     "id": 2,
     "titulo": "Moby Dick or the white whale",
     "categoria": ["Romance"],
