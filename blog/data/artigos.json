@@ -1,15 +1,29 @@
 [
   {
+    "id": 4,
+    "titulo": "15 Livros Para Quem Quer Começar a Ler",
+    "categoria": "Recomendacoes",
+    "idioma": "dicas",
+    "caminho":"15-livros-para-quem-quer-comecar-a-ler"
+  },
+  {
+    "id": 3,
+    "titulo": "Como Criar o Hábito da Leitura em 30 Dias",
+    "categoria": "Técnicas de leitura",
+    "idioma": "portugues",
+    "caminho":"como-criar-o-habito-da-leitura-em-30-dias"
+  },
+  {
     "id": 2,
     "titulo": "O mito de Prometeu e o poder transformador da leitura",
-    "categoria": "terror",
+    "categoria": "Filosofia",
     "idioma": "portugues",
     "caminho":"o-mito-de-prometeu-e-o-poder-transformador-da-leitura"
   },
   {
     "id": 1,
     "titulo": "Por que ainda precisamos de livros na era digital?",
-    "categoria": "humor",
+    "categoria": "Cultura",
     "idioma": "portugues",
     "caminho":"por-que-ainda-precisamos-de-livros-na-era-digital"
   }

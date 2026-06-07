@@ -1,6 +1,6 @@
 async function lerArquivoHome() {
   try {
-    const response = await fetch("/blog/data/artigo/por-que-ainda-precisamos-de-livros-na-era-digital/texto.md");
+    const response = await fetch("/blog/data/artigo/como-criar-o-habito-da-leitura-em-30-dias/texto.md");
 
     if (!response.ok) {
       throw new Error(`Erro HTTP: ${response.status}`);

@@ -179,11 +179,25 @@
         bottom: 20px;
         right: 0px;
         height: 80dvh;
-        width: 360px;
+        width: 350px;
         padding: 0px 10px 0px 10px;
         background: var(--bg-white);
         border-radius: 10px;
         display: none;
         z-index: 9999;
+        margin: 0px 10px 0px 0px ;
+    }
+    #fechar-mais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: end;
+        margin: 2% 2% 0px 93%;
+
+        color: var(--bg-paper);
+
+        width: 20px;
+        height: 20px;
+        background-color: var(--bg-marca);
     }
 }
