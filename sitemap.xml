@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página inicial -->
+    <url>
+        <loc>https://livrariaprometeu.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Livros -->
+    <url>
+        <loc>https://livrariaprometeu.com/livros</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Blog -->
+    <url>
+        <loc>https://livrariaprometeu.com/blog</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Artigos -->
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/15-livros-para-quem-quer-comecar-a-ler</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/como-criar-o-habito-da-leitura-em-30-dias</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/por-que-ainda-precisamos-de-livros-na-era-digital</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

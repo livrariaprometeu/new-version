@@ -171,15 +171,3 @@ A leitura é um hábito construído aos poucos. O mais importante não é quanto
 Não existe um livro perfeito para todos os leitores. O melhor livro para começar é aquele que consegue despertar sua curiosidade e fazer você querer virar a próxima página.
 
 Se você está iniciando sua jornada como leitor, qualquer obra desta lista pode ser um excelente primeiro passo.
-
----
-
-### Palavras-chave SEO
-
-- livros para começar a ler
-- livros para iniciantes
-- hábito da leitura
-- melhores livros para iniciantes
-- livros fáceis de ler
-- livros para quem não gosta de ler
-- clássicos para iniciantes
