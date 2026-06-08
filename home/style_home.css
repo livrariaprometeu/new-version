@@ -88,7 +88,7 @@ main {
 }
 
 .dot.ativo {
-    background: #0095f6;
+    background: var(--bg-marca);
 }
 
 @media (max-width: 768px) {
