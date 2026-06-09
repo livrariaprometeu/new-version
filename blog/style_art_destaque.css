@@ -152,4 +152,9 @@
 
     overflow: hidden;
   }
+.titulo-artigo-destaque {
+  font-size: 0px;
+  font-weight: 0;
+  color: #ffffff00;
+}
 }

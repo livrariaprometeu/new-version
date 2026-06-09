@@ -33,8 +33,8 @@ async function carregarResumo() {
 
     divMais.innerHTML = `
       <div id="markdown-resumo-livro">${markdown}</div>
-      <a class="links" href="/livros" rel="noopener noreferrer">
-        <div id="btn-livros-home">Explorar livros</div>
+      <a class="links" href="/sobre" rel="noopener noreferrer">
+        <div id="btn-resumo-home">Saiba mais</div>
       </a>
     `;
 

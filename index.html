@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head
+    <head>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM7DDY63WN"></script>
 
@@ -62,6 +62,7 @@
         <link rel="stylesheet" href="/style_geral.css">
         <link rel="stylesheet" href="/footer/style_footer.css">
         <link rel="stylesheet" href="/blog/style_art_destaque.css">
+        <link rel="stylesheet" href="/home/style_livros_destaque.css">
     </head>
     <body>
             <header>
@@ -74,7 +75,7 @@
                         <div id="indicadores"></div>
                         <div id="track-destaque"></div>
                     </div>
-                    <h2>Quais são os benefícios da leitura?</h2>
+                    <h2 class="subtitulo-inicio">Quais são os benefícios da leitura?</h2>
                     <div class="carrossel-container">
                         <div id="carrossel">
                             <div class="card-carrossel">
@@ -172,12 +173,16 @@
                             <span class="dot"></span>
                             <span class="dot"></span>
                         </div>
-                    </div>    
+                    </div>  
+                    
+                    <h2 class="subtitulo-inicio">Curadoria</h2>
+                    <div id="lista-livros" class="carrossel-livros"></div>
                 </main>
             </div>
             <footer>
                 <div id="footer-container"></div>
             </footer>
+
         
 
         <script src="/footer/script_footer.js"></script>
@@ -186,7 +191,7 @@
         <script src="/insert_footer.js"></script>
         <script src="/insert_header.js"></script>
         <script src="/header/script_header.js"></script>
-        <script src="/header/script_mode.js" defer></script>
+        <script src="/home/livros_destaque.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     </body>
 </html>

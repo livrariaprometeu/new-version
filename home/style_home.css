@@ -13,7 +13,7 @@ main {
     padding: 0px 50px 50px 50px;
 }
 
-#btn-livros-home {
+#btn-resumo-home {
     display: flex;
     justify-content: center;
 
@@ -25,7 +25,7 @@ main {
     margin: 50px 20% 0px 20%;
     border-radius: 10px;
 }
-#btn-livros-home:hover {
+#btn-resumo-home:hover {
     background-color: var(--bg-marca-ativo);
 }
 
@@ -89,6 +89,10 @@ main {
 
 .dot.ativo {
     background: var(--bg-marca);
+}
+
+.subtitulo-inicio {
+    margin: 10dvh 0px 1dvh 0px;
 }
 
 @media (max-width: 768px) {

@@ -1,3 +1,7 @@
+* {
+    font-family: 'Merriweather', sans-serif;
+}
+
 :root {
     /* Background */
     --bg-header: #dfddd8;
@@ -32,3 +36,4 @@
     align-self: center;
     width:  clamp(20rem, 90%, 60rem);
 }
+
