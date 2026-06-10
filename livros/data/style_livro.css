@@ -54,10 +54,10 @@ main {
 
 #toc {
   position: absolute;
-  top: 105px; /* abaixo do botão */
-  left: 10px;
+  top: 110px; /* abaixo do botão */
+  left: 116.5dvh;
 
-  width: 180px;
+  width: 190px;
   height: 320px;
 
   background: var(--bg-white);
@@ -70,7 +70,7 @@ main {
   overflow-x: hidden;
 
   display: flex;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 0px;
   align-self: end;
   padding: 4px;
 }

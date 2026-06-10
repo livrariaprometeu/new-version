@@ -79,4 +79,59 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Livros -->
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=1</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=2</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=3</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=4</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=5</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=6</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/data/?id=7</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

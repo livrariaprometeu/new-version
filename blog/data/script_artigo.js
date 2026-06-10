@@ -1,14 +1,13 @@
-async function lerArquivoHome() {
+// Descobre qual foi o artigo carregado grava em uma variável
+const partes = window.location.pathname.split('/').filter(Boolean);
+const resultado = partes.slice(-1).join('/');
 
-  const caminhoMarkdown = new URL(
-    "texto.md",
-    window.location.href
-  );
+console.log(resultado);
 
-  console.log("Arquivo:", caminhoMarkdown.href);
-
+// Lê o arquivo Markdown
+async function lerArquivoHome(AbaArtigo) {
   try {
-    const response = await fetch(caminhoMarkdown);
+    const response = await fetch(`/blog/data/artigo/${AbaArtigo}/texto.md`);
 
     if (!response.ok) {
       throw new Error(`Erro HTTP: ${response.status}`);
@@ -22,7 +21,8 @@ async function lerArquivoHome() {
   }
 }
 
-async function carregarResumo() {
+// Adiciona arquivo Markdown na pagina HTML
+async function carregarResumo(AbaArtigo) {
   const conteudoMais = document.getElementById("texto-principal");
 
   if (!conteudoMais) {
@@ -34,9 +34,7 @@ async function carregarResumo() {
   divMais.classList.add("card");
 
   try {
-    const texto = await lerArquivoHome();
-
-    console.log("Texto carregado:", texto);
+    const texto = await lerArquivoHome(AbaArtigo);
 
     const markdown = marked.parse(texto);
 
@@ -53,4 +51,74 @@ async function carregarResumo() {
   }
 }
 
-carregarResumo();
+carregarResumo(resultado); // Chama função para adicionar Markdown no HTML
+
+
+
+async function criarRecomendacoes(caminhoAtual) {
+    try {
+        const response = await fetch("/blog/data/artigos.json");
+        const artigos = await response.json();
+
+        const artigoAtual = artigos.find(
+            artigo => artigo.caminho === caminhoAtual
+        );
+
+        if (!artigoAtual) return;
+
+        const embaralhar = (array) =>
+            [...array].sort(() => Math.random() - 0.5);
+
+        // Mesma categoria
+        let recomendados = artigos.filter(
+            artigo =>
+                artigo.categoria === artigoAtual.categoria &&
+                artigo.caminho !== caminhoAtual
+        );
+
+        recomendados = embaralhar(recomendados);
+
+        // Completa até 3
+        if (recomendados.length < 3) {
+            const faltam = 3 - recomendados.length;
+
+            const outrosArtigos = artigos.filter(
+                artigo =>
+                    artigo.caminho !== caminhoAtual &&
+                    !recomendados.some(r => r.id === artigo.id)
+            );
+
+            recomendados.push(
+                ...embaralhar(outrosArtigos).slice(0, faltam)
+            );
+        }
+
+        recomendados = recomendados.slice(0, 3);
+
+        document.getElementById("conteudo-pos-artigo").innerHTML = `
+            <section class="recomendacoes">
+                <h2>Artigos recomendados</h2>
+                <div class="lista-recomendacoes">
+                    ${recomendados.map(artigo => `
+                      <a class="linkagem-art" href="/blog/data/artigo/${artigo.caminho}">
+                        <div id="container-artigo">
+                          <div id="idioma-artigo">${artigo.idioma}</div>
+                          <div class="capa-artigo"><img class="capa-artigo" src="/blog/data/artigo/${artigo.caminho}/capa.webp"></div>
+                          <div id="infos-artigo">
+                            <p id="titulo-artigo">${artigo.titulo}</p>
+                              <div id="informacoes-artigo">
+                                  <p class="informacao-artigo" id="categoria-livro"></p>
+                              </div>
+                            </div>
+                        </div>
+                      </a>
+                    `).join("")}
+                </div>
+            </section>
+        `;
+    } catch (erro) {
+        console.error("Erro ao carregar recomendações:", erro);
+    }
+}
+
+criarRecomendacoes(resultado);

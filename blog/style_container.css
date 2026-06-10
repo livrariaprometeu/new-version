@@ -24,6 +24,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     transition: transform 0.2s ease;
+    text-decoration: none;
 }
 #container-artigo:hover {
     transform: translateY(-6px);
@@ -36,21 +37,25 @@
     border-radius: 15px 15px 0px 0px;
     background-color: rgb(103, 62, 50);
     object-fit: cover;
+    text-decoration: none;
 }
 #titulo-artigo {
     font-size: 18px;
     font-weight:bold;
     color: rgb(103, 62, 50);
+    text-decoration: none;
 }
 #informacoes-artigo {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 #categoria-artigo {
     align-items: center;
     width: 130px;
     height: 20px;
     margin: 0px 10px 0px 0px;
+    text-decoration: none;
 }
 #ler-artigo {
     display: flex;

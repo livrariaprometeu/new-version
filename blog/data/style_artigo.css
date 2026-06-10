@@ -63,6 +63,17 @@ main {
     justify-self: center;
 }
 
+.lista-recomendacoes{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 por linha */
+  gap: 20px; /* espaço entre os cards */
+  text-decoration: none;
+}
+
+#titulo-artigo, #linkagem-art, #container-artigo, #idioma-artigo, #infos-artigo, #titulo-artigo{
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     #markdown blockquote {
         margin: 50px 0px;
@@ -78,5 +89,12 @@ main {
     #markdown img {
         width: 100%;
         height: auto;
+    }
+
+    .lista-recomendacoes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 por linha */
+    gap: 20px; /* espaço entre os cards */
+    text-decoration: none;
     }
 }

@@ -1,10 +1,50 @@
 [
   {
+    "id": 7,
+    "titulo": "Ulysses",
+    "categoria": ["Ficção"],
+    "avaliacao": 4,
+    "idioma": "Inglês",
+    "autor": "James Joyce"
+  },
+  {
+    "id": 6,
+    "titulo": "Meditations",
+    "categoria": ["Filosofia"],
+    "avaliacao": 5,
+    "idioma": "Inglês",
+    "autor": "Marcus Aurelius"
+  },
+  {
+    "id": 5,
+    "titulo": "Dracula",
+    "categoria": ["Gótico"],
+    "avaliacao": 4,
+    "idioma": "Inglês",
+    "autor": "Bram Stoker"
+  },
+  {
+    "id": 4,
+    "titulo": "Alice's Adventures in Wonderland",
+    "categoria": ["Fantasia"],
+    "avaliacao": 5,
+    "idioma": "Inglês",
+    "autor": "Lewis Carroll"
+  },
+  {
+    "id": 3,
+    "titulo": "Romeu and Juliet",
+    "categoria": ["Romance"],
+    "avaliacao": 4,
+    "idioma": "Inglês",
+    "autor": "William Shakespeare"
+  },
+  {
     "id": 2,
     "titulo": "Moby Dick or the white whale",
     "categoria": ["Romance"],
     "avaliacao": 5,
-    "idioma": "Ingles",
+    "idioma": "Inglês",
     "autor": "Herman Melville"
   },
   {
@@ -12,7 +52,7 @@
     "titulo": "Top-Notch Magazine",
     "categoria": ["Pulp"],
     "avaliacao": 4,
-    "idioma": "Ingles",
+    "idioma": "Inglês",
     "autor": "Street & Smith"
   }
 ]
