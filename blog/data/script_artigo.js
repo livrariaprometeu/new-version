@@ -96,26 +96,36 @@ async function criarRecomendacoes(caminhoAtual) {
         recomendados = recomendados.slice(0, 3);
 
         document.getElementById("conteudo-pos-artigo").innerHTML = `
-            <section class="recomendacoes">
-                <h2>Artigos recomendados</h2>
-                <div class="lista-recomendacoes">
-                    ${recomendados.map(artigo => `
-                      <a class="linkagem-art" href="/blog/data/artigo/${artigo.caminho}">
-                        <div id="container-artigo">
-                          <div id="idioma-artigo">${artigo.idioma}</div>
-                          <div class="capa-artigo"><img class="capa-artigo" src="/blog/data/artigo/${artigo.caminho}/capa.webp"></div>
-                          <div id="infos-artigo">
-                            <p id="titulo-artigo">${artigo.titulo}</p>
-                              <div id="informacoes-artigo">
-                                  <p class="informacao-artigo" id="categoria-livro"></p>
-                              </div>
-                            </div>
+        <section class="recomendacoes">
+            <h2>Artigos recomendados</h2>
+            <div class="lista-recomendacoes">
+                ${recomendados.map(artigo => `
+                    <div class="container-artigo"
+                        data-caminho="${artigo.caminho}">
+                        
+                        <div id="idioma-artigo">${artigo.idioma}</div>
+
+                        <div class="capa-artigo">
+                            <img class="capa-artigo"
+                                src="/blog/data/artigo/${artigo.caminho}/capa.webp">
                         </div>
-                      </a>
-                    `).join("")}
-                </div>
-            </section>
+
+                        <div id="infos-artigo">
+                            <p id="titulo-artigo">${artigo.titulo}</p>
+                        </div>
+
+                    </div>
+                `).join("")}
+            </div>
+        </section>
         `;
+
+        document.querySelectorAll(".container-artigo").forEach(card => {
+            card.addEventListener("click", () => {
+                const caminho = card.dataset.caminho;
+                window.location.href = `/blog/data/artigo/${caminho}`;
+            });
+        });
     } catch (erro) {
         console.error("Erro ao carregar recomendações:", erro);
     }

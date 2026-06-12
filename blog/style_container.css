@@ -30,6 +30,20 @@
     transform: translateY(-6px);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.186);
 }
+
+.container-artigo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+}
+.container-artigo:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.186);
+}
+
 .capa-artigo {
     align-self: center;
     width: 100%;
