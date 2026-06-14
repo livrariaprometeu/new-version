@@ -13,8 +13,12 @@ function compartilhar(titulo, id) {
   if (navigator.share) {
     navigator.share({
       title: `${titulo}`,
-      text: "\nTô te enviando esse eBook, achei a sua cara 😄\n",
-      url: `/livros/data/?id=${id}`
+      text: `Te enviando o eBook "${titulo}" porque acho que você vai gostar.\n
+            \n
+            É uma leitura rápida e pode te trazer boas ideias sobre esse tema.\n
+            \n
+            Se quiser, dá uma olhada aqui 👇\n\n`,
+      url: `https://livrariaprometeu.com/livros/data/?id=${id}`
     });
   } else {
     alert("Compartilhamento não suportado nesse navegador.");
@@ -51,7 +55,7 @@ fetch("/livros/data/livros.json")
                     <div class="capa-livro"><img class="capa-livro" src="/livros/data/capa/${item.id}.webp"></div>
                     <p id="titulo-livro">${item.titulo}</p>
                     <div id="informacoes-livro">
-                        <p class="informacao-livro" id="categoria-livro">${item.categoria}</p>
+                        <p class="informacao-livro" id="categoria-livro">${item.categoria[0]}</p>
                         <p class="informacao-livro" id="categoria-estrelas">${html}</p>
                     </div>
                     <p class="ler-livro" id="ler-livro">Ler</p>
@@ -70,10 +74,11 @@ fetch("/livros/data/livros.json")
             // 4) Da funcionalidade para os botões do container
             // 4.1) Funcionalidade para o botão "Mais"
             const btnLer = div.querySelector(".ler-livro");
-            let caminhoLer = "/livros/data/";
+            let caminhoLer = "/livros/data/livro/";
 
             btnLer.addEventListener("click", () => {
-                 window.location.href = `${caminhoLer}?id=${item.id}`;
+                //  window.location.href = `${caminhoLer}?id=${item.id}`;
+                 window.location.href = `${caminhoLer}${item.caminho}`;
             });
             // 4.2) Funcionalidade para o botão "Mais"
             // Define variáveis

@@ -49,28 +49,50 @@ carregarResumo();
 
 // CARROSSEL
 const carrossel = document.getElementById("carrossel");
-const slides = document.querySelectorAll(".card");
-const indicadores = document.querySelector(".indicadores");
-
-slides.forEach((_, index) => {
-    const dot = document.createElement("span");
-
-    dot.classList.add("dot");
-
-    if(index === 0){
-        dot.classList.add("ativo");
-    }
-
-    indicadores.appendChild(dot);
-});
-
+const cards = document.querySelectorAll(".card-carrossel");
 const dots = document.querySelectorAll(".dot");
 
-carrossel.addEventListener("scroll", () => {
-    const indice = Math.round(
-        carrossel.scrollLeft / carrossel.offsetWidth
-    );
+const btnPrev = document.querySelector(".seta-esquerda");
+const btnNext = document.querySelector(".seta-direita");
 
-    dots.forEach(dot => dot.classList.remove("ativo"));
-    dots[indice]?.classList.add("ativo");
+let index = 0;
+
+function atualizarDots() {
+    dots.forEach((dot, i) => {
+        dot.classList.toggle("ativo", i === index);
+    });
+}
+
+function irParaSlide(i) {
+    index = i;
+
+    const cardWidth = carrossel.clientWidth;
+
+    carrossel.scrollTo({
+        left: cardWidth * index,
+        behavior: "smooth"
+    });
+
+    atualizarDots();
+}
+btnNext.addEventListener("click", () => {
+    if (index < cards.length - 1) {
+        irParaSlide(index + 1);
+    } else {
+        irParaSlide(0);
+    }
+});
+
+btnPrev.addEventListener("click", () => {
+    if (index > 0) {
+        irParaSlide(index - 1);
+    } else {
+        irParaSlide(cards.length - 1);
+    }
+});
+
+carrossel.addEventListener("scroll", () => {
+    const indexCalc = Math.round(carrossel.scrollLeft / carrossel.clientWidth);
+    index = indexCalc;
+    atualizarDots();
 });

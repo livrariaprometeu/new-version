@@ -2,8 +2,6 @@
 const partes = window.location.pathname.split('/').filter(Boolean);
 const resultado = partes.slice(-1).join('/');
 
-console.log(resultado);
-
 // Lê o arquivo Markdown
 async function lerArquivoHome(AbaArtigo) {
   try {

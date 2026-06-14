@@ -1,0 +1,87 @@
+body {
+    text-align: justify
+    }
+@media screen {
+    body {
+        margin-left: 20%;
+        margin-right: 20%
+        }
+    }
+.pagedjs_page_content > div {
+    margin-left: 20%;
+    margin-right: 20%
+    }
+.no-break {
+    page-break-before: avoid
+    }
+div.chapter {
+    page-break-before: always;
+    margin-top: 4em
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%
+    }
+hr {
+    width: 50%;
+    text-align: center
+    }
+pre {
+    font-style: italic;
+    font-size: 90%;
+    margin-left: 10%
+    }
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.center {
+    text-align: center;
+    text-indent: 0;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+p.footnote {
+    font-size: 90%;
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+sup {
+    vertical-align: top;
+    font-size: 0.6em
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+body {
+    background: initial;
+    color: initial
+    }
+a {
+    text-decoration: initial
+    }

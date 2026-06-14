@@ -5,7 +5,8 @@
     "categoria": ["Ficção"],
     "avaliacao": 4,
     "idioma": "Inglês",
-    "autor": "James Joyce"
+    "autor": "James Joyce",
+    "caminho": "ulysses-in"
   },
   {
     "id": 6,
@@ -13,7 +14,8 @@
     "categoria": ["Filosofia"],
     "avaliacao": 5,
     "idioma": "Inglês",
-    "autor": "Marcus Aurelius"
+    "autor": "Marcus Aurelius",
+    "caminho": "meditations-in"
   },
   {
     "id": 5,
@@ -21,7 +23,8 @@
     "categoria": ["Gótico"],
     "avaliacao": 4,
     "idioma": "Inglês",
-    "autor": "Bram Stoker"
+    "autor": "Bram Stoker",
+    "caminho": "dracula-in"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "categoria": ["Fantasia"],
     "avaliacao": 5,
     "idioma": "Inglês",
-    "autor": "Lewis Carroll"
+    "autor": "Lewis Carroll",
+    "caminho": "alice-s-adventures-in-wonderland-in"
   },
   {
     "id": 3,
@@ -37,7 +41,8 @@
     "categoria": ["Romance"],
     "avaliacao": 4,
     "idioma": "Inglês",
-    "autor": "William Shakespeare"
+    "autor": "William Shakespeare",
+    "caminho": "romeu-and-juliet-in"
   },
   {
     "id": 2,
@@ -45,14 +50,16 @@
     "categoria": ["Romance"],
     "avaliacao": 5,
     "idioma": "Inglês",
-    "autor": "Herman Melville"
+    "autor": "Herman Melville",
+    "caminho": "moby-dick-or-the-white-whale-in"
   },
   {
     "id": 1,
-    "titulo": "Top-Notch Magazine",
-    "categoria": ["Pulp"],
+    "titulo": "More Than Skin Deep",
+    "categoria": ["Pulp Fiction", "Romance", "Drama"],
     "avaliacao": 4,
     "idioma": "Inglês",
-    "autor": "Street & Smith"
+    "autor": "Street & Smith",
+    "caminho": "more-than-skin-deep-in"
   }
 ]

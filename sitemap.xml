@@ -94,43 +94,43 @@
 
     <!-- Livros -->
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=1</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/alice-s-adventures-in-wonderland-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=2</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/dracula-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=3</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/meditations-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=4</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/moby-dick-or-the-white-whale-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=5</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/more-than-skin-deep-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=6</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/romeu-and-juliet-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/?id=7</loc>
+        <loc>https://livrariaprometeu.com/livros/data/livro/ulysses-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

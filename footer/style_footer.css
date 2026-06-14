@@ -73,4 +73,14 @@
     width: 30%;
     gap: 20px;
 }
+
+.div-rede-social-un {
+    padding: 5px;
+    margin: 0px 0px 0px 10px;
+    gap: 20px 0px;
+    font-size: 11px;
+}
+#redes-social {
+    width: 60%;
+}
 }

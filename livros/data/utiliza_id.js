@@ -1,6 +1,8 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
+console.log(resultado);
+
 console.log("ID:", id);
 
 let rendition;
