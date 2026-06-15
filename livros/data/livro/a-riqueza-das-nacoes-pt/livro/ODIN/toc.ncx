@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:858ff5f6-12a1-44ce-af6d-6bf79fe8da43" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>A riqueza das nações</text>
+  </docTitle>
+  <navMap>
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>OdinRights</text> </navLabel> <content src="Text/OdinRights.xhtml"/> </navPoint>
+    <navPoint class="chapter" id="num_1" playOrder="0">
+      <navLabel>
+        <text>Rosto</text>
+      </navLabel>
+      <content src="Text/part0000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="1">
+      <navLabel>
+        <text>Créditos</text>
+      </navLabel>
+      <content src="Text/part0001.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="2">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="3">
+      <navLabel>
+        <text>Introdução</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="4">
+      <navLabel>
+        <text>Introdução e plano da obra</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_6" playOrder="5">
+      <navLabel>
+        <text>Livro I | Das causas do aumento das forças produtivas do trabalho e da ordem segundo a qual seu produto é naturalmente distribuído entre as diversas categorias do povo</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+      <navPoint class="chapter" id="num_7" playOrder="6">
+        <navLabel>
+          <text>CAPÍTULO 1 | Da divisão do trabalho</text>
+        </navLabel>
+        <content src="Text/part0006.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_8" playOrder="7">
+        <navLabel>
+          <text>CAPÍTULO 2 | Do princípio que dá ocasião à divisão do trabalho</text>
+        </navLabel>
+        <content src="Text/part0007.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_9" playOrder="8">
+        <navLabel>
+          <text>CAPÍTULO 3 | Que a divisão do trabalho é limitada pela extensão do mercado</text>
+        </navLabel>
+        <content src="Text/part0008.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_10" playOrder="9">
+        <navLabel>
+          <text>CAPÍTULO 4 | Da origem e do uso do dinheiro</text>
+        </navLabel>
+        <content src="Text/part0009.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_11" playOrder="10">
+        <navLabel>
+          <text>CAPÍTULO 5 | Do preço real e nominal das mercadorias, de seu preço em trabalho e seu preço em dinheiro</text>
+        </navLabel>
+        <content src="Text/part0011.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="11">
+        <navLabel>
+          <text>CAPÍTULO 6 | Das partes componentes do preço das mercadorias</text>
+        </navLabel>
+        <content src="Text/part0013.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_13" playOrder="12">
+        <navLabel>
+          <text>CAPÍTULO 7 | Do preço natural e do preço de mercado das mercadorias</text>
+        </navLabel>
+        <content src="Text/part0014.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_14" playOrder="13">
+        <navLabel>
+          <text>CAPÍTULO 8 | Dos ganhos do trabalho</text>
+        </navLabel>
+        <content src="Text/part0015.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="14">
+        <navLabel>
+          <text>CAPÍTULO 9 | Dos lucros dos fundos</text>
+        </navLabel>
+        <content src="Text/part0017.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="15">
+        <navLabel>
+          <text>CAPÍTULO 10 | Dos salários e do lucro nos diferentes empregos do trabalho e do capital</text>
+        </navLabel>
+        <content src="Text/part0019.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_17" playOrder="16">
+        <navLabel>
+          <text>CAPÍTULO 11 | Da renda da terra</text>
+        </navLabel>
+        <content src="Text/part0021.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_18" playOrder="17">
+      <navLabel>
+        <text>Livro II | Da natureza, acumulação e emprego do capital</text>
+      </navLabel>
+      <content src="Text/part0023.html"/>
+      <navPoint class="chapter" id="num_19" playOrder="18">
+        <navLabel>
+          <text>CAPÍTULO 1 | Da acumulação do capital, ou do trabalho produtivo ou improdutivo</text>
+        </navLabel>
+        <content src="Text/part0024.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_20" playOrder="19">
+      <navLabel>
+        <text>Livro III | Do diferente progresso da opulência em diferentes nações</text>
+      </navLabel>
+      <content src="Text/part0025.html"/>
+      <navPoint class="chapter" id="num_21" playOrder="20">
+        <navLabel>
+          <text>CAPÍTULO 1 | Do progresso natural da opulência</text>
+        </navLabel>
+        <content src="Text/part0026.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_22" playOrder="21">
+        <navLabel>
+          <text>CAPÍTULO 2 | Como o comércio das cidades contribuiu para o melhoramento do campo</text>
+        </navLabel>
+        <content src="Text/part0027.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_23" playOrder="22">
+      <navLabel>
+        <text>Livro IV | Dos sistemas de economia política</text>
+      </navLabel>
+      <content src="Text/part0028.html"/>
+      <navPoint class="chapter" id="num_24" playOrder="23">
+        <navLabel>
+          <text>CAPÍTULO 1 | Do princípio do sistema comercial, ou mercantil</text>
+        </navLabel>
+        <content src="Text/part0029.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_25" playOrder="24">
+        <navLabel>
+          <text>CAPÍTULO 2 | Das restrições sobre a importação de países estrangeiros dos bens que o país pode produzir</text>
+        </navLabel>
+        <content src="Text/part0031.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_26" playOrder="25">
+        <navLabel>
+          <text>CAPÍTULO 3 | Das restrições extraordinárias sobre a importação de bens de quase todo tipo daqueles países com que a balança é suposta desvantajosa</text>
+        </navLabel>
+        <content src="Text/part0032.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_27" playOrder="26">
+        <navLabel>
+          <text>CAPÍTULO 4 | Do reembolso das tarifas aduaneiras</text>
+        </navLabel>
+        <content src="Text/part0033.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_28" playOrder="27">
+        <navLabel>
+          <text>CAPÍTULO 5 | Dos prêmios</text>
+        </navLabel>
+        <content src="Text/part0034.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_29" playOrder="28">
+        <navLabel>
+          <text>CAPÍTULO 6 | Dos tratados de comércio</text>
+        </navLabel>
+        <content src="Text/part0036.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_30" playOrder="29">
+        <navLabel>
+          <text>CAPÍTULO 7 | Das colônias</text>
+        </navLabel>
+        <content src="Text/part0038.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_31" playOrder="30">
+        <navLabel>
+          <text>CAPÍTULO 8 | Conclusão do sistema mercantil</text>
+        </navLabel>
+        <content src="Text/part0040.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_32" playOrder="31">
+        <navLabel>
+          <text>CAPÍTULO 9 | Dos sistemas agrícolas, ou daqueles sistemas de economia política que representam o produto da terra como a única ou principal fonte de renda e riqueza de todo país</text>
+        </navLabel>
+        <content src="Text/part0041.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_33" playOrder="32">
+      <navLabel>
+        <text>Livro V | Da renda do soberano ou comunidade</text>
+      </navLabel>
+      <content src="Text/part0043.html"/>
+      <navPoint class="chapter" id="num_34" playOrder="33">
+        <navLabel>
+          <text>CAPÍTULO 1 | Das despesas do soberano ou comunidade</text>
+        </navLabel>
+        <content src="Text/part0044.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_35" playOrder="34">
+      <navLabel>
+        <text>CONCLUSÃO</text>
+      </navLabel>
+      <content src="Text/part0046.html"/>
+      <navPoint class="chapter" id="num_36" playOrder="35">
+        <navLabel>
+          <text>CAPÍTULO 2 | Das fontes da renda geral ou pública da sociedade</text>
+        </navLabel>
+        <content src="Text/part0047.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_37" playOrder="36">
+        <navLabel>
+          <text>CAPÍTULO 3 | Dos débitos públicos</text>
+        </navLabel>
+        <content src="Text/part0049.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_38" playOrder="37">
+      <navLabel>
+        <text>Sobre o autor</text>
+      </navLabel>
+      <content src="Text/part0051.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_39" playOrder="38">
+      <navLabel>
+        <text>Ficha técnica</text>
+      </navLabel>
+      <content src="Text/part0052.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

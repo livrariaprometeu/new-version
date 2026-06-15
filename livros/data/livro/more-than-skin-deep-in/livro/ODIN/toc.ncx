@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:858ff5f6-12a1-44ce-af6d-6bf79fe8da43" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>More Than Skin Deep</text>
+  </docTitle>
+  <navMap>
+
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>Nota da Edição</text> </navLabel> <content src="Text/part0000.html"/> </navPoint>
+
+    <navPoint class="chapter" id="num_1" playOrder="0">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>Chapter I. The Constable Keeps Cool</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_3" playOrder="1">
+      <navLabel>
+        <text>Charpter II. Modern methods</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_3" playOrder="1">
+      <navLabel>
+        <text>Charpter III. Dad Anderson Chuckles</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_3" playOrder="1">
+      <navLabel>
+        <text>Charpter IV. More than finger prints</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_3" playOrder="1">
+      <navLabel>
+        <text>Charpter V. Dad takes a hand</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+    </navPoint>
+    <!-- FIM DA MODIFICAÇÃO -->
+</ncx>

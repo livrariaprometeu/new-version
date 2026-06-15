@@ -8,7 +8,7 @@ async function carregarLivro() {
     try {
 
         const caminhoLivro =
-            `/livros/data/livro/${resultado}/livro/OEBPS/content.opf`;
+            `/livros/data/livro/${resultado}/livro/ODIN/content.opf`;
 
         const book = ePub(caminhoLivro);
 
