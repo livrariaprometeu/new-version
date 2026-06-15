@@ -1,5 +1,14 @@
 [
   {
+    "id": 8,
+    "titulo": "A riqueza das nações",
+    "categoria": ["Economia"],
+    "avaliacao": 5,
+    "idioma": "Português",
+    "autor": "Adam Smith",
+    "caminho": "a-riqueza-das-nacoes-pt"
+  },
+  {
     "id": 7,
     "titulo": "Ulysses",
     "categoria": ["Ficção"],

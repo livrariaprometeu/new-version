@@ -25,7 +25,7 @@ main {
 
 @media print {
   /* Força uma nova página ANTES de cada título de capítulo */
-  h1 {
+  h2 {
     page-break-before: always;
     break-before: page; /* Sintaxe moderna */
   }
