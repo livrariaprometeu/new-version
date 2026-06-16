@@ -9,7 +9,7 @@ async function lerArquivo(id) {
   }
 }
 
-function compartilhar(titulo, id) {
+function compartilhar(titulo, caminho) {
   if (navigator.share) {
     navigator.share({
       title: `${titulo}`,
@@ -18,7 +18,7 @@ function compartilhar(titulo, id) {
             É uma leitura rápida e pode te trazer boas ideias sobre esse tema.\n
             \n
             Se quiser, dá uma olhada aqui 👇\n\n`,
-      url: `https://livrariaprometeu.com/livros/data/?id=${id}`
+      url: `https://livrariaprometeu.com/livros/data/livro/${caminho}`
     });
   } else {
     alert("Compartilhamento não suportado nesse navegador.");
@@ -123,7 +123,7 @@ fetch("/livros/data/livros.json")
                 // 5.3) Botão "Compartilhar"
                 const btnCompartilhar = divMais.querySelector("#compartilhar-livro-resumo");
                 btnCompartilhar.addEventListener("click", () => {
-                    compartilhar(item.title, item.id)
+                    compartilhar(item.titulo, item.caminho)
                 });
                 });
 

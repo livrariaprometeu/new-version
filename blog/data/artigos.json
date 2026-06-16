@@ -1,5 +1,19 @@
 [
   {
+    "id": 11,
+    "titulo": "A Mão Invisível: O Conceito Mais Famoso de Adam Smith Explicado",
+    "categoria": "Economia",
+    "idioma": "Português",
+    "caminho": "a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado"
+  },
+  {
+    "id": 10,
+    "titulo": "Quem Foi Adam Smith? Conheça o Pai da Economia Moderna",
+    "categoria": "Biografia",
+    "idioma": "Português",
+    "caminho":"quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna"
+  },
+  {
     "id": 9,
     "titulo": "Quem Foi George Orwell? Conheça o Autor que Previu um Mundo de Vigilância",
     "categoria": "Resumo",

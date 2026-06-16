@@ -14,9 +14,15 @@
     --cl-paper: #464847;
     --cl-paper-ativo: #6e6f6e;
 
+    /* Outros */
     --muted: #6b6b6b;
     --paper-light: #faf9f7;
 }
+
+
+
+
+
 
 :root.dark {
     --bg-header: #1e1e1e;
