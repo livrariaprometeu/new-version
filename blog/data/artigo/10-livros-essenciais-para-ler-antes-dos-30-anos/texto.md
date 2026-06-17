@@ -37,9 +37,8 @@ Escrito por um dos imperadores mais respeitados de Roma, *Meditações* reúne r
 
 Ao longo das páginas, Marco Aurélio mostra que a verdadeira força não está em controlar o mundo, mas em controlar a si mesmo.
 
-:::
-"Você tem poder sobre sua mente, não sobre os acontecimentos externos."
-:::
+
+>"Você tem poder sobre sua mente, não sobre os acontecimentos externos."
 
 ## 2. 1984 — George Orwell
 
@@ -49,9 +48,8 @@ A obra retrata uma sociedade em que a liberdade é constantemente ameaçada pelo
 
 Mais do que uma ficção, é um convite para refletir sobre a importância da liberdade e do pensamento crítico.
 
-:::
-"Quem controla o passado controla o futuro."
-:::
+
+>"Quem controla o passado controla o futuro."
 
 ## 3. Dom Casmurro — Machado de Assis
 
@@ -61,9 +59,8 @@ A história de Bentinho e Capitu vai muito além da famosa dúvida sobre uma pos
 
 Machado de Assis mostra como nossas emoções podem influenciar a forma como interpretamos a realidade.
 
-:::
-"A imaginação foi a companheira de toda a minha existência."
-:::
+
+>"A imaginação foi a companheira de toda a minha existência."
 
 ## 4. Crime e Castigo — Fiódor Dostoiévski
 
@@ -73,9 +70,8 @@ O resultado é uma das análises mais profundas já escritas sobre culpa, consci
 
 É um livro que obriga o leitor a confrontar questões éticas difíceis.
 
-:::
-"Acima de tudo, não minta para si mesmo."
-:::
+
+>"Acima de tudo, não minta para si mesmo."
 
 ## 5. O Pequeno Príncipe — Antoine de Saint-Exupéry
 
@@ -85,9 +81,8 @@ O livro fala sobre amizade, amor, responsabilidade e sobre aquilo que realmente 
 
 É uma leitura capaz de tocar leitores de qualquer idade.
 
-:::
-"O essencial é invisível aos olhos."
-:::
+
+>"O essencial é invisível aos olhos."
 
 ## 6. A Revolução dos Bichos — George Orwell
 
@@ -95,9 +90,8 @@ Utilizando animais como protagonistas, Orwell constrói uma poderosa crítica ao
 
 A narrativa é curta, acessível e extremamente relevante para compreender como ideais podem ser distorcidos ao longo do tempo.
 
-:::
-"Todos os animais são iguais, mas alguns são mais iguais que os outros."
-:::
+
+>"Todos os animais são iguais, mas alguns são mais iguais que os outros."
 
 ## 7. O Hobbit — J.R.R. Tolkien
 
@@ -107,9 +101,8 @@ Ainda assim, ao aceitar sair de sua zona de conforto, descobre capacidades que j
 
 Uma história sobre coragem, crescimento e transformação.
 
-:::
-"Há muito mais em você do que imagina."
-:::
+
+>"Há muito mais em você do que imagina."
 
 ## 8. O Homem Mais Rico da Babilônia — George S. Clason
 
@@ -119,9 +112,8 @@ Por meio de parábolas ambientadas na antiga Babilônia, a obra apresenta princ�
 
 Uma leitura especialmente valiosa para quem está começando a construir sua independência financeira.
 
-:::
-"Uma parte de tudo o que você ganha pertence a você."
-:::
+
+>"Uma parte de tudo o que você ganha pertence a você."
 
 ## 9. Hábitos Atômicos — James Clear
 
@@ -131,9 +123,8 @@ James Clear demonstra como pequenas melhorias consistentes podem gerar transform
 
 Um livro essencial para quem deseja desenvolver disciplina.
 
-:::
-"Você não alcança o nível dos seus objetivos. Você cai para o nível dos seus sistemas."
-:::
+
+>"Você não alcança o nível dos seus objetivos. Você cai para o nível dos seus sistemas."
 
 ## 10. Cartas de um Estoico — Sêneca
 
@@ -143,9 +134,8 @@ Elas abordam temas como ansiedade, tempo, propósito e sabedoria prática para a
 
 Uma excelente introdução à filosofia estoica.
 
-:::
-"Não é que tenhamos pouco tempo, mas perdemos muito dele."
-:::
+
+>"Não é que tenhamos pouco tempo, mas perdemos muito dele."
 
 ---
 
@@ -181,10 +171,9 @@ Talvez você esqueça detalhes de algumas histórias.
 
 Mas dificilmente esquecerá as reflexões que elas despertam.
 
-:::
-Os livros não mudam o mundo sozinhos.
 
-Eles mudam as pessoas.
-
-E são as pessoas que mudam o mundo.
-:::
+>Os livros não mudam o mundo sozinhos.
+>
+>Eles mudam as pessoas.
+>
+>E são as pessoas que mudam o mundo.
