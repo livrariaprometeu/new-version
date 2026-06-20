@@ -33,121 +33,115 @@
     <!-- Artigos -->
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/15-livros-para-quem-quer-comecar-a-ler</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/15-livros-para-quem-quer-comecar-a-ler</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/como-criar-o-habito-da-leitura-em-30-dias</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/como-criar-o-habito-da-leitura-em-30-dias</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/por-que-ainda-precisamos-de-livros-na-era-digital</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/por-que-ainda-precisamos-de-livros-na-era-digital</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://livrariaprometeu.com/blog/data/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- Livros -->
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/alice-s-adventures-in-wonderland-in</loc>
+        <loc>https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/dracula-in</loc>
+        <loc>https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/meditations-in</loc>
+        <loc>https://livrariaprometeu.com/livros/ficcao/ulysses-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/moby-dick-or-the-white-whale-in</loc>
+        <loc>https://livrariaprometeu.com/livros/filosofia/meditations-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/more-than-skin-deep-in</loc>
+        <loc>https://livrariaprometeu.com/livros/gotico/dracula-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/romeu-and-juliet-in</loc>
+        <loc>https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/ulysses-in</loc>
+        <loc>https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/livros/data/livro/a-riqueza-das-nacoes-pt</loc>
+        <loc>https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

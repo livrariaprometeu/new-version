@@ -1,6 +1,6 @@
 // Descobre qual foi o artigo carregado
 const partes = window.location.pathname.split('/').filter(Boolean);
-const resultado = partes.at(-1);
+const resultado = partes.slice(-2).join('/');
 
 let rendition;
 
@@ -8,7 +8,7 @@ async function carregarLivro() {
     try {
 
         const caminhoLivro =
-            `/livros/data/livro/${resultado}/livro/ODIN/content.opf`;
+            `/livros/${resultado}/livro/ODIN/content.opf`;
 
         const book = ePub(caminhoLivro);
 

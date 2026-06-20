@@ -1,7 +1,7 @@
 // função para ler arquivo .txt
-async function lerArquivo(id) {
+async function lerArquivo(caminho) {
   try {
-    const response = await fetch(`/livros/data/resumo/${id}.md`);
+    const response = await fetch(`/livros/${caminho}/resumo.md`);
     const texto = await response.text();
     return texto;
   } catch (erro) {
@@ -52,7 +52,7 @@ fetch("/livros/data/livros.json")
             div.innerHTML = `
                 <div id="container-livro">
                     <div id="idioma-livro">${item.idioma}</div>
-                    <div class="capa-livro"><img class="capa-livro" src="/livros/data/capa/${item.id}.webp"></div>
+                    <div class="capa-livro"><img class="capa-livro" src="/livros/${item.caminho}/capa.webp"></div>
                     <p id="titulo-livro">${item.titulo}</p>
                     <div id="informacoes-livro">
                         <p class="informacao-livro" id="categoria-livro">${item.categoria[0]}</p>
@@ -63,8 +63,6 @@ fetch("/livros/data/livros.json")
                 </div>
             `;
             
-            console.log(`img src="/livros/data/capa/${item.id}.webp`)
-
             // Adiciona localizadores
             div.setAttribute("data-avaliacao", item.avaliacao); // Avaliação
             div.classList.add("card", "livro"); // Geral
@@ -74,10 +72,9 @@ fetch("/livros/data/livros.json")
             // 4) Da funcionalidade para os botões do container
             // 4.1) Funcionalidade para o botão "Mais"
             const btnLer = div.querySelector(".ler-livro");
-            let caminhoLer = "/livros/data/livro/";
+            let caminhoLer = "/livros/";
 
             btnLer.addEventListener("click", () => {
-                //  window.location.href = `${caminhoLer}?id=${item.id}`;
                  window.location.href = `${caminhoLer}${item.caminho}`;
             });
             // 4.2) Funcionalidade para o botão "Mais"
@@ -93,7 +90,7 @@ fetch("/livros/data/livros.json")
             
                 divMais.classList.add("card");
 
-                let texto = lerArquivo(item.id).then(texto => {
+                let texto = lerArquivo(item.caminho).then(texto => {
                     let markdown = marked.parse(texto);
                     
                     // Define layout do card

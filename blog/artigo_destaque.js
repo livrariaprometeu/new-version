@@ -1,7 +1,7 @@
 // função para ler arquivo .txt
-async function lerArquivo(id) {
+async function lerArquivo(caminho) {
   try {
-    const response = await fetch(`/blog/data/resumo/${id}.md`);
+    const response = await fetch(`/blog/artigo/${caminho}/resumo.md`);
     const texto = await response.text();
     return texto;
   } catch (erro) {
@@ -77,13 +77,13 @@ async function renderizarTrack(lista) {
   track.innerHTML = "";
 
   for (let item of lista) {
-   const texto = await lerArquivo(item.id); 
+   const texto = await lerArquivo(item.caminho); 
     const markdown = marked.parse(texto);
 
     const div = document.createElement("div");
     div.classList.add("card-destaque");
 
-    urlCapa = `/blog/data/artigo/${item.caminho}/capa.webp`
+    urlCapa = `/blog/artigo/${item.caminho}/capa.webp`
     div.innerHTML = `
       <div class="capa-artigo-container">
         <img class="capa-destaque" src="${urlCapa}">
@@ -95,14 +95,14 @@ async function renderizarTrack(lista) {
       </div>
     `;
     div.addEventListener("click", () => {
-      window.location.href = `/blog/data/artigo/${item.caminho}`;
+      window.location.href = `/blog/artigo/${item.caminho}`;
     });
 
     track.appendChild(div);
   }
 }
 
-fetch("/blog/data/artigos.json")
+fetch("/blog/artigos.json")
   .then(res => res.json())
   .then(async (dados) => {
 

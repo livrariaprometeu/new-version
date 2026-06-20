@@ -1,0 +1,131 @@
+        {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+            "@type": "Organization",
+            "name": "Livraria Prometeu",
+            "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+            "url": "https://livrariaprometeu.com",
+            "@id": "https://livrariaprometeu.com/#organization",
+            "description":"A Livraria Prometeu é um portal brasileiro especializado em livros clássicos, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, análises, recomendações de leitura, listas de livros e conteúdos educativos para leitores interessados em conhecimento, crescimento intelectual e evolução profissional.",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "areaServed": "BR",
+                "contactType": "customer support",
+                "email": "livrariaprometeu@gmail.com",
+                "availableLanguage": ["Portuguese"]
+            },
+            "knowsAbout": [
+                "Livros clássicos",
+                "Filosofia",
+                "Literatura",
+                "Desenvolvimento pessoal",
+                "Produtividade",
+                "Negócios",
+                "Hábitos de leitura"
+            ],
+            "sameAs": [
+                    "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
+                    "https://www.instagram.com/livrariaprometeu"
+                ],
+            "logo": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+            "foundingDate": "2025-10-15"
+            },
+            {
+            "@type": "WebSite",
+            "name": "Livraria Prometeu",
+            "url": "https://livrariaprometeu.com",
+            "@id": "https://livrariaprometeu.com/#website",
+            "description":"A Livraria Prometeu é um portal dedicado à literatura clássica, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, recomendações de leitura, artigos, listas de livros e conteúdos educativos para leitores que desejam expandir conhecimento, desenvolver pensamento crítico e alcançar crescimento pessoal e profissional.",
+            "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+            "publisher": {
+                "@id": "https://livrariaprometeu.com/#organization"
+            }
+            },
+            {
+            "@type": "WebPage",
+            "name": "Resumo de Mindset: Como a Mentalidade de Crescimento Pode Transformar Sua Vida",
+            "description":"Descubra o resumo completo de Mindset, de Carol Dweck, e aprenda como a mentalidade de crescimento pode transformar seus estudos, carreira, relacionamentos e desenvolvimento pessoal.",
+            "url": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida",
+            "@id": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida#webpage",
+            "image": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida/capa.webp",
+            "isPartOf": {
+                "@id": "https://livrariaprometeu.com/#website"
+            },
+            "datePublished": "2026-06-06",
+            "dateModified": "2026-06-20",
+            "about": [
+                "mindset resumo",
+                "resumo mindset",
+                "mindset carol dweck",
+                "mindset livro",
+                "mindset a nova psicologia do sucesso",
+                "mentalidade de crescimento",
+                "mindset fixo",
+                "desenvolvimento pessoal",
+                "livros de desenvolvimento pessoal",
+                "livros de autoajuda"
+            ],
+            "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida/capa.webp"
+            }
+            },
+            {
+            "@type": "BlogPosting",
+            "headline": "Resumo de Mindset: Como a Mentalidade de Crescimento Pode Transformar Sua Vida",
+            "description": "Descubra o resumo completo de Mindset, de Carol Dweck, e aprenda como a mentalidade de crescimento pode transformar seus estudos, carreira, relacionamentos e desenvolvimento pessoal.",
+            "image": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida/capa.webp",
+            "@id": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida#article",
+            "datePublished": "2026-06-06",
+            "dateModified": "2026-06-20",
+            "inLanguage": "pt-BR",
+            "author": {
+                "@id": "https://livrariaprometeu.com/#organization"
+            },
+            "publisher": {
+                "@id": "https://livrariaprometeu.com/#organization"
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida#webpage"
+            },
+            "articleSection": "Resumo de livros",
+            "keywords": [
+                "mindset resumo",
+                "resumo mindset",
+                "mindset carol dweck",
+                "mindset livro",
+                "mindset a nova psicologia do sucesso",
+                "mentalidade de crescimento",
+                "mindset fixo",
+                "desenvolvimento pessoal",
+                "livros de desenvolvimento pessoal",
+                "livros de autoajuda"
+            ]
+            },
+            {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://livrariaprometeu.com"
+                },
+                {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://livrariaprometeu.com/blog"
+                },
+                {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Resumo de Mindset: Como a Mentalidade de Crescimento Pode Transformar Sua Vida",
+                "item": "https://livrariaprometeu.com/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida"
+                }
+            ]
+            }
+        ]
+        }

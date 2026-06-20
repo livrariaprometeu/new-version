@@ -6,30 +6,23 @@ fetch("/livros/data/livros.json")
 
     // Limita a 6 livros
     const livrosExibidos = dados.slice(0, 6);
-    let caminhoLer = "/livros/data/"
+    let caminhoLer = "/livros/"
 
     livrosExibidos.forEach(item => {
 
         const div = document.createElement("div");
 
-        let html = "";
-        for (let i = 1; i <= 5; i++) {
-            html += i <= item.avaliacao ? "★" : "☆";
-        }
-
         div.classList.add("card-livro-destaque");
 
         div.innerHTML = `
             <div id="container-livro">
-                <a class="capa-livro" href="${caminhoLer}?id=${item.id}">
-                    <img class="capa-livro" src="/livros/data/capa/${item.id}.webp">
+                <a class="capa-livro" href="${caminhoLer}${item.caminho}" alt="${item.titulo}>
+                    <img class="capa-livro" src="/livros/${item.caminho}/capa.webp">
                 </a>
             </div>
         `;
 
         container.appendChild(div);
-
-        // seus eventos aqui...
     });
 
     // Adiciona o card "Mais"

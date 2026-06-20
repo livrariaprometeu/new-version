@@ -5,7 +5,7 @@ console.log("Importado")
 input.addEventListener("input", async () => {
   const valor = input.value;
 
-  const resultados = await buscarNoJSON("/blog/data/artigos.json", valor);
+  const resultados = await buscarNoJSON("/blog/artigos.json", valor);
 
   // limpa resultados antigos
   lista.innerHTML = "";

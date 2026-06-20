@@ -6,7 +6,7 @@
     "avaliacao": 5,
     "idioma": "Português",
     "autor": "Adam Smith",
-    "caminho": "a-riqueza-das-nacoes-pt"
+    "caminho": "economia/a-riqueza-das-nacoes-pt"
   },
   {
     "id": 7,
@@ -15,7 +15,7 @@
     "avaliacao": 4,
     "idioma": "Inglês",
     "autor": "James Joyce",
-    "caminho": "ulysses-in"
+    "caminho": "ficcao/ulysses-in"
   },
   {
     "id": 6,
@@ -24,7 +24,7 @@
     "avaliacao": 5,
     "idioma": "Inglês",
     "autor": "Marcus Aurelius",
-    "caminho": "meditations-in"
+    "caminho": "filosofia/meditations-in"
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "avaliacao": 4,
     "idioma": "Inglês",
     "autor": "Bram Stoker",
-    "caminho": "dracula-in"
+    "caminho": "gotico/dracula-in"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "avaliacao": 5,
     "idioma": "Inglês",
     "autor": "Lewis Carroll",
-    "caminho": "alice-s-adventures-in-wonderland-in"
+    "caminho": "fantasia/alice-s-adventures-in-wonderland-in"
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
     "avaliacao": 4,
     "idioma": "Inglês",
     "autor": "William Shakespeare",
-    "caminho": "romeu-and-juliet-in"
+    "caminho": "romance/romeu-and-juliet-in"
   },
   {
     "id": 2,
@@ -60,7 +60,7 @@
     "avaliacao": 5,
     "idioma": "Inglês",
     "autor": "Herman Melville",
-    "caminho": "moby-dick-or-the-white-whale-in"
+    "caminho": "romance/moby-dick-or-the-white-whale-in"
   },
   {
     "id": 1,
@@ -69,6 +69,6 @@
     "avaliacao": 4,
     "idioma": "Inglês",
     "autor": "Street & Smith",
-    "caminho": "more-than-skin-deep-in"
+    "caminho": "pulp/more-than-skin-deep-in"
   }
 ]

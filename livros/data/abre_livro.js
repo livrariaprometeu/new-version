@@ -1,14 +1,13 @@
 // Descobre qual foi o artigo carregado grava em uma variável
 const partes = window.location.pathname.split('/').filter(Boolean);
-const resultado = partes.slice(-1).join('/');
-
-console.log(resultado);
+const resultado = partes.slice(-2).join('/');
+const resultado_livro = partes.slice(-1).join('/');
 
 let rendition;
 
 async function carregarLivro() {
     try {
-        const response = await fetch(`/livros/data/livro/${resultado}/livro.epub`);
+        const response = await fetch(`/livros/${resultado}/livro.epub`);
         const buffer = await response.arrayBuffer();
         const book = ePub(buffer);
 
