@@ -16,7 +16,7 @@ fetch("/livros/data/livros.json")
 
         div.innerHTML = `
             <div id="container-livro">
-                <a class="capa-livro" href="${caminhoLer}${item.caminho}" alt="${item.titulo}>
+                <a class="capa-livro" href="${caminhoLer}${item.caminho}" alt="${item.titulo}">
                     <img class="capa-livro" src="/livros/${item.caminho}/capa.webp">
                 </a>
             </div>
