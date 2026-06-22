@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
   <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <dc:title>More Than Skin Deep</dc:title>
-    <dc:contributor opf:role="bkp">calibre (2.39.0) [http://calibre-ebook.com]</dc:contributor>
+    <dc:title>Moby-Dick; or, The Whale</dc:title>
     <dc:language>en</dc:language>
     <dc:publisher>livrariaprometeu.com</dc:publisher>
-    <dc:date>2026-06-15T03:00:00+00:00</dc:date>
+    <dc:date>2026-06-20T03:00:00+00:00</dc:date>
     <meta name="cover" content="cover" />
-    <dc:creator opf:file-as="Smith, Adam" opf:role="aut">Erle Stanley Gardner</dc:creator>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">urn:uuid:be2bbb50-13ac-465f-95d0-9a3928ec1dd8</dc:identifier>
-    <dc:identifier opf:scheme="calibre">urn:uuid:be2bbb50-13ac-465f-95d0-9a3928ec1dd8</dc:identifier>
-    <meta content="More Than Skin Deep, A" name="calibre:title_sort" />
-    <meta content="2026-06-15T16:38:32.440000+00:00" name="calibre:timestamp" />
+    <dc:creator opf:file-as="Smith, Adam" opf:role="aut">Herman Melville</dc:creator>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">urn:uuid:605b1356-39ea-460c-b3f6-22c0213f4b32</dc:identifier>
+    <dc:identifier opf:scheme="calibre">urn:uuid:605b1356-39ea-460c-b3f6-22c0213f4b32</dc:identifier>
+    <meta content="Moby-Dick; or, The Whale" name="calibre:title_sort" />
+    <meta content="2026-06-20T19:44:32.440000+00:00" name="calibre:timestamp" />
     <meta content="0.7.4" name="Sigil version" />
-    <dc:date opf:event="modification">2026-06-15</dc:date>
+    <dc:date opf:event="modification">2026-06-20</dc:date>
   </metadata>
   <manifest>
     <item href="Images/cover.jpeg" id="cover" media-type="image/jpeg" />
@@ -179,6 +178,9 @@
     <item href="Text/part0133.html" id="id148" media-type="application/xhtml+xml" />
     <item href="Text/part0134.html" id="id149" media-type="application/xhtml+xml" />
     <item href="Text/part0135.html" id="id150" media-type="application/xhtml+xml" />
+    <item href="Text/part0136.html" id="id151" media-type="application/xhtml+xml" />
+    <item href="Text/part0137.html" id="id152" media-type="application/xhtml+xml" />
+    <item href="Text/part0138.html" id="id153" media-type="application/xhtml+xml" />
 
     <item href="Text/titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml" />
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
@@ -335,6 +337,10 @@
     <itemref idref="id148" />
     <itemref idref="id149" />
     <itemref idref="id150" />
+    <itemref idref="id151" />
+    <itemref idref="id152" />
+    <itemref idref="id153" />
+
   </spine>
   <guide>
     <reference href="Text/part0002.html" title="Sumário" type="toc" />

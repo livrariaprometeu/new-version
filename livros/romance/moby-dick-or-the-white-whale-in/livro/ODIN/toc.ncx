@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
   <head>
-    <meta content="urn:uuid:858ff5f6-12a1-44ce-af6d-6bf79fe8da43" name="dtb:uid"/>
+    <meta content="urn:uuid:605b1356-39ea-460c-b3f6-22c0213f4b32" name="dtb:uid"/>
   <meta name="dtb:depth" content="1"/>
     <meta content="calibre (2.39.0)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
@@ -9,7 +9,7 @@
   </head>
 
   <docTitle>
-    <text>More Than Skin Deep</text>
+    <text>Moby-Dick; or, The Whale</text>
   </docTitle>
   <navMap>
 
@@ -695,6 +695,11 @@
     <navPoint id="navPoint-135" playOrder="137">
       <navLabel><text>CHAPTER 135. The Chase—Third Day.</text></navLabel>
       <content src="Text/part0137.html"/>
+    </navPoint>
+
+    <navPoint id="navPoint-135" playOrder="137">
+      <navLabel><text>Epilogue</text></navLabel>
+      <content src="Text/part0138.html"/>
     </navPoint>
     <!-- FIM DA MODIFICAÇÃO -->
 </ncx>
