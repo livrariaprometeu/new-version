@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Meditations</dc:title>
+    <dc:contributor opf:role="bkp">calibre (2.39.0) [http://calibre-ebook.com]</dc:contributor>
+    <dc:language>en</dc:language>
+    <dc:publisher>livrariaprometeu.com</dc:publisher>
+    <dc:date>2026-06-24T18:30:00+00:00</dc:date>
+    <meta name="cover" content="cover" />
+    <dc:creator opf:file-as="Smith, Adam" opf:role="aut">Marcus Aurelius</dc:creator>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">urn:uuid:6d89d83f-1c54-4b9c-b911-ff9d61741c06</dc:identifier>
+    <dc:identifier opf:scheme="calibre">urn:uuid:6d89d83f-1c54-4b9c-b911-ff9d61741c06</dc:identifier>
+    <meta content="Meditations, A" name="calibre:title_sort" />
+    <meta content="2026-06-24T18:30:00.440000+00:00" name="calibre:timestamp" />
+    <meta content="0.7.4" name="Sigil version" />
+    <dc:date opf:event="modification">2026-06-24</dc:date>
+  </metadata>
+  <manifest>
+    <item href="Images/cover.jpeg" id="cover" media-type="image/jpeg" />
+    <item href="Fonts/00001.otf" id="id1" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00002.otf" id="id2" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00003.otf" id="id3" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00004.otf" id="id4" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00005.otf" id="id5" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00006.otf" id="id6" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00007.otf" id="id7" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/00008.otf" id="id8" media-type="application/vnd.ms-opentype" />
+    <item href="Images/00009.jpeg" id="id9" media-type="image/jpeg" />
+    <item href="Images/00010.jpeg" id="id10" media-type="image/jpeg" />
+    <item href="/style_geral.css" id="page_css" media-type="text/css" />
+    <item href="Styles/page_styles.css" id="page_css" media-type="text/css" />
+    <item href="Styles/stylesheet.css" id="css" media-type="text/css" />
+    <item href="Text/part0000.html" id="id15" media-type="application/xhtml+xml" />
+    <item href="Text/part0001.html" id="part0001.html" media-type="application/xhtml+xml" />
+    <item href="Text/part0002.html" id="id17" media-type="application/xhtml+xml" />
+    <item href="Text/part0003.html" id="id18" media-type="application/xhtml+xml" />
+    <item href="Text/part0004.html" id="id19" media-type="application/xhtml+xml" />
+    <item href="Text/part0005.html" id="id20" media-type="application/xhtml+xml" />
+    <item href="Text/part0006.html" id="id21" media-type="application/xhtml+xml" />
+    <item href="Text/part0007.html" id="id22" media-type="application/xhtml+xml" />
+    <item href="Text/part0008.html" id="id23" media-type="application/xhtml+xml" />
+    <item href="Text/part0009.html" id="id24" media-type="application/xhtml+xml" />
+    <item href="Text/part0010.html" id="id25" media-type="application/xhtml+xml" />
+    <item href="Text/part0011.html" id="id26" media-type="application/xhtml+xml" />
+    <item href="Text/part0012.html" id="id27" media-type="application/xhtml+xml" />
+    <item href="Text/part0013.html" id="id28" media-type="application/xhtml+xml" />
+    <item href="Text/part0014.html" id="id29" media-type="application/xhtml+xml" />
+    <item href="Text/part0015.html" id="id30" media-type="application/xhtml+xml" />
+    <item href="Text/part0016.html" id="id31" media-type="application/xhtml+xml" />
+    <item href="Text/part0017.html" id="id32" media-type="application/xhtml+xml" />
+    <item href="Text/part0018.html" id="id33" media-type="application/xhtml+xml" />
+    <item href="Text/titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage" />
+    <itemref idref="id15" />
+    <itemref idref="part0001.html" />
+    <itemref idref="id17" />
+    <itemref idref="id18" />
+    <itemref idref="id19" />
+    <itemref idref="id20" />
+    <itemref idref="id21" />
+    <itemref idref="id22" />
+    <itemref idref="id23" />
+    <itemref idref="id24" />
+    <itemref idref="id25" />
+    <itemref idref="id26" />
+    <itemref idref="id27" />
+    <itemref idref="id28" />
+    <itemref idref="id29" />
+    <itemref idref="id30" />
+    <itemref idref="id31" />
+    <itemref idref="id32" />
+    <itemref idref="id33" />
+  </spine>
+  <guide>
+    <reference href="Text/part0002.html" title="Sumário" type="toc" />
+    <reference href="Text/titlepage.xhtml" title="Cover" type="cover" />
+    <reference href="Text/part0003.html" title="start" type="text" />
+  </guide>
+</package>
