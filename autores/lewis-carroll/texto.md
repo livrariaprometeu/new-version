@@ -1,6 +1,10 @@
 # Lewis Carroll: a vida, a obra e o legado do criador de Alice no País das Maravilhas 
 
-![Capa do blog](/autores/lewis-caroll/capa.webp)
+## Em 30 segundos
+
+Lewis Carroll, pseudônimo de Charles Lutwidge Dodgson, foi um matemático, professor de Oxford, fotógrafo e escritor inglês do século XIX. Ele ficou mundialmente conhecido por criar Alice no País das Maravilhas e Através do Espelho, obras que revolucionaram a literatura infantil ao substituir lições morais por imaginação, lógica e absurdo criativo.
+
+Por trás do universo fantasioso de Alice, Carroll explorava ideias profundas de linguagem, identidade e paradoxos lógicos, refletindo sua formação acadêmica em matemática. Sua trajetória combina rigor intelectual e imaginação, tornando-o uma das figuras mais originais da literatura mundial e um autor cuja obra continua influente em áreas como filosofia, psicologia e cultura popular.
 
 ## Introdução
 
@@ -302,3 +306,92 @@ Poucos escritores conseguiram unir imaginação e rigor intelectual de maneira t
 Sua obra nos lembra que a literatura pode ser, ao mesmo tempo, brincadeira e reflexão, fantasia e pensamento.
 
 Talvez seja por isso que Alice continua atravessando gerações: porque, no fundo, todos nós ainda desejamos seguir o Coelho Branco e descobrir o que existe do outro lado da toca.
+
+---
+
+## FAQ – Lewis Carroll (Menus Retráteis)
+
+<details>
+<summary><strong>1. Quem foi Lewis Carroll?</strong></summary>
+
+Lewis Carroll foi o pseudônimo de Charles Lutwidge Dodgson, professor de matemática em Oxford, fotógrafo e escritor britânico do século XIX, conhecido principalmente por *Alice no País das Maravilhas*.
+</details>
+
+<details>
+<summary><strong>2. Lewis Carroll era apenas escritor?</strong></summary>
+
+Não. Ele também foi matemático, lógico e professor universitário em Oxford, além de atuar como fotógrafo amador durante a era vitoriana.
+</details>
+
+<details>
+<summary><strong>3. Qual foi sua obra mais famosa?</strong></summary>
+
+Sua obra mais conhecida é *Alice no País das Maravilhas*, publicada em 1865. O livro revolucionou a literatura infantil ao substituir lições morais diretas por imaginação, lógica e nonsense.
+</details>
+
+<details>
+<summary><strong>4. Alice no País das Maravilhas foi baseada em uma pessoa real?</strong></summary>
+
+Sim. A personagem Alice foi inspirada em Alice Liddell, filha de um reitor de Oxford com quem Carroll tinha convivência próxima.
+</details>
+
+<details>
+<summary><strong>5. Qual a relação entre matemática e suas histórias?</strong></summary>
+
+Carroll aplicava lógica, paradoxos e estruturas matemáticas em suas narrativas. Muitos diálogos de *Alice* funcionam como problemas lógicos disfarçados de fantasia.
+</details>
+
+<details>
+<summary><strong>6. Ele escreveu outros livros além de Alice?</strong></summary>
+
+Sim. Entre eles estão *Sylvie and Bruno* e *The Hunting of the Snark*, ambos explorando linguagem, lógica e absurdos criativos.
+</details>
+
+<details>
+<summary><strong>7. Por que ele usava um pseudônimo?</strong></summary>
+
+Ele criou o nome “Lewis Carroll” para separar sua vida acadêmica da produção literária, já que era professor de matemática e desejava manter essas identidades distintas.
+</details>
+
+<details>
+<summary><strong>8. Qual o legado de Lewis Carroll?</strong></summary>
+
+Seu legado vai além da literatura infantil: influenciou a filosofia da linguagem, a psicologia, o surrealismo, o cinema e os estudos de lógica, permanecendo uma referência cultural até hoje.
+</details>
+
+---
+
+## Referências
+
+
+- BLACKBURN, Paul C.; WHITE, Lionel. *Logical Nonsense: The Works of Lewis Carroll*. New York: G. P. Putnam's Sons, 1934.
+
+- BURSTEIN, Martin. *Lewis Carroll Society of North America*. Disponível em: <http://www.lewiscarroll.org/blog/>. Acesso em: 25 ago. 2013.
+
+- CARROLL, Lewis. *Alice: edição comentada*. Tradução de Maria Luiza X. de A. Borges. Rio de Janeiro: Zahar, 2002.
+
+- CARROLL, Lewis. *Alice's Adventures in Wonderland and Through the Looking-Glass*. London: Macmillan, 1872.
+
+- CARVALHO, Bárbara Vasconcelos de. *A Literatura Infantil: Visão histórica e crítica*. São Paulo: Global Editora, 1985. p. 113-115.
+
+- COHEN, Morton N. *Lewis Carroll: A Biography*. New York: Alfred A. Knopf, 1995.
+
+- COHEN, Morton N. *Lewis Carroll: Uma Biografia*. Tradução de Raffaella de Filippis. Rio de Janeiro: Record, 1998.
+
+- COOPER-RICHET, Diana. Paris, capital editorial do mundo lusófono na primeira metade do século XIX? *Varia Historia*, Belo Horizonte, v. 25, n. 42, p. 539-555, jul./dez. 2009.
+
+- GARDNER, Martin (ed.). *The Annotated Alice: The Definitive Edition*. New York: W. W. Norton & Company, 2000.
+
+- HANCHER, Michael. *The Tenniel Illustrations to the "Alice" Books*. Columbus: Ohio State University Press, 1985.
+
+- KELLY, Richard. *Lewis Carroll*. Boston: Twayne Publishers, 1990.
+
+- LEACH, Karoline. *In the Shadow of the Dreamchild: A New Understanding of Lewis Carroll*. London: Peter Owen Publishers, 1999.
+
+- SUSINA, Jan. *The Place of Lewis Carroll in Children's Literature*. New York: Routledge, 2010.
+
+- WAKELING, Edward (ed.). *The Letters of Lewis Carroll*. Oxford: Oxford University Press, 1990-2004. 10 v.
+
+- WAKELING, Edward. *Lewis Carroll and The Hunting of the Snark*. Disponível em: <http://publicdomainreview.org>. Acesso em: 25 ago. 2013.
+
+- WOOLLCOTT, Alexander. *The Complete Works of Lewis Carroll*. New York: Modern Library, 1936.

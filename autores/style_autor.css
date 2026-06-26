@@ -19,12 +19,20 @@ h1 {
     height: 50dvh;
     width: auto;
 
-    margin: 0px 0px 0px 30dvh;
+    margin: 0px 0px 0px 10dvh;
+}
+
+#apresentacao-livros-autor{
+    width: 40%;
 }
 
 #chamada-para-livros {
     margin: 6dvh 0px 0px 0px;
     font-size: 2.2dvh;
+}
+
+summary {
+    color: var(--cl-paper);
 }
 
 @media (max-width: 768px){
