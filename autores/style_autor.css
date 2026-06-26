@@ -26,3 +26,24 @@ h1 {
     margin: 6dvh 0px 0px 0px;
     font-size: 2.2dvh;
 }
+
+@media (max-width: 768px){
+    #apresentacao-livros-autor{
+        width: 50%;
+    }
+    #capa-autor {
+        height: 100%;
+        width: 50%;
+
+        margin: 0px 0px 0px 0dvh;
+    }
+
+    h1 {
+        font-size: 4dvh;
+    }
+
+    #chamada-para-livros {
+        margin: 2dvh 0px 0px 0px;
+        font-size: 2dvh;
+    }
+}
