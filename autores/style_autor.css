@@ -1,0 +1,28 @@
+#main {
+    width: 100%;
+} 
+
+#img-autor {
+    width: 100%;
+}
+
+.cabecalho-autor {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 10dvh 0px 0px 0px;
+}
+
+#capa-autor {
+    height: 50dvh;
+    width: auto;
+
+    margin: 0px 0px 0px 30dvh;
+}
+
+#chamada-para-livros {
+    margin: 6dvh 0px 0px 0px;
+    font-size: 2.2dvh;
+}

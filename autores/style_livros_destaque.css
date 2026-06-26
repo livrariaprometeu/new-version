@@ -1,0 +1,57 @@
+.carrossel-livros {
+    margin: 2dvh 0px;
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+
+    height: 20dvh;
+    width: 50dvh;
+}
+
+.carrossel-livros::-webkit-scrollbar {
+    display: none;
+}
+
+.card-livro-destaque {
+    flex: 0 0 10dvh;
+}
+
+.card-mais {
+    cursor: pointer;
+}
+
+.container-mais-livros {
+    height: 20dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-mais {
+    font-size: 40px;
+}
+
+.capa-livro {
+    height: 20dvh;
+    width: auto;
+}
+
+#idioma-livro {
+    font-size: 14px;
+    position: absolute;
+    padding: 2px 15px;
+    border-radius: 100px;
+
+    align-self: end;
+    margin: 0px 0px;
+    background-color: var(--bg-paper);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.carrossel-container{
+    position: relative;
+}
