@@ -1,0 +1,63 @@
+.carrossel-autores {
+    margin: 2dvh 0px;
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+
+    height: 25dvh;
+}
+
+.nome-autor {
+    font-size: 10px;
+    font-style: none;
+    color: var(--cl-paper);
+}
+
+.carrossel-autores::-webkit-scrollbar {
+    display: none;
+}
+
+.card-autor-destaque {
+    flex: 0 0 10dvh;
+}
+
+.card-mais {
+    cursor: pointer;
+}
+
+.container-mais-autores {
+    height: 25dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-mais {
+    font-size: 40px;
+}
+
+.capa-autor {
+    height: 22dvh;
+    width: auto;
+}
+
+.capa-autor:hover {
+    height: 22.5dvh;
+    width: auto;
+}
+
+#idioma-autor {
+    font-size: 14px;
+    position: absolute;
+    padding: 2px 15px;
+    border-radius: 100px;
+
+    align-self: end;
+    margin: 0px 0px;
+    background-color: var(--bg-paper);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
