@@ -135,6 +135,7 @@ details {
 
 .carrossel-container{
     position: relative;
+    height: 95dvh;
 }
 
 .seta-carrossel{
