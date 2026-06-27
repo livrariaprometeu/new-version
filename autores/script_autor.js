@@ -11,6 +11,18 @@ let nomeAutor = nomeAutorLower
     .join(" ");
 
 
+const JSONLoader = {
+  async load(url) {
+    const res = await fetch(url);
+
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status} ao acessar ${url}`);
+    }
+
+    return res.json();
+  }
+};
+
 // Adiciona o cabeçalho com Titulo + Livros + Capa
 async function carregarCabecalho(AbaArtigo) {
   const conteudoImg = document.getElementById("img-autor");  // Seleciona o ID a ser modificado
@@ -32,10 +44,11 @@ async function carregarCabecalho(AbaArtigo) {
         <div id="apresentacao-livros-autor">
             <h1 id="titulo-autor">${nomeAutor}</h1>
             <p id="chamada-para-livros">Livros de ${nomeAutor} disponíveis na Livraria Prometeu:</p>
-            <div id="lista-livros" class="carrossel-livros"></div>
+            <div id="lista-livros" class="lista-livros carrossel-livros"></div>
         </div>
         <img id="capa-autor" src="${caminhoCompleto}/capa.webp"/>
       </div>
+      <div id="sobre-autor"></div>
     `;
 
     conteudoImg.appendChild(divImg);
@@ -47,24 +60,21 @@ async function carregarCabecalho(AbaArtigo) {
   }
 }
 
-carregarCabecalho(caminho); // Chama função para adicionar Markdown no HTML
 
-
-async function carregarLivros(filtro, maxLivros) {
+async function carregarLivros(filtro, maxLivros, containerCarrosel) {
     const resposta = await fetch("/livros/data/livros.json");
     const dados = await resposta.json();
 
-    const container = document.getElementById("lista-livros");
+    const container = document.getElementById(containerCarrosel);
 
     if (!container) {
-        console.error("Container #lista-livros não encontrado");
+        console.error(`Container ${containerCarrosel} não encontrado`);
         return;
     }
 
-    // Condicional se houver filtro de autor
-    const livrosAutor = (filtro !== null && filtro !== undefined)
-      ? dados.filter(livro => livro.autor === nomeAutor)
-      : dados;
+    const livrosAutor = filtro
+        ? dados.filter(livro => livro.autor === filtro)
+        : dados;
 
     const livrosExibidos = livrosAutor.slice(0, maxLivros);
 
@@ -74,7 +84,7 @@ async function carregarLivros(filtro, maxLivros) {
         div.classList.add("card-livro-destaque");
 
         div.innerHTML = `
-            <div id="container-livro">
+            <div class="container-livro">
                 <a href="/livros/${item.caminho}">
                     <img class="capa-livro"
                          src="/livros/${item.caminho}/capa.webp"
@@ -87,7 +97,79 @@ async function carregarLivros(filtro, maxLivros) {
     });
 }
 
-carregarLivros(nomeAutor, 20);
+async function sobreAutor(nome) {
+  try {
+    const jsonAutores = await JSONLoader.load('/autores/data/autores.json');
+
+    const jsonAutor = jsonAutores.filter(
+      json => json.autor === nome
+    );
+
+    console.log('ESSE É DO AUTOR:', jsonAutor);
+
+    const containerSobre = document.getElementById("sobre-autor");
+    if (!containerSobre) {
+        console.error("Container #lista-livros não encontrado");
+        return;
+    }
+
+    function criarItem(titulo, valor) {
+      if (!valor) return "";
+
+      return `
+        <div class="item-autor">
+          <div class="topicoSobre">${titulo}</div>
+          <div class="valorSobre">${valor}</div>
+        </div>
+      `;
+    }
+
+    jsonAutor.forEach(item => {
+        const div = document.createElement("div");
+
+        div.classList.add("card-livro-destaque");
+
+        div.innerHTML = `
+            <div id="container-sobre-autor">
+              <div id="vidaContainer">
+                <div class="vida" id="vida-nascimento">
+                  <div class="topicoSobre" id="nascimento">Nascimento</div>
+                  <div class="dataVida valorSobre">${item.dataNascimento}</div>
+                  <div class="valorSobre">${item.localNascimento}</div>
+                </div>
+                <div class="vida" id="vida-falecimento">
+                  <div class="topicoSobre" id="falecimento">Falecimento</div>
+                  <div class="dataVida valorSobre">${item.dataFalecimento}</div>
+                  <div class="valorSobre">${item.localFalecimento}</div>
+                </div>
+              </div>
+              <div class="container-sobre-autor">
+                ${criarItem("Nome Completo", item.nomeCompleto)}
+                ${criarItem("Pseudônimo", item.pseudonimo)}
+                ${criarItem("Nacionalidade", item.nacionalidade)}
+                ${criarItem("Ocupação", item.ocupacao)}
+                ${criarItem("Educação", item.educacao)}
+                ${criarItem("Cônjuge", item.conjuge)}
+                ${criarItem("Filhos", item.filhos)}
+                ${criarItem("Religião", item.religiao)}
+                ${criarItem("Gêneros Literários", item.generos)}
+                ${criarItem("Movimento Literário", item.movimento)}
+                ${criarItem("Influências", item.influencias)}
+                ${criarItem("Obra Mais Famosa", item.obraFamosa)}
+                ${criarItem("Período de Atividade", item.periodoAtividade)}
+                ${criarItem("Idade", item.idade)}
+              </div>
+            </div>
+        `;
+
+      containerSobre.appendChild(div);
+    });
+
+  } catch (err) {
+    console.error('Erro ao carregar autores:', err);
+    return [];
+  }
+}
 
 // Lê o arquivo Markdown
 async function lerArquivoHome(caminhoCompleto) {
@@ -107,7 +189,7 @@ async function lerArquivoHome(caminhoCompleto) {
 }
 
 // Adiciona arquivo Markdown na pagina HTML
-async function carregarResumo(caminhoCompleto) {
+async function carregarMakdown(caminhoCompleto) {
   const conteudoMais = document.getElementById("texto-principal");
 
   if (!conteudoMais) {
@@ -132,11 +214,9 @@ async function carregarResumo(caminhoCompleto) {
     conteudoMais.appendChild(divMais);
 
   } catch (erro) {
-    console.error("Erro ao carregar resumo:", erro);
+    console.error("Erro ao carregar Markdown:", erro);
   }
 }
-
-carregarResumo(caminhoCompleto); // Chama função para adicionar Markdown no HTML
 
 async function criarRecomendacoesArtigos(nomeAutor) {
     try {
@@ -209,4 +289,114 @@ async function criarRecomendacoesArtigos(nomeAutor) {
     }
 }
 
-criarRecomendacoesArtigos(nomeAutor);
+async function carregarGaleria(maxImg, containerGaleriaDeclarado) {
+    const dados = [
+      "img/1.webp",
+      "img/2.webp",
+      "img/3.webp",
+      "img/4.webp",
+      "img/5.webp",
+      "img/6.webp",
+      "img/7.webp",
+      "img/8.webp",
+      "img/9.webp",
+      "img/10.webp",
+      "img/11.webp",
+      "img/12.webp",
+      "img/13.webp",
+      "img/14.webp",
+      "img/15.webp",
+      "img/16.webp",
+      "img/17.webp",
+      "img/18.webp",
+      "img/19.webp",
+      "img/20.webp"
+    ];
+
+    const containerGaleria = document.getElementById(containerGaleriaDeclarado);
+
+    if (!containerGaleria) {
+        console.error(`Container ${containerGaleria} não encontrado`);
+        return;
+    }
+
+    const fotosExibidos = dados.slice(0, maxImg);
+
+    for (const item of fotosExibidos) {
+        if (!item) continue;
+
+        const img = new Image();
+        img.src = item;
+
+        await new Promise(resolve => {
+            img.onload = () => {
+                const div = document.createElement("div");
+                div.classList.add("card-galeria-foto");
+
+                div.innerHTML = `
+                    <div class="container-galeria">
+                        <img class="capa-galeria"
+                            src="${item}"
+                            alt="foto galeria">
+                    </div>
+                `;
+
+                containerGaleria.appendChild(div);
+                resolve();
+            };
+
+            img.onerror = () => {
+                console.warn(`Imagem não encontrada: ${item}`);
+                resolve();
+            };
+        });
+    }
+}
+
+
+
+
+function inicializarModalGaleria() {
+    const modal = document.getElementById("modal-imagem");
+    const imagemAmpliada = document.getElementById("imagem-ampliada");
+    const fechar = document.getElementById("fechar-modal");
+
+    document.addEventListener("click", (e) => {
+        if (e.target.classList.contains("capa-galeria")) {
+            imagemAmpliada.src = e.target.src;
+            modal.classList.add("ativo");
+        }
+    });
+
+    fechar.addEventListener("click", () => {
+        modal.classList.remove("ativo");
+    });
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("ativo");
+        }
+    });
+}
+
+
+// Flow de apesentação da pagina
+async function init() {
+  await carregarCabecalho(caminho);
+
+  await sobreAutor(nomeAutor);
+
+  await carregarLivros(nomeAutor, 20, "lista-livros");
+
+  await carregarMakdown(caminhoCompleto);
+
+  await carregarLivros(nomeAutor, 20, "lista-livros-md");
+
+  carregarGaleria(20, "container-galeria");
+
+  inicializarModalGaleria();
+
+  await criarRecomendacoesArtigos(nomeAutor);
+}
+
+init();
