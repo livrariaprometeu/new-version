@@ -3,6 +3,9 @@ const partes = window.location.pathname.split('/').filter(Boolean);
 const caminhoCompleto = '/'+partes.join('/');
 const caminho = partes.slice(-1).join('/');
 
+console.log("CAMINHO CONPLETO", caminhoCompleto)
+console.log("CAMINHO", caminho)
+
 // tranforma o nome da aba de "aba-exemplo" para "Aba Exemplo"
 let nomeAutorLower = caminho.replaceAll("-", " ");
 let nomeAutor = nomeAutorLower
@@ -313,7 +316,7 @@ async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, c
                 div.classList.add("card-foto-principal");
 
                 div.innerHTML = `
-                    <img class="inicio-artigo" src="https://livrariaprometeu.com${caminhoCompleto}/${caminho}/img/capa.webp">
+                    <img class="inicio-artigo" src="${caminhoCompleto}/img/capa.webp">
                 `;
 
                 containerGaleria.appendChild(div);
@@ -353,7 +356,7 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
                 div.innerHTML = `
                     <div class="container-galeria">
                         <img class="capa-galeria"
-                            src="https://livrariaprometeu.com${caminhoCompleto}/${item}"
+                            src="${caminhoCompleto}/${item}"
                             alt="foto galeria">
                     </div>
                 `;
