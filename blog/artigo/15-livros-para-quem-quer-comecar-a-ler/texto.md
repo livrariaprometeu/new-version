@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/15-livros-para-quem-quer-comecar-a-ler/capa.webp)
-
 # 15 Livros Para Quem Quer Começar a Ler
 
 Começar o hábito da leitura pode parecer difícil, principalmente para quem não está acostumado a ler com frequência. A boa notícia é que existem livros envolventes, acessíveis e capazes de despertar o prazer pela leitura logo nas primeiras páginas.

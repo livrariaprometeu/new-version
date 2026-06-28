@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado/capa.webp)
-
 # A Mão Invisível: O Conceito Mais Famoso de Adam Smith Explicado
 
 A expressão **"mão invisível"** é provavelmente o conceito mais famoso associado a Adam Smith. Frequentemente utilizada em debates sobre economia, política e mercado, ela também é uma das ideias mais mal compreendidas da história do pensamento econômico.

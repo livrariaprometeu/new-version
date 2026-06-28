@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna/capa.webp)
-
 # Quem Foi Adam Smith e Por Que Ele é Considerado o Pai da Economia Moderna?
 
 Quando se fala em economia, poucos nomes são tão importantes quanto Adam Smith. Mesmo pessoas que nunca estudaram economia provavelmente já ouviram expressões como **"livre mercado"** ou **"mão invisível"**, conceitos que ficaram famosos graças ao pensador escocês.

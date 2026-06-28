@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia/capa.webp)
-
 # Quem Foi George Orwell? Conheça o Autor que Previu um Mundo de Vigilância
 
 Poucos escritores conseguiram influenciar tanto a forma como enxergamos a política, a liberdade e o poder quanto George Orwell. Mesmo décadas após sua morte, suas obras continuam sendo discutidas em escolas, universidades e debates sobre a sociedade moderna.

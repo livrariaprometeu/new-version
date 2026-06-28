@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos/capa.webp)
-
 # 10 Livros Essenciais Para Ler Antes dos 30 Anos
 
 Existem livros que nos ajudam a passar o tempo.

@@ -1,8 +1,4 @@
-![Capa do blog](/blog/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca/capa.webp)
-
 # Resumo de 1984: O Clássico Distópico que Continua Mais Atual do que Nunca
-
-
 
 Publicado em 1949, *1984* é uma das obras mais influentes da literatura mundial. Escrito por George Orwell, o romance apresenta uma sociedade dominada pela vigilância constante, pela manipulação da informação e pelo controle absoluto do pensamento.
 

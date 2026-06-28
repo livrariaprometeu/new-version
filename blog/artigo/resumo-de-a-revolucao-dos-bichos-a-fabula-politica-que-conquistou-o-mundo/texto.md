@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo/capa.webp)
-
 # Resumo de A Revolução dos Bichos: A Fábula Política que Conquistou o Mundo
 
 Publicado em 1945, *A Revolução dos Bichos* é uma das obras mais famosas de George Orwell. Apesar de ser uma narrativa curta e de fácil leitura, o livro apresenta uma crítica profunda ao poder, à corrupção e à forma como ideais revolucionários podem ser distorcidos ao longo do tempo.

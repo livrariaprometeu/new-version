@@ -38,6 +38,7 @@ async function carregarResumo(AbaArtigo) {
 
     divMais.innerHTML = `
       <div class="definir-tamanho-aba">
+        <img src="http://livrariaprometeu.com/blog/artigo/${resultado}/capa.webp" class="img-principal-artigo"/>
         <div id="markdown">${markdown}</div>
       </div>
     `;

@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos/capa.webp)
-
 # Os 10 Melhores Livros para Ler Antes dos 30 Anos
 
 Há livros que entretêm. Outros ensinam. Alguns poucos têm o poder de transformar a forma como enxergamos o mundo.

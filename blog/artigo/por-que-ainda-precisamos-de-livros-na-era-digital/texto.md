@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/por-que-ainda-precisamos-de-livros-na-era-digital/capa.webp)
-
 # Por que ainda precisamos de livros na era digital?
 
 Vivemos cercados por telas, notificações e fluxos incessantes de informações. A cada segundo, novos conteúdos disputam nossa atenção — vídeos curtos, manchetes rápidas, respostas automáticas. Nesse turbilhão, o livro parece, para muitos, um artefato do passado. Um objeto “lento” em um mundo que exige velocidade.

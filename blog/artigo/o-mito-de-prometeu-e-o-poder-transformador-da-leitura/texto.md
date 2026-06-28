@@ -1,12 +1,9 @@
-![Capa do blog](/blog/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura/capa.webp)
-
 # O mito de Prometeu e o poder transformador da leitura
 No coração da mitologia grega, Prometeu ousou fazer o impensável:
 
 roubar o fogo dos deuses e entregá-lo aos homens.
 
 Esse ato de rebeldia e compaixão tornou-se símbolo do conhecimento —
-
 da luz que rompe a escuridão da ignorância.
 
 ## Prometeu e o nascimento do saber

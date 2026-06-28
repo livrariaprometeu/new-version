@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor/capa.webp)
-
 # Resumo de Meditações: Os Ensinamentos de Marco Aurélio para uma Vida Melhor
 
 Poucos livros atravessaram quase dois mil anos e continuam tão relevantes quanto *Meditações*, de Marco Aurélio. Escrito pelo imperador romano durante campanhas militares e momentos de reflexão pessoal, o livro não foi criado para ser publicado. Na verdade, tratava-se de um diário onde o autor registrava pensamentos sobre virtude, disciplina, propósito e autocontrole.

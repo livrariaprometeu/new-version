@@ -7,7 +7,7 @@
 ## Linha do tempo
 
 - **8 de novembro de 1847** – Nasce em Dublin, Irlanda.
-- **1864** – Ingressa no Trinity College Dublin.
+- **1864** – Ingressa no Trinity College Dublin.    
 - **1870** – Forma-se em Matemática com honras pelo Trinity College Dublin.
 - **1872** – Publica The Duties of Clerks of Petty Sessions in Ireland, sua primeira obra.
 - **10 de dezembro de 1876** – Conhece pessoalmente Henry Irving após publicar uma crítica elogiosa de sua atuação em Hamlet.

@@ -210,43 +210,6 @@ summary {
 }
 
 
-
-
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 2rem 0;
-    font-size: 0.95rem;
-    background-color: #fdfaf3;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-thead {
-    background-color: var(--bg-header);
-    color: var(--cl-paper);
-}
-
-th,
-td {
-    padding: 14px 18px;
-    text-align: left;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #f6f1e7;
-}
-
-tbody tr:hover {
-    background-color: #ece4d4;
-    transition: background 0.2s;
-}
-
-
 @media (max-width: 768px){
     #apresentacao-livros-autor{
         width: 50%;

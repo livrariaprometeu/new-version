@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/resumo-de-mindset-como-a-mentalidade-de-crescimento-pode-transformar-sua-vida/capa.webp)
-
 # Resumo de Mindset: Como a Mentalidade de Crescimento Pode Transformar Sua Vida
 
 Entre os livros de desenvolvimento pessoal mais influentes das últimas décadas, *Mindset: A Nova Psicologia do Sucesso*, de Carol Dweck, ocupa um lugar de destaque. A autora, professora e pesquisadora da Universidade Stanford, apresenta uma ideia capaz de mudar a forma como enxergamos inteligência, talento e sucesso.

@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/o-que-e-estoicismo-um-guia-completo-para-entender-a-filosofia-que-atravessou-2000-anos/capa.webp)
-
 # O que é Estoicismo? Um Guia Completo para Entender a Filosofia que Atravessou Mais de 2.000 Anos
 
 **Em um mundo marcado pela ansiedade, excesso de informação e busca constante por resultados, uma filosofia criada há mais de dois mil anos voltou a chamar a atenção de milhões de pessoas: o estoicismo.**

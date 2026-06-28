@@ -46,7 +46,7 @@ async function carregarCabecalho(AbaArtigo) {
             <p id="chamada-para-livros">Livros de ${nomeAutor} disponíveis na Livraria Prometeu:</p>
             <div id="lista-livros" class="lista-livros carrossel-livros"></div>
         </div>
-        <img id="capa-autor" src="${caminhoCompleto}/capa.webp"/>
+        <img id="capa-autor" src="https://livrariaprometeu.com${caminhoCompleto}/capa.webp"/>
       </div>
       <div id="sobre-autor"></div>
     `;
@@ -290,7 +290,7 @@ async function criarRecomendacoesArtigos(nomeAutor) {
 }
 
 
-async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados) {
+async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, caminhoCompleto) {
 
     const containerGaleria = document.getElementById(containerGaleriaDeclarado);
 
@@ -313,7 +313,7 @@ async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados) {
                 div.classList.add("card-foto-principal");
 
                 div.innerHTML = `
-                    <img class="inicio-artigo" src="${caminhoCompleto}/img/capa.webp">
+                    <img class="inicio-artigo" src="https://livrariaprometeu.com${caminhoCompleto}/img/capa.webp">
                 `;
 
                 containerGaleria.appendChild(div);
@@ -353,7 +353,7 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
                 div.innerHTML = `
                     <div class="container-galeria">
                         <img class="capa-galeria"
-                            src="${caminhoCompleto}/${item}"
+                            src="https://livrariaprometeu.com${caminhoCompleto}/${item}"
                             alt="foto galeria">
                     </div>
                 `;
@@ -369,9 +369,6 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
         });
     }
 }
-
-
-
 
 function inicializarModalGaleria() {
     const modal = document.getElementById("modal-imagem");
@@ -409,34 +406,35 @@ async function init() {
 
   await carregarMakdown(caminhoCompleto);
 
-  await carregarFotoPrincipal(1, "img-inicio-artigo", ["img/capa.webp"])
+  await carregarFotoPrincipal(1, "img-inicio-artigo", ["img/capa.webp"], caminhoCompleto)
 
   await carregarLivros(nomeAutor, 20, "lista-livros-md");
 
   await carregarGaleria(20, 
                         "container-galeria", 
                         [
-                        "img/1.webp",
-                        "img/2.webp",
-                        "img/3.webp",
-                        "img/4.webp",
-                        "img/5.webp",
-                        "img/6.webp",
-                        "img/7.webp",
-                        "img/8.webp",
-                        "img/9.webp",
-                        "img/10.webp",
-                        "img/11.webp",
-                        "img/12.webp",
-                        "img/13.webp",
-                        "img/14.webp",
-                        "img/15.webp",
-                        "img/16.webp",
-                        "img/17.webp",
-                        "img/18.webp",
-                        "img/19.webp",
-                        "img/20.webp"
-                      ]);
+                          "img/1.webp",
+                          "img/2.webp",
+                          "img/3.webp",
+                          "img/4.webp",
+                          "img/5.webp",
+                          "img/6.webp",
+                          "img/7.webp",
+                          "img/8.webp",
+                          "img/9.webp",
+                          "img/10.webp",
+                          "img/11.webp",
+                          "img/12.webp",
+                          "img/13.webp",
+                          "img/14.webp",
+                          "img/15.webp",
+                          "img/16.webp",
+                          "img/17.webp",
+                          "img/18.webp",
+                          "img/19.webp",
+                          "img/20.webp"
+                        ],
+                        caminhoCompleto);
 
   await inicializarModalGaleria();
 }

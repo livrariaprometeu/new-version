@@ -1,5 +1,3 @@
-![Capa do blog](/blog/artigo/como-criar-o-habito-da-leitura-em-30-dias/capa.webp)
-
 # Como Criar o Hábito da Leitura em 30 Dias
 
 Muitas pessoas gostariam de ler mais, mas acreditam que não têm tempo, concentração ou disciplina suficiente para isso.
