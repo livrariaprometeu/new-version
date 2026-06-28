@@ -304,6 +304,7 @@ async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, c
 
     const fotosExibidos = dados.slice(0, maxImg);
 
+    console.log("CAMINHO DA CAPA",`${caminhoCompleto}/img/capa.webp`)
     for (const item of fotosExibidos) {
         if (!item) continue;
 
@@ -350,6 +351,8 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
 
         await new Promise(resolve => {
             img.onload = () => {
+                console.log("CAMINHO DA GALERIA",`${caminhoCompleto}/${item}`)
+
                 const div = document.createElement("div");
                 div.classList.add("card-galeria-foto");
 
@@ -398,7 +401,7 @@ function inicializarModalGaleria() {
 
 
 // Flow de apesentação da pagina
-async function init() {
+async function init(caminhoCompleto, caminho) {
   await carregarCabecalho(caminho);
 
   await sobreAutor(nomeAutor);
@@ -442,4 +445,4 @@ async function init() {
   await inicializarModalGaleria();
 }
 
-init();
+init(caminhoCompleto, caminho);
