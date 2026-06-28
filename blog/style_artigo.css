@@ -143,4 +143,14 @@ details {
     gap: 20px; /* espaço entre os cards */
     text-decoration: none;
     }
+
+    table {
+        width: 100%;
+        font-size: 0.6rem;
+    }
+
+    th,
+    td {
+        padding: 10px 0.8dvh;
+    }
 }

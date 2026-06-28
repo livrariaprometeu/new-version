@@ -380,62 +380,46 @@ Mais de dois séculos após sua morte, Adam Smith continua sendo uma das figuras
 
 ### Fontes acadêmicas
 
-- Fleischacker, Samuel. *On Adam Smith's Wealth of Nations: A Philosophical Companion*. Princeton University Press, 2004.  
-  https://press.princeton.edu/books/paperback/9780691114213/on-adam-smiths-wealth-of-nations
+- [Fleischacker, Samuel. *On Adam Smith's Wealth of Nations: A Philosophical Companion*. Princeton University Press, 2004.](https://press.princeton.edu/books/paperback/9780691114213/on-adam-smiths-wealth-of-nations)
 
-- Rothschild, Emma. *Economic Sentiments: Adam Smith, Condorcet, and the Enlightenment*. Harvard University Press, 2001.  
-  https://www.hup.harvard.edu/books/9780674008355
+- [Rothschild, Emma. *Economic Sentiments: Adam Smith, Condorcet, and the Enlightenment*. Harvard University Press, 2001.](https://www.hup.harvard.edu/books/9780674008355)
 
-- Winch, Donald. *Adam Smith's Politics: An Essay in Historiographic Revision*. Cambridge University Press, 1978.  
-  https://www.cambridge.org/core/books/adam-smiths-politics/
+- [Winch, Donald. *Adam Smith's Politics: An Essay in Historiographic Revision*. Cambridge University Press, 1978.](https://www.cambridge.org/core/books/adam-smiths-politics/)
 
-- Haakonssen, Knud (org.). *The Cambridge Companion to Adam Smith*. Cambridge University Press, 2006.  
-  https://www.cambridge.org/core/books/cambridge-companion-to-adam-smith/
+- [Haakonssen, Knud (org.). *The Cambridge Companion to Adam Smith*. Cambridge University Press, 2006.](https://www.cambridge.org/core/books/cambridge-companion-to-adam-smith/)
 
 ---
 
 ### Livros e biografias
 
 - Rae, John. *Life of Adam Smith*. London: Macmillan, 1895.  
-  https://archive.org/details/lifeofadamsmith00raej
 
 - Ross, Ian Simpson. *The Life of Adam Smith*. Oxford University Press, 2010.  
-  https://global.oup.com/academic/product/the-life-of-adam-smith-9780199550032
 
 - Phillipson, Nicholas. *Adam Smith: An Enlightened Life*. Yale University Press, 2010.  
-  https://yalebooks.yale.edu/book/9780300166718/adam-smith/
 
 ---
 
 ### Obras de Adam Smith
 
-- Smith, Adam. *The Theory of Moral Sentiments*. London: A. Millar, 1759.  
-  https://www.gutenberg.org/ebooks/67363
+- [Smith, Adam. *The Theory of Moral Sentiments*. London: A. Millar, 1759.](https://www.gutenberg.org/ebooks/67363)
 
-- Smith, Adam. *An Inquiry into the Nature and Causes of the Wealth of Nations*. London: W. Strahan and T. Cadell, 1776.  
-  https://www.gutenberg.org/ebooks/3300
+- [Smith, Adam. *An Inquiry into the Nature and Causes of the Wealth of Nations*. London: W. Strahan and T. Cadell, 1776.](https://www.gutenberg.org/ebooks/3300)
 
-- Smith, Adam. *Essays on Philosophical Subjects*. London: T. Cadell Jr. and W. Davies, 1795.  
-  https://archive.org/details/essaysonphilosop00smit
+- [Smith, Adam. *Essays on Philosophical Subjects*. London: T. Cadell Jr. and W. Davies, 1795.](https://archive.org/details/essaysonphilosop00smit)
 
-- Smith, Adam. *Lectures on Justice, Police, Revenue and Arms*. Edited by Edwin Cannan, 1896.  
-  https://archive.org/details/lecturesonjustic00smit
+- [Smith, Adam. *Lectures on Justice, Police, Revenue and Arms*. Edited by Edwin Cannan, 1896.](https://archive.org/details/lecturesonjustic00smit)
 
 ---
 
 ### Fontes digitais e institucionais
 
-- Encyclopaedia Britannica. **Adam Smith**.  
-  https://www.britannica.com/biography/Adam-Smith
+- [Encyclopaedia Britannica. **Adam Smith**.](https://www.britannica.com/biography/Adam-Smith)
 
-- Stanford Encyclopedia of Philosophy. **Adam Smith's Moral and Political Philosophy**.  
-  https://plato.stanford.edu/entries/smith-moral-political/
+- [Stanford Encyclopedia of Philosophy. **Adam Smith's Moral and Political Philosophy**.](https://plato.stanford.edu/entries/smith-moral-political/)
 
-- Library of Economics and Liberty. **Adam Smith Biography**.  
-  https://www.econlib.org/library/Enc/bios/Smith.html
+- [Library of Economics and Liberty. **Adam Smith Biography**.](https://www.econlib.org/library/Enc/bios/Smith.html)
 
-- The University of Glasgow. **Adam Smith at Glasgow**.  
-  https://www.gla.ac.uk/myglasgow/archives/exhibitions/adamsmith/
+- [The University of Glasgow. **Adam Smith at Glasgow**.](https://www.gla.ac.uk/myglasgow/archives/exhibitions/adamsmith/)
 
-- The Adam Smith Institute. **Who Was Adam Smith?**  
-  https://www.adamsmith.org/adam-smith
+- [The Adam Smith Institute. **Who Was Adam Smith?**](https://www.adamsmith.org/adam-smith)
