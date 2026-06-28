@@ -309,7 +309,7 @@ async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, c
         if (!item) continue;
 
         const img = new Image();
-        img.src = item;
+        img.src = `${caminhoCompleto}/${item}`;
 
         await new Promise(resolve => {
             img.onload = () => {
@@ -347,8 +347,8 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
         if (!item) continue;
 
         const img = new Image();
-        img.src = item;
-
+        img.src = `${caminhoCompleto}/${item}`;
+      
         await new Promise(resolve => {
             img.onload = () => {
                 console.log("CAMINHO DA GALERIA",`${caminhoCompleto}/${item}`)
