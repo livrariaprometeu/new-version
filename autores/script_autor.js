@@ -290,7 +290,7 @@ async function criarRecomendacoesArtigos(nomeAutor) {
 }
 
 
-async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, caminhoCompleto) {
+async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, caminhoCompleto, caminho) {
 
     const containerGaleria = document.getElementById(containerGaleriaDeclarado);
 
@@ -313,7 +313,7 @@ async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados, c
                 div.classList.add("card-foto-principal");
 
                 div.innerHTML = `
-                    <img class="inicio-artigo" src="https://livrariaprometeu.com${caminhoCompleto}/img/capa.webp">
+                    <img class="inicio-artigo" src="https://livrariaprometeu.com${caminhoCompleto}/${caminho}/img/capa.webp">
                 `;
 
                 containerGaleria.appendChild(div);
@@ -406,7 +406,7 @@ async function init() {
 
   await carregarMakdown(caminhoCompleto);
 
-  await carregarFotoPrincipal(1, "img-inicio-artigo", ["img/capa.webp"], caminhoCompleto)
+  await carregarFotoPrincipal(1, "img-inicio-artigo", ["img/capa.webp"], caminhoCompleto, caminho)
 
   await carregarLivros(nomeAutor, 20, "lista-livros-md");
 
