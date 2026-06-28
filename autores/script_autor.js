@@ -289,29 +289,46 @@ async function criarRecomendacoesArtigos(nomeAutor) {
     }
 }
 
-async function carregarGaleria(maxImg, containerGaleriaDeclarado) {
-    const dados = [
-      "img/1.webp",
-      "img/2.webp",
-      "img/3.webp",
-      "img/4.webp",
-      "img/5.webp",
-      "img/6.webp",
-      "img/7.webp",
-      "img/8.webp",
-      "img/9.webp",
-      "img/10.webp",
-      "img/11.webp",
-      "img/12.webp",
-      "img/13.webp",
-      "img/14.webp",
-      "img/15.webp",
-      "img/16.webp",
-      "img/17.webp",
-      "img/18.webp",
-      "img/19.webp",
-      "img/20.webp"
-    ];
+
+async function carregarFotoPrincipal(maxImg, containerGaleriaDeclarado, dados) {
+
+    const containerGaleria = document.getElementById(containerGaleriaDeclarado);
+
+    if (!containerGaleria) {
+        console.error(`Container ${containerGaleria} não encontrado`);
+        return;
+    }
+
+    const fotosExibidos = dados.slice(0, maxImg);
+
+    for (const item of fotosExibidos) {
+        if (!item) continue;
+
+        const img = new Image();
+        img.src = item;
+
+        await new Promise(resolve => {
+            img.onload = () => {
+                const div = document.createElement("div");
+                div.classList.add("card-foto-principal");
+
+                div.innerHTML = `
+                    <img class="inicio-artigo" src="${caminhoCompleto}/img/capa.webp">
+                `;
+
+                containerGaleria.appendChild(div);
+                resolve();
+            };
+
+            img.onerror = () => {
+                console.warn(`Imagem não encontrada: ${item}`);
+                resolve();
+            };
+        });
+    }
+}
+
+async function carregarGaleria(maxImg, containerGaleriaDeclarado, dados) {
 
     const containerGaleria = document.getElementById(containerGaleriaDeclarado);
 
@@ -336,7 +353,7 @@ async function carregarGaleria(maxImg, containerGaleriaDeclarado) {
                 div.innerHTML = `
                     <div class="container-galeria">
                         <img class="capa-galeria"
-                            src="${item}"
+                            src="${caminhoCompleto}/${item}"
                             alt="foto galeria">
                     </div>
                 `;
@@ -388,15 +405,40 @@ async function init() {
 
   await carregarLivros(nomeAutor, 20, "lista-livros");
 
+  await criarRecomendacoesArtigos(nomeAutor);
+
   await carregarMakdown(caminhoCompleto);
+
+  await carregarFotoPrincipal(1, "img-inicio-artigo", ["img/capa.webp"])
 
   await carregarLivros(nomeAutor, 20, "lista-livros-md");
 
-  carregarGaleria(20, "container-galeria");
+  await carregarGaleria(20, 
+                        "container-galeria", 
+                        [
+                        "img/1.webp",
+                        "img/2.webp",
+                        "img/3.webp",
+                        "img/4.webp",
+                        "img/5.webp",
+                        "img/6.webp",
+                        "img/7.webp",
+                        "img/8.webp",
+                        "img/9.webp",
+                        "img/10.webp",
+                        "img/11.webp",
+                        "img/12.webp",
+                        "img/13.webp",
+                        "img/14.webp",
+                        "img/15.webp",
+                        "img/16.webp",
+                        "img/17.webp",
+                        "img/18.webp",
+                        "img/19.webp",
+                        "img/20.webp"
+                      ]);
 
-  inicializarModalGaleria();
-
-  await criarRecomendacoesArtigos(nomeAutor);
+  await inicializarModalGaleria();
 }
 
 init();

@@ -2,7 +2,7 @@
 
 *Bram Stoker* foi um escritor irlandês que transformou o folclore dos vampiros em um dos maiores ícones da cultura ocidental. Embora tenha escrito mais de dez romances, tornou-se eternamente associado a Drácula (1897), obra que definiu grande parte da imagem moderna do vampiro: um aristocrata sombrio, sedutor e ameaçador. Além da carreira literária, trabalhou durante quase trinta anos como empresário do famoso ator Henry Irving no Teatro Lyceum, em Londres. Sua influência alcança a literatura, o cinema, os quadrinhos e praticamente toda a cultura pop contemporânea.
 
-<img class="inicio-artigo" src="img/capa.webp">
+<div id="img-inicio-artigo"></div>
 
 ## Linha do tempo
 
