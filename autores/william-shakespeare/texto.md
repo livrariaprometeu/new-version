@@ -1,6 +1,8 @@
-## Quem foi William Shakespeare em 30 segundos
+## Quem foi James Joyce em 30 segundos
 
-William Shakespeare foi um dramaturgo, poeta e ator inglês, considerado o maior escritor da língua inglesa e um dos autores mais influentes da história da literatura. Suas peças, como *Hamlet*, *Romeu e Julieta* e *Macbeth*, exploram temas universais como amor, ambição, poder, vingança e a natureza humana. Sua obra transformou o teatro ocidental e continua sendo estudada, adaptada e encenada em todo o mundo.
+:contentReference[oaicite:0]{index=0} foi um escritor irlandês nascido em 1882 e uma das figuras centrais do modernismo literário do século XX. Sua obra revolucionou a forma de narrar histórias ao romper com a estrutura tradicional do romance, explorando técnicas como fluxo de consciência, fragmentação da linguagem e múltiplas perspectivas.
+
+Ele ficou mundialmente conhecido por obras como *Dubliners* (1914), *A Portrait of the Artist as a Young Man* (1916) e principalmente *Ulysses* (1922), considerado um dos romances mais importantes e complexos da literatura moderna. Sua escrita transformou profundamente o romance contemporâneo, influenciando gerações de autores e consolidando Joyce como um dos maiores inovadores da literatura mundial.
 
 <div id="img-inicio-artigo"></div>
 
