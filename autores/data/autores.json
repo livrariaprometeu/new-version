@@ -18,6 +18,7 @@
     "influencias": "Epicteto, Sêneca, estoicismo grego",
     "obraFamosa": "Meditações",
     "periodoAtividade": "161–180",
+    "coords": [41.9028, 12.4964],
     "idade": 58
   },
   {
@@ -39,6 +40,7 @@
     "influencias": "Henrik Ibsen, Dante Alighieri, Thomas Aquinas",
     "obraFamosa": "Ulysses",
     "periodoAtividade": "1904–1941",
+    "coords": [53.3498, -6.2603],
     "idade": 58
   },
   {
@@ -58,6 +60,7 @@
     "influencias": "Francis Hutcheson, David Hume, Isaac Newton",
     "obraFamosa": "A Riqueza das Nações",
     "periodoAtividade": "1748–1790",
+    "coords": [56.1139, -3.1619],
     "idade": 67
   },
   {
@@ -79,6 +82,7 @@
     "influencias": "Sheridan Le Fanu, Edgar Allan Poe e o folclore do leste europeu",
     "obraFamosa": "Drácula",
     "periodoAtividade": "1872–1912",
+    "coords": [51.5072, -0.1276],
     "idade": 64
   },
   {
@@ -99,6 +103,7 @@
     "influencias": "Tradição do nonsense inglês e matemática recreativa",
     "obraFamosa": "Alice no País das Maravilhas",
     "periodoAtividade": "1854–1898",
+    "coords": [51.7520, -1.2577],
     "idade": 65
   },
   {
@@ -119,6 +124,7 @@
     "influencias": "Plutarco, Ovídio, Holinshed",
     "obraFamosa": "Hamlet",
     "periodoAtividade": "1585–1613",
+    "coords": [52.1917, -1.7083],
     "idade": 52
   },
   {
@@ -140,6 +146,7 @@
     "influencias": "William Shakespeare, Bíblia, Nathaniel Hawthorne",
     "obraFamosa": "Moby-Dick",
     "periodoAtividade": "1846–1891",
+    "coords": [40.7128, -74.0060],
     "idade": 72
   }
 ]

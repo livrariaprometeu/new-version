@@ -1,0 +1,31 @@
+.cluster-pin{
+    position: relative;
+    width:40px;
+    height:40px;
+
+    background:#d32f2f;
+    border-radius:50% 50% 50% 0;
+
+    transform:rotate(-45deg);
+
+    border:3px solid white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.35);
+}
+
+.cluster-pin span{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+
+    transform:rotate(45deg);
+}
