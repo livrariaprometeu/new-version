@@ -1,28 +1,27 @@
-## Quem foi James Joyce em 30 segundos
+## Quem foi William Shakespeare em 30 segundos
 
-:contentReference[oaicite:0]{index=0} foi um escritor irlandês nascido em 1882 e uma das figuras centrais do modernismo literário do século XX. Sua obra revolucionou a forma de narrar histórias ao romper com a estrutura tradicional do romance, explorando técnicas como fluxo de consciência, fragmentação da linguagem e múltiplas perspectivas.
-
-Ele ficou mundialmente conhecido por obras como *Dubliners* (1914), *A Portrait of the Artist as a Young Man* (1916) e principalmente *Ulysses* (1922), considerado um dos romances mais importantes e complexos da literatura moderna. Sua escrita transformou profundamente o romance contemporâneo, influenciando gerações de autores e consolidando Joyce como um dos maiores inovadores da literatura mundial.
+William Shakespeare foi um dramaturgo, poeta e ator inglês, considerado o maior escritor da língua inglesa e um dos autores mais influentes da história da literatura. Suas peças, como *Hamlet*, *Romeu e Julieta* e *Macbeth*, exploram temas universais como amor, ambição, poder, vingança e a natureza humana. Sua obra transformou o teatro ocidental e continua sendo estudada, adaptada e encenada em todo o mundo.
 
 <div id="img-inicio-artigo"></div>
 
 ## Linha do tempo
 
-- **1564** – Batizado em Stratford-upon-Avon, Inglaterra (a data exata de nascimento é desconhecida, tradicionalmente celebrada em 23 de abril).
-- **1571–1578** – Frequenta a King's New School, em Stratford.
-- **27 de novembro de 1582** – Casa-se com Anne Hathaway.
-- **26 de maio de 1583** – Nasce sua primeira filha, Susanna Shakespeare.
-- **2 de fevereiro de 1585** – São batizados os gêmeos Hamnet e Judith Shakespeare.
-- **1585–1592** – Período conhecido como os "anos perdidos" de Shakespeare.
-- **1592** – Já é reconhecido como dramaturgo em Londres.
-- **1594** – Torna-se membro da companhia teatral Lord Chamberlain's Men.
-- **1599** – A companhia inaugura o Globe Theatre.
-- **1603** – O grupo passa a se chamar King's Men sob o patrocínio do rei Jaime I.
-- **1608** – Participa da aquisição do Blackfriars Theatre.
-- **29 de junho de 1613** – O Globe Theatre é destruído por um incêndio durante uma apresentação de *Henrique VIII*.
-- **1613** – Retorna definitivamente para Stratford-upon-Avon.
-- **23 de abril de 1616** – Morre aos 52 anos em Stratford-upon-Avon.
-- **1623** – Publicação do *First Folio*, coletânea que preservou grande parte de suas peças.
+| Ano | Idade | Evento |
+|------|:-----:|--------|
+| **1564** | 0 | Batizado em Stratford-upon-Avon, Inglaterra (data de nascimento tradicionalmente celebrada em 23 de abril). |
+| **1571–1578** | 7–14 | Frequenta a King's New School, em Stratford-upon-Avon. |
+| **1582** | 18 | Casa-se com Anne Hathaway em 27 de novembro. |
+| **1583** | 19 | Nasce sua primeira filha, Susanna Shakespeare. |
+| **1585** | 21 | Nascimento dos gêmeos Hamnet e Judith Shakespeare. |
+| **1585–1592** | 21–28 | Período dos “anos perdidos”, sem registros claros de sua atividade. |
+| **1592** | 28 | Já é reconhecido como dramaturgo em Londres. |
+| **1594** | 30 | Torna-se membro da companhia teatral Lord Chamberlain's Men. |
+| **1599** | 35 | A companhia inaugura o Globe Theatre. |
+| **1603** | 39 | A companhia passa a se chamar King's Men sob patrocínio do rei Jaime I. |
+| **1608** | 44 | Participa da aquisição do Blackfriars Theatre. |
+| **1613** | 49 | Incêndio destrói o Globe Theatre durante apresentação de *Henrique VIII*; retorna a Stratford-upon-Avon. |
+| **1616** | 52 | Morre em Stratford-upon-Avon, em 23 de abril. |
+| **1623** | 59 | Publicação do *First Folio*, reunindo grande parte de suas peças. |
 
 ---
 

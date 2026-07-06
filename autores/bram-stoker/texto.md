@@ -1,101 +1,158 @@
 ## Quem foi Bram Stoker em 30 segundos
 
-*Bram Stoker* foi um escritor irlandês que transformou o folclore dos vampiros em um dos maiores ícones da cultura ocidental. Embora tenha escrito mais de dez romances, tornou-se eternamente associado a Drácula (1897), obra que definiu grande parte da imagem moderna do vampiro: um aristocrata sombrio, sedutor e ameaçador. Além da carreira literária, trabalhou durante quase trinta anos como empresário do famoso ator Henry Irving no Teatro Lyceum, em Londres. Sua influência alcança a literatura, o cinema, os quadrinhos e praticamente toda a cultura pop contemporânea.
+Bram Stoker foi um escritor irlandês nascido em 1847, mundialmente reconhecido por ter criado o romance **Dracula (1897)**, obra que definiu a base da literatura moderna de vampiros e se tornou um dos pilares do horror gótico.
+
+Antes de sua carreira literária ganhar destaque, trabalhou por quase 30 anos como gerente do Lyceum Theatre, em Londres, onde atuou ao lado do ator Henry Irving. Essa vivência no teatro influenciou diretamente seu estilo narrativo, marcado por tensão dramática e atmosfera sombria.
+
+Apesar de ter escrito outras obras, foi *Dracula* que consolidou seu legado, transformando sua criação em um dos personagens mais influentes da cultura popular mundial.
 
 <div id="img-inicio-artigo"></div>
 
 ## Linha do tempo
 
-- **8 de novembro de 1847** – Nasce em Dublin, Irlanda.
-- **1864** – Ingressa no Trinity College Dublin.    
-- **1870** – Forma-se em Matemática com honras pelo Trinity College Dublin.
-- **1872** – Publica The Duties of Clerks of Petty Sessions in Ireland, sua primeira obra.
-- **10 de dezembro de 1876** – Conhece pessoalmente Henry Irving após publicar uma crítica elogiosa de sua atuação em Hamlet.
-- **4 de dezembro de 1878** – Casa-se com Florence Balcombe, em Londres.
-- **1878** – Muda-se para Londres e torna-se gerente do Teatro Lyceum.
-- **31 de dezembro de 1879** – Nasce seu único filho, Irving Noel Thornley Stoker.
-- **1890** – Inicia as pesquisas que dariam origem ao romance Drácula.
-- **26 de maio de 1897** – Publicação de Drácula.
-- **13 de outubro de 1905** – Morre Henry Irving, amigo e mentor de Stoker.
-- **1906** – Publica Personal Reminiscences of Henry Irving.
-- **20 de abril de 1912** – Morre em Londres, aos 64 anos.
-- **23 de abril de 1912** – Seu corpo é cremado no Golders Green Crematorium, em Londres.
+| Ano           | Idade | Evento                                                                                                                                |
+| ------------- | :---: | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **1847**      |   0   | Nasce em 8 de novembro, em Clontarf, Dublin, Irlanda, em uma família de classe média.                                                 |
+| **1854–1864** |  7–17 | Passa grande parte da infância doente, mas com forte incentivo intelectual da família, desenvolvendo interesse por leitura e escrita. |
+| **1864**      |   17  | Ingressa no Trinity College Dublin, onde estuda matemática e ciências, destacando-se academicamente.                                  |
+| **1870**      |   23  | Forma-se no Trinity College e começa a trabalhar como funcionário público no Dublin Castle.                                           |
+| **1876**      |   29  | Publica seus primeiros textos e inicia colaboração com jornais e críticas teatrais.                                                   |
+| **1878**      |   31  | Torna-se gerente do Lyceum Theatre, em Londres, trabalhando com o ator Henry Irving, relação que marcará sua vida profissional.       |
+| **1890**      |   43  | Começa a trabalhar intensamente no projeto que se tornaria *Dracula*, pesquisando folclore e mitos sobre vampiros.                    |
+| **1897**      |   50  | Publica *Dracula*, obra que o consagra e redefine o gênero de horror gótico.                                                          |
+| **1900–1910** | 53–63 | Continua escrevendo romances e contos, mas sem repetir o mesmo impacto de *Dracula*.                                                  |
+| **1912**      |   64  | Morre em 20 de abril, em Londres, deixando um legado literário imortalizado pela figura de Dracula.                                   |
+
 
 ---
 
 ## Biografia
-### 1847–1864 | Infância e juventude
 
-Abraham Stoker nasceu em Dublin em uma família de classe média protestante. Durante os primeiros anos de vida, sofreu uma doença desconhecida que o deixou acamado por longos períodos. O próprio autor mais tarde afirmou que sua mãe lhe contava histórias folclóricas e narrativas sobre epidemias e mortes, elementos que possivelmente influenciaram sua imaginação literária.
+### 1847–1864 | Infância e formação inicial
 
-Contra todas as expectativas, recuperou-se completamente e tornou-se um jovem atlético, destacando-se posteriormente em esportes universitários.
+Bram Stoker nasceu em **8 de novembro de 1847**, em **Clontarf**, um subúrbio de **Dublin**, na Irlanda. Era o terceiro de sete filhos de **Abraham Stoker**, funcionário público, e **Charlotte Mathilda Blake Thornley**, escritora e ativista social.
 
----
+Sua infância foi marcada por uma saúde extremamente frágil. Até cerca dos sete anos de idade, permaneceu grande parte do tempo acamado devido a uma doença cuja causa exata permanece desconhecida. Durante esse período, sua mãe costumava lhe contar histórias sobre epidemias, lendas irlandesas e acontecimentos sobrenaturais, narrativas que muitos estudiosos consideram uma das principais influências para sua futura obra literária.
 
-### 1864–1878 | Formação e primeiros trabalhos
-
-Em 1864, ingressou no Trinity College Dublin, onde estudou Matemática e se destacou como estudante. Após a graduação, trabalhou como funcionário público na administração irlandesa.
-
-Paralelamente, iniciou uma carreira de crítico teatral para o jornal Dublin Evening Mail. Foi nesse período que conheceu o ator inglês Henry Irving, cuja amizade mudaria completamente sua trajetória.
+Contra todas as expectativas, Bram recuperou-se completamente na infância e tornou-se um jovem saudável e ativo, desenvolvendo interesse por esportes, literatura e estudos.
 
 ---
 
-### 1878–1890 | Londres e o Teatro Lyceum
+### 1864–1870 | Formação acadêmica
 
-Em 1878, Stoker casou-se com Florence Balcombe e mudou-se para Londres para trabalhar como gerente do Teatro Lyceum, dirigido por Henry Irving.
+Em **1864**, ingressou no **Trinity College Dublin**, uma das instituições de ensino mais prestigiadas da Irlanda. Embora tenha cursado **Matemática**, dedicou-se também à filosofia, história, literatura e ciências.
 
-O cargo exigia intensa atividade administrativa, organização de turnês internacionais e contato com a elite cultural da época. Stoker conheceu diversas figuras importantes da literatura e das artes, incluindo:
+Além do excelente desempenho acadêmico, destacou-se como atleta universitário, participando de competições de futebol, atletismo e remo. Também foi membro ativo de sociedades estudantis voltadas para debates e oratória, desenvolvendo habilidades de comunicação que mais tarde seriam importantes em sua carreira.
 
-- Arthur Conan Doyle
-- Mark Twain
-- Walt Whitman
-
-Durante esse período, começou a publicar romances e contos, embora ainda estivesse longe da fama.
+Concluiu a graduação em **1870**, recebendo distinções por seu desempenho acadêmico.
 
 ---
 
-### 1890–1897 | A criação de Drácula
+### 1870–1878 | Funcionário público e crítico teatral
 
-Em 1890, Stoker iniciou uma extensa pesquisa sobre folclore, superstições e história do leste europeu. Durante suas investigações encontrou referências ao príncipe valáquio:
+Após concluir a universidade, Stoker passou a trabalhar como funcionário público no **Dublin Castle**, sede da administração britânica na Irlanda. Paralelamente, cultivava sua paixão pela literatura e pelo teatro.
 
-Vlad III
+Durante esse período, tornou-se crítico teatral do jornal *Dublin Evening Mail*. Suas críticas chamaram a atenção do famoso ator inglês **Henry Irving**, de quem se tornou amigo após escrever uma resenha extremamente elogiosa sobre uma de suas apresentações.
 
-Embora o personagem de Drácula não seja uma biografia de Vlad III, o nome e alguns aspectos históricos inspiraram o autor.
-
-Após aproximadamente sete anos de trabalho, publicou Drácula, em maio de 1897.
-
-O romance não foi um sucesso imediato, mas recebeu boas críticas e gradualmente conquistou leitores.
+Em **1878**, casou-se com **Florence Balcombe**, considerada uma das mulheres mais admiradas de Dublin. No mesmo ano, aceitou o convite de Irving para tornar-se gerente do **Lyceum Theatre**, em Londres, iniciando uma nova fase de sua vida.
 
 ---
 
-### 1897–1912 | Últimos anos e legado
+### 1878–1890 | Vida em Londres e carreira literária
 
-Após Drácula, Stoker continuou escrevendo romances e contos de horror, incluindo:
+Ao mudar-se para Londres, Bram Stoker passou quase trinta anos administrando o **Lyceum Theatre**, um dos teatros mais importantes da Inglaterra. Seu trabalho incluía organizar produções, administrar turnês internacionais e acompanhar de perto a carreira de Henry Irving.
 
-- The Mystery of the Sea (1902)
-- The Jewel of Seven Stars (1903)
-- The Lady of the Shroud (1909)
-- The Lair of the White Worm (1911)
+A função proporcionou contato direto com importantes escritores, artistas e intelectuais da Era Vitoriana, incluindo **Arthur Conan Doyle**, **Mark Twain**, **James McNeill Whistler** e **Winston Churchill**, entre outros.
 
-A morte de Henry Irving, em 1905, afetou profundamente o escritor.
+Mesmo com a intensa rotina profissional, Stoker continuou escrevendo. Em **1875**, havia publicado seu primeiro livro, *The Duties of Clerks of Petty Sessions*. Já em Londres, lançou romances como *The Snake's Pass* (1890), demonstrando crescente interesse pela ficção e pelo sobrenatural.
 
-Bram Stoker morreu em Londres em 20 de abril de 1912. A causa exata de sua morte permanece objeto de debate entre historiadores, sendo mencionadas doenças como sífilis terciária, exaustão e complicações de saúde relacionadas à idade.
+---
+
+### 1890–1897 | A criação de *Dracula*
+
+Durante a década de 1890, Stoker iniciou um extenso trabalho de pesquisa sobre folclore, mitologia, lendas de vampiros e história da Europa Oriental. Consultou livros de viagens, relatos históricos e estudos sobre superstições da Transilvânia, Hungria e Romênia.
+
+Também encontrou referências ao príncipe **Vlad III Drăculea**, governante da Valáquia conhecido por sua extrema brutalidade, cujo nome inspiraria o famoso conde Dracula.
+
+Após aproximadamente sete anos de planejamento, revisões e pesquisas, publicou **Dracula**, em **1897**. Escrito em formato epistolar — reunindo cartas, diários, telegramas e recortes de jornais — o romance foi bem recebido pela crítica, embora seu enorme reconhecimento internacional só acontecesse décadas depois.
+
+---
+
+### 1897–1912 | Últimos anos
+
+Depois de *Dracula*, Bram Stoker continuou produzindo romances e coletâneas de contos. Entre suas principais obras desse período estão *Miss Betty* (1898), *The Mystery of the Sea* (1902), *The Jewel of Seven Stars* (1903), *The Lady of the Shroud* (1909) e *The Lair of the White Worm* (1911).
+
+Em **1905**, com a morte de Henry Irving, Stoker publicou a biografia *Personal Reminiscences of Henry Irving*, prestando homenagem ao ator que marcou sua trajetória profissional.
+
+Nos últimos anos de vida, enfrentou problemas financeiros e uma saúde cada vez mais debilitada. Faleceu em **20 de abril de 1912**, em Londres, aos **64 anos**.
+
+Embora tenha morrido sem alcançar a enorme fama que teria posteriormente, sua obra tornou-se uma das mais influentes da literatura mundial. *Dracula* transformou-se no romance de vampiros mais famoso da história e consolidou Bram Stoker como um dos maiores escritores da literatura gótica.
 
 ---
 
 ## Legado e influência
 
-Poucos escritores tiveram uma influência tão profunda sobre um gênero literário quanto Bram Stoker.
+### O criador do vampiro moderno
 
-Praticamente toda representação moderna do vampiro deriva de elementos presentes em Drácula:
+Embora histórias sobre vampiros existissem há séculos no folclore europeu, foi Bram Stoker quem definiu a imagem moderna dessa criatura. Com a publicação de *Dracula* (1897), estabeleceu características que se tornariam padrão na cultura popular, como o conde aristocrático, a necessidade de beber sangue humano, a aversão à luz solar (posteriormente ampliada por adaptações), o medo de símbolos religiosos e a vulnerabilidade à estaca de madeira.
 
-- o castelo na Transilvânia;
-- a transformação em morcego;
-- o medo da luz solar;
-- a associação entre vampirismo e sedução;
-- a figura do caçador de vampiros.
+Grande parte das representações contemporâneas de vampiros na literatura, no cinema e na televisão deriva direta ou indiretamente de sua obra.
 
-O romance inspirou centenas de adaptações para cinema, televisão, teatro, quadrinhos e videogames.
+---
+
+### Um dos pilares da literatura gótica
+
+*Dracula* consolidou-se como um dos romances mais importantes da literatura gótica. Ao combinar horror sobrenatural, suspense psicológico, elementos científicos e críticas à sociedade vitoriana, Bram Stoker expandiu os limites do gênero e influenciou gerações de escritores.
+
+Seu estilo narrativo, baseado em cartas, diários, telegramas e recortes de jornais, também inovou a forma como histórias de terror poderiam ser construídas.
+
+---
+
+### Influência sobre o cinema e a televisão
+
+Poucos escritores tiveram uma obra adaptada tantas vezes quanto Bram Stoker. Desde o início do século XX, *Dracula* inspirou centenas de filmes, séries, animações, peças teatrais e produções radiofônicas.
+
+Personagens como o Conde Dracula interpretado por Bela Lugosi, Christopher Lee e Gary Oldman ajudaram a transformar o vampiro em um dos maiores ícones da cultura popular, mantendo a obra de Stoker relevante para diferentes gerações.
+
+---
+
+### Impacto na literatura de horror
+
+A influência de Bram Stoker ultrapassa o gênero dos vampiros. Seu trabalho abriu caminho para autores de horror e fantasia que exploraram temas como o medo do desconhecido, a dualidade entre ciência e superstição e os conflitos entre racionalidade e sobrenatural.
+
+Escritores como Stephen King, Anne Rice, Clive Barker e inúmeros autores contemporâneos reconhecem a importância de *Dracula* para a evolução da literatura de terror.
+
+---
+
+### Um retrato das angústias da Era Vitoriana
+
+Além de ser uma história de horror, *Dracula* é frequentemente interpretado como um reflexo das preocupações sociais da Inglaterra vitoriana. Pesquisadores apontam que o romance aborda temas como imigração, doenças, sexualidade, religião, papel da mulher, ciência e medo da modernidade.
+
+Essa riqueza de interpretações contribui para que a obra continue sendo objeto de estudo em universidades de todo o mundo.
+
+---
+
+### Reconhecimento crescente após sua morte
+
+Durante sua vida, Bram Stoker foi respeitado como escritor, mas nunca alcançou a fama mundial que teria posteriormente. Foi apenas ao longo do século XX, impulsionado pelas adaptações cinematográficas de *Dracula*, que seu nome passou a ocupar posição de destaque entre os grandes autores da literatura universal.
+
+Hoje, sua obra é considerada leitura obrigatória para estudiosos da literatura gótica, do horror e da cultura popular.
+
+---
+
+### Presença permanente na cultura popular
+
+O legado de Bram Stoker vai muito além da literatura. Seu personagem inspirou quadrinhos, videogames, músicas, óperas, peças de teatro, jogos de RPG e inúmeras referências em diferentes formas de entretenimento.
+
+O nome "Dracula" tornou-se praticamente sinônimo de vampiro, demonstrando o alcance extraordinário de sua criação mais de um século após sua publicação.
+
+---
+
+### Um legado literário duradouro
+
+Mais de cem anos após sua morte, Bram Stoker permanece como uma das figuras mais influentes da literatura de horror. Sua capacidade de combinar suspense, folclore, simbolismo e crítica social fez de *Dracula* um clássico atemporal.
+
+Seu trabalho continua inspirando escritores, cineastas, pesquisadores e leitores, consolidando seu lugar entre os grandes nomes da literatura mundial.
 
 ---
 
@@ -113,83 +170,236 @@ O romance inspirou centenas de adaptações para cinema, televisão, teatro, qua
 
 ---
 
-## Obras em ordem de publicação
+## Principais obras
 
-| Ano  | Livro                                             | Gênero        | Disponível |
-| ---- | ------------------------------------------------- | ------------- | ---------- |
-| 1875 | The Duties of Clerks of Petty Sessions in Ireland | Não ficção    | Não        |
-| 1890 | The Snake's Pass                                  | Romance       | Não        |
-| 1895 | The Watter's Mou'                                 | Romance       | Não        |
-| 1897 | Drácula                                           | Horror gótico | Sim        |
-| 1898 | Miss Betty                                        | Romance       | Não        |
-| 1902 | The Mystery of the Sea                            | Aventura      | Não        |
-| 1903 | The Jewel of Seven Stars                          | Horror        | Não        |
-| 1905 | The Man                                           | Romance       | Não        |
-| 1908 | Snowbound                                         | Romance       | Não        |
-| 1909 | The Lady of the Shroud                            | Fantasia      | Não        |
-| 1911 | The Lair of the White Worm                        | Horror        | Não        |
+| Ano | Obra | Gênero | Disponível |
+|------|-------|---------|:----------:|
+| **1875** | *The Duties of Clerks of Petty Sessions in Ireland* | Direito / Administração Pública | ❌ |
+| **1890** | *The Snake's Pass* | Romance | ❌ |
+| **1895** | *The Watter's Mou'* (com J. M. Barrie) | Romance | ❌ |
+| **1897** | *Dracula* | Horror gótico | ✅ |
+| **1898** | *Miss Betty* | Romance histórico | ❌ |
+| **1902** | *The Mystery of the Sea* | Romance de aventura | ❌ |
+| **1903** | *The Jewel of Seven Stars* | Horror / Ficção sobrenatural | ❌ |
+| **1905** | *Personal Reminiscences of Henry Irving* | Biografia / Memórias | ❌ |
+| **1908** | *The Lady of the Shroud* | Romance gótico | ❌ |
+| **1911** | *The Lair of the White Worm* | Horror gótico | ❌ |
+| **1914** | *Dracula's Guest and Other Weird Stories* *(póstumo)* | Contos de horror | ❌ |
+
+> **Nota:** Embora Bram Stoker tenha publicado diversos romances, contos e obras de não ficção, *Dracula* (1897) permanece sua criação mais conhecida e influente. Algumas obras, como *Dracula's Guest and Other Weird Stories*, foram publicadas após sua morte, a partir de manuscritos preservados por seus herdeiros.
 
 ---
 
 ## Curiosidades
-Bram Stoker não visitou a Transilvânia.
-Ele foi atleta premiado no Trinity College.
-Sua esposa, Florence Balcombe, foi antiga pretendente de Oscar Wilde.
-O manuscrito original de Drácula permaneceu perdido durante décadas.
-O romance só se tornou um fenômeno cultural após as adaptações cinematográficas do século XX.
+
+### Passou parte da infância sem conseguir andar
+
+Bram Stoker sofreu de uma doença desconhecida durante a infância e permaneceu acamado até aproximadamente os sete anos de idade. A recuperação foi considerada surpreendente, e mais tarde ele se tornou um atleta de destaque na universidade.
 
 ---
 
-## Frases famosas
+### Nunca visitou a Transilvânia
 
-> “We learn from failure, not from success.”
->
-> — Bram Stoker, Dracula (1897).
+Apesar de *Dracula* se passar em grande parte na Transilvânia, não há evidências de que Stoker tenha visitado a região. A ambientação foi construída a partir de livros de viagem, relatos históricos, mapas e pesquisas sobre o Leste Europeu.
 
-> “I want you to believe… to believe in things that you cannot.”
->
-> — Bram Stoker, Dracula (1897).
+---
 
-> “There are darknesses in life and there are lights.”
->
-> — Bram Stoker, Dracula (1897).
+### O nome "Dracula" foi descoberto durante suas pesquisas
 
-*Algumas frases frequentemente atribuídas ao autor possuem autenticidade duvidosa e, por isso, não foram incluídas nesta lista.*
+Inicialmente, o vampiro de seu romance chamava-se **Conde Wampyr**. Durante suas pesquisas na biblioteca de Whitby, na Inglaterra, Stoker encontrou referências ao príncipe **Vlad III Drăculea** e decidiu adotar o nome **Dracula**, por considerá-lo mais marcante e misterioso.
+
+---
+
+### Era amigo de grandes escritores da época
+
+Graças ao seu trabalho no Lyceum Theatre, Bram Stoker conviveu com importantes personalidades da Era Vitoriana, entre elas **Arthur Conan Doyle**, **Mark Twain** e o escritor **Oscar Wilde**, que havia sido colega de universidade e chegou a cortejar sua futura esposa, Florence Balcombe.
+
+---
+
+### Trabalhou quase 30 anos no mesmo teatro
+
+Entre 1878 e 1905, Stoker foi gerente do **Lyceum Theatre**, em Londres. A função exigia intensa dedicação administrativa, organização de turnês internacionais e contato constante com artistas e empresários do meio teatral.
+
+---
+
+### Levou cerca de sete anos para escrever *Dracula*
+
+A elaboração de *Dracula* foi resultado de um longo processo de pesquisa. Durante aproximadamente sete anos, Stoker reuniu informações sobre folclore, história, medicina, superstições e geografia da Europa Oriental antes de concluir o romance.
+
+---
+
+### O sucesso mundial veio após sua morte
+
+Embora *Dracula* tenha recebido boas críticas quando foi lançado em 1897, Bram Stoker morreu sem imaginar o impacto que sua obra teria. Foi principalmente após as adaptações cinematográficas do século XX que o romance se transformou em um dos livros mais famosos da literatura.
+
+---
+
+### O romance é escrito em formato epistolar
+
+Em vez de uma narrativa tradicional, *Dracula* é contado por meio de cartas, diários, telegramas, artigos de jornal e registros médicos. Essa estrutura aumenta a sensação de realismo e foi considerada inovadora para a época.
+
+---
+
+### Sua esposa teve papel importante na preservação de sua obra
+
+Após a morte de Bram Stoker, sua esposa, **Florence Balcombe Stoker**, administrou os direitos autorais de *Dracula* e atuou ativamente na proteção da obra, inclusive movendo ações judiciais contra adaptações não autorizadas.
+
+---
+
+### Seu legado ultrapassou a literatura
+
+Mais de um século após sua morte, Bram Stoker continua influenciando filmes, séries, quadrinhos, videogames, peças teatrais, jogos de RPG e inúmeras outras manifestações culturais. O personagem Dracula tornou-se um dos maiores ícones da ficção mundial e ajudou a definir a imagem moderna do vampiro.
 
 ---
 
 ## FAQ
 
-<details> <summary><strong>1. Quem foi Bram Stoker?</strong></summary> <p>Foi um escritor irlandês do período vitoriano, mais conhecido por ter criado o romance <em>Drácula</em> (1897). Além da literatura, trabalhou por décadas como administrador do Teatro Lyceum em Londres, gerenciando a carreira do ator Henry Irving e convivendo com a elite cultural da época. Sua obra consolidou a base do vampiro moderno na cultura ocidental.</p> </details> <details> <summary><strong>2. Quando nasceu?</strong></summary> <p>Nasceu em 8 de novembro de 1847, em Dublin, Irlanda, em uma família de classe média. Seus primeiros anos foram marcados por uma doença grave na infância, da qual se recuperou completamente, fato que alguns biógrafos associam ao desenvolvimento de seu interesse por temas ligados à morte e ao sobrenatural.</p> </details> <details> <summary><strong>3. Onde nasceu?</strong></summary> <p>Ele nasceu em Dublin, capital da Irlanda, que na época fazia parte do Reino Unido. A cidade tinha forte tradição cultural e intelectual, o que influenciou sua formação acadêmica e literária.</p> </details> <details> <summary><strong>4. Qual sua obra mais famosa?</strong></summary> <p>Seu romance mais famoso é <em>Drácula</em>, publicado em 1897. A obra mistura cartas, diários e relatos para construir uma narrativa de horror psicológico e sobrenatural. Apesar de não ter sido um grande sucesso imediato, tornou-se um dos livros mais influentes da literatura mundial.</p> </details> <details> <summary><strong>5. Bram Stoker conheceu Vlad, o Empalador?</strong></summary> <p>Não. Não há evidências de que Bram Stoker tenha estudado ou conhecido pessoalmente Vlad III. O personagem Drácula foi inspirado em pesquisas sobre folclore e nomes históricos, mas o romance não é uma biografia do príncipe romeno.</p> </details> <details> <summary><strong>6. Ele visitou a Transilvânia?</strong></summary> <p>Não. Bram Stoker nunca esteve na Transilvânia. Seu conhecimento sobre a região veio de livros de geografia, relatos históricos e pesquisas sobre o Leste Europeu realizadas antes da escrita de <em>Drácula</em>.</p> </details> <details> <summary><strong>7. Era apenas escritor?</strong></summary> <p>Não. Além de romancista, Stoker trabalhou como crítico teatral e gerente do Teatro Lyceum, em Londres. Essa função o colocou em contato direto com o mundo do teatro, influenciando sua escrita, especialmente na construção de cenas dramáticas e personagens marcantes.</p> </details> <details> <summary><strong>8. Quantos filhos teve?</strong></summary> <p>Teve apenas um filho, chamado Irving Noel Thornley Stoker. O nome foi uma homenagem ao ator Henry Irving, amigo e mentor de Bram Stoker, com quem ele manteve uma relação profissional muito próxima ao longo da vida.</p> </details> <details> <summary><strong>9. Como morreu?</strong></summary> <p>Bram Stoker morreu em 20 de abril de 1912, em Londres, aos 64 anos. A causa exata da morte não é totalmente confirmada, mas estudos históricos apontam possíveis fatores como exaustão, problemas de saúde acumulados e complicações médicas típicas da época.</p> </details> <details> <summary><strong>10. Por que é importante?</strong></summary> <p>Porque redefiniu a figura do vampiro na cultura ocidental. Antes de <em>Drácula</em>, vampiros eram figuras folclóricas pouco padronizadas. Após sua obra, surgiram características modernas como o castelo na Transilvânia, a imortalidade aristocrática e o conflito entre desejo e medo, influenciando literatura, cinema e cultura pop até hoje.</p> </details>
+<details>
+<summary><strong>1. Quem foi Bram Stoker?</strong></summary>
+
+Bram Stoker foi um escritor irlandês, administrador de teatro e autor de *Dracula* (1897), considerado um dos romances de horror mais importantes da história da literatura. Nascido em Dublin em 1847, tornou-se mundialmente conhecido por criar o Conde Dracula, personagem que definiu a imagem moderna do vampiro na cultura popular.
+
+Além da literatura, trabalhou durante quase trinta anos como gerente do Lyceum Theatre, em Londres, conciliando sua carreira administrativa com a produção de romances e contos.
+</details>
+
+---
+
+<details>
+<summary><strong>2. Qual é a obra mais famosa de Bram Stoker?</strong></summary>
+
+Sua obra mais famosa é *Dracula*, publicada em 1897. O romance narra a tentativa do conde vampiro Dracula de expandir sua influência da Transilvânia para a Inglaterra, sendo enfrentado por personagens como Jonathan Harker, Mina Harker, Lucy Westenra e o professor Abraham Van Helsing.
+
+O livro é considerado um dos maiores clássicos da literatura gótica e influenciou praticamente todas as histórias de vampiros produzidas desde então.
+</details>
+
+---
+
+<details>
+<summary><strong>3. Bram Stoker criou os vampiros?</strong></summary>
+
+Não. Lendas sobre vampiros existem há séculos em diferentes culturas, especialmente no Leste Europeu e nos Bálcãs. O mérito de Bram Stoker foi reunir diversas tradições folclóricas e transformá-las em uma narrativa literária que definiu a representação moderna do vampiro.
+
+Características como o conde aristocrático, o castelo sombrio, a sedução das vítimas e a luta entre o bem e o mal tornaram-se populares graças ao sucesso de *Dracula*.
+</details>
+
+---
+
+<details>
+<summary><strong>4. Bram Stoker conheceu a Transilvânia?</strong></summary>
+
+Não há registros de que Bram Stoker tenha visitado a Transilvânia. Todo o cenário de *Dracula* foi construído a partir de extensas pesquisas em livros de história, relatos de viagem, mapas e estudos sobre o folclore da Europa Oriental.
+
+Esse trabalho de documentação contribuiu para tornar a ambientação do romance extremamente convincente para os leitores da época.
+</details>
+
+---
+
+<details>
+<summary><strong>5. Quem inspirou o personagem Dracula?</strong></summary>
+
+O principal nome associado à inspiração histórica do personagem é Vlad III Drăculea, também conhecido como Vlad, o Empalador, príncipe da Valáquia no século XV. Durante suas pesquisas, Bram Stoker encontrou referências ao governante e utilizou seu sobrenome para batizar o vampiro.
+
+No entanto, o Conde Dracula é uma criação fictícia. Sua personalidade, seus poderes e sua história resultam da combinação de diversas lendas, tradições folclóricas e elementos da imaginação do autor.
+</details>
+
+---
+
+<details>
+<summary><strong>6. Bram Stoker escreveu outros livros além de *Dracula*?</strong></summary>
+
+Sim. Embora *Dracula* seja sua obra mais conhecida, Bram Stoker publicou diversos romances e contos, como *The Snake's Pass* (1890), *The Mystery of the Sea* (1902), *The Jewel of Seven Stars* (1903), *The Lady of the Shroud* (1909) e *The Lair of the White Worm* (1911).
+
+Muitas dessas obras também exploram elementos sobrenaturais, mistério e horror, embora nenhuma tenha alcançado o mesmo reconhecimento internacional.
+</details>
+
+---
+
+<details>
+<summary><strong>7. Por que *Dracula* continua tão influente?</strong></summary>
+
+*Dracula* permanece relevante porque combina suspense, terror, aventura, simbolismo religioso e reflexões sobre ciência, moralidade e os medos da sociedade vitoriana. Além disso, sua estrutura narrativa, construída por cartas, diários e documentos, oferece uma experiência de leitura diferente da maioria dos romances de sua época.
+
+A obra também serviu de base para centenas de filmes, séries, peças de teatro, quadrinhos e adaptações que mantêm o personagem vivo na cultura popular.
+</details>
+
+---
+
+<details>
+<summary><strong>8. Bram Stoker alcançou fama em vida?</strong></summary>
+
+Embora fosse um escritor respeitado e *Dracula* tenha recebido críticas positivas, Bram Stoker não experimentou a fama mundial que sua obra alcançaria posteriormente. Seu reconhecimento internacional cresceu principalmente ao longo do século XX, impulsionado pelas adaptações cinematográficas do romance.
+
+Hoje, ele é considerado um dos maiores autores da literatura de horror de todos os tempos.
+</details>
+
+---
+
+<details>
+<summary><strong>9. Qual foi a influência de Bram Stoker na literatura?</strong></summary>
+
+A influência de Bram Stoker vai muito além das histórias de vampiros. Sua obra ajudou a consolidar a literatura gótica moderna e influenciou escritores como Anne Rice, Stephen King, Clive Barker e diversos autores contemporâneos de horror e fantasia.
+
+Seu trabalho também é objeto de estudo em áreas como literatura, história, psicologia, cinema e estudos culturais.
+</details>
+
+---
+
+<details>
+<summary><strong>10. Onde posso ler as obras de Bram Stoker?</strong></summary>
+
+Grande parte das obras de Bram Stoker está em domínio público e pode ser lida gratuitamente em bibliotecas digitais como o Project Gutenberg e o Internet Archive.
+
+Também existem inúmeras edições comentadas publicadas por editoras e universidades, que ajudam a compreender o contexto histórico, cultural e literário em que seus romances foram escritos.
+</details>
 
 ---
 
 ## Referências
 
-### Fontes acadêmicas
+### Fontes institucionais e enciclopédicas
 
-- Belford, Barbara. *Bram Stoker: A Biography*. Knopf, 1996.  
-- Skal, David J. *Something in the Blood: The Untold Story of Bram Stoker*. Liveright, 2016.  
-- Senf, Carol A. *The Critical Response to Bram Stoker*. Greenwood Press, 1993.  
+- [Bram Stoker – Encyclopaedia Britannica](https://www.britannica.com/biography/Bram-Stoker)
 
-### Livros e biografias
+- [Bram Stoker – Encyclopedia.com (Encyclopedia of World Biography)](https://www.encyclopedia.com/people/literature-and-arts/english-literature-19th-cent-biographies/bram-stoker)
 
-- Stoker, Bram. *Personal Reminiscences of Henry Irving*. 1906.  
-- Murray, Paul. *From the Shadow of Dracula*. 2004.  
+- [Trinity College Dublin – Página oficial](https://www.tcd.ie)
 
-### Arquivos históricos
+- [National Library of Ireland – Página oficial](https://www.nli.ie)
 
-- [Trinity College Dublin Archives](https://www.tcd.ie/library/)  
-  Acervo institucional relacionado à formação e registros acadêmicos de Bram Stoker.
+- [British Library – Discovering Literature: Gothic Fiction](https://www.bl.uk/collection-guides/gothic-fiction)
 
-- [University of Pennsylvania Libraries – Dracula Manuscript Collection](https://archives.upenn.edu/collections/finding-aid/upt50stoker)  
-  Coleção de manuscritos e materiais relacionados à obra *Drácula*.
+---
 
-- [British Library](https://www.bl.uk/)  
-  Biblioteca nacional do Reino Unido com amplo acervo de documentos do período vitoriano.
+### Fontes acadêmicas e editoriais
 
-### Sites consultados
+- [Cambridge Core – Estudos sobre Bram Stoker](https://www.cambridge.org/core)
 
-- [Encyclopaedia Britannica – Bram Stoker](https://www.britannica.com/biography/Bram-Stoker)  
-- [Poetry Foundation – Bram Stoker](https://www.poetryfoundation.org/poets/bram-stoker)  
-- [Bram Stoker Estate](https://www.bramstokerestate.com)
+- [Oxford Reference – Bram Stoker](https://www.oxfordreference.com)
+
+- [JSTOR – Artigos acadêmicos sobre Bram Stoker](https://www.jstor.org)
+
+- [Google Scholar – Pesquisas acadêmicas sobre Bram Stoker](https://scholar.google.com)
+
+---
+
+### Obras originais
+
+- [Bram Stoker – *Dracula* (Project Gutenberg)](https://www.gutenberg.org/ebooks/345)
+
+- [Bram Stoker – Obras completas no Project Gutenberg](https://www.gutenberg.org/ebooks/author/190)
+
+- [*Dracula's Guest and Other Weird Stories* – Internet Archive](https://archive.org/details/draculasguestoth00stok)
+
+- [*The Jewel of Seven Stars* – Internet Archive](https://archive.org/details/jewelofsevenstar00stok)
+
+---
+
+### Contexto histórico e materiais complementares
+
+- [Encyclopaedia Britannica – Gothic Novel](https://www.britannica.com/art/Gothic-novel)
+
+- [Encyclopaedia Britannica – Vampire](https://www.britannica.com/topic/vampire)
+
+- [British Library – The Gothic](https://www.bl.uk)
+
+- [National Library of Ireland – Literary Collections](https://www.nli.ie)

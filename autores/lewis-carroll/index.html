@@ -44,102 +44,279 @@
             {
             "@context": "https://schema.org",
             "@graph": [
+
                 {
                 "@type": "Organization",
-                "name": "Livraria Prometeu",
-                "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
-                "url": "https://livrariaprometeu.com",
                 "@id": "https://livrariaprometeu.com/#organization",
-                "description":"A Livraria Prometeu é um portal brasileiro especializado em livros clássicos, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, análises, recomendações de leitura, listas de livros e conteúdos educativos para leitores interessados em conhecimento, crescimento intelectual e evolução profissional.",
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "areaServed": "BR",
-                    "contactType": "customer support",
-                    "email": "livrariaprometeu@gmail.com",
-                    "availableLanguage": ["Portuguese"]
+                "name": "Livraria Prometeu",
+                "url": "https://livrariaprometeu.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp"
                 },
-                "knowsAbout": [
-                    "Livros clássicos",
-                    "Filosofia",
-                    "Literatura",
-                    "Desenvolvimento pessoal",
-                    "Produtividade",
-                    "Negócios",
-                    "Hábitos de leitura"
-                ],
                 "sameAs": [
-                        "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
-                        "https://www.instagram.com/livrariaprometeu"
-                    ],
-                "logo": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
-                "foundingDate": "2025-10-15"
+                    "https://www.instagram.com/livrariaprometeu",
+                    "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR"
+                ]
                 },
+
                 {
                 "@type": "WebSite",
-                "name": "Livraria Prometeu",
-                "url": "https://livrariaprometeu.com",
                 "@id": "https://livrariaprometeu.com/#website",
-                "description":"A Livraria Prometeu é um portal dedicado à literatura clássica, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, recomendações de leitura, artigos, listas de livros e conteúdos educativos para leitores que desejam expandir conhecimento, desenvolver pensamento crítico e alcançar crescimento pessoal e profissional.",
-                "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+                "url": "https://livrariaprometeu.com",
+                "name": "Livraria Prometeu",
                 "publisher": {
-                    "@type": "Organization",
-                    "name": "Livraria Prometeu",
                     "@id": "https://livrariaprometeu.com/#organization"
                 }
                 },
+
                 {
                 "@type": "WebPage",
-                "name": "10 Livros Essenciais Para Ler Antes dos 30 Anos",
-                "description":"Descubra 10 livros essenciais para ler antes dos 30 anos e amplie sua visão sobre liberdade, propósito, disciplina, dinheiro e crescimento pessoal.",
-                "url": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos",
-                "@id": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos#webpage",
-                "image": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos/capa.webp",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#webpage",
+                "url": "https://livrariaprometeu.com/autores/lewis-carroll",
+                "name": "Lewis Carroll: Biografia, Obras, Alice no País das Maravilhas e Legado",
+                "description": "Conheça a vida de Lewis Carroll, pseudônimo de Charles Lutwidge Dodgson, autor de Alice no País das Maravilhas, matemático, lógico e um dos maiores escritores da literatura fantástica.",
                 "isPartOf": {
                     "@id": "https://livrariaprometeu.com/#website"
                 },
-                "datePublished": "2026-06-17",
-                "dateModified": "2026-06-20",
-                "about": [
-                    "Livros",
-                    "Leitura",
-                    "Desenvolvimento pessoal",
-                    "Literatura"
-                ],
+                "about": {
+                    "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                },
+                "inLanguage": "pt-BR",
                 "primaryImageOfPage": {
-                    "@type": "ImageObject",
-                    "url": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos/capa.webp"
+                    "@id": "https://livrariaprometeu.com/autores/lewis-carroll/img/capa.webp#image"
                 }
                 },
+
                 {
-                "@type": "BlogPosting",
-                "headline": "10 Livros Essenciais Para Ler Antes dos 30 Anos",
-                "description": "Descubra 10 livros essenciais para ler antes dos 30 anos e amplie sua visão sobre liberdade, propósito, disciplina, dinheiro e crescimento pessoal.",
-                "image": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos/capa.webp",
-                "@id": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos#article",
-                "datePublished": "2026-06-17",
-                "dateModified": "2026-06-20",
-                "inLanguage": "pt-BR",
-                "author": {
-                    "@type": "Organization",
-                    "name": "Livraria Prometeu",
-                    "@id": "https://livrariaprometeu.com/#organization"
+                "@type": "ProfilePage",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#profile",
+                "url": "https://livrariaprometeu.com/autores/lewis-carroll",
+                "name": "Lewis Carroll",
+                "mainEntity": {
+                    "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                }
                 },
-                "publisher": {
-                    "@id": "https://livrariaprometeu.com/#organization"
+
+                {
+                "@type": "Person",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person",
+                "name": "Lewis Carroll",
+                "alternateName": "Charles Lutwidge Dodgson",
+                "description": "Escritor, matemático, lógico, fotógrafo e professor inglês, autor de Alice no País das Maravilhas e um dos maiores nomes da literatura fantástica.",
+                "url": "https://livrariaprometeu.com/autores/lewis-carroll",
+                "image": {
+                    "@id": "https://livrariaprometeu.com/autores/lewis-carroll/img/capa.webp#image"
                 },
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos#webpage"
+                "jobTitle": [
+                    "Escritor",
+                    "Matemático",
+                    "Lógico",
+                    "Fotógrafo",
+                    "Professor"
+                ],
+                "nationality": "Inglês",
+                "birthDate": "1832-01-27",
+                "deathDate": "1898-01-14",
+                "birthPlace": {
+                    "@type": "Place",
+                    "name": "Daresbury, Cheshire, Inglaterra"
                 },
-                "articleSection": "Listas de Livros",
-                "keywords": [
-                "livros",
-                "livros essenciais",
-                "desenvolvimento pessoal",
-                "leitura",
-                "hábitos"
+                "deathPlace": {
+                    "@type": "Place",
+                    "name": "Guildford, Surrey, Inglaterra"
+                },
+                "knowsAbout": [
+                    "Literatura fantástica",
+                    "Literatura infantil",
+                    "Matemática",
+                    "Lógica",
+                    "Fotografia",
+                    "Era Vitoriana",
+                    "Jogos de linguagem",
+                    "Alice no País das Maravilhas"
+                ],
+                "sameAs": [
+                    "https://pt.wikipedia.org/wiki/Lewis_Carroll",
+                    "https://en.wikipedia.org/wiki/Lewis_Carroll",
+                    "https://www.britannica.com/biography/Lewis-Carroll"
                 ]
                 },
+
+                {
+                "@type": "ImageObject",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/img/capa.webp#image",
+                "url": "https://livrariaprometeu.com/autores/lewis-carroll/img/capa.webp",
+                "caption": "Retrato de Lewis Carroll"
+                },
+
+                {
+                "@type": "ItemList",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#works",
+                "name": "Principais obras de Lewis Carroll",
+                "itemListElement": [
+                    {
+                    "@type": "Book",
+                    "position": 1,
+                    "name": "Alice's Adventures in Wonderland",
+                    "datePublished": "1865",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 2,
+                    "name": "Through the Looking-Glass, and What Alice Found There",
+                    "datePublished": "1871",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 3,
+                    "name": "The Hunting of the Snark",
+                    "datePublished": "1876",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 4,
+                    "name": "Euclid and His Modern Rivals",
+                    "datePublished": "1879",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 5,
+                    "name": "Sylvie and Bruno",
+                    "datePublished": "1889",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 6,
+                    "name": "Curiosa Mathematica, Part II: Pillow Problems",
+                    "datePublished": "1890",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 7,
+                    "name": "Sylvie and Bruno Concluded",
+                    "datePublished": "1893",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    },
+                    {
+                    "@type": "Book",
+                    "position": 8,
+                    "name": "Symbolic Logic",
+                    "datePublished": "1896",
+                    "author": {
+                        "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                    }
+                    }
+                ]
+                },
+
+                {
+                "@type": "FAQPage",
+                "@id": "https://livrariaprometeu.com/autores/lewis-carroll/#faq",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "Quem foi Lewis Carroll?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Lewis Carroll foi o pseudônimo de Charles Lutwidge Dodgson, escritor, matemático, lógico, fotógrafo e professor inglês, autor de Alice no País das Maravilhas."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Por que Charles Dodgson usava o pseudônimo Lewis Carroll?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Ele utilizava o pseudônimo para separar sua carreira acadêmica em Matemática de sua produção literária."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Alice no País das Maravilhas foi baseada em uma história real?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A história surgiu durante um passeio de barco em 1862 com Alice Liddell, que inspirou a personagem principal, embora a narrativa seja fictícia."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Lewis Carroll era apenas escritor?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Não. Ele foi professor de Matemática na Universidade de Oxford, publicou obras de lógica e matemática e também foi um fotógrafo reconhecido."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Quais são as principais obras de Lewis Carroll?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Entre suas principais obras estão Alice no País das Maravilhas, Alice Através do Espelho, The Hunting of the Snark, Sylvie and Bruno e Symbolic Logic."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Lewis Carroll realmente conheceu Alice Liddell?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sim. Alice Liddell era filha do reitor do Christ Church College e serviu de inspiração para a protagonista de sua obra mais famosa."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Por que Alice no País das Maravilhas continua tão popular?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Porque combina fantasia, humor, lógica, crítica social e diferentes níveis de interpretação para leitores de todas as idades."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Lewis Carroll influenciou outros escritores?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sim. Sua obra influenciou autores de fantasia, literatura infantil, filosofia, linguística e diversas manifestações artísticas."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Lewis Carroll escreveu apenas livros infantis?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Não. Além da literatura, publicou diversos livros de matemática, lógica, poesia e ensaios acadêmicos."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Onde ler as obras de Lewis Carroll gratuitamente?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Como suas obras estão em domínio público em muitos países, elas podem ser encontradas em bibliotecas digitais como o Project Gutenberg e o Internet Archive."
+                    }
+                    }
+                ]
+                },
+
                 {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
@@ -152,17 +329,12 @@
                     {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "Blog",
-                    "item": "https://livrariaprometeu.com/blog"
-                    },
-                    {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "10 Livros Essenciais Para Ler Antes dos 30 Anos",
-                    "item": "https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos"
+                    "name": "Lewis Carroll",
+                    "item": "https://livrariaprometeu.com/autores/lewis-carroll"
                     }
                 ]
                 }
+
             ]
             }
             </script>

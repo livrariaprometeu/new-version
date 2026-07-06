@@ -1,251 +1,175 @@
 ## Quem foi Adam Smith em 30 segundos
 
-Adam Smith foi um filósofo, economista e professor escocês considerado o pai da economia moderna. Sua obra mais famosa, A Riqueza das Nações (1776), estabeleceu as bases do liberalismo econômico e influenciou profundamente o desenvolvimento do capitalismo. Além da economia, Smith dedicou grande parte de sua vida à filosofia moral, defendendo que a sociedade depende tanto do interesse individual quanto da capacidade humana de empatia e cooperação.
+Adam Smith (1723–1790) foi um economista, filósofo moral e professor escocês, amplamente reconhecido como o **pai da economia moderna**. Sua obra mais famosa, *A Riqueza das Nações* (1776), lançou as bases da economia clássica ao explicar como a divisão do trabalho, a livre concorrência e os mercados podem impulsionar a produtividade e o crescimento econômico.
+
+Além da economia, Smith dedicou grande parte de sua vida ao estudo da ética e da filosofia. Em *A Teoria dos Sentimentos Morais* (1759), defendeu que a empatia, a justiça e os princípios morais são fundamentais para a convivência em sociedade, mostrando que sua visão sobre o comportamento humano ia muito além da busca pelo lucro.
+
+Seu pensamento influenciou profundame nte o desenvolvimento do capitalismo, das políticas econômicas e da ciência econômica, permanecendo uma referência para estudiosos, governos e instituições em todo o mundo mais de dois séculos após sua morte.
 
 <div id="img-inicio-artigo"></div>
 
 ## Linha do tempo
-- 5 de junho de 1723 – Batizado em Kirkcaldy, Escócia (a data exata de nascimento é desconhecida).
-- 1737 – Ingressa na Universidade de Glasgow aos 14 anos.
-- 1740 – Recebe uma bolsa para estudar na Universidade de Oxford.
-- 1748 – Inicia uma série de palestras públicas em Edimburgo.
-- 1751 – Torna-se professor de Lógica na Universidade de Glasgow.
-- 1752 – Assume a cadeira de Filosofia Moral na mesma universidade.
-- 1759 – Publica A Teoria dos Sentimentos Morais.
-- 1764 – Deixa a universidade para atuar como tutor do jovem duque de Buccleuch.
-- 1764–1766 – Viaja pela França e pela Suíça, conhecendo importantes pensadores iluministas.
-- 9 de março de 1776 – Publica A Riqueza das Nações.
-- 1778 – Torna-se Comissário de Alfândega da Escócia.
-- 17 de julho de 1790 – Morre em Edimburgo, aos 67 anos.
+
+| Ano | Idade | Evento |
+|------|:-----:|--------|
+| **1723** | 0 | Nasce em 16 de junho, em Kirkcaldy, no Condado de Fife, Escócia. |
+| **1737** | 14 | Ingressa na Universidade de Glasgow, onde estuda filosofia moral sob a orientação de Francis Hutcheson. |
+| **1740** | 17 | Recebe uma bolsa de estudos para o Balliol College, da Universidade de Oxford. |
+| **1746** | 23 | Deixa Oxford e retorna à Escócia, iniciando sua carreira como pesquisador e conferencista. |
+| **1748** | 25 | Passa a ministrar palestras públicas em Edimburgo sobre retórica, literatura, jurisprudência e economia. |
+| **1751** | 28 | É nomeado professor de Lógica na Universidade de Glasgow. |
+| **1752** | 29 | Assume a cátedra de Filosofia Moral na Universidade de Glasgow, consolidando sua reputação acadêmica. |
+| **1759** | 36 | Publica *A Teoria dos Sentimentos Morais*, obra que lhe traz reconhecimento internacional. |
+| **1764** | 41 | Deixa a universidade para acompanhar o jovem Henry Scott, futuro Duque de Buccleuch, em uma viagem pela Europa como tutor. |
+| **1764–1766** | 41–43 | Viaja pela França e Suíça, onde conhece importantes pensadores iluministas, como Voltaire e François Quesnay. |
+| **1767** | 44 | Retorna à Escócia e dedica-se integralmente à redação de sua principal obra econômica. |
+| **1776** | 53 | Publica *Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações* (*A Riqueza das Nações*), considerada um dos livros mais influentes da história da economia. |
+| **1778** | 55 | É nomeado Comissário das Alfândegas da Escócia, cargo que ocupa até o fim da vida. |
+| **1787** | 64 | É eleito Reitor da Universidade de Glasgow, uma das maiores honrarias de sua carreira. |
+| **1790** | 67 | Morre em 17 de julho, em Edimburgo, após ordenar que a maior parte de seus manuscritos inéditos fosse destruída. |
 
 ---
 
 ## Biografia
 
-### 1723–1737 | Infância e juventude
+### 1723–1737 | Infância e primeiros anos
 
-Adam Smith nasceu em Kirkcaldy, um pequeno porto comercial na costa leste da Escócia, e foi batizado em 5 de junho de 1723. Seu pai, também chamado Adam Smith, era advogado e funcionário público, mas faleceu poucos meses antes do nascimento do filho.
+Adam Smith nasceu em **16 de junho de 1723**, na cidade de **Kirkcaldy**, localizada no condado de Fife, na Escócia. Seu pai, também chamado Adam Smith, era advogado e funcionário da alfândega, mas faleceu poucos meses antes do nascimento do filho. Assim, Smith foi criado por sua mãe, **Margaret Douglas**, com quem manteve uma relação muito próxima durante toda a vida.
 
-Criado pela mãe, Margaret Douglas, Smith cresceu em um ambiente relativamente confortável para os padrões da época. A relação entre os dois foi extremamente próxima; ele jamais se casou e viveu ao lado da mãe durante grande parte da vida.
+Ainda criança, demonstrou grande interesse pelos estudos e pela leitura. Um episódio curioso, registrado por alguns biógrafos, relata que, aos quatro anos de idade, teria sido brevemente sequestrado por um grupo de ciganos e resgatado pouco tempo depois. Embora o episódio seja frequentemente citado, alguns historiadores questionam a precisão dos detalhes.
 
-Uma história frequentemente mencionada por seus primeiros biógrafos afirma que, aos quatro anos, Smith teria sido brevemente sequestrado por um grupo de ciganos e posteriormente resgatado por familiares. Embora a veracidade do episódio seja debatida, ele se tornou parte do folclore em torno de sua infância.
-
-Desde cedo demonstrou grande curiosidade intelectual. Gostava especialmente de história, literatura, filosofia e das obras da Antiguidade Clássica. Seus professores logo perceberam que o jovem possuía uma memória excepcional e uma capacidade incomum de concentração.
+Sua infância transcorreu em Kirkcaldy, uma pequena cidade portuária que desempenhava importante papel comercial. O contato com comerciantes, artesãos e navegadores provavelmente despertou seu interesse pelas atividades econômicas, tema que marcaria toda a sua carreira.
 
 ---
 
-### 1737–1751 | Formação acadêmica e o despertar intelectual
+### 1737–1746 | Formação acadêmica
 
-Aos quatorze anos, idade considerada normal para o ingresso universitário na época, Smith entrou na Universidade de Glasgow.
+Aos **14 anos**, Smith ingressou na **Universidade de Glasgow**, uma idade comum para estudantes universitários da época. Lá estudou filosofia moral sob a orientação de **Francis Hutcheson**, um dos principais filósofos do Iluminismo escocês. Hutcheson exerceu profunda influência sobre sua visão de ética, justiça e sociedade.
 
-Ali estudou sob a orientação de Francis Hutcheson, um dos principais representantes do Iluminismo Escocês. Hutcheson defendia que os seres humanos possuem um senso moral natural e que a sociedade depende da cooperação e da virtude. Essas ideias influenciariam profundamente o pensamento de Smith.
+Em **1740**, graças a uma bolsa de estudos, transferiu-se para o **Balliol College**, da Universidade de Oxford. Esperava aprofundar seus estudos, mas encontrou uma instituição que considerava excessivamente conservadora e pouco estimulante intelectualmente.
 
-Em 1740, recebeu uma bolsa de estudos para frequentar o Balliol College, da Universidade de Oxford.
-
-Apesar de admirar a extensa biblioteca da instituição, Smith posteriormente criticaria o ensino de Oxford, que considerava excessivamente tradicional e pouco receptivo às novas ideias científicas e filosóficas que surgiam na Europa.
-
-Durante seus anos em Oxford, dedicou-se a estudar por conta própria autores como:
-
-- Isaac Newton;
-- John Locke;
-- David Hume;
-- Montesquieu;
-- os filósofos da Antiguidade greco-romana.
-
-Após deixar Oxford em 1746, retornou à Escócia e passou alguns anos realizando palestras públicas em Edimburgo. Seus cursos abordavam retórica, direito, política, literatura e economia, atraindo cada vez mais estudantes e intelectuais.
-
-Foi nessa época que iniciou uma amizade duradoura com o filósofo David Hume, que se tornaria um de seus maiores amigos e influenciadores.
+Durante os seis anos em Oxford, dedicou grande parte do tempo ao estudo autodidata de filosofia, literatura, história, direito, ciências e economia política. Mais tarde, criticaria publicamente o modelo de ensino da universidade, afirmando que muitos professores negligenciavam suas responsabilidades acadêmicas.
 
 ---
 
-### 1751–1764 | Professor de Filosofia Moral e a construção de suas ideias
+### 1748–1759 | O início da carreira acadêmica
 
-Em 1751, Smith foi nomeado professor de Lógica na Universidade de Glasgow.
+Após retornar à Escócia, Smith passou a ministrar uma série de palestras públicas em **Edimburgo**, abordando temas como retórica, jurisprudência, filosofia moral e economia política. Suas conferências rapidamente chamaram a atenção de intelectuais e membros da elite escocesa.
 
-No ano seguinte, assumiu a prestigiosa cadeira de Filosofia Moral, cargo que ocupou por treze anos e que considerava o período mais feliz de sua vida.
+Em **1751**, foi nomeado professor de Lógica na Universidade de Glasgow. Apenas um ano depois, assumiu a prestigiosa cátedra de Filosofia Moral, cargo que ocupou por cerca de treze anos.
 
-Suas aulas eram divididas em quatro grandes áreas:
-
-1. Teologia Natural;
-2. Ética;
-3. Jurisprudência;
-4. Economia Política.
-
-Essa estrutura revela algo importante: para Smith, economia e moral eram disciplinas inseparáveis.
-
-Durante esse período, tornou-se uma figura central do Iluminismo Escocês, movimento intelectual que buscava aplicar a razão e a observação científica ao estudo da sociedade humana.
-
-Em 1759, publicou:
-
-**A Teoria dos Sentimentos Morais**
-
-A obra argumenta que os seres humanos não agem apenas por interesse próprio. Segundo Smith, somos naturalmente capazes de empatia, isto é, de nos colocarmos no lugar dos outros.
-
-O livro introduziu o conceito do "espectador imparcial", uma espécie de consciência moral interna que nos ajuda a julgar nossas próprias ações.
-
-A obra foi um grande sucesso em toda a Europa e transformou Smith em um intelectual de reputação internacional.
+Foi nesse período que desenvolveu muitas das ideias que mais tarde moldariam suas principais obras. Em **1759**, publicou **A Teoria dos Sentimentos Morais**, livro no qual defendia que os seres humanos possuem capacidade natural de empatia e que a moralidade surge da convivência em sociedade. A obra foi um enorme sucesso e tornou Smith conhecido em toda a Europa.
 
 ---
 
-### 1764–1776 | Viagens pela Europa e a criação de A Riqueza das Nações
+### 1764–1766 | Viagem pela Europa e contato com o Iluminismo
 
-Em 1764, Smith renunciou ao cargo na universidade para tornar-se tutor de Henry Scott, o jovem duque de Buccleuch.
+Em **1764**, Smith deixou a universidade para acompanhar **Henry Scott**, futuro Duque de Buccleuch, como tutor em uma longa viagem pelo continente europeu.
 
-A posição lhe proporcionou uma renda confortável e a oportunidade de viajar pela Europa durante mais de dois anos.
+Durante cerca de dois anos, visitou países como França e Suíça, entrando em contato com importantes intelectuais do Iluminismo, entre eles **Voltaire**, **François Quesnay**, **Anne Robert Jacques Turgot** e **Benjamin Franklin**.
 
-Na França, entrou em contato com os principais pensadores do Iluminismo e da escola fisiocrata, entre eles:
-
-- Voltaire;
-- François Quesnay;
-- Anne Robert Jacques Turgot.
-
-Os fisiocratas defendiam que a riqueza das nações dependia da produção e da liberdade econômica, ideias que exerceram grande influência sobre Smith.
-
-Também passou algum tempo em Genebra, onde estudou o sistema político suíço e observou diferentes formas de organização econômica e social.
-
-Após retornar à Escócia, estabeleceu-se em Kirkcaldy e iniciou um período de intenso trabalho intelectual.
-
-Durante aproximadamente dez anos, viveu quase exclusivamente dedicado à redação de uma obra monumental:
-
-**Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações** (*An Inquiry into the Nature and Causes of the Wealth of Nations*).
-
-O livro foi finalmente publicado em 9 de março de 1776.
+Essas experiências ampliaram sua compreensão sobre comércio internacional, políticas econômicas e organização dos Estados. O contato com os fisiocratas franceses, especialmente Quesnay, teve grande influência sobre suas reflexões a respeito da produção, da riqueza e da liberdade econômica.
 
 ---
 
-### 1776–1790 | Reconhecimento internacional e últimos anos
+### 1767–1776 | A elaboração de *A Riqueza das Nações*
 
-A publicação de *A Riqueza das Nações* transformou Adam Smith em um dos pensadores mais influentes de sua época.
+De volta à Escócia, Smith estabeleceu-se em Kirkcaldy e dedicou quase dez anos à redação de sua principal obra.
 
-A obra apresentava uma análise abrangente do funcionamento da economia e introduzia conceitos revolucionários, como:
+Após inúmeras revisões e pesquisas, publicou, em **1776**, **Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações**, conhecida simplesmente como **A Riqueza das Nações**.
 
-- divisão do trabalho;
-- especialização produtiva;
-- livre comércio;
-- produtividade;
-- acumulação de capital;
-- concorrência;
-- formação de preços;
-- crescimento econômico.
+O livro revolucionou o pensamento econômico ao explicar como a divisão do trabalho aumenta a produtividade, discutir o funcionamento dos mercados e defender que a livre concorrência tende a promover maior eficiência econômica. Também apresentou críticas ao mercantilismo, sistema predominante na época, e tornou-se uma das obras mais influentes da história da economia.
 
-Smith criticava fortemente:
+---
 
-- monopólios;
-- protecionismo excessivo;
-- privilégios concedidos pelo Estado;
-- restrições ao comércio.
+### 1778–1790 | Últimos anos
 
-Embora seja frequentemente associado à expressão "mão invisível", a ideia aparece apenas uma vez em *A Riqueza das Nações*. Para Smith, o mercado não funcionava de maneira mágica; ele dependia de instituições sólidas, segurança jurídica e padrões morais compartilhados pela sociedade.
+Em **1778**, Smith foi nomeado **Comissário das Alfândegas da Escócia**, cargo público responsável pela fiscalização do comércio e da arrecadação de impostos. Apesar de ser frequentemente associado ao livre mercado, aceitava a existência de funções importantes para o Estado, incluindo a administração tributária, a justiça, a defesa e investimentos em infraestrutura e educação.
 
-Em 1778, foi nomeado Comissário de Alfândega da Escócia, cargo que exerceu até sua morte.
+Em **1787**, recebeu outra grande homenagem ao ser eleito **Reitor da Universidade de Glasgow**, instituição onde havia construído grande parte de sua carreira acadêmica.
 
-Em seus últimos anos, viveu em Edimburgo, recebendo acadêmicos, políticos e intelectuais de toda a Europa.
+Nos últimos anos de vida, continuou revisando suas obras e mantendo intensa correspondência com estudiosos europeus. Antes de morrer, ordenou que a maior parte de seus manuscritos inéditos fosse destruída, acreditando que apenas seus trabalhos concluídos deveriam permanecer públicos.
 
-Pouco antes de morrer, ordenou que a maior parte de seus manuscritos inéditos fosse destruída, temendo deixar obras inacabadas para a posteridade.
-
-Adam Smith morreu em 17 de julho de 1790, aos 67 anos, sendo sepultado no Canongate Kirkyard, em Edimburgo.
+Adam Smith faleceu em **17 de julho de 1790**, em **Edimburgo**, aos **67 anos**. Foi sepultado no **Canongate Kirkyard**, onde seu túmulo permanece como um importante ponto de interesse histórico. Seu legado ultrapassou a economia, influenciando áreas como filosofia, ciência política, administração e relações internacionais.
 
 ---
 
 ## Legado e influência
 
-Poucos pensadores tiveram um impacto tão profundo sobre o mundo moderno quanto Adam Smith.
+### Fundador da economia moderna
+Adam Smith é amplamente reconhecido como o principal fundador da economia como disciplina científica. Em *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776), ele sistematizou conceitos econômicos que antes eram fragmentados, como divisão do trabalho, produtividade, formação de preços e comércio internacional.
 
-Suas ideias influenciaram:
-
-#### David Ricardo (1772–1823)
-
-Ricardo desenvolveu e refinou as ideias econômicas de Smith. Inspirado pela defesa do livre comércio e pela análise do valor das mercadorias, formulou a **Teoria das Vantagens Comparativas**, que explica por que os países se beneficiam do comércio internacional mesmo quando um deles é mais eficiente em produzir todos os bens.
-
-Também aprofundou os estudos de Smith sobre salários, lucros e renda da terra, tornando-se um dos principais nomes da economia clássica.
+Sua principal contribuição foi tratar a economia como um sistema organizado por forças naturais de mercado, e não apenas como resultado de decisões centralizadas do Estado.
 
 ---
 
-#### Thomas Malthus (1766–1834)
+### A “mão invisível” e o funcionamento dos mercados
+O conceito da **“mão invisível”** tornou-se sua ideia mais famosa. Ele descreve como indivíduos, ao buscarem seus próprios interesses, podem gerar benefícios coletivos de forma não intencional.
 
-Malthus adotou a visão de Smith de que a economia obedece a certos mecanismos naturais e estudou as relações entre crescimento populacional e produção de alimentos.
-
-Embora discordasse de Smith em alguns pontos, especialmente sobre o otimismo em relação ao progresso econômico, utilizou suas ideias como base para desenvolver sua própria teoria populacional.
-
----
-
-#### John Stuart Mill (1806–1873)
-
-Mill foi profundamente influenciado pela defesa smithiana da liberdade econômica e do livre mercado.
-
-Porém, procurou conciliar essas ideias com preocupações sociais, defendendo reformas que reduzissem a desigualdade e ampliassem oportunidades para a população.
-
-Sua obra ajudou a transformar a economia clássica em uma disciplina mais preocupada com questões sociais e políticas.
+Essa noção se tornou um dos pilares do **liberalismo econômico clássico**, influenciando debates sobre livre mercado, concorrência e intervenção estatal. Até hoje, é uma referência central — tanto para defensores quanto para críticos da economia de mercado.
 
 ---
 
-#### Karl Marx (1818–1883)
+### Base do pensamento econômico clássico
+Smith deu origem ao que depois seria chamado de **economia clássica**, influenciando autores como David Ricardo e Thomas Malthus.
 
-Apesar de ser um crítico do capitalismo, Marx estudou cuidadosamente as obras de Adam Smith.
+Entre suas contribuições estruturais estão:
+- teoria da divisão do trabalho como motor de produtividade
+- análise do valor e da produção
+- crítica ao mercantilismo
+- defesa do livre comércio
 
-A análise de Smith sobre:
-
-- divisão do trabalho;
-- acumulação de capital;
-- funcionamento dos mercados;
-- criação de riqueza;
-
-serviu de ponto de partida para a crítica marxista ao sistema capitalista.
-
-Marx considerava Smith um dos maiores economistas da história e frequentemente dialogava com suas ideias, mesmo quando discordava de suas conclusões.
+Esses elementos formaram a base da economia política dos séculos XVIII e XIX.
 
 ---
 
-#### Friedrich Hayek (1899–1992)
+### Impacto no liberalismo econômico e nas políticas públicas
+Suas ideias influenciaram diretamente reformas econômicas em diversos países, especialmente ao longo dos séculos XIX e XX.
 
-Hayek viu em Adam Smith um dos primeiros pensadores a compreender que a ordem econômica pode surgir espontaneamente das interações entre milhões de indivíduos, sem a necessidade de um planejamento central.
+Entre os impactos mais recorrentes:
+- redução de barreiras comerciais
+- combate a monopólios e privilégios estatais
+- incentivo à concorrência
+- defesa da eficiência dos mercados
 
-A famosa ideia da "mão invisível" influenciou diretamente as teorias de Hayek sobre:
-
-- ordem espontânea;
-- descentralização da informação;
-- importância dos mercados livres.
-
----
-
-#### Milton Friedman (1912–2006)
-
-Friedman retomou a defesa smithiana da liberdade econômica no século XX.
-
-Suas ideias sobre:
-
-- livre mercado;
-- redução da intervenção estatal;
-- livre concorrência;
-- liberdade de escolha dos indivíduos;
-
-têm raízes profundas no pensamento de Adam Smith.
-
-Por essa razão, Friedman frequentemente era considerado um dos principais herdeiros intelectuais do liberalismo econômico iniciado por Smith.
+Mesmo economias modernas com forte presença do Estado ainda dialogam com premissas derivadas de Smith.
 
 ---
 
-#### Influência além da economia
+### Economia e moral: uma visão integrada do ser humano
+Antes de economista, Smith era filósofo moral. Em *The Theory of Moral Sentiments*, ele defende que o comportamento humano é guiado por empatia, julgamento moral e normas sociais.
 
-A importância de Adam Smith vai muito além do capitalismo e dos mercados.
+Isso influencia diretamente sua visão econômica: mercados funcionam dentro de um contexto ético e social, e não apenas por cálculo racional de interesse próprio.
 
-Na filosofia, sua teoria da empatia influenciou estudos modernos sobre:
+---
 
-- moralidade;
-- comportamento humano;
-- psicologia social;
-- cooperação entre indivíduos.
+### Formação da economia como disciplina acadêmica
+A influência de Smith ajudou a consolidar a economia como área acadêmica independente, especialmente em instituições como a **:contentReference[oaicite:0]{index=0}**, onde lecionou filosofia moral.
 
-Na política, suas ideias ajudaram a fundamentar:
+Sua abordagem interdisciplinar (economia, ética e filosofia) moldou a estrutura inicial dos cursos de economia no mundo.
 
-- o liberalismo político;
-- a defesa da propriedade privada;
-- o constitucionalismo moderno;
-- a liberdade de comércio.
+---
 
-Na administração e nos negócios, seu estudo sobre a **divisão do trabalho** tornou-se um dos princípios fundamentais da organização das empresas e da produção industrial, influenciando desde a Revolução Industrial até os métodos modernos de gestão.
+### Críticas e revisões contemporâneas
+Apesar de sua importância, o pensamento de Smith foi reinterpretado ao longo do tempo. Muitos economistas modernos apontam que sua obra não defendia um mercado totalmente sem regulação, como às vezes é simplificado.
 
-Mais de dois séculos após sua morte, Adam Smith continua sendo uma das figuras centrais para a compreensão da economia, da política e do funcionamento das sociedades modernas.
+Pesquisas atuais em economia mostram que:
+- mercados podem falhar
+- desigualdade pode se aprofundar sem regulação
+- agentes econômicos não são totalmente racionais
+
+Essas críticas ampliam o debate, mas não reduzem sua relevância teórica.
+
+---
+
+### Legado intelectual duradouro
+Adam Smith permanece como uma das figuras centrais das ciências sociais. Seu pensamento estruturou a economia moderna e ainda fundamenta debates sobre:
+- papel do Estado
+- liberdade econômica
+- justiça social
+- funcionamento dos mercados
+
+Mais do que criar respostas definitivas, Smith criou o ponto de partida para quase todos os debates econômicos contemporâneos.
 
 ---
 
@@ -259,76 +183,74 @@ Mais de dois séculos após sua morte, Adam Smith continua sendo uma das figuras
 
 ---
 
-## Obras em ordem de publicação
+## Principais obras
 
-| Ano | Título Original | Título em Português | Gênero | Disponível |
-|------|------------------|---------------------|---------|-------------|
-| 1759 | *The Theory of Moral Sentiments* | A Teoria dos Sentimentos Morais | Filosofia Moral | Não |
-| 1776 | *An Inquiry into the Nature and Causes of the Wealth of Nations* | A Riqueza das Nações | Economia Política | Sim |
-| 1795 | *Essays on Philosophical Subjects* | Ensaios sobre Temas Filosóficos | Filosofia | Não |
-| 1896¹ | *Lectures on Justice, Police, Revenue and Arms* | Lições sobre Justiça, Polícia, Receita e Armas | Economia e Política | Não |
-| 1978² | *Lectures on Jurisprudence* | Lições de Jurisprudência | Filosofia do Direito | Não |
+| Ano | Obra | Gênero | Disponível |
+|------|-------|---------|:----------:|
+| **1759** | *The Theory of Moral Sentiments* | Filosofia moral | ❌ |
+| **1776** | *An Inquiry into the Nature and Causes of the Wealth of Nations* | Economia política | ✅ |
+| **Post. 1896** | *Lectures on Jurisprudence* | Direito / Economia política | ❌ |
+| **1795** | *Essays on Philosophical Subjects* | Ensaios filosóficos | ❌ |
 
-¹ As palestras foram ministradas entre 1762 e 1764, mas só foram publicadas em 1896.
-
-² Coletânea acadêmica moderna que reúne manuscritos e anotações de alunos das aulas de Adam Smith.
-
----
-
-## Principais edições em português
-
-| Título | Editora | Ano da edição brasileira | ISBN |
-|---------|----------|--------------------------|-------|
-| A Riqueza das Nações | Nova Fronteira | 2017 | 9788520924682 |
-| A Teoria dos Sentimentos Morais | WMF Martins Fontes | 2015 | 9788578279857 |
-| A Riqueza das Nações (edição de bolso) | Edipro | 2019 | 9788572839781 |
-
----
-
-## Obras recomendadas para iniciantes
-
-| Ordem | Livro | Dificuldade | Recomendação |
-|--------|--------|-------------|---------------|
-| 1 | A Teoria dos Sentimentos Morais | Média | Introduz a visão de Smith sobre ética e comportamento humano. |
-| 2 | A Riqueza das Nações | Alta | Principal obra econômica e uma das mais influentes da história. |
-| 3 | Essays on Philosophical Subjects | Alta | Recomendado para quem deseja aprofundar o pensamento filosófico do autor. |
-| 4 | Lectures on Jurisprudence | Muito Alta | Material acadêmico voltado para pesquisadores e estudiosos de Adam Smith. |
+> **Nota:** Parte das obras de Adam Smith foi publicada postumamente a partir de manuscritos e anotações reunidas por estudiosos após sua morte em 1790.
 
 ---
 
 ## Curiosidades
 
-1. Adam Smith nunca se casou e não teve filhos.
----
-2. Era conhecido por ser extremamente distraído e frequentemente caminhava pelas ruas profundamente concentrado em seus pensamentos.
----
-3. Apesar de ser lembrado como defensor do livre mercado, criticava monopólios e privilégios concedidos pelo Estado.
----
-4. Grande parte de seus manuscritos foi destruída por sua própria ordem pouco antes de sua morte.
----
-5. Seu retrato aparece na nota de vinte libras esterlinas emitida pelo Banco da Inglaterra.
-
-## Frases famosas
-
-> “Não é da benevolência do açougueiro, do cervejeiro ou do padeiro que esperamos nosso jantar, mas da consideração que eles têm pelo próprio interesse.”
->
-> — Adam Smith, *Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações* (*An Inquiry into the Nature and Causes of the Wealth of Nations*), Livro I, Capítulo II, 1776.
+### Nunca se casou
+Adam Smith passou toda a vida solteiro. Não há registros de relacionamentos amorosos relevantes, e ele viveu grande parte de sua vida próximo da mãe, que cuidou dele até sua morte.
 
 ---
 
-> “A verdadeira medida do valor de qualquer coisa é o trabalho e o esforço necessários para adquiri-la.”
->
-> — Adam Smith, *Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações* (*An Inquiry into the Nature and Causes of the Wealth of Nations*), Livro I, Capítulo V, 1776.
->
-> **Texto original:** “The real price of everything, what everything really costs to the man who wants to acquire it, is the toil and trouble of acquiring it.”
+### Era conhecido por ser distraído
+Relatos históricos descrevem Smith como alguém extremamente absorto em pensamentos. Há histórias de que ele caminhava longas distâncias sem perceber o caminho ou se perdia enquanto refletia sobre ideias filosóficas.
 
 ---
 
-> “A ciência é o grande antídoto contra o veneno do entusiasmo e da superstição.”
->
-> — Adam Smith, *The Wealth of Nations*, Livro V, Capítulo I, Parte III, Artigo III, 1776.
->
-> **Texto original:** “Science is the great antidote to the poison of enthusiasm and superstition.”
+### Quase destruiu seus próprios manuscritos
+Pouco antes de morrer, Smith teria ordenado a destruição de vários manuscritos inéditos. Isso fez com que parte significativa de suas ideias nunca chegasse ao público.
+
+---
+
+### Amizade com David Hume
+Ele manteve uma relação próxima com o filósofo **:contentReference[oaicite:0]{index=0}**, uma das figuras mais importantes do Iluminismo. Os dois compartilhavam debates filosóficos intensos e influenciaram mutuamente suas obras.
+
+---
+
+### Não era apenas economista
+Smith lecionava e escrevia sobre diversas áreas além da economia, incluindo:
+- filosofia moral  
+- retórica  
+- lógica  
+- jurisprudência  
+
+Isso explica por que sua visão econômica é fortemente conectada à ética e à filosofia.
+
+---
+
+### Professor universitário renomado
+Foi professor na **:contentReference[oaicite:1]{index=1}**, onde lecionou filosofia moral por muitos anos e influenciou gerações de estudantes.
+
+---
+
+### Escrevia de forma extremamente revisada
+Smith era conhecido por ser um autor lento e perfeccionista. Ele reescrevia seus textos várias vezes antes de considerar uma versão final, o que contribuiu para a profundidade analítica de suas obras.
+
+---
+
+### Influenciou até o conceito moderno de mercado
+Apesar de não usar termos modernos, suas ideias ajudaram a estruturar o entendimento contemporâneo de “mercado livre”, concorrência e preços como mecanismos de coordenação social.
+
+---
+
+### Foi enterrado discretamente
+Após sua morte em 1790, recebeu um funeral simples em Edimburgo, sem grande destaque público — um contraste com a enorme influência que teria posteriormente.
+
+---
+
+### Reconhecimento veio após sua morte
+Grande parte da fama de Adam Smith só se consolidou no século XIX, quando economistas e políticos passaram a reinterpretar suas ideias e aplicá-las em políticas econômicas.
 
 ---
 
@@ -336,90 +258,164 @@ Mais de dois séculos após sua morte, Adam Smith continua sendo uma das figuras
 
 <details>
 <summary><strong>1. Quem foi Adam Smith?</strong></summary>
-<p>Adam Smith foi um filósofo, economista e professor escocês do século XVIII, amplamente considerado o pai da economia moderna. Nascido em 1723, tornou-se uma das figuras mais importantes do Iluminismo Escocês, movimento intelectual que buscava compreender a sociedade por meio da razão e da observação científica. Embora seja mais conhecido por sua obra <em>A Riqueza das Nações</em>, Smith também foi um importante filósofo moral. Em <em>A Teoria dos Sentimentos Morais</em>, defendeu que os seres humanos possuem capacidade de empatia e que a vida em sociedade depende não apenas do interesse próprio, mas também de valores morais e da cooperação.</p>
+
+Adam Smith foi um filósofo moral, economista e professor escocês do século XVIII, amplamente considerado o fundador da economia moderna. Ele nasceu em 1723 em Kirkcaldy, na Escócia, e construiu sua carreira acadêmica na Universidade de Glasgow.
+
+Sua importância vem do fato de ter sido o primeiro a organizar a economia como um sistema coerente de análise, explicando como a riqueza é produzida, distribuída e acumulada dentro das sociedades. Sua obra mais conhecida, *The Wealth of Nations* (1776), influenciou profundamente o desenvolvimento do capitalismo moderno e das ciências econômicas.
 </details>
 
-<details>
-<summary><strong>2. O que é a “mão invisível” de Adam Smith?</strong></summary>
-<p>A "mão invisível" é uma metáfora utilizada por Adam Smith para explicar como as ações individuais podem, em determinadas circunstâncias, gerar benefícios para toda a sociedade. Segundo Smith, quando pessoas e empresas buscam seus próprios interesses — produzindo bens, oferecendo serviços e realizando trocas voluntárias — acabam contribuindo para a produção de riqueza e para a satisfação das necessidades de outras pessoas. Entretanto, Smith não acreditava que os mercados funcionassem de forma perfeita ou automática. Para ele, a prosperidade também dependia de leis, instituições eficientes, concorrência e padrões morais compartilhados pela sociedade.</p>
-</details>
+---
 
 <details>
-<summary><strong>3. Adam Smith defendia um Estado totalmente ausente na economia?</strong></summary>
-<p>Não. Essa é uma das interpretações mais equivocadas sobre seu pensamento. Embora defendesse a liberdade econômica e criticasse excessos de intervenção estatal, Smith acreditava que o governo possuía funções fundamentais. Entre elas estavam a defesa nacional, a administração da justiça, a proteção da propriedade privada, a construção de obras públicas e o incentivo à educação. Para Smith, o mercado precisava de um ambiente institucional estável para funcionar adequadamente, algo que somente um Estado organizado poderia fornecer.</p>
+<summary><strong>2. Qual é a obra mais importante de Adam Smith?</strong></summary>
+
+A obra mais importante de Adam Smith é *An Inquiry into the Nature and Causes of the Wealth of Nations* (1776). Nesse livro, ele analisa como os mercados funcionam, como a divisão do trabalho aumenta a produtividade e como o comércio entre países pode gerar riqueza.
+
+A obra também critica o mercantilismo, sistema econômico dominante na época, defendendo que a riqueza de uma nação não depende apenas do acúmulo de ouro e prata, mas da capacidade produtiva de sua economia. Esse livro se tornou o ponto de partida da economia clássica.
 </details>
 
-<details>
-<summary><strong>4. Qual é a principal obra de Adam Smith?</strong></summary>
-<p>Sua obra mais famosa é <em>Uma Investigação sobre a Natureza e as Causas da Riqueza das Nações</em>, geralmente chamada apenas de <em>A Riqueza das Nações</em>, publicada em 1776. O livro é considerado um marco fundador da economia clássica e uma das obras mais influentes da história do pensamento econômico. Nele, Smith analisa temas como divisão do trabalho, livre comércio, produtividade, formação de preços, crescimento econômico e o papel do Estado na economia.</p>
-</details>
+---
 
 <details>
-<summary><strong>5. O que Adam Smith pensava sobre a divisão do trabalho?</strong></summary>
-<p>Smith considerava a divisão do trabalho uma das principais fontes de aumento da produtividade e da riqueza das nações. Seu exemplo mais famoso é o de uma fábrica de alfinetes, na qual vários trabalhadores especializados em pequenas etapas da produção conseguem fabricar uma quantidade muito maior de produtos do que se cada um realizasse todas as tarefas sozinho. Essa ideia influenciou profundamente a Revolução Industrial, a administração moderna e os sistemas de produção utilizados até hoje.</p>
+<summary><strong>3. O que é a “mão invisível”?</strong></summary>
+
+A “mão invisível” é uma metáfora usada por Adam Smith para explicar como o mercado pode se autorregular. A ideia central é que, quando indivíduos buscam seus próprios interesses econômicos, eles acabam, sem intenção direta, contribuindo para o bem-estar geral da sociedade.
+
+Isso acontece porque a concorrência e os preços funcionam como mecanismos de coordenação. Por exemplo, um produtor que busca lucro precisa oferecer produtos melhores ou mais baratos, o que beneficia os consumidores e melhora a eficiência da economia.
 </details>
 
-<details>
-<summary><strong>6. Adam Smith era apenas um economista?</strong></summary>
-<p>Não. Embora seja lembrado principalmente pela economia, Adam Smith foi antes de tudo um filósofo moral. Suas obras abordam ética, política, direito, psicologia humana e história. Muitas de suas ideias sobre empatia, comportamento social e moralidade são estudadas atualmente em áreas como filosofia, sociologia, ciência política e psicologia. Sua visão de mundo era bastante ampla e buscava compreender o funcionamento da sociedade como um todo, não apenas dos mercados.</p>
-</details>
+---
 
 <details>
-<summary><strong>7. Qual foi a influência de Adam Smith sobre o capitalismo?</strong></summary>
-<p>As ideias de Adam Smith ajudaram a fornecer a base teórica para o desenvolvimento do capitalismo moderno. Sua defesa da livre iniciativa, da concorrência e da liberdade de comércio influenciou governos, empresários e economistas ao longo dos séculos XIX e XX. No entanto, Smith também criticava monopólios, privilégios econômicos e empresas que utilizavam seu poder para restringir a concorrência. Por isso, muitos estudiosos argumentam que o pensamento de Smith é mais complexo do que uma simples defesa irrestrita do mercado.</p>
+<summary><strong>4. Adam Smith era apenas economista?</strong></summary>
+
+Não. Adam Smith não era economista no sentido moderno do termo, mas sim filósofo moral. Antes de escrever sobre economia, ele publicou *The Theory of Moral Sentiments*, onde analisa ética, empatia e comportamento humano.
+
+Essa base filosófica é essencial para entender sua economia: ele acreditava que os mercados funcionam dentro de uma estrutura moral e social, onde valores como justiça, confiança e cooperação também são fundamentais.
 </details>
 
+---
+
 <details>
-<summary><strong>8. Por que Adam Smith continua relevante nos dias atuais?</strong></summary>
-<p>Mais de duzentos anos após sua morte, Adam Smith continua sendo uma referência para debates sobre crescimento econômico, comércio internacional, concorrência, desigualdade, papel do Estado e funcionamento dos mercados. Além disso, suas reflexões sobre moralidade, cooperação e comportamento humano permanecem atuais em um mundo cada vez mais interconectado. Muitas das discussões econômicas e políticas contemporâneas ainda partem de conceitos desenvolvidos por ele no século XVIII.</p>
+<summary><strong>5. Adam Smith defendia o livre mercado absoluto?</strong></summary>
+
+Não. Essa é uma interpretação simplificada e muitas vezes incorreta. Adam Smith defendia a liberdade econômica e a redução de intervenções desnecessárias do Estado, mas reconhecia funções essenciais do governo.
+
+Entre essas funções estavam: garantir justiça, proteger a sociedade contra ameaças externas, manter instituições públicas e realizar obras de infraestrutura que o setor privado não teria incentivo para financiar.
+</details>
+
+---
+
+<details>
+<summary><strong>6. Onde Adam Smith lecionou?</strong></summary>
+
+Adam Smith foi professor na **:contentReference[oaicite:0]{index=0}**, onde lecionou filosofia moral. Suas aulas abordavam temas como ética, retórica, lógica e jurisprudência.
+
+Esse ambiente acadêmico foi fundamental para o desenvolvimento de suas ideias econômicas, já que ele combinava filosofia moral com observação prática da sociedade e do comportamento humano.
+</details>
+
+---
+
+<details>
+<summary><strong>7. Qual é a relação entre ética e economia em sua obra?</strong></summary>
+
+Para Adam Smith, economia e ética são inseparáveis. Em *The Theory of Moral Sentiments*, ele argumenta que o ser humano não é guiado apenas pelo interesse próprio, mas também pela empatia e pela capacidade de se colocar no lugar dos outros.
+
+Isso significa que o funcionamento saudável da economia depende de normas morais e sociais. Sem confiança, justiça e cooperação, os mercados não funcionam de forma eficiente nem sustentável.
+</details>
+
+---
+
+<details>
+<summary><strong>8. Adam Smith teve influência em quais áreas?</strong></summary>
+
+A influência de Adam Smith vai muito além da economia. Suas ideias impactaram diretamente áreas como filosofia política, sociologia, teoria do direito e ciência política.
+
+Além disso, conceitos derivados de sua obra são usados até hoje em estudos sobre comportamento humano, organização social, políticas públicas e funcionamento de mercados. Ele ajudou a moldar a forma como entendemos sociedades modernas.
+</details>
+
+---
+
+<details>
+<summary><strong>9. Por que Adam Smith é importante hoje?</strong></summary>
+
+Adam Smith continua relevante porque suas ideias estão na base de praticamente todos os debates econômicos modernos. Questões como regulação de mercados, desigualdade, globalização e papel do Estado ainda dialogam com seus princípios.
+
+Mesmo economistas que criticam o liberalismo econômico utilizam seus conceitos como ponto de partida para suas análises, o que mostra a profundidade e a durabilidade de seu pensamento.
+</details>
+
+---
+
+<details>
+<summary><strong>10. Onde posso ler as obras de Adam Smith?</strong></summary>
+
+As obras de Adam Smith estão em domínio público e podem ser acessadas gratuitamente em bibliotecas digitais como Project Gutenberg, Internet Archive e outras plataformas acadêmicas.
+
+Além disso, existem edições comentadas publicadas por universidades e editoras especializadas, que ajudam a contextualizar suas ideias e tornam a leitura mais acessível para iniciantes.
 </details>
 
 ---
 
 ## Referências
 
-### Fontes acadêmicas
+### Fontes institucionais e enciclopédicas
 
-- [Fleischacker, Samuel. *On Adam Smith's Wealth of Nations: A Philosophical Companion*. Princeton University Press, 2004.](https://press.princeton.edu/books/paperback/9780691114213/on-adam-smiths-wealth-of-nations)
+- Adam Smith. (Encyclopaedia Britannica)  
+  (https://www.britannica.com/biography/Adam-Smith)
 
-- [Rothschild, Emma. *Economic Sentiments: Adam Smith, Condorcet, and the Enlightenment*. Harvard University Press, 2001.](https://www.hup.harvard.edu/books/9780674008355)
+- Adam Smith (1723–1790). (Library of Economics and Liberty – Econlib)  
+  (https://www.econlib.org/library/Enc/bios/Smith.html)
 
-- [Winch, Donald. *Adam Smith's Politics: An Essay in Historiographic Revision*. Cambridge University Press, 1978.](https://www.cambridge.org/core/books/adam-smiths-politics/)
+- Adam Smith Society – Overview and mission  
+  (https://www.adamsmith.org)
 
-- [Haakonssen, Knud (org.). *The Cambridge Companion to Adam Smith*. Cambridge University Press, 2006.](https://www.cambridge.org/core/books/cambridge-companion-to-adam-smith/)
+- University of Glasgow – Adam Smith resources and archives  
+  (https://www.gla.ac.uk/schools/socialpolitical/research/adam-smith/)
 
----
-
-### Livros e biografias
-
-- Rae, John. *Life of Adam Smith*. London: Macmillan, 1895.  
-
-- Ross, Ian Simpson. *The Life of Adam Smith*. Oxford University Press, 2010.  
-
-- Phillipson, Nicholas. *Adam Smith: An Enlightened Life*. Yale University Press, 2010.  
+- National Library of Scotland – Adam Smith collections  
+  (https://www.nls.uk/learning-zone/history/adam-smith/)
 
 ---
 
-### Obras de Adam Smith
+### Fontes acadêmicas e editoriais
 
-- [Smith, Adam. *The Theory of Moral Sentiments*. London: A. Millar, 1759.](https://www.gutenberg.org/ebooks/67363)
+- Cambridge University Press – Adam Smith studies  
+  (https://www.cambridge.org/core)
 
-- [Smith, Adam. *An Inquiry into the Nature and Causes of the Wealth of Nations*. London: W. Strahan and T. Cadell, 1776.](https://www.gutenberg.org/ebooks/3300)
+- Oxford University Press – Adam Smith and political economy  
+  (https://global.oup.com)
 
-- [Smith, Adam. *Essays on Philosophical Subjects*. London: T. Cadell Jr. and W. Davies, 1795.](https://archive.org/details/essaysonphilosop00smit)
+- JSTOR – Academic articles on Adam Smith  
+  (https://www.jstor.org)
 
-- [Smith, Adam. *Lectures on Justice, Police, Revenue and Arms*. Edited by Edwin Cannan, 1896.](https://archive.org/details/lecturesonjustic00smit)
+- Google Scholar – Academic research on Adam Smith  
+  (https://scholar.google.com)
 
 ---
 
-### Fontes digitais e institucionais
+### Obras originais e textos fundamentais
 
-- [Encyclopaedia Britannica. **Adam Smith**.](https://www.britannica.com/biography/Adam-Smith)
+- Smith, Adam. *The Wealth of Nations*  
+  (https://www.gutenberg.org/ebooks/3300)
 
-- [Stanford Encyclopedia of Philosophy. **Adam Smith's Moral and Political Philosophy**.](https://plato.stanford.edu/entries/smith-moral-political/)
+- Smith, Adam. *The Theory of Moral Sentiments*  
+  (https://www.gutenberg.org/ebooks/58559)
 
-- [Library of Economics and Liberty. **Adam Smith Biography**.](https://www.econlib.org/library/Enc/bios/Smith.html)
+- Smith, Adam. *Lectures on Jurisprudence*  
+  (https://archive.org)
 
-- [The University of Glasgow. **Adam Smith at Glasgow**.](https://www.gla.ac.uk/myglasgow/archives/exhibitions/adamsmith/)
+- Smith, Adam. *Essays on Philosophical Subjects*  
+  (https://archive.org)
 
-- [The Adam Smith Institute. **Who Was Adam Smith?**](https://www.adamsmith.org/adam-smith)
+---
+
+### Contexto histórico e materiais complementares
+
+- Encyclopaedia Britannica – Mercantilism and Classical Economics  
+  (https://www.britannica.com/topic/mercantilism)
+
+- National Library of Scotland – Enlightenment Scotland  
+  (https://www.nls.uk)
+
+- Oxford Reference – Adam Smith and Enlightenment thought  
+  (https://www.oxfordreference.com)
