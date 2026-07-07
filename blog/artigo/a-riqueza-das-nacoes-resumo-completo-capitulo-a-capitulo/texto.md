@@ -135,7 +135,7 @@ Antes disso, Smith já havia publicado *A Teoria dos Sentimentos Morais* (1759),
 >
 > Adam Smith não foi apenas o "pai da economia moderna", mas um pensador do Iluminismo que buscou explicar como o comportamento humano, o trabalho e as instituições contribuem para o progresso das nações.
 >
-> Para conhecer sua trajetória completa, leia também: **[Quem foi Adam Smith? Biografia, ideias e legado]**(https://livrariaprometeu.com/autores/adam-smith).
+> Para conhecer sua trajetória completa, leia também: [**Quem foi Adam Smith? Biografia, ideias e legado**](https://livrariaprometeu.com/autores/adam-smith).
 
 ---
 
@@ -1321,14 +1321,14 @@ Mais de dois séculos depois de sua publicação, o livro continua relevante por
 
 ## Referências
 
-* SMITH, Adam. *A Riqueza das Nações: Investigação sobre a Natureza e as Causas da Riqueza das Nações*. 1776. Disponível em: http://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt/
+* SMITH, Adam. [*A Riqueza das Nações: Investigação sobre a Natureza e as Causas da Riqueza das Nações*. 1776.](http://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt/)
 
-* Encyclopaedia Britannica. **Adam Smith — Scottish economist and philosopher**. Disponível em: https://www.britannica.com/biography/Adam-Smith
+* Encyclopaedia Britannica. [**Adam Smith — Scottish economist and philosopher**.](https://www.britannica.com/biography/Adam-Smith)
 
-* Library of Economics and Liberty. **Adam Smith: Biography and Works**. Disponível em: https://www.econlib.org/library/Smith/smWN.html
+* Library of Economics and Liberty. [**Adam Smith: Biography and Works**.](https://www.econlib.org/library/Smith/smWN.html)
 
-* Stanford Encyclopedia of Philosophy. **Adam Smith**. Disponível em: https://plato.stanford.edu/entries/smith-moral-political/
+* Stanford Encyclopedia of Philosophy. [**Adam Smith**](https://plato.stanford.edu/entries/smith-moral-political/)
 
-* The Library of Congress. **Adam Smith and The Wealth of Nations**. Disponível em: https://www.loc.gov/
+* The Library of Congress. [**Adam Smith and The Wealth of Nations**.](https://www.loc.gov/)
 
-* Investopedia. **Adam Smith: Biography, Ideas, and Contributions to Economics**. Disponível em: https://www.investopedia.com/terms/a/adamsmith.asp
+* Investopedia. [**Adam Smith: Biography, Ideas, and Contributions to Economics**.](https://www.investopedia.com/terms/a/adamsmith.asp)
