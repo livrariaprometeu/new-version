@@ -1,1 +1,0 @@
-Resumo completo de 1984, de George Orwell. Entenda a história de Winston Smith, o Grande Irmão e os principais temas deste clássico da literatura distópica.

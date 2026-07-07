@@ -1,1 +1,0 @@
-Quem foi George Orwell? Conheça a história do autor de 1984 e A Revolução dos Bichos, suas principais obras, curiosidades e por que suas ideias continuam tão atuais.

@@ -18,6 +18,7 @@
   grid-template-columns: repeat(2, 1fr); /* 2 por linha */
   gap: 20px; /* espaço entre os cards */
 }
+
 #container-artigo {
     display: flex;
     flex-direction: column;

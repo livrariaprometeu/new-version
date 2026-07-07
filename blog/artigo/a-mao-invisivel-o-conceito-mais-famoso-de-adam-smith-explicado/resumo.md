@@ -1,1 +1,0 @@
-A "mão invisível" é um dos conceitos mais famosos da economia, mas também um dos mais mal compreendidos. Descubra o que Adam Smith realmente quis dizer e como essa ideia continua influenciando mercados, governos e sociedades até hoje.

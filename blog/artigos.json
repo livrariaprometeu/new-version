@@ -1,5 +1,12 @@
 [
   {
+    "id": 15,
+    "titulo": "A Riqueza das Nações: resumo completo capítulo a capítulo",
+    "categoria": "Economia",
+    "idioma": "Português",
+    "caminho": "a-riqueza-das-nacoes-resumo-completo-capitulo-a-capitulo"
+  },
+  {
     "id": 14,
     "titulo": "Benefícios da Leitura: 10 Motivos Para Transformar os Livros em um Hábito Diário",
     "categoria": "Cultura",
@@ -8,7 +15,7 @@
   },
   {
     "id": 13,
-    "titulo": "O que é Estoicismo? Um Guia Completo para Entender a Filosofia que Atravessou Mais de 2.000 Anos",
+    "titulo": "O que é Estoicismo? Um Guia Completo para Entender a Filosofia que Atravessou 2.000 Anos",
     "categoria": "Filosofia",
     "idioma": "Português",
     "caminho": "o-que-e-estoicismo-um-guia-completo-para-entender-a-filosofia-que-atravessou-2000-anos"
@@ -24,12 +31,12 @@
     "id": 11,
     "titulo": "A Mão Invisível: O Conceito Mais Famoso de Adam Smith Explicado",
     "categoria": "Economia",
-    "idioma": "Português",
+    "idioma": "Português",  
     "caminho": "a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado"
   },
   {
     "id": 10,
-    "titulo": "Quem Foi Adam Smith? Conheça o Pai da Economia Moderna",
+    "titulo": "Quem Foi Adam Smith e por que ele é considerado o pai da economia moderna?",
     "categoria": "Biografia",
     "idioma": "Português",
     "caminho":"quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna"

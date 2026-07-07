@@ -1,1 +1,0 @@
-Nem todo livro é ideal para iniciantes. Conheça 15 obras que prendem a atenção e facilitam o começo da jornada literária.

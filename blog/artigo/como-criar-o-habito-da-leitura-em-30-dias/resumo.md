@@ -1,1 +1,0 @@
-Descubra um plano simples para criar o hábito da leitura em 30 dias, ler mais todos os dias e transformar os livros em parte da sua rotina.

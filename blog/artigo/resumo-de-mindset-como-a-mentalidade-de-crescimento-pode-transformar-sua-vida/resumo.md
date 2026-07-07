@@ -1,1 +1,0 @@
-Descubra o resumo completo de Mindset, de Carol Dweck, e aprenda como a mentalidade de crescimento pode transformar seus estudos, carreira, relacionamentos e desenvolvimento pessoal.

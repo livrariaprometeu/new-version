@@ -1,1 +1,0 @@
-Resumo completo de A Revolução dos Bichos, de George Orwell. Entenda a história, os personagens e as principais reflexões sobre poder, corrupção e liberdade.

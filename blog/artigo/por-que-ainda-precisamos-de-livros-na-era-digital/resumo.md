@@ -1,1 +1,0 @@
-Em um mundo acelerado e saturado de informações, a leitura continua essencial: desacelera o tempo, transforma o pensamento e reacende a consciência humana.

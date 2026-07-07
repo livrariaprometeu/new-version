@@ -1,1 +1,0 @@
-Descubra 10 livros essenciais para ler antes dos 30 anos e amplie sua visão sobre liberdade, propósito, disciplina, dinheiro e crescimento pessoal.

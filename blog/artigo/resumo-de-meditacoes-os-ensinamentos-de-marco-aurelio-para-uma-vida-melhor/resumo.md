@@ -1,1 +1,0 @@
-meditações resumo, marco aurélio, resumo de meditações, meditações livro, estoicismo, filosofia estoica, marco aurélio resumo, ensinamentos estoicos, desenvolvimento pessoal, autocontrole, disciplina, resiliência, livros de filosofia, livros para refletir, livraria prometeu
