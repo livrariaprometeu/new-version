@@ -29,7 +29,8 @@ Neste artigo, você encontrará um **resumo completo de A Riqueza das Nações, 
 >
 > *A Riqueza das Nações* explica como o trabalho, a especialização, a acumulação de capital e a liberdade de trocas contribuem para o crescimento econômico. Ao mesmo tempo, Adam Smith reconhece que o Estado possui funções essenciais, como garantir a justiça, a defesa nacional, a infraestrutura e a oferta de determinados serviços públicos, contrariando a ideia de que defendia a ausência completa da intervenção estatal.
 
-## Índice
+---
+
 ## Índice
 
 - [Introdução](#introdução)
@@ -79,6 +80,8 @@ Neste artigo, você encontrará um **resumo completo de A Riqueza das Nações, 
 - [FAQ](#faq--a-riqueza-das-nações)
 - [Conclusão](#conclusão)
 - [Referências](#referências)
+
+---
 
 ## O que é *A Riqueza das Nações*?
 
