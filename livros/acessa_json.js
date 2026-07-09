@@ -18,7 +18,7 @@ function compartilhar(titulo, caminho) {
             É uma leitura rápida e pode te trazer boas ideias sobre esse tema.\n
             \n
             Se quiser, dá uma olhada aqui 👇\n\n`,
-      url: `https://livrariaprometeu.com/livros/data/livro/${caminho}`
+      url: `https://livrariaprometeu.com/livros/${caminho}`
     });
   } else {
     alert("Compartilhamento não suportado nesse navegador.");
@@ -100,25 +100,31 @@ fetch("/livros/data/livros.json")
                             <div id="corpo-mais">
                                 <div id="markdown-resumo-livro">${markdown}</div>
                                 <div id="btns-resumo-livro">
-                                    <p class="btn-resumo-livro ler-livro" id="ler-livro-resumo">Ler</p>
+                                    <p class="btn-resumo-livro ler-livro ler-livro-resumo" id="ler-livro-resumo">Ler</p>
                                     <p class="btn-resumo-livro" id="compartilhar-livro-resumo">Compartilhar</p>
                                 </div>
                             </div>
                         </div>
                     `;
                 // 5) Da funcionalidade para os botões do "Ler Mais"
+                let caminhoCategoria = item.categoria[0]
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+                    .toLowerCase();
+
                 // 5.1) Botão "x"
                 const btnX = divMais.querySelector("#fechar-mais");
                 btnX.addEventListener("click", () => {
                     aba.style.display = "none";
                 });
                 // 5.2) Botão "Ler"
-                const btnLer = divMais.querySelector("#ler-livro-resumo");
+                const btnLer = divMais.querySelector(".ler-livro-resumo");
                 btnLer.addEventListener("click", () => {
-                    window.location.href =  `${caminhoLer}?id=${item.id}`;
+                    window.location.href =  `${caminhoLer}${item.caminho}`;
                 });
                 // 5.3) Botão "Compartilhar"
                 const btnCompartilhar = divMais.querySelector("#compartilhar-livro-resumo");
+
                 btnCompartilhar.addEventListener("click", () => {
                     compartilhar(item.titulo, item.caminho)
                 });
