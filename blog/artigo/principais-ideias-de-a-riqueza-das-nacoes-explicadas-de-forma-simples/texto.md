@@ -1,3 +1,5 @@
+# Principais ideias de A Riqueza das Nações explicadas de forma simples
+
 ## Introdução
 
 Mesmo tendo sido publicado em 1776, **A Riqueza das Nações**, de Adam Smith, continua sendo uma das obras mais influentes da economia. Muitos dos conceitos apresentados no livro ainda fazem parte das discussões sobre empresas, governos, comércio internacional e crescimento econômico.
