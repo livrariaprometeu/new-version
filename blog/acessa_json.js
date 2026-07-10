@@ -12,7 +12,7 @@ function obterDescricao(html, limite = 200) {
         resultado = resultado.substring(0, limite).trim() + "...";
     }
 
-    return resultado, html;
+    return resultado;
 }
 
 // 1) Utiliza .json para fazer o layout dos livros
@@ -40,8 +40,8 @@ fetch("/blog/artigos.json")
                 .then(texto => {
                     let markdown = marked.parse(texto);
                     
-                    let descricaoArtigo, html = obterDescricao(markdown);
-                    console.log('TITULO: ',item.titulo,'DESCRICAO: ',descricaoArtigo,'HTML: ',html);
+                    let descricaoArtigo = obterDescricao(markdown);
+                    console.log('TITULO: ',item.titulo,'DESCRICAO: ',descricaoArtigo);
 
                     const div = document.createElement("div");
                     div.classList.add("card");
