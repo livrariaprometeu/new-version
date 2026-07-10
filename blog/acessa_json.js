@@ -12,13 +12,14 @@ function obterDescricao(html, limite = 200) {
         resultado = resultado.substring(0, limite).trim() + "...";
     }
 
-    return resultado;
+    return resultado, html;
 }
 
 // 1) Utiliza .json para fazer o layout dos livros
 fetch("/blog/artigos.json")
   .then(res => res.json())
   .then(dados => {
+        let caminhoLer = "/blog/";
         const container = document.getElementById("lista-artigos");
 
         // Seleciona os dados do artigo (Un.)
@@ -32,14 +33,15 @@ fetch("/blog/artigos.json")
                             .trim()
                             .replace(/\s+/g, "-"); // troca espaços por "-"
 
-            let caminhoMd = `artigo/${caminhoArtigo}/texto.md`
+            let caminhoMd = `${caminhoLer}artigo/${caminhoArtigo}/texto.md`
 
             fetch(caminhoMd)
                 .then(res => res.text())
                 .then(texto => {
                     let markdown = marked.parse(texto);
                     
-                    let descricaoArtigo = obterDescricao(markdown);
+                    let descricaoArtigo, html = obterDescricao(markdown);
+                    console.log('TITULO: ',item.titulo,'DESCRICAO: ',descricaoArtigo,'HTML: ',html);
 
                     const div = document.createElement("div");
                     div.classList.add("card");
@@ -66,7 +68,6 @@ fetch("/blog/artigos.json")
                 // 4) Da funcionalidade para os botões do container
                 // 4.1) Funcionalidade para o botão "Mais"
                 const btnLer = div.querySelector("#container-artigo");
-                let caminhoLer = "/blog/";
 
                 // 5) Da a possibilidade de buscar os elementos criados
                 const inputPesquisa = document.getElementById("pesquisa");
