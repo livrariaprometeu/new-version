@@ -122,6 +122,25 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/como-a-riqueza-das-nacoes-influenciou-a-economia-moderna</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-riqueza-das-nacoes-ainda-vale-a-pena-ler</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- Livros -->
     <url>
         <loc>https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt</loc>
