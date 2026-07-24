@@ -1,5 +1,14 @@
 [
   {
+    "id": 9,
+    "titulo": "Crítica da Razão Pura",
+    "categoria": ["Filosofia"],
+    "avaliacao": 5,
+    "idioma": "Português",
+    "autor": "Immanuel Kant",
+    "caminho": "filosofia/critica-da-razao-pura-immanuel-kant"
+  },
+  {
     "id": 8,
     "titulo": "A riqueza das nações",
     "categoria": ["Economia"],
