@@ -1,0 +1,52 @@
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-family: Bembo Std;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/00001.otf)
+    }
+@font-face {
+    font-family: Bembo Std;
+    font-style: normal;
+    font-weight: bold;
+    src: url(../Fonts/00002.otf)
+    }
+@font-face {
+    font-family: Adobe Jenson Pro;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/00003.otf)
+    }
+@font-face {
+    font-family: Frutiger LT Std;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/00004.otf)
+    }
+@font-face {
+    font-family: Frutiger LT Std;
+    font-style: italic;
+    font-weight: normal;
+    src: url(../Fonts/00005.otf)
+    }
+@font-face {
+    font-family: Bembo Std;
+    font-style: italic;
+    font-weight: normal;
+    src: url(../Fonts/00006.otf)
+    }
+@font-face {
+    font-family: Optima LT Std;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Fonts/00007.otf)
+    }
+@font-face {
+    font-family: Minion Pro;
+    font-style: italic;
+    font-weight: normal;
+    src: url(../Fonts/00008.otf)
+    }
