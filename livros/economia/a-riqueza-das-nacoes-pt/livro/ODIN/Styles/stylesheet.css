@@ -1,3 +1,11 @@
+:root {
+    /* Background */
+
+    /* Color */
+    --cl-titulo: #464847;
+    --cl-texto: #000000;
+}
+
 .calibre {
     display: block;
     font-family: "bembo std";
@@ -56,7 +64,7 @@
 .cred {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -72,7 +80,7 @@
     margin: 0
     }
 .cred-1-italico {
-    color: inherit;
+    color: var(--cl-texto);
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
@@ -82,7 +90,7 @@
 .cred-1-just {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -98,7 +106,7 @@
     margin: 0
     }
 .cred-1-versalete {
-    color: inherit;
+    color: var(--cl-texto);
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
@@ -106,9 +114,9 @@
     text-decoration: none
     }
 .cred1 {
-    border-bottom: inherit solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -125,7 +133,7 @@
 .cred2 {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -143,7 +151,7 @@
 .cred3 {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -163,13 +171,13 @@
     margin-bottom: 0;
     margin-top: 0;
     text-indent: 1.5em;
-    border: inherit solid 1px;
+    border: var(--cl-texto) solid 1px;
     padding: 0 1em
     }
 .ficha1 {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: italic;
@@ -191,7 +199,7 @@
 .imagem {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1em;
     font-style: normal;
@@ -206,7 +214,7 @@
     margin: 0
     }
 .miolo-dif {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Optima LT Std";
     font-size: 1em;
     font-style: normal;
@@ -215,7 +223,7 @@
     text-decoration: none
     }
 .miolo-dif1 {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Minion Pro";
     font-size: 1em;
     font-style: italic;
@@ -226,7 +234,7 @@
 .parte {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-family: "Adobe Jenson Pro";
     font-size: 1.55em;
@@ -244,7 +252,7 @@
     margin: 0
     }
 .parte-1-versalete {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Adobe Jenson Pro";
     font-size: 0.64516em;
     font-style: normal;
@@ -253,7 +261,7 @@
     text-decoration: none
     }
 .parte-2-versalete {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Adobe Jenson Pro";
     font-size: 0.58065em;
     font-style: normal;
@@ -262,7 +270,7 @@
     text-decoration: none
     }
 .rodape-superescrito {
-    color: inherit;
+    color: var(--cl-texto);
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
@@ -273,7 +281,7 @@
 .rodape-titulo {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1.2em;
     font-style: normal;
@@ -291,7 +299,7 @@
 .rodape-titulo1 {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1.2em;
     font-style: normal;
@@ -320,7 +328,7 @@
 .sub-1-cinza-esp-abaixo {
     border-bottom: 0;
     border-top: 0;
-    color: #666;
+    color: var(--cl-titulo);
     display: block;
     font-size: 1.2em;
     font-style: normal;
@@ -336,7 +344,7 @@
     margin: 0
     }
 .sub-1-cinza-italico {
-    color: #666;
+    color: var(--cl-titulo);
     font-size: 1em;
     font-style: italic;
     font-variant: normal;
@@ -344,7 +352,7 @@
     text-decoration: none
     }
 .sub-1-cinza-versalete {
-    color: #666;
+    color: var(--cl-titulo);
     font-size: 0.75em;
     font-style: normal;
     font-variant: normal;
@@ -352,7 +360,7 @@
     text-decoration: none
     }
 .sub-1-cinza-versalete-italico {
-    color: #666;
+    color: var(--cl-titulo);
     font-size: 0.75em;
     font-style: italic;
     font-variant: normal;
@@ -362,7 +370,7 @@
 .sub-2-esp-acima {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-family: "Adobe Jenson Pro";
     font-size: 0.9em;
@@ -379,7 +387,7 @@
     margin: 0
     }
 .sub-2-maior {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Adobe Jenson Pro";
     font-size: 1.33333em;
     font-style: normal;
@@ -388,7 +396,7 @@
     text-decoration: none
     }
 .sub-2-maior1 {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Adobe Jenson Pro";
     font-size: 1.29032em;
     font-style: normal;
@@ -400,7 +408,7 @@
 .suma {
     border-bottom: 0;
     border-top: 0;
-    color: inherit;
+    color: var(--cl-texto);
     display: block;
     font-size: 1.2em;
     font-style: normal;
@@ -418,7 +426,7 @@
 .suma-titulo {
     border-bottom: 0;
     border-top: 0;
-    color: #666;
+    color: var(--cl-titulo);
     display: block;
     font-size: 1.55em;
     font-style: normal;
@@ -435,7 +443,7 @@
     margin: 0
     }
 .suma-titulo-versalete {
-    color: #666;
+    color: var(--cl-titulo);
     font-size: 0.58065em;
     font-style: normal;
     font-variant: normal;
@@ -443,7 +451,7 @@
     text-decoration: none
     }
 .superescrito {
-    color: inherit;
+    color: var(--cl-texto);
     font-size: 0.625em;
     font-style: normal;
     font-variant: normal;
@@ -452,7 +460,7 @@
     vertical-align: text-top
     }
 .tab-1-garg {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -462,11 +470,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px
     }
 .tab-1-garg-1i {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -476,12 +484,12 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
     padding: 1px
     }
 .tab-1-garg1 {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -491,11 +499,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: left;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px 0.3em 1px 1px
     }
 .tab-1-garg2 {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -505,11 +513,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: left;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px 0.3em 1px 2em
     }
 .tab-1-garg3 {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -519,11 +527,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: left;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px 0.3em 1px 2em
     }
 .tab-1-texto {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -533,12 +541,12 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
     padding: 1px
     }
 .tab-1-texto-1-fracao {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Frutiger LT Std";
     font-size: 1em;
     font-style: normal;
@@ -548,7 +556,7 @@
     vertical-align: top
     }
 .tab-1-texto-1-fracao1 {
-    color: inherit;
+    color: var(--cl-texto);
     font-family: "Frutiger LT Std";
     font-size: 1em;
     font-style: normal;
@@ -558,7 +566,7 @@
     vertical-align: bottom
     }
 .tab-1-texto-1b {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -568,11 +576,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px 1px 1px 0.2em
     }
 .tab-1-texto-1be {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -582,11 +590,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 0.2em 1px 1px
     }
 .tab-1-texto-1e {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -596,12 +604,12 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
     padding: 0.2em 1px 1px
     }
 .tab-1-texto-1f {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -611,14 +619,14 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
-    border-top: inherit solid 2px;
-    border-bottom: inherit solid 2px;
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
     padding: 0.4em 1px 0.2em
     }
 .tab-1-texto-1fb {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -628,13 +636,13 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
-    border-top: inherit solid 2px;
-    border-bottom: inherit solid 2px;
+    vertical-align: var(--cl-texto);
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
     padding: 0.4em 1px 0.2em
     }
 .tab-2-garg {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -644,11 +652,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: left;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px
     }
 .tab-2-texto-1b {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -658,14 +666,14 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
-    border-top: inherit solid 2px;
-    border-bottom: inherit solid 2px;
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
     padding: 0.5em 1px 0.2em
     }
 .tab-2-texto-1bc {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -675,13 +683,13 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
-    border-top: inherit solid 2px;
-    border-bottom: inherit solid 2px;
+    vertical-align: var(--cl-texto);
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
     padding: 0.5em 1px 0.2em
     }
 .tab-2-texto-1ce {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -691,11 +699,11 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     padding: 1px 1px 0.2em
     }
 .tab-2-texto-1e {
-    color: inherit;
+    color: var(--cl-texto);
     display: table-cell;
     font-family: "Frutiger LT Std";
     font-size: 0.75em;
@@ -705,16 +713,16 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: right;
-    vertical-align: inherit;
+    vertical-align: var(--cl-texto);
     width: 10%;
     padding: 1px 1px 0.2em
     }
 .titulo-1-cinza-esp-abaixo {
     border-bottom: 0;
     border-top: 0;
-    color: #666;
+    color: var(--cl-titulo);
     display: block;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -725,21 +733,21 @@
     text-decoration: none;
     text-indent: 1.5em;
     widows: 2;
-    margin: 0
+    margin: 3rem 0 3rem 0
     }
 .pcalibre1:visited {
-    color: inherit;
+    color: var(--cl-texto);
     text-decoration: none
     }
 .pcalibre2:link {
-    color: inherit;
+    color: var(--cl-texto);
     text-decoration: none
     }
 .pcalibre:hover {
-    color: inherit;
+    color: var(--cl-texto);
     text-decoration: none
     }
 .pcalibre3:active {
-    color: inherit;
+    color: var(--cl-texto);
     text-decoration: none
     }

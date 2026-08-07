@@ -17,7 +17,6 @@
     <dc:date opf:event="modification">2017-10-10</dc:date>
   </metadata>
   <manifest>
-<item href="Text/OdinRights.xhtml" id="OdinRight" media-type="application/xhtml+xml"/>
     <item href="Images/cover.jpeg" id="cover" media-type="image/jpeg" />
     <item href="Fonts/00001.otf" id="id1" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/00002.otf" id="id2" media-type="application/vnd.ms-opentype" />
@@ -89,7 +88,6 @@
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage" />
-<itemref idref="OdinRight"/>
     <itemref idref="id15" />
     <itemref idref="part0001.html" />
     <itemref idref="id17" />

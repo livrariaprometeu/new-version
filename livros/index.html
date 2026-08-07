@@ -19,7 +19,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>E-books Grátis | Livraria Prometeu</title>
+        <title>Livros Gratuitos Online | Biblioteca Digital Livraria Prometeu</title>
 
         <meta name="description" content="Descubra clássicos, obras de filosofia, negócios e desenvolvimento pessoal em uma seleção feita para leitores ambiciosos.">
         <meta name="robots" content="index, follow">
@@ -27,7 +27,7 @@
         <meta name="author" content="Livraria Prometeu">
 
         <!-- SEO - OPEN GRAPH -->
-        <meta property="og:title" content="Livros Online Grátis | Livraria Prometeu">
+        <meta property="og:title" content="Livros Gratuitos Online | Biblioteca Digital Livraria Prometeu">
         <meta property="og:description" content="Entre no universo Prometeu. Descubra livros gratuitos e clássicos que acendem o pensamento.">
         <meta property="og:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
         <meta property="og:url" content="https://livrariaprometeu.com/livros/">
@@ -35,7 +35,7 @@
 
         <!-- SEO - TWITTER CARDS -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Livros Online Grátis | Livraria Prometeu">
+        <meta name="twitter:title" content="Livros Gratuitos Online | Biblioteca Digital Livraria Prometeu">
         <meta property="twitter:description" content="Entre no universo Prometeu. Descubra livros gratuitos e clássicos que acendem o pensamento.">
         <meta name="twitter:image" content="https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp">
 
@@ -45,68 +45,475 @@
         "@context": "https://schema.org",
         "@graph": [
             {
-            "@type": "Organization",
-            "name": "Livraria Prometeu",
-            "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
-            "url": "https://livrariaprometeu.com",
-            "description":"A Livraria Prometeu é um portal brasileiro especializado em livros clássicos, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, análises, recomendações de leitura, listas de livros e conteúdos educativos para leitores interessados em conhecimento, crescimento intelectual e evolução profissional.",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "areaServed": "BR",
-                "contactType": "customer support",
-                "email": "livrariaprometeu@gmail.com",
-                "availableLanguage": ["Portuguese"]
+                "@type":"ItemList",
+                "@id":"https://livrariaprometeu.com/livros#booklist",
+                "url":"https://livrariaprometeu.com/livros",
+                "name":"Biblioteca Digital da Livraria Prometeu",
+                "description":"Coleção de livros gratuitos disponíveis para leitura online.",
+                "numberOfItems":9,
+                "itemListOrder":"https://schema.org/ItemListOrderAscending",
+                "itemListElement":[
+                    {
+                        "@type":"ListItem",
+                        "position":1,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Crítica da Razão Pura",
+                            "url": "https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant",
+                            "@id": "https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant#cover",
+                                "url":"https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Crítica da Razão Pura",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Immanuel Kant"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Filosofia",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"pt-BR"
+                        }
+                    },
+                    {
+                        "@type":"ListItem",
+                        "position":2,
+                        "item": {
+                            "@type": "Book",
+                            "name": "A riqueza das nações",
+                            "url": "https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt",
+                            "@id": "https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt#cover",
+                                "url":"https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro A riqueza das nações",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Adam Smith",
+                                "@id":"https://livrariaprometeu.com/autores/adam-smith/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Economia",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"pt-BR"
+                        }
+                    },
+                    {
+                        "@type":"ListItem",
+                        "position":3,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Ulysses",
+                            "url": "https://livrariaprometeu.com/livros/ficcao/ulysses-in",
+                            "@id": "https://livrariaprometeu.com/livros/ficcao/ulysses-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/ficcao/ulysses-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/ficcao/ulysses-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/ficcao/ulysses-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Ulysses",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"James Joyce",
+                                "@id":"https://livrariaprometeu.com/autores/james-joyce/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/ficcao/ulysses-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Ficção",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    },  
+                    {
+                        "@type":"ListItem",
+                        "position":4,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Meditations",
+                            "url": "https://livrariaprometeu.com/livros/filosofia/meditations-in",
+                            "@id": "https://livrariaprometeu.com/livros/filosofia/meditations-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/filosofia/meditations-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/filosofia/meditations-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/filosofia/meditations-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Meditations",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Marco Aurelio",
+                                "@id":"https://livrariaprometeu.com/autores/marco-aurelio/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/filosofia/meditations-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Filosofia",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    },
+                    {
+                        "@type":"ListItem",
+                        "position":5,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Dracula",
+                            "url": "https://livrariaprometeu.com/livros/gotico/dracula-in",
+                            "@id": "https://livrariaprometeu.com/livros/gotico/dracula-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/gotico/dracula-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/gotico/dracula-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/gotico/dracula-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Dracula",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Bram Stoker",
+                                "@id":"https://livrariaprometeu.com/autores/bram-stoker/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/gotico/dracula-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Gótico",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    },     
+                    {
+                        "@type":"ListItem",
+                        "position":6,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Alice's Adventures in Wonderland",
+                            "url": "https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in",
+                            "@id": "https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Alice's Adventures in Wonderland",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Lewis Carroll",
+                                "@id":"https://livrariaprometeu.com/autores/lewis-carroll/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/fantasia/alice-s-adventures-in-wonderland-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Fantasia",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    }, 
+                    {
+                        "@type":"ListItem",
+                        "position":7,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Romeo and Juliet",
+                            "url": "https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in",
+                            "@id": "https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Romeo and Juliet",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"William Shakespeare",
+                                "@id":"https://livrariaprometeu.com/autores/william-shakespeare/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/romance/romeu-and-juliet-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Romance",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    }, 
+                    {
+                        "@type":"ListItem",
+                        "position":8,
+                        "item": {
+                            "@type": "Book",
+                            "name": "Moby Dick or the white whale",
+                            "url": "https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in",
+                            "@id": "https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro Moby Dick",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Herman Melville",
+                                "@id":"https://livrariaprometeu.com/autores/herman-melville/#person"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                    "@type":"EntryPoint",
+                                    "urlTemplate":"https://livrariaprometeu.com/livros/romance/moby-dick-or-the-white-whale-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Romance",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    },
+                    {
+                        "@type":"ListItem",
+                        "position":9,
+                        "item": {
+                            "@type": "Book",
+                            "name": "More Than Skin Deep",
+                            "url": "https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in",
+                            "@id": "https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in#book",
+                            "image":{
+                                "@type":"ImageObject",
+                                "@id":"https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in#cover",
+                                "url":"https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in/capa.webp",
+                                "contentUrl":"https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in/capa.webp",
+                                "caption":"Capa da edição digital da Livraria Prometeu do livro More Than Skin Deep",
+                                "creator":{
+                                    "@id":"https://livrariaprometeu.com/#organization"
+                                },
+                                "creditText":"Livraria Prometeu"
+                            },
+                            "author":{
+                                "@type":"Person",
+                                "name":"Erle Stanley Gardner"
+                            },
+                            "potentialAction":{
+                                "@type":"ReadAction",
+                                "target":{
+                                   "@type":"EntryPoint",
+                                   "urlTemplate":"https://livrariaprometeu.com/livros/pulp/more-than-skin-deep-in"
+                                },
+                                "actionStatus":"https://schema.org/PotentialActionStatus"
+                            },
+                            "publisher":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "provider":{
+                                "@id":"https://livrariaprometeu.com/#organization"
+                            },
+                            "bookFormat":"EBook",
+                            "genre":"Pulp Fiction",
+                            "isAccessibleForFree":true,
+                            "inLanguage":"en"
+                        }
+                    }
+                ]
             },
-            "knowsAbout": [
-                "Livros clássicos",
-                "Filosofia",
-                "Literatura",
-                "Desenvolvimento pessoal",
-                "Produtividade",
-                "Negócios",
-                "Hábitos de leitura"
-            ],
-            "sameAs": [
-                    "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
-                    "https://www.instagram.com/livrariaprometeu"
-                ],
-            "logo": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
-            "foundingDate": "2025-10-15"
-            },
+
+
+
             {
-            "@type": "WebSite",
-            "name": "Livraria Prometeu",
-            "url": "https://livrariaprometeu.com",
-            "description":"A Livraria Prometeu é um portal dedicado à literatura clássica, filosofia, desenvolvimento pessoal, negócios e produtividade. Publicamos resenhas, recomendações de leitura, artigos, listas de livros e conteúdos educativos para leitores que desejam expandir conhecimento, desenvolver pensamento crítico e alcançar crescimento pessoal e profissional.",
-            "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
-            "publisher": {
-                "@type": "Organization",
-                "name": "Livraria Prometeu"
-            }
+            "@type": "CollectionPage",
+            "@id": "https://livrariaprometeu.com/livros#page",
+            "url":"https://livrariaprometeu.com/livros",
+            "inLanguage":"pt-BR",
+            "isPartOf":{
+                "@id":"https://livrariaprometeu.com/#website"
             },
+            "mainEntity":{
+                "@id":"https://livrariaprometeu.com/livros#booklist"
+            },
+            "name": "Biblioteca Digital de Livros Gratuitos",
+            "description": "Catálogo de livros digitais gratuitos disponíveis na Livraria Prometeu."
+            },
+
+
+
             {
             "@type": "WebPage",
-            "name": "E-books Grátis | Livraria Prometeu",
+            "name": "Livros Gratuitos Online | Biblioteca Digital Livraria Prometeu",
             "description":"Catálogo de livros gratuitos para leitura online.",
             "url": "https://livrariaprometeu.com/livros",
-            "image": "https://livrariaprometeu.com/header/logo/livraria_prometeu_original.webp",
+            "keywords":[
+                "livros gratuitos",
+                "livros online",
+                "biblioteca digital",
+                "filosofia",
+                "economia"
+            ],
+            "@id": "https://livrariaprometeu.com/livros#webpage",
+            "breadcrumb":{
+                "@id":"https://livrariaprometeu.com/livros#breadcrumb"
+            },
+            "image":{
+                "@id":"https://livrariaprometeu.com/#logo"
+            },
             "isPartOf": {
-                "@type": "WebSite",
-                "name": "Livraria Prometeu",
-                "url": "https://livrariaprometeu.com"
+                "@id": "https://livrariaprometeu.com/#website"
             },
             "datePublished": "2026-05-20",
-            "dateModified": "2026-06-19",
+            "dateModified": "2026-08-06",
+            "publisher":{
+                "@id":"https://livrariaprometeu.com/#organization"
+            },
             "about": {
-                "@type": "Organization",
-                "name": "Livraria Prometeu"
+                "@id": "https://livrariaprometeu.com/#organization"
             },
-            "mainEntityOfPage": {
-                "@id": "https://livrariaprometeu.com/livros"
+            "mainEntityOfPage":{
+                "@id":"https://livrariaprometeu.com/livros#page"
             }
+            "mainEntity":{
+                "@id":"https://livrariaprometeu.com/livros#booklist"
             },
+            "inLanguage":"pt-BR"
+            },
+
+
+
             {
             "@type": "BreadcrumbList",
+            "inLanguage":"pt-BR",
+            "@id":"https://livrariaprometeu.com/livros#breadcrumb",
             "itemListElement": [
                 {
                 "@type": "ListItem",
@@ -117,7 +524,7 @@
                 {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Livros",
+                "name": "Biblioteca Digital",
                 "item": "https://livrariaprometeu.com/livros"
                 }
             ]

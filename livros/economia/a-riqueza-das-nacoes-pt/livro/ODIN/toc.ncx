@@ -11,10 +11,9 @@
     <text>A riqueza das nações</text>
   </docTitle>
   <navMap>
-<navPoint id="num_2" playOrder="2"> <navLabel> <text>OdinRights</text> </navLabel> <content src="Text/OdinRights.xhtml"/> </navPoint>
     <navPoint class="chapter" id="num_1" playOrder="0">
       <navLabel>
-        <text>Rosto</text>
+        <text>Nota da Edição</text>
       </navLabel>
       <content src="Text/part0000.html"/>
     </navPoint>

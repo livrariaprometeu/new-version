@@ -1,0 +1,95 @@
+{
+    "redirects": [
+        {
+            "source":"/blog/data/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo",
+            "destination":"/blog/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado",
+            "destination":"/blog/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos",
+            "destination":"/blog/artigo/os-10-melhores-livros-para-ler-antes-dos-30-anos",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/por-que-ainda-precisamos-de-livros-na-era-digital",
+            "destination":"/blog/artigo/por-que-ainda-precisamos-de-livros-na-era-digital",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/como-criar-o-habito-da-leitura-em-30-dias",
+            "destination":"/blog/artigo/como-criar-o-habito-da-leitura-em-30-dias",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura",
+            "destination":"/blog/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura",
+            "permanent": true
+        },
+        {
+            "source":"/livros/data/livro/romeu-and-juliet-in",
+            "destination":"/livros/romance/romeu-and-juliet-in",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia",
+            "destination":"/blog/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor",
+            "destination":"/blog/artigo/resumo-de-meditacoes-os-ensinamentos-de-marco-aurelio-para-uma-vida-melhor",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca",
+            "destination":"/blog/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca",
+            "permanent": true
+        },
+        {
+            "source":"/livros/data/livro/a-riqueza-das-nacoes-pt",
+            "destination":"/livros/economia/a-riqueza-das-nacoes-pt",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna",
+            "destination":"/blog/artigo/quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna",
+            "permanent": true
+        },
+        {
+            "source":"/blog/data/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos",
+            "destination":"/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos",
+            "permanent": true
+        },
+        {
+            "source":"/blog/config/artigos.json",
+            "destination":"/blog/artigos.json",
+            "permanent": true
+        },
+        {
+            "source":"/livros/data/livro/more-than-skin-deep-in",
+            "destination":"/livros/pulp/more-than-skin-deep-in",
+            "permanent": true
+        },
+        {
+            "source":"/livros/data/livro/meditations-in",
+            "destination":"/livros/filosofia/meditations-in",
+            "permanent": true
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*).(css|js|png|jpg|jpeg|svg|webp|woff2)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        }
+    ]
+}
