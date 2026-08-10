@@ -33,6 +33,10 @@ main {
 
 /*  MARKDOWN  */
 
+#markdown {
+    margin: 0 0 0 12rem;
+}
+
 #markdown blockquote {
     margin: 50px 0px;
     border-left: 4px solid var(--bg-marca);
@@ -108,4 +112,88 @@ details {
     gap: 20px; /* espaço entre os cards */
     text-decoration: none;
     }
+}
+
+/* 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+MENU
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.*/
+
+#aba-sobre-geral {
+    display: flex;
+}
+
+#menu-de-selecao-sobre {
+    width: 10rem;
+    position:fixed;
+}
+
+.item-menu-sobre {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px 0;
+    background-color: var(--bg-header);
+
+     cursor: pointer;
+    transition: background-color 0.2s ease color 0.2s ease;
+}
+
+.item-menu-sobre:hover {
+    background-color: var(--bg-paper);
+}
+
+.item-menu-sobre.ativo {
+    background-color: var(--bg-marca);
+    color: white;
 }

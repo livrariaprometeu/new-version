@@ -15,7 +15,7 @@ async function lerArquivoHome(caminho_md) {
 }
 
 
-async function carregarResumo(caminho_md = "/sobre/nos/texto.md") {
+async function carregarResumo(caminho_md = "/sobre/politica-de-transparencia-comercial/texto.md") {
 
     const conteudoMais = document.getElementById("texto-principal");
 
@@ -46,7 +46,7 @@ async function carregarResumo(caminho_md = "/sobre/nos/texto.md") {
 
                     <div id="menu-de-selecao-sobre">
 
-                        <div class="item-menu-sobre" id="nos">
+                        <div class="item-menu-sobre" id="sobre">
                             1. Sobre
                         </div>
 

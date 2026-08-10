@@ -6,17 +6,21 @@
     /* Background */
     --bg-header: #dfddd8;
     --bg-paper: #edecea;
-    --bg-white: rgba(255, 255, 255);
-    --bg-marca: rgb(103, 62, 50);
-    --bg-marca-ativo: rgb(81, 48, 38);
+    --bg-white: #ffffff;
+    --bg-marca: #B2897F;
+    --bg-marca-ativo: #B76E79;
+    /* --bg-marca: rgb(103, 62, 50); */
+    /* --bg-marca-ativo: rgb(81, 48, 38); */
 
     /* Color */
     --cl-paper: #464847;
     --cl-paper-ativo: #6e6f6e;
+    --cl-tranparente: #1e1e1e00;
 
     /* Outros */
     --muted: #6b6b6b;
-    --paper-light: #faf9f7;
+    --paper-light: #ffffff;
+    --paper-black-translucido: rgba(0, 0, 0, 0.685);
 }
 
 

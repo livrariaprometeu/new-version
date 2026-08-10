@@ -45,6 +45,35 @@
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": "CreativeWork",
+                "@id": "https://livrariaprometeu.com/#digital-library",
+                "name": "Biblioteca Digital da Livraria Prometeu",
+                "alternateName": "Biblioteca Digital Prometeu",
+                "description": "Biblioteca digital da Livraria Prometeu destinada à leitura online de obras que possam ser disponibilizadas legalmente.",
+                "url": "https://livrariaprometeu.com/biblioteca",
+                "isPartOf": {
+                    "@id": "https://livrariaprometeu.com/#website"
+                },
+                "publisher": {
+                    "@id": "https://livrariaprometeu.com/#organization"
+                },
+                "creator": {
+                "@id": "https://livrariaprometeu.com/#organization"
+                },
+                "keywords": [
+                    "livros digitais",
+                    "leitura online",
+                    "biblioteca digital",
+                    "livros em domínio público",
+                    "literatura",
+                    "filosofia"
+                ],
+                "inLanguage": "pt-BR"
+            },
+
+
+
+            {
                 "@type": "ImageObject",
                 "inLanguage":"pt-BR",
                 "description": "Logotipo oficial da Livraria Prometeu, portal brasileiro especializado em literatura clássica, filosofia, desenvolvimento pessoal, negócios e produtividade.",
@@ -108,22 +137,42 @@
                     "Hábitos de leitura"
                 ],
                 "sameAs": [
-                        "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
-                        "https://www.instagram.com/livrariaprometeu"
-                    ],
+                    "https://www.facebook.com/profile.php?id=61568471436809&locale=pt_BR",
+                    "https://www.instagram.com/livrariaprometeu"
+                ],
                 "logo": {
                     "@id": "https://livrariaprometeu.com/#logo"
                 },
                 "foundingDate": "2024-11",
-                "publishingPrinciples":{
-                    "@type":"WebPage",
-                    "@id":"https://livrariaprometeu.com/politica-editorial#webpage",
-                    "name":"Política Editorial da Livraria Prometeu",
-                    "url":"https://livrariaprometeu.com/politica-editorial"
-                },
+                "publishingPrinciples": [
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-da-biblioteca-digital#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-conteudo-e-fontes#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-correcoes-e-atualizacoes#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-direitos-autorais#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-inteligencia-artificial#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-privacidade-e-dados#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-de-transparencia-comercial#policy"
+                    },
+                    {
+                        "@id": "https://livrariaprometeu.com/sobre/politica-editorial#policy"
+                    }
+                ],
                 "areaServed": {
-                "@type": "Country",
-                "name": "Brasil"
+                    "@type": "Country",
+                    "name": "Brasil"
                 }
             },
 

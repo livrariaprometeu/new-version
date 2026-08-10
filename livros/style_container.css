@@ -10,7 +10,6 @@
     background-color: var(--bg-paper);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-
 #lista-livros {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 por linha */

@@ -64,7 +64,7 @@ table {
     border-collapse: collapse;
     margin: 2rem 0;
     font-size: 0.95rem;
-    background-color: #fdfaf3;
+    background-color: var(--bg-white);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -79,15 +79,15 @@ th,
 td {
     padding: 14px 18px;
     text-align: left;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--bg-paper);
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f6f1e7;
+    background-color: var(--bg-paper);
 }
 
 tbody tr:hover {
-    background-color: #ece4d4;
+    background-color: var(--bg-marca);
     transition: background 0.2s;
 }
 
