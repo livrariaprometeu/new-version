@@ -72,33 +72,66 @@ function pegar3Artigos(dados) {
   return embaralhado.slice(0, 3);
 }
 
+function obterDescricao(html, limite = 200) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+
+    const primeiroParagrafo = doc.querySelector("p");
+
+    if (!primeiroParagrafo) return "";
+
+    let resultado = primeiroParagrafo.textContent.replace(/\s+/g, " ").trim();
+
+    if (resultado.length > limite) {
+        resultado = resultado.substring(0, limite).trim() + "...";
+    }
+
+    return resultado;
+}
+
 async function renderizarTrack(lista) {
   const track = document.getElementById("track-destaque");
   track.innerHTML = "";
 
   for (let item of lista) {
-   const texto = await lerArquivo(item.caminho); 
-    const markdown = marked.parse(texto);
 
-    const div = document.createElement("div");
-    div.classList.add("card-destaque");
+    let caminhoArtigo = item.titulo
+                    .normalize("NFD")
+                    .toLowerCase()
+                    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+                    .replace(/[.,!?;:]/g, "") // remove pontuação
+                    .trim()
+                    .replace(/\s+/g, "-"); // troca espaços por "-"
 
-    urlCapa = `/blog/artigo/${item.caminho}/capa.webp`
-    div.innerHTML = `
-      <div class="capa-artigo-container">
-        <img class="capa-destaque" src="${urlCapa}">
-        <div class="container-artigo-destaque">
-          <div class="idioma-artigo-destaque">${item.idioma}</div>
-          <p class="titulo-artigo-destaque">${item.titulo}</p>
-          <p class="conteudo-artigo-destaque">${markdown}</p>
-        </div>
-      </div>
-    `;
-    div.addEventListener("click", () => {
-      window.location.href = `/blog/artigo/${item.caminho}`;
-    });
+    let caminhoMd = `/blog/artigo/${caminhoArtigo}/texto.md`
 
-    track.appendChild(div);
+    fetch(caminhoMd)
+        .then(res => res.text())
+        .then(texto => {
+            let markdown = marked.parse(texto);
+            let descricaoArtigo = obterDescricao(markdown);
+
+            const div = document.createElement("div");
+            div.classList.add("card-destaque");
+
+            urlCapa = `/blog/artigo/${item.caminho}/capa.webp`
+            div.innerHTML = `
+              <div class="capa-artigo-container">
+                <img class="capa-destaque" src="${urlCapa}">
+                <div class="container-artigo-destaque">
+                  <div class="idioma-artigo-destaque">${item.idioma}</div>
+                  <p class="titulo-artigo-destaque">${item.titulo}</p>
+                  <p class="conteudo-artigo-destaque">${descricaoArtigo}</p>
+                </div>
+              </div>
+            `;
+            div.addEventListener("click", () => {
+              window.location.href = `/blog/artigo/${item.caminho}`;
+            });
+
+            track.appendChild(div);
+          }
+        )  
   }
 }
 

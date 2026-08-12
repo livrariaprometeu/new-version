@@ -43,7 +43,7 @@
 
 .card-destaque.artigo-destaque:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .container-artigo-destaque {
@@ -65,6 +65,15 @@
   height: 300px;
 }
 
+.container-artigo-destaque:hover .conteudo-artigo-destaque {
+  font-size: 14px;
+}
+
+.container-artigo-destaque:hover .titulo-artigo-destaque {
+  font-size: 18px;
+}
+
+
 .idioma-artigo-destaque {
   font-size: 12px;
   font-weight: bold;
@@ -79,7 +88,7 @@
 }
 
 .titulo-artigo-destaque {
-  font-size: 18px;
+  font-size: 0px;
   font-weight: 600;
   color: var(--bg-white);
 
@@ -87,16 +96,21 @@
 }
 
 .conteudo-artigo-destaque {
-  font-size: 14px;
+  font-size: 0px;
+
   color: var(--bg-paper);
 
   line-height: 1.5;
 
-  max-height: 80px;
+  height: 100%;
   overflow: hidden;
 
   text-overflow: ellipsis;
 }
+/* 
+.conteudo-artigo-destaque:hover {
+  font-size: 14px;
+} */
 
 .fade-enter-destaque {
   opacity: 0;
@@ -111,7 +125,7 @@
 
 #indicadores {
   display: flex;
-  align-self: end;
+  align-self: end; 
   
   gap: 8px;
   position: absolute;

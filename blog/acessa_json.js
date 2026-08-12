@@ -34,7 +34,7 @@ fetch("/blog/artigos.json")
                             .replace(/\s+/g, "-"); // troca espaços por "-"
 
             let caminhoMd = `${caminhoLer}artigo/${caminhoArtigo}/texto.md`
-
+ 
             fetch(caminhoMd)
                 .then(res => res.text())
                 .then(texto => {

@@ -232,7 +232,7 @@ async function criarRecomendacoesArtigos(nomeAutor) {
 
         // Artigos do autor
         let recomendados = artigos.filter(
-            artigo => artigo.autor === nomeAutor
+            artigo => artigo.sobreAutor === nomeAutor
         );
 
         recomendados = embaralhar(recomendados);
@@ -243,7 +243,7 @@ async function criarRecomendacoesArtigos(nomeAutor) {
 
             const outrosArtigos = artigos.filter(
                 artigo =>
-                    artigo.autor !== nomeAutor &&
+                    artigo.sobreAutor !== nomeAutor &&
                     !recomendados.some(r => r.id === artigo.id)
             );
 

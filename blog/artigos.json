@@ -1,66 +1,99 @@
 [
   {
+    "id": 26,
+    "titulo": "Fenomêno e Coisa em si em Kant: Qual é a diferênça?",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "fenomeno-e-coisa-em-si-em-kant-qual-e-a-diferenca",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
+    "id": 25,
+    "titulo": "O que é a Revolução Copernicana de Kant? Entenda de forma simples",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "o-que-e-a-revolucao-copernicana-de-kant-entenda-de-forma-simples",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
+    "id": 24,
+    "titulo": "Crítica da Razão Pura: resumo e principais ideias de Kant",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "critica-da-razao-pura-resumo-e-principais-ideias-de-kant",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
     "id": 23,
     "titulo": "Frases de A Riqueza das Nações: 30 citações comentadas",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "frases-de-a-riqueza-das-nacoes-30-citacoes-comentadas"
+    "caminho": "frases-de-a-riqueza-das-nacoes-30-citacoes-comentadas",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 22,
     "titulo": "A divisão do trabalho explicada com exemplos do dia a dia",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "a-divisao-do-trabalho-explicada-com-exemplos-do-dia-a-dia"
+    "caminho": "a-divisao-do-trabalho-explicada-com-exemplos-do-dia-a-dia",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 21,
     "titulo": "Os principais ensinamentos de A Riqueza das Nações para empreendedores",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "os-principais-ensinamentos-de-a-riqueza-das-nacoes-para-empreendedores"
+    "caminho": "os-principais-ensinamentos-de-a-riqueza-das-nacoes-para-empreendedores",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 20,
     "titulo": "A Riqueza das Nações x O Capital: diferenças entre Adam Smith e Karl Marx",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "a-riqueza-das-nacoes-x-o-capital-diferencas-entre-adam-smith-e-karl-marx"
+    "caminho": "a-riqueza-das-nacoes-x-o-capital-diferencas-entre-adam-smith-e-karl-marx",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 19,
     "titulo": "Como A Riqueza das Nações influenciou a economia moderna",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "como-a-riqueza-das-nacoes-influenciou-a-economia-moderna"
+    "caminho": "como-a-riqueza-das-nacoes-influenciou-a-economia-moderna",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 18,
     "titulo": "A Riqueza das Nações ainda vale a pena ler?",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "a-riqueza-das-nacoes-ainda-vale-a-pena-ler"
+    "caminho": "a-riqueza-das-nacoes-ainda-vale-a-pena-ler",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 17,
     "titulo": "A mão invisível de Adam Smith: o que significa e como funciona?",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona"
+    "caminho": "a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 16,
     "titulo": "Principais ideias de A Riqueza das Nações explicadas de forma simples",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "principais-ideias-de-a-riqueza-das-nacoes-explicadas-de-forma-simples"
+    "caminho": "principais-ideias-de-a-riqueza-das-nacoes-explicadas-de-forma-simples",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 15,
     "titulo": "A Riqueza das Nações: resumo completo capítulo a capítulo",
     "categoria": "Economia",
     "idioma": "Português",
-    "caminho": "a-riqueza-das-nacoes-resumo-completo-capitulo-a-capitulo"
+    "caminho": "a-riqueza-das-nacoes-resumo-completo-capitulo-a-capitulo",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 14,
@@ -88,14 +121,16 @@
     "titulo": "A Mão Invisível: O Conceito Mais Famoso de Adam Smith Explicado",
     "categoria": "Economia",
     "idioma": "Português",  
-    "caminho": "a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado"
+    "caminho": "a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 10,
     "titulo": "Quem Foi Adam Smith e por que ele é considerado o pai da economia moderna?",
     "categoria": "Biografia",
     "idioma": "Português",
-    "caminho":"quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna"
+    "caminho":"quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna",
+    "sobreAutor": "Adam Smith"
   },
   {
     "id": 9,
