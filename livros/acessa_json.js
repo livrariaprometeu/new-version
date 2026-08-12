@@ -54,6 +54,7 @@ fetch("/livros/data/livros.json")
                     <div id="idioma-livro">${item.idioma}</div>
                     <div class="capa-livro"><img class="capa-livro" src="/livros/${item.caminho}/capa.webp"></div>
                     <p id="titulo-livro">${item.titulo}</p>
+                    <p id="autor-livro">${item.autor}</p>
                     <div id="informacoes-livro">
                         <p class="informacao-livro" id="categoria-livro">${item.categoria[0]}</p>
                         <p class="informacao-livro" id="categoria-estrelas">${html}</p>

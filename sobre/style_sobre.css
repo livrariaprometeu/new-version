@@ -90,6 +90,9 @@ details {
 }
 
 @media (max-width: 768px) {
+    #markdown {
+        margin: 0 0 0 0;
+    }
     #markdown blockquote {
         margin: 50px 0px;
         border-left: 0px solid var(--bg-marca);
@@ -175,6 +178,111 @@ MENU
 
 #menu-de-selecao-sobre {
     width: 10rem;
+    position: fixed;
+}
+
+.item-menu-sobre {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px 0;
+    background-color: var(--bg-header);
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.item-menu-sobre:hover {
+    background-color: var(--bg-paper);
+}
+
+.item-menu-sobre.ativo {
+    background-color: var(--bg-marca);
+    color: white;
+}
+
+
+/* =========================
+   BOTÃO MOBILE
+   ========================= */
+
+#menu-sobre-mobile-toggle {
+    display: none;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    #aba-sobre-geral {
+        display: block;
+    }
+
+    /* Botão */
+    #menu-sobre-mobile-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        padding: 12px 15px;
+
+        background-color: var(--bg-header);
+        border-radius: 5px;
+
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    #menu-sobre-mobile-titulo {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #menu-sobre-mobile-seta {
+        font-size: 18px;
+        transition: transform 0.2s ease;
+    }
+
+
+    /* MENU FECHADO */
+    #menu-de-selecao-sobre {
+        position: static;
+        width: 100%;
+
+        display: none;
+        box-sizing: border-box;
+    }
+
+
+    /* MENU ABERTO */
+    #menu-de-selecao-sobre.aberto {
+        display: block;
+        margin-top: 50px;
+    }
+
+
+    /* Seta */
+    #menu-sobre-mobile-toggle.aberto #menu-sobre-mobile-seta {
+        transform: rotate(180deg);
+    }
+
+
+    .item-menu-sobre {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* 
+#aba-sobre-geral {
+    display: flex;
+}
+
+#menu-de-selecao-sobre {
+    width: 10rem;
     position:fixed;
 }
 
@@ -195,5 +303,5 @@ MENU
 
 .item-menu-sobre.ativo {
     background-color: var(--bg-marca);
-    color: white;
-}
+    color: var(--bg-white);
+} */
