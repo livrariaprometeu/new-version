@@ -1,5 +1,37 @@
 [
   {
+    "id": 30,
+    "titulo": "Kant e a pergunta: como podemos conhecer alguma coisa?",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "kant-e-a-pergunta-como-podemos-conhecer-alguma-coisa",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
+    "id": 29,
+    "titulo": "As categorias de Kant: como a mente organiza a realidade?",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "as-categorias-de-kant-como-a-mente-organiza-a-realidade",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
+    "id": 28,
+    "titulo": "O que são espaço e tempo para Kant?",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "o-que-sao-espaco-e-tempo-para-kant",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
+    "id": 27,
+    "titulo": "A priori e a posteriori: o que Kant quis dizer?",
+    "categoria": "Filosofia",
+    "idioma": "Português",
+    "caminho": "a-priori-e-a-posteriori-o-que-kant-quis-dizer",
+    "sobreAutor": "Immanuel Kant"
+  },
+  {
     "id": 26,
     "titulo": "Fenomêno e Coisa em si em Kant: Qual é a diferênça?",
     "categoria": "Filosofia",

@@ -1,5 +1,26 @@
 [
   {
+    "id": 8,
+    "autor": "Immanuel Kant",
+    "nomeCompleto": "Immanuel Kant",
+    "dataNascimento": "22 de abril de 1724",
+    "localNascimento": "Königsberg, Reino da Prússia",
+    "dataFalecimento": "12 de fevereiro de 1804",
+    "localFalecimento": "Königsberg, Reino da Prússia",
+    "nacionalidade": "Prussiano",
+    "ocupacao": "Filósofo, professor universitário e escritor",
+    "educacao": "Universidade de Königsberg",
+    "conjuge": "Nunca se casou",
+    "filhos": "Nenhum",
+    "religiao": "Cristianismo pietista",
+    "generos": "Filosofia, metafísica, epistemologia, ética e filosofia política",
+    "movimento": "Iluminismo, idealismo transcendental e filosofia crítica",
+    "influencias": "David Hume, Gottfried Wilhelm Leibniz, Christian Wolff, Jean-Jacques Rousseau e Isaac Newton",
+    "obraFamosa": "Crítica da Razão Pura",
+    "periodoAtividade": "1747–1804",
+    "idade": 79
+  },
+  {
     "id": 7,
     "autor": "Marco Aurelio",
     "nomeCompleto": "Marcus Aurelius Antoninus Augustus",
