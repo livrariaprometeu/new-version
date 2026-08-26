@@ -15,86 +15,26 @@
     },
 
     {
-      "source": "/blog/artigo/o-que-e-estoicismo-um-guia-completo-para-entender-a-filosofia-que-atravessou-2000-anos",
-      "destination": "/blog/artigo/o-que-e-estoicismo-um-guia-completo-para-entender-a-filosofia-que-atravessou-2-000-anos",
-      "permanent": true
-    },
-
-    {
       "source": "/livros/data/livro/romeu-and-juliet-in",
-      "destination": "/livros/romance/romeu-and-juliet-en",
+      "destination": "/livros/romance/romeu-and-juliet-in",
       "permanent": true
     },
 
     {
       "source": "/livros/data/livro/a-riqueza-das-nacoes-pt",
-      "destination": "/livros/economia/a-riqueza-das-nacoes-pt-br",
+      "destination": "/livros/economia/a-riqueza-das-nacoes-pt",
       "permanent": true
     },
 
     {
       "source": "/livros/data/livro/more-than-skin-deep-in",
-      "destination": "/livros/pulp/more-than-skin-deep-en",
+      "destination": "/livros/pulp/more-than-skin-deep-in",
       "permanent": true
     },
 
     {
       "source": "/livros/data/livro/meditations-in",
-      "destination": "/livros/filosofia/meditations-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/economia/a-riqueza-das-nacoes-pt",
-      "destination": "/livros/economia/a-riqueza-das-nacoes-pt-br",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/filosofia/critica-da-razao-pura-immanuel-kant",
-      "destination": "/livros/filosofia/critica-da-razao-pura-pt-br",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/fantasia/alice-s-adventures-in-wonderland-in",
-      "destination": "/livros/fantasia/alice-s-adventures-in-wonderland-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/ficcao/ulysses-in",
-      "destination": "/livros/ficcao/ulysses-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/filosofia/meditations-in",
-      "destination": "/livros/filosofia/meditations-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/gotico/dracula-in",
-      "destination": "/livros/gotico/dracula-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/pulp/more-than-skin-deep-in",
-      "destination": "/livros/pulp/more-than-skin-deep-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/romance/moby-dick-or-the-white-whale-in",
-      "destination": "/livros/romance/moby-dick-or-the-white-whale-en",
-      "permanent": true
-    },
-
-    {
-      "source": "/livros/romance/romeu-and-juliet-in",
-      "destination": "/livros/romance/romeu-and-juliet-en",
+      "destination": "/livros/filosofia/meditations-in",
       "permanent": true
     }
   ],

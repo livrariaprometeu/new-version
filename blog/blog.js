@@ -1,4 +1,4 @@
-const input = document.getElementById("pesquisa");
+const input = document.getElementById("search");
 const lista = document.getElementById("resultados");
 
 console.log("Importado")

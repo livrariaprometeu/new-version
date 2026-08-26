@@ -116,18 +116,18 @@ details {
 
 @media (max-width: 768px) {
 .img-card {
-    height: 25dvh;
-    width: auto;
+    height: 16dvh;
+    /* width: auto; */
 }
 
 .card-carrossel {
     min-width: 100%;
-    height: 100dvh;
+    height: 80dvh;
     flex-direction: column;
 }
 .info-card {
     width: 80%;
-    height: 80%;
+    height: 100%;
 }
 }
 
