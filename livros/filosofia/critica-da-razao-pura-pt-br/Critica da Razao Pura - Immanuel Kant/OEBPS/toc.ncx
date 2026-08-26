@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="3f885a0b-7ca2-48c8-b75d-dc00afe22247" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (1.4.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Crítica da Razão Pura</text>
+  </docTitle>
+  <navMap>
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>dLivros</text> </navLabel> <content src="Text/dLivros.xhtml"/> </navPoint>
+    <navPoint id="u9c2aa7d4-6ebe-441a-b692-fb7310c016dd" playOrder="1">
+      <navLabel>
+        <text>INTRODUÇÃO .........................................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_000.html"/>
+    </navPoint>
+    <navPoint id="u383fa0c3-d651-4370-a63c-44774cceff99" playOrder="2">
+      <navLabel>
+        <text>II-ACHAMO-NOS DE POSSE DE CERTOS CONHECIMENTOS "APRIORI" E OPRÓPRIO SENSO COMUM NÃO OS DISPENSA ....</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="u3b97644e-100b-475a-acc0-13fa0abce6d2" playOrder="3">
+      <navLabel>
+        <text>III - A FILOSOFIA NECESSITA DE UMA CIÊNCIA QUE DETERMINE A POSSIBILIDADE, OS PRINCÍPIOSEA EXTENSÃO D</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="u5f3e8e99-5e7a-4f28-92cf-1a7c5d1a5f9a" playOrder="4">
+      <navLabel>
+        <text>IV - DIFERENÇA ENTRE o juízo ANALÍTICO E OS INTÉTICO ...............................................</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="uf6ec03b5-fff9-42e9-bce9-977d4f10277b" playOrder="5">
+      <navLabel>
+        <text>V - OS JUÍZOS MATEMÁTICOS SÃO TODOS SINTÉTICOS .....................................................</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="ua4efdbe2-e612-48f5-b566-c94642400a0d" playOrder="6">
+      <navLabel>
+        <text>VI - PROBLEMA GERAL DA RAZÃO PURA ..................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="u57e2a248-22ed-4593-9cd9-a2a0f2422f37" playOrder="7">
+      <navLabel>
+        <text>VII - IDÉIA E DIVISÃO DE UMA CIÊNCIA PARTICULAR SOB O NOME DE CRITICA DA RAZÃO PURA 12</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="uebb80ed9-1392-421a-abfc-7a72fcc93a0b" playOrder="8">
+      <navLabel>
+        <text>PARTE PRIMEIRA - DA TEORIA ELEMENTAR TRANSCENDENTAL ................................................</text>
+      </navLabel>
+      <content src="Text/index_split_001.html"/>
+    </navPoint>
+    <navPoint id="u2c0f0724-ac55-4980-8aff-d8a8a69d1be4" playOrder="9">
+      <navLabel>
+        <text>PRIMEIRA SEÇÃO .....................................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u95320ccf-8ffd-4ece-8bb2-fbf331bd3d71" playOrder="10">
+      <navLabel>
+        <text>EXPOSIÇÃO TRANSCENDENTAL DO CONCEITO DE ESPAÇO .....................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="ue63359c5-1988-4330-8059-218cac92e4ea" playOrder="11">
+      <navLabel>
+        <text>Consequências dos conceitos precedentes ............................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u7f5fc478-e37f-4599-949e-7d053b63a4be" playOrder="12">
+      <navLabel>
+        <text>SEGUNDA SEÇÃO ......................................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="uaa7412df-2c69-4bf2-90f9-efe7ca250a1d" playOrder="13">
+      <navLabel>
+        <text>Exposição metafísica do conceito de tempo ..........................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u681f20a1-2704-4423-92e7-2d1b1ba593cf" playOrder="14">
+      <navLabel>
+        <text>Corolários destes conceitos ........................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u6a8ab031-bec8-405e-8963-f9c53d0b0652" playOrder="15">
+      <navLabel>
+        <text>Explicação .........................................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="ud872765c-9405-4c3f-aa44-349bd9887318" playOrder="16">
+      <navLabel>
+        <text>Observações gerais sobre a Estética transcendental .................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u32482048-e1f2-46c2-93f8-833913c91989" playOrder="17">
+      <navLabel>
+        <text>Conclusão da Estéfica transcendental ...............................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="u7683f855-ec3d-4f72-a970-4f24108df83b" playOrder="18">
+      <navLabel>
+        <text>PARTE SEGUNDA - DA TEORIA ELEMENTAR TRANSCENDENTAL .................................................</text>
+      </navLabel>
+      <content src="Text/index_split_002.html"/>
+    </navPoint>
+    <navPoint id="uabc43bff-23e9-49cc-ba01-7353f3bb4984" playOrder="19">
+      <navLabel>
+        <text>II- Da Lógica transcendental .......................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_003.html"/>
+    </navPoint>
+    <navPoint id="u0bbcb532-4ed3-4048-a9c5-e6c5be626af1" playOrder="20">
+      <navLabel>
+        <text>III Divisão da Lógica geral em Analítica e Dialética ...............................................</text>
+      </navLabel>
+      <content src="Text/index_split_003.html"/>
+    </navPoint>
+    <navPoint id="u64621db7-b586-45d7-874f-a3ea073abffe" playOrder="21">
+      <navLabel>
+        <text>1V Divisão da Lógica transcendental em analítica e Dialética transcendental ........................</text>
+      </navLabel>
+      <content src="Text/index_split_003.html"/>
+    </navPoint>
+    <navPoint id="ua2eaeb80-7a71-4f97-865d-b2dfc3daedfc" playOrder="22">
+      <navLabel>
+        <text>PRIMEIRA DIVISÃO DA LÓGICA TRANSCENDENTAL - ANALÍTICA TRANSCENDENTAL ........ 37</text>
+      </navLabel>
+      <content src="Text/index_split_003.html"/>
+    </navPoint>
+    <navPoint id="ub4f954b8-d969-49d1-bb2f-4568b5a8f221" playOrder="23">
+      <navLabel>
+        <text>LIVRO PRIMEIRO - DA ANALÍTICA TRANSCENDENTAL .......................................................</text>
+      </navLabel>
+      <content src="Text/index_split_004.html"/>
+    </navPoint>
+    <navPoint id="u2ced387d-0d89-41b8-8334-ece55e71a6eb" playOrder="24">
+      <navLabel>
+        <text>PRIMEIRA SEÇÃO - ORIENTAÇÃO TRANSCENDENTAL PARA A DESCOBERTA DE TODOS OS CONCEITOS DO ENTENDIMENTO .</text>
+      </navLabel>
+      <content src="Text/index_split_005.html"/>
+    </navPoint>
+    <navPoint id="u1773c1a7-463d-478e-913e-660311d80e48" playOrder="25">
+      <navLabel>
+        <text>SEGUNDA SEÇÃO - DA FUNÇÃO LÓGICA DO ENTENDIMENTO NO JUÍZO ..........................................</text>
+      </navLabel>
+      <content src="Text/index_split_005.html"/>
+    </navPoint>
+    <navPoint id="u21fc1226-80e8-4d00-a62d-f43d4f55a4c0" playOrder="26">
+      <navLabel>
+        <text>TERCEIRAS EÇÃO - Dos CONCEITOS PUROS D O ENTENDIMENTO OU CATEGORIAS ................................</text>
+      </navLabel>
+      <content src="Text/index_split_005.html"/>
+    </navPoint>
+    <navPoint id="u00df69ad-faf6-4f9e-ae98-346f3b7f5684" playOrder="27">
+      <navLabel>
+        <text>CAPITULO II - DEDUÇÃO DOS CONCEITOS PUROS DO ENTENDIMENTO ........................................ 4</text>
+      </navLabel>
+      <content src="Text/index_split_005.html"/>
+    </navPoint>
+    <navPoint id="uec36d584-8e5c-4d82-afcd-5e2e5e0bd71a" playOrder="28">
+      <navLabel>
+        <text>Passagem à dedução transcendental das categorias ...................................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u6fb18afb-5e3c-4f1e-8a06-76a79ad5e1d6" playOrder="29">
+      <navLabel>
+        <text>DEDUÇÃO TRANSCENDENTAL DOS CONCEITOS PUROS INTELECTUAIS ............................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u1c7cfe9f-c6a6-4eb2-91e3-26d6e5a9d9ef" playOrder="30">
+      <navLabel>
+        <text>O princípio da unidade sintética da apercepção é o princípio supremo de todo uso do entendimento ...</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="ucff9895c-427a-4692-9cc2-e8659144c9e7" playOrder="31">
+      <navLabel>
+        <text>Natureza da unidade objetiva da própria consciência ................................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="uc9e83b71-9285-48dd-8663-a104f598bb28" playOrder="32">
+      <navLabel>
+        <text>A forma lógica de todos os juízos consiste na unidade objetiva da apercepção dos conceitos que neles</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u711c167c-ab1b-4286-8984-235994cabc0f" playOrder="33">
+      <navLabel>
+        <text>Todas as intuições sensíveis são submetidas às categorias como as únicas condições sob as quais o qu</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u86ba8c96-117a-463e-806d-c67486651c11" playOrder="34">
+      <navLabel>
+        <text>A categoria não tem outro escopo que o conhecimento das coisas na sua aplicação aos objetivos da exp</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u873a8fb9-2627-4b0e-b342-93ff7c1c30fd" playOrder="35">
+      <navLabel>
+        <text>Aplicação das categorias aos objetos dos sentidos em geral .........................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u1ea5b8f5-e4ee-4050-985b-f7f382451c7f" playOrder="36">
+      <navLabel>
+        <text>Dedução transcendental do uso experimental geralmente possível dos conceitos puros do entendimento.</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u7c5bf0dd-9425-4a59-be95-535dd2b437af" playOrder="37">
+      <navLabel>
+        <text>Resultado desta dedução dos conceitos do entendimento ..............................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u24be0915-c454-4ac0-a58f-60532405687a" playOrder="38">
+      <navLabel>
+        <text>Resumo Desta Dedução ...............................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="u7abfb5fe-2aae-48fd-9019-f051dab92294" playOrder="39">
+      <navLabel>
+        <text>LIVRO SEGUNDO - ANALÍTICA DOS PRINCÍPIOS ...........................................................</text>
+      </navLabel>
+      <content src="Text/index_split_006.html"/>
+    </navPoint>
+    <navPoint id="ua0010f41-e0c0-4529-9db1-0908f002f72a" playOrder="40">
+      <navLabel>
+        <text>CAPÍTULO 1 - DO ESQUEMATISMO DOS CONCEITOS PUROS DO ENTENDIMENTO ...................71</text>
+      </navLabel>
+      <content src="Text/index_split_007.html"/>
+    </navPoint>
+    <navPoint id="ua7559791-2ed9-4119-9cfb-dc68a1841773" playOrder="41">
+      <navLabel>
+        <text>CAPITULO II - SISTEMA DE TODOS OS PRINCÍPIOS DO ENTENDIMENTO PURO ......................... 76</text>
+      </navLabel>
+      <content src="Text/index_split_008.html"/>
+    </navPoint>
+    <navPoint id="uc3cf850b-688b-4a04-a51b-dba89a7560eb" playOrder="42">
+      <navLabel>
+        <text>PRIMEIRA SEÇÃO -D O PRIN CÍPIO SUPREMO DE TODOS OS JUÍZOS ANALÍTICOS ...............................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="uc482a849-4b06-4d08-9643-9e6bc9032f1d" playOrder="43">
+      <navLabel>
+        <text>SEGUNDA SEÇÃO - DO PRINCÍPIO SUPREMO DE TODOS OS JUÍZOS S INTÉTICOS ................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="u3d120182-030c-47f7-b575-d730403d8d61" playOrder="44">
+      <navLabel>
+        <text>TERCEIRA SEÇÃO - REPRESENTAÇÃO SISTEMÁTICA DE TODOS OS PRINCÍPIOS SINTÉTICOS DO ENTENDIMENTO PURO 80</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="uddc6d1fb-391a-4996-8b30-70b999788d37" playOrder="45">
+      <navLabel>
+        <text>I Axiomas da Intuição ..............................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="u1d98e076-89bb-40e7-af0c-7d803d382ad6" playOrder="46">
+      <navLabel>
+        <text>II Antecipações da Percepção .......................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="u34ceddd0-cead-4d07-b396-1d88c5a32b59" playOrder="47">
+      <navLabel>
+        <text>III Analogias da Experiência .......................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="ufce56c08-8cd2-4f53-9cfc-21b37621d7bb" playOrder="48">
+      <navLabel>
+        <text>IV Postulados do Pensamento Empírico em Geral ......................................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+    <navPoint id="u74863cce-0d0c-4d38-a33d-334a91f53cd9" playOrder="49">
+      <navLabel>
+        <text>NOTAS ..............................................................................................</text>
+      </navLabel>
+      <content src="Text/index_split_009.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

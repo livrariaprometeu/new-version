@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:6d89d83f-1c54-4b9c-b911-ff9d61741c06" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>Meditations</text>
+  </docTitle>
+  <navMap>
+
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>Nota da Edição</text> </navLabel> <content src="Text/part0000.html"/> </navPoint>
+
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>INTRODUCTION</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>HIS FIRST BOOK</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>THE FIRST BOOK</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>THE SECOND BOOK</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>THE THIRD BOOK</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+    </navPoint>
+
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>THE FOURTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0008.html"/>
+    </navPoint>
+
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>THE FIFTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+    <navPoint id="num_9" playOrder="9">
+      <navLabel>
+        <text>THE SIXTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0010.html"/>
+    </navPoint>
+
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>THE SEVENTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0011.html"/>
+    </navPoint>
+
+    <navPoint id="num_11" playOrder="11">
+      <navLabel>
+        <text>THE EIGHTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0012.html"/>
+    </navPoint>
+
+    <navPoint id="num_12" playOrder="12">
+      <navLabel>
+        <text>THE NINTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0013.html"/>
+    </navPoint>
+
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>THE TENTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0014.html"/>
+    </navPoint>
+
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>THE ELEVENTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0015.html"/>
+    </navPoint>
+
+    <navPoint id="num_15" playOrder="15">
+      <navLabel>
+        <text>THE TWELFTH BOOK</text>
+      </navLabel>
+      <content src="Text/part0016.html"/>
+    </navPoint>
+
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>APPENDIX</text>
+      </navLabel>
+      <content src="Text/part0017.html"/>
+    </navPoint>
+
+    <navPoint id="num_17" playOrder="17">
+      <navLabel>
+        <text>NOTES</text>
+      </navLabel>
+      <content src="Text/part0018.html"/>
+    </navPoint>
+
+    <!-- FIM DA MODIFICAÇÃO -->
+</ncx>

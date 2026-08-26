@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:be2bbb50-13ac-465f-95d0-9a3928ec1dd8" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>More Than Skin Deep</text>
+  </docTitle>
+  <navMap>
+
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>Nota da Edição</text> </navLabel> <content src="Text/part0000.html"/> </navPoint>
+
+    <navPoint class="chapter" id="num_1" playOrder="0">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- I - [1]</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- I - [2]</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- I - [3]</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+
+      <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [4]</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [5]</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [6]</text>
+      </navLabel>
+      <content src="Text/part0008.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [7]</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [8]</text>
+      </navLabel>
+      <content src="Text/part0010.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [9]</text>
+      </navLabel>
+      <content src="Text/part0011.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [10]</text>
+      </navLabel>
+      <content src="Text/part0012.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [11]</text>
+      </navLabel>
+      <content src="Text/part0013.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [12]</text>
+      </navLabel>
+      <content src="Text/part0014.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [13]</text>
+      </navLabel>
+      <content src="Text/part0015.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [14]</text>
+      </navLabel>
+      <content src="Text/part0016.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- II - [15]</text>
+      </navLabel>
+      <content src="Text/part0017.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- III - [16]</text>
+      </navLabel>
+      <content src="Text/part0018.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- III - [17]</text>
+      </navLabel>
+      <content src="Text/part0019.html"/>
+    </navPoint>
+
+    <navPoint class="chapter" id="num_2" playOrder="0">
+      <navLabel>
+        <text>- III - [18]</text>
+      </navLabel>
+      <content src="Text/part0020.html"/>
+    </navPoint>
+    <!-- FIM DA MODIFICAÇÃO -->
+</ncx>

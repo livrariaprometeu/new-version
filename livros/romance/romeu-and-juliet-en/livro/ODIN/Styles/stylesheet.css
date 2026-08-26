@@ -1,0 +1,753 @@
+:root {
+    /* Background */
+
+    /* Color */
+    --cl-titulo: #464847;
+    --cl-texto: #000000;
+}
+
+.calibre {
+    display: block;
+    font-family: "bembo std";
+    font-size: 0.83333em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 1.5em
+    }
+.calibre2 {
+    display: block
+    }
+.calibre3 {
+    display: block;
+    font-size: 1.55em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0.83em 0
+    }
+.calibre4 {
+    line-height: 1.2
+    }
+.calibre5 {
+    height: 657px;
+    width: 500px
+    }
+.calibre6 {
+    font-style: italic;
+    line-height: 1.2
+    }
+.calibre7 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre8 {
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0
+    }
+.calibre9 {
+    display: table-row;
+    vertical-align: middle
+    }
+.cred {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.cred-1-italico {
+    color: var(--cl-texto);
+    font-size: 1em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.cred-1-just {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.cred-1-versalete {
+    color: var(--cl-texto);
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.cred1 {
+    border-bottom: var(--cl-texto) solid 2px;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-decoration: none;
+    widows: 2;
+    margin: 0
+    }
+.cred2 {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0 0 0 3.5em
+    }
+.cred3 {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0 0 0 45%
+    }
+.ficha {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 1.5em;
+    border: var(--cl-texto) solid 1px;
+    padding: 0 1em
+    }
+.ficha1 {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-decoration: none;
+    widows: 2;
+    margin: 0
+    }
+.im-int {
+    height: 100%;
+    text-align: center;
+    width: auto
+    }
+.imagem {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    text-decoration: none;
+    widows: 2;
+    margin: 0
+    }
+.miolo-dif {
+    color: var(--cl-texto);
+    font-family: "Optima LT Std";
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.miolo-dif1 {
+    color: var(--cl-texto);
+    font-family: "Minion Pro";
+    font-size: 1em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.parte {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-family: "Adobe Jenson Pro";
+    font-size: 1.55em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.parte-1-versalete {
+    color: var(--cl-texto);
+    font-family: "Adobe Jenson Pro";
+    font-size: 0.64516em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.parte-2-versalete {
+    color: var(--cl-texto);
+    font-family: "Adobe Jenson Pro";
+    font-size: 0.58065em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.rodape-superescrito {
+    color: var(--cl-texto);
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top
+    }
+.rodape-titulo {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.rodape-titulo1 {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.rosto {
+    border-bottom: 0;
+    border-top: 0;
+    display: block;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    widows: 2;
+    margin: 0
+    }
+.sub-1-cinza-esp-abaixo {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-titulo);
+    display: block;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.sub-1-cinza-italico {
+    color: var(--cl-titulo);
+    font-size: 1em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none
+    }
+.sub-1-cinza-versalete {
+    color: var(--cl-titulo);
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none
+    }
+.sub-1-cinza-versalete-italico {
+    color: var(--cl-titulo);
+    font-size: 0.75em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none
+    }
+.sub-2-esp-acima {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-family: "Adobe Jenson Pro";
+    font-size: 0.9em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.sub-2-maior {
+    color: var(--cl-texto);
+    font-family: "Adobe Jenson Pro";
+    font-size: 1.33333em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.sub-2-maior1 {
+    color: var(--cl-texto);
+    font-family: "Adobe Jenson Pro";
+    font-size: 1.29032em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    text-decoration: none
+    }
+.suma {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-texto);
+    display: block;
+    font-size: 1.2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.suma-titulo {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-titulo);
+    display: block;
+    font-size: 1.55em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 1.2;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 0
+    }
+.suma-titulo-versalete {
+    color: var(--cl-titulo);
+    font-size: 0.58065em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none
+    }
+.superescrito {
+    color: var(--cl-texto);
+    font-size: 0.625em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: text-top
+    }
+.tab-1-garg {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    padding: 1px
+    }
+.tab-1-garg-1i {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    padding: 1px
+    }
+.tab-1-garg1 {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    vertical-align: var(--cl-texto);
+    padding: 1px 0.3em 1px 1px
+    }
+.tab-1-garg2 {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    vertical-align: var(--cl-texto);
+    padding: 1px 0.3em 1px 2em
+    }
+.tab-1-garg3 {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    vertical-align: var(--cl-texto);
+    padding: 1px 0.3em 1px 2em
+    }
+.tab-1-texto {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    padding: 1px
+    }
+.tab-1-texto-1-fracao {
+    color: var(--cl-texto);
+    font-family: "Frutiger LT Std";
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: top
+    }
+.tab-1-texto-1-fracao1 {
+    color: var(--cl-texto);
+    font-family: "Frutiger LT Std";
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: bottom
+    }
+.tab-1-texto-1b {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    padding: 1px 1px 1px 0.2em
+    }
+.tab-1-texto-1be {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    padding: 0.2em 1px 1px
+    }
+.tab-1-texto-1e {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    padding: 0.2em 1px 1px
+    }
+.tab-1-texto-1f {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
+    padding: 0.4em 1px 0.2em
+    }
+.tab-1-texto-1fb {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
+    padding: 0.4em 1px 0.2em
+    }
+.tab-2-garg {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    vertical-align: var(--cl-texto);
+    padding: 1px
+    }
+.tab-2-texto-1b {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
+    padding: 0.5em 1px 0.2em
+    }
+.tab-2-texto-1bc {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    border-top: var(--cl-texto) solid 2px;
+    border-bottom: var(--cl-texto) solid 2px;
+    padding: 0.5em 1px 0.2em
+    }
+.tab-2-texto-1ce {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    padding: 1px 1px 0.2em
+    }
+.tab-2-texto-1e {
+    color: var(--cl-texto);
+    display: table-cell;
+    font-family: "Frutiger LT Std";
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    vertical-align: var(--cl-texto);
+    width: 10%;
+    padding: 1px 1px 0.2em
+    }
+.titulo-1-cinza-esp-abaixo {
+    border-bottom: 0;
+    border-top: 0;
+    color: var(--cl-titulo);
+    display: block;
+    font-size: 1.3em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 1.5em;
+    widows: 2;
+    margin: 3rem 0 3rem 0
+    }
+.pcalibre1:visited {
+    color: var(--cl-texto);
+    text-decoration: none
+    }
+.pcalibre2:link {
+    color: var(--cl-texto);
+    text-decoration: none
+    }
+.pcalibre:hover {
+    color: var(--cl-texto);
+    text-decoration: none
+    }
+.pcalibre3:active {
+    color: var(--cl-texto);
+    text-decoration: none
+    }

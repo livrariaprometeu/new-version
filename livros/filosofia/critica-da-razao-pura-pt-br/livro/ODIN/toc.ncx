@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:6d89d83f-1c54-4b9c-b911-ff9d61741c06" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>Meditations</text>
+  </docTitle>
+  <navMap>
+
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>Nota da Edição</text> </navLabel> <content src="Text/part0000.html"/> </navPoint>
+
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Introdução</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Parte Primeira</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Parte Segunda</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>Primeira divisão da lógica transcendental - Analítica Transcendental</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Livro Primeiro</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+    </navPoint>
+
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>Livro Primeiro - Capítulo I</text>
+      </navLabel>
+      <content src="Text/part0008.html"/>
+    </navPoint>
+
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>Livro Primeiro - Capítulo II</text>
+      </navLabel>
+      <content src="Text/part0008.html"/>
+    </navPoint>
+
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Livro Segundo</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Livro Segundo - Capítulo I</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Livro Segundo - Capítulo II</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+</ncx>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="urn:uuid:34c64a00-8331-45cf-892f-0aa735a48747" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.39.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+
+  <docTitle>
+    <text>Alice's Adventures in Wonderland</text>
+  </docTitle>
+
+  <navMap>
+
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Sumário</text>
+      </navLabel>
+      <content src="Text/part0002.html"/>
+    </navPoint>
+
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Chapter I. Down the Rabbit-Hole</text>
+      </navLabel>
+      <content src="Text/part0003.html"/>
+    </navPoint>
+
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Chapter II. The Pool of Tears</text>
+      </navLabel>
+      <content src="Text/part0004.html"/>
+    </navPoint>
+
+
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Chapter III. A Caucus-Race and a Long Tale</text>
+      </navLabel>
+      <content src="Text/part0005.html"/>
+    </navPoint>
+
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Chapter IV. The Rabbit Sends in a Little Bill</text>
+      </navLabel>
+      <content src="Text/part0006.html"/>
+    </navPoint>
+
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>Chapter V. Advice from a Caterpillar</text>
+      </navLabel>
+      <content src="Text/part0007.html"/>
+    </navPoint>
+
+    <navPoint id="num_12" playOrder="12">
+      <navLabel>
+        <text>Chapter VI. Pig and Pepper</text>
+      </navLabel>
+      <content src="Text/part0008.html"/>
+    </navPoint>
+
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>Chapter VII. A Mad Tea-Party</text>
+      </navLabel>
+      <content src="Text/part0009.html"/>
+    </navPoint>
+
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>Chapter VIII. The Queen's Croquet-Ground</text>
+      </navLabel>
+      <content src="Text/part0010.html"/>
+    </navPoint>
+
+    <navPoint id="num_18" playOrder="18">
+      <navLabel>
+        <text>Chapter IX. The Mock Turtle's Story</text>
+      </navLabel>
+      <content src="Text/part0011.html"/>
+    </navPoint>
+
+    <navPoint id="num_20" playOrder="20">
+      <navLabel>
+        <text>Chapter X. The Lobster Quadrille</text>
+      </navLabel>
+      <content src="Text/part0012.html"/>
+    </navPoint>
+
+    <navPoint id="num_22" playOrder="22">
+      <navLabel>
+        <text>Chapter XI. Who Stole the Tarts?</text>
+      </navLabel>
+      <content src="Text/part0013.html"/>
+    </navPoint>
+
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>Chapter XII. Alice's Evidence</text>
+      </navLabel>
+      <content src="Text/part0014.html"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
