@@ -1,0 +1,41 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Salário Preço e Lucro</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Marx, Karl">Karl Marx</dc:creator>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">7f57fe36-1d20-4b31-be42-1dd8e402981c</dc:identifier>
+    <dc:date>2012-09-13T20:24:00+00:00</dc:date>
+    <dc:publisher>elivros.info</dc:publisher>
+    <dc:contributor opf:role="bkp">calibre (4.9.1) [https://calibre-ebook.com]</dc:contributor>
+    <dc:language>pt</dc:language>
+    <dc:identifier opf:scheme="calibre">7f57fe36-1d20-4b31-be42-1dd8e402981c</dc:identifier>
+    <dc:identifier opf:scheme="MOBI-ASIN">068056f1-a229-47bb-8c66-3125973a2a96</dc:identifier>
+    <meta name="calibre:title_sort" content="Salário Preço e Lucro"/>
+    <meta name="cover" content="cover"/>
+    <meta name="calibre:timestamp" content="2020-02-08T14:31:25.264000+00:00"/>
+    <meta name="calibre:author_link_map" content="{&quot;Karl Marx&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+<item href="Text/eLivros.xhtml" id="eLivros" media-type="application/xhtml+xml"/>
+    <item href="Text/Text/titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+    <item href="Text/Text/index_split_000.html" id="id12" media-type="application/xhtml+xml"/>
+    <item href="Text/Text/index_split_001.html" id="id11" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Styles/Styles/page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="Styles/Styles/stylesheet.css" id="css" media-type="text/css"/>
+    <item href="Images/Images/cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="Images/Images/00001.jpg" id="id3" media-type="image/jpeg"/>
+    <item href="Images/Images/00002.jpg" id="id4" media-type="image/jpeg"/>
+    <item href="Images/Images/00003.jpg" id="id5" media-type="image/jpeg"/>
+    <item href="Images/Images/00006.jpg" id="id8" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+<itemref idref="eLivros"/>
+    <itemref idref="id12"/>
+    <itemref idref="id11"/>
+  </spine>
+  <guide>
+    <reference href="Text/Text/titlepage.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

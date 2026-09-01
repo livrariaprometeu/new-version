@@ -2,63 +2,213 @@
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Página inicial -->
+    <!-- ==================== -->
+    <!-- PÁGINAS PRINCIPAIS -->
+    <!-- ==================== -->
+
     <url>
         <loc>https://livrariaprometeu.com/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
-    <!-- Livros -->
     <url>
         <loc>https://livrariaprometeu.com/livros</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
-    <!-- Blog -->
     <url>
         <loc>https://livrariaprometeu.com/blog</loc>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
 
-    <!-- Blog -->
     <url>
         <loc>https://livrariaprometeu.com/sobre</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
-    <!-- Autores -->
+
+    <!-- ==================== -->
+    <!-- PÁGINAS SOBRE -->
+    <!-- ==================== -->
 
     <url>
-        <loc>https://livrariaprometeu.com/autores/bram-stoker/</loc>
+        <loc>https://livrariaprometeu.com/sobre/nos</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-da-biblioteca-digital</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-conteudo-e-fontes</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-correcoes-e-atualizacoes</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-direitos-autorais</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-inteligencia-artificial</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-privacidade-e-dados</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-de-transparencia-comercial</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/sobre/politica-editorial</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+
+    <!-- ==================== -->
+    <!-- AUTORES -->
+    <!-- ==================== -->
+
+    <url>
+        <loc>https://livrariaprometeu.com/autores/adam-smith</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/autores/lewis-carroll/</loc>
+        <loc>https://livrariaprometeu.com/autores/bram-stoker</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/autores/william-shakespeare/</loc>
+        <loc>https://livrariaprometeu.com/autores/herman-melville</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/autores/herman-melville/</loc>
+        <loc>https://livrariaprometeu.com/autores/immanuel-kant</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    <!-- Artigos -->
+
+    <url>
+        <loc>https://livrariaprometeu.com/autores/james-joyce</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/autores/lewis-carroll</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/autores/marco-aurelio</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/autores/william-shakespeare</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- ==================== -->
+    <!-- ARTIGOS -->
+    <!-- ==================== -->
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/10-livros-essenciais-para-ler-antes-dos-30-anos</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
     <url>
         <loc>https://livrariaprometeu.com/blog/artigo/15-livros-para-quem-quer-comecar-a-ler</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-divisao-do-trabalho-explicada-com-exemplos-do-dia-a-dia</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-priori-e-a-posteriori-o-que-kant-quis-dizer</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-riqueza-das-nacoes-ainda-vale-a-pena-ler</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-riqueza-das-nacoes-resumo-completo-capitulo-a-capitulo</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/a-riqueza-das-nacoes-x-o-capital-diferencas-entre-adam-smith-e-karl-marx</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/as-categorias-de-kant-como-a-mente-organiza-a-realidade</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/beneficios-da-leitura-10-motivos-para-transformar-os-livros-em-um-habito-diario</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/como-a-riqueza-das-nacoes-influenciou-a-economia-moderna</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -70,7 +220,49 @@
     </url>
 
     <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/critica-da-razao-pura-resumo-e-principais-ideias-de-kant</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/fenomeno-e-coisa-em-si-em-kant-qual-e-a-diferenca</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/frases-de-a-riqueza-das-nacoes-30-citacoes-comentadas</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/kant-e-a-pergunta-como-podemos-conhecer-alguma-coisa</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
         <loc>https://livrariaprometeu.com/blog/artigo/o-mito-de-prometeu-e-o-poder-transformador-da-leitura</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/o-que-e-a-revolucao-copernicana-de-kant-entenda-de-forma-simples</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/o-que-e-estoicismo-um-guia-completo-para-entender-a-filosofia-que-atravessou-2000-anos</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/o-que-sao-espaco-e-tempo-para-kant</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -82,13 +274,43 @@
     </url>
 
     <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/os-principais-ensinamentos-de-a-riqueza-das-nacoes-para-empreendedores</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
         <loc>https://livrariaprometeu.com/blog/artigo/por-que-ainda-precisamos-de-livros-na-era-digital</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/principais-ideias-de-a-riqueza-das-nacoes-explicadas-de-forma-simples</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/quem-foi-adam-smith-e-por-que-ele-e-considerado-o-pai-da-economia-moderna</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
         <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-1984-o-classico-distopico-que-continua-mais-atual-do-que-nunca</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -106,44 +328,23 @@
     </url>
 
     <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/quem-foi-george-orwell-conheca-o-autor-que-previu-um-mundo-de-vigilancia</loc>
+        <loc>https://livrariaprometeu.com/blog/artigo/os-pensadores-que-fundaram-a-administracao-moderna-um-guia</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/resumo-de-a-revolucao-dos-bichos-a-fabula-politica-que-conquistou-o-mundo</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+    <!-- ==================== -->
+    <!-- LIVROS -->
+    <!-- ==================== -->
 
-    <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/como-a-riqueza-das-nacoes-influenciou-a-economia-moderna</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/a-riqueza-das-nacoes-ainda-vale-a-pena-ler</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://livrariaprometeu.com/blog/artigo/a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Livros -->
     <url>
         <loc>https://livrariaprometeu.com/livros/economia/a-riqueza-das-nacoes-pt</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/economia/salario-preco-e-lucro-pt</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -156,6 +357,12 @@
 
     <url>
         <loc>https://livrariaprometeu.com/livros/ficcao/ulysses-in</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/livros/filosofia/critica-da-razao-pura-immanuel-kant</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -189,4 +396,5 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
 </urlset>

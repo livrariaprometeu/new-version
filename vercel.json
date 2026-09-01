@@ -3,6 +3,12 @@
 
   "redirects": [
     {
+      "source": "/blog/artigo/a-mao-invisivel-o-conceito-mais-famoso-de-adam-smith-explicado",
+      "destination": "/blog/artigo/a-mao-invisivel-de-adam-smith-o-que-significa-e-como-funciona",
+      "permanent": true
+    },
+
+    {
       "source": "/blog/data/artigo/:slug*",
       "destination": "/blog/artigo/:slug*",
       "permanent": true

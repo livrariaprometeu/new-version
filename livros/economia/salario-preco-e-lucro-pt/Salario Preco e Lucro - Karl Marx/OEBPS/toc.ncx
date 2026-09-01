@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="por">
+  <head>
+    <meta content="7f57fe36-1d20-4b31-be42-1dd8e402981c" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (4.9.1)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Salário Preço e Lucro</text>
+  </docTitle>
+  <navMap>
+<navPoint id="num_2" playOrder="2"> <navLabel> <text>eLivros</text> </navLabel> <content src="Text/eLivros.xhtml"/> </navPoint>
+    <navPoint id="ug56HiyUzb6utR9DR6b3Q24" playOrder="1">
+      <navLabel>
+        <text>Começar</text>
+      </navLabel>
+      <content src="Text/Text/titlepage.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
