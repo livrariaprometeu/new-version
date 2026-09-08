@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+  <head>
+     <meta content="0" name="dtb:depth"/>
+     <meta content="0" name="dtb:totalPageCount"/>
+     <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle><text>1984</text></docTitle>
+  <docAuthor><text>George Orwell</text></docAuthor>
+  <navMap> 
+    <navPoint class="" id="navPoint-1" playOrder="0">
+      <navLabel><text>Capa</text></navLabel>
+      <content src="Text/cover.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-1" playOrder="0">
+      <navLabel><text>Nota de Edição</text></navLabel>
+      <content src="Text/edition_note.html"/> 
+    </navPoint>
+
+    <navPoint class="" id="navPoint-1" playOrder="0">
+      <navLabel><text>Créditos</text></navLabel>
+      <content src="Text/creditos.html"/> 
+    </navPoint>
+    <!-- <navPoint class="" id="navPoint-2" playOrder="0">
+      <navLabel><text>Foto</text></navLabel>
+      <content src="Text/1984-1.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-3" playOrder="0">
+      <navLabel><text>Foto</text></navLabel>
+      <content src="Text/1984-1.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-4" playOrder="0">
+      <navLabel><text>Rosto</text></navLabel>
+      <content src="Text/1984-3.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-5" playOrder="0">
+      <navLabel><text>Sumário</text></navLabel>
+      <content src="Text/1984-4.html"/> 
+    </navPoint> -->
+  
+    <navPoint class="" id="navPoint-6" playOrder="0">
+      <navLabel><text>Parte I</text></navLabel>
+      <content src="Text/1984-5.html"/> 
+    <navPoint class="" id="navPoint-7" playOrder="0">
+      <navLabel><text>1.</text></navLabel>
+      <content src="Text/1984-6.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-8" playOrder="0">
+      <navLabel><text>2.</text></navLabel>
+      <content src="Text/1984-7.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-9" playOrder="0">
+      <navLabel><text>3.</text></navLabel>
+      <content src="Text/1984-8.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-10" playOrder="0">
+      <navLabel><text>4.</text></navLabel>
+      <content src="Text/1984-9.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-11" playOrder="0">
+      <navLabel><text>5.</text></navLabel>
+      <content src="Text/1984-10.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-12" playOrder="0">
+      <navLabel><text>6.</text></navLabel>
+      <content src="Text/1984-11.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-13" playOrder="0">
+      <navLabel><text>7.</text></navLabel>
+      <content src="Text/1984-12.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-14" playOrder="0">
+      <navLabel><text>8.</text></navLabel>
+      <content src="Text/1984-13.html"/> 
+    </navPoint>
+  
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-15" playOrder="0">
+      <navLabel><text>Parte II</text></navLabel>
+      <content src="Text/1984-14.html"/> 
+    <navPoint class="" id="navPoint-16" playOrder="0">
+      <navLabel><text>1.</text></navLabel>
+      <content src="Text/1984-15.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-17" playOrder="0">
+      <navLabel><text>2.</text></navLabel>
+      <content src="Text/1984-16.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-18" playOrder="0">
+      <navLabel><text>3.</text></navLabel>
+      <content src="Text/1984-17.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-19" playOrder="0">
+      <navLabel><text>4.</text></navLabel>
+      <content src="Text/1984-18.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-20" playOrder="0">
+      <navLabel><text>5.</text></navLabel>
+      <content src="Text/1984-19.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-21" playOrder="0">
+      <navLabel><text>6.</text></navLabel>
+      <content src="Text/1984-20.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-22" playOrder="0">
+      <navLabel><text>7.</text></navLabel>
+      <content src="Text/1984-21.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-23" playOrder="0">
+      <navLabel><text>8.</text></navLabel>
+      <content src="Text/1984-22.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-24" playOrder="0">
+      <navLabel><text>9.</text></navLabel>
+      <content src="Text/1984-23.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-25" playOrder="0">
+      <navLabel><text>10.</text></navLabel>
+      <content src="Text/1984-24.html"/> 
+    </navPoint>
+  
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-26" playOrder="0">
+      <navLabel><text>Parte III</text></navLabel>
+      <content src="Text/1984-25.html"/> 
+    <navPoint class="" id="navPoint-27" playOrder="0">
+      <navLabel><text>1.</text></navLabel>
+      <content src="Text/1984-26.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-28" playOrder="0">
+      <navLabel><text>2.</text></navLabel>
+      <content src="Text/1984-27.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-29" playOrder="0">
+      <navLabel><text>3.</text></navLabel>
+      <content src="Text/1984-28.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-30" playOrder="0">
+      <navLabel><text>4.</text></navLabel>
+      <content src="Text/1984-29.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-31" playOrder="0">
+      <navLabel><text>5.</text></navLabel>
+      <content src="Text/1984-30.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-32" playOrder="0">
+      <navLabel><text>6.</text></navLabel>
+      <content src="Text/1984-31.html"/> 
+    </navPoint>
+  
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-33" playOrder="0">
+      <navLabel><text>Apêndice</text></navLabel>
+      <content src="Text/1984-32.html"/> 
+    </navPoint>
+  
+    <!-- <navPoint class="" id="navPoint-34" playOrder="0">
+      <navLabel><text>Posfácios</text></navLabel>
+      <content src="Text/1984-33.html"/> 
+    <navPoint class="" id="navPoint-35" playOrder="0">
+      <navLabel><text>1 | Erich Fromm (1961)</text></navLabel>
+      <content src="Text/1984-34.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-36" playOrder="0">
+      <navLabel><text>2 | Ben Pimlott (1989)</text></navLabel>
+      <content src="Text/1984-35.html"/> 
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-37" playOrder="0">
+      <navLabel><text>3 | Thomas Pynchon (2003)</text></navLabel>
+      <content src="Text/1984-36.html"/> 
+    </navPoint>
+  
+    </navPoint>
+  
+    <navPoint class="" id="navPoint-38" playOrder="0">
+      <navLabel><text>Créditos</text></navLabel>
+      <content src="Text/1984-37.html"/> 
+    </navPoint> -->
+  
+  </navMap>
+</ncx>

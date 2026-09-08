@@ -2,19 +2,16 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
   <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <dc:title>A riqueza das nações</dc:title>
-    <dc:contributor opf:role="bkp">calibre (2.39.0) [http://calibre-ebook.com]</dc:contributor>
     <dc:language>pt</dc:language>
-    <dc:publisher>elivros.love</dc:publisher>
-    <dc:date>2017-06-01T03:00:00+00:00</dc:date>
+    <dc:publisher>Livraria Prometeu</dc:publisher>
+    <dc:date>2026-06-16T03:00:00+00:00</dc:date>
     <meta name="cover" content="cover" />
     <dc:creator opf:file-as="Smith, Adam" opf:role="aut">Adam Smith</dc:creator>
-    <dc:identifier opf:scheme="MOBI-ASIN">B07363PH2Y</dc:identifier>
     <dc:identifier id="uuid_id" opf:scheme="uuid">urn:uuid:858ff5f6-12a1-44ce-af6d-6bf79fe8da43</dc:identifier>
-    <dc:identifier opf:scheme="calibre">urn:uuid:858ff5f6-12a1-44ce-af6d-6bf79fe8da43</dc:identifier>
     <meta content="riqueza das nações, A" name="calibre:title_sort" />
-    <meta content="2017-10-10T16:38:32.440000+00:00" name="calibre:timestamp" />
+    <meta content="2026-06-16T16:38:32.440000+00:00" name="calibre:timestamp" />
     <meta content="0.7.4" name="Sigil version" />
-    <dc:date opf:event="modification">2017-10-10</dc:date>
+    <dc:date opf:event="modification">2026-06-16</dc:date>
   </metadata>
   <manifest>
     <item href="Images/cover.jpeg" id="cover" media-type="image/jpeg" />

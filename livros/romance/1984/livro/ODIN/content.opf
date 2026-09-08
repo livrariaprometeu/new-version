@@ -1,0 +1,116 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <!-- Your OPF file was broken so Sigil was forced to create a new one from scratch. -->
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>1984</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Orwell, George">George Orwell</dc:creator>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:57d48580-9fb4-4cd3-be87-e4a6bb5a24db</dc:identifier>
+    <dc:description>&lt;div style="text-align: justify;"&gt;Winston, herói de 1984, último romance de George Orwell, vive aprisionado na engrenagem totalitária de uma sociedade completamente dominada pelo Estado, onde tudo é feito coletivamente, mas cada qual vive sozinho. Ninguém escapa à vigilância do Grande Irmão, a mais famosa personificação literária de um poder cínico e cruel ao infinito, além de vazio de sentido histórico. De fato, a ideologia do Partido dominante em Oceânia não visa nada de coisa alguma para ninguém, no presente ou no futuro. O’Brien, hierarca do Partido, é quem explica a Winston que 'só nos interessa o poder em si. Nem riqueza, nem luxo, nem vida longa, nem felicidade - só o poder pelo poder, poder puro.&lt;/div&gt;</dc:description>
+    <dc:date>2026-09-07T03:00:00+00:00</dc:date>
+    <dc:publisher>Livraria Prometeu</dc:publisher>
+    <dc:subject>Romance</dc:subject>
+    <dc:language>pt</dc:language>
+    <meta content="0.7.4" name="Sigil version"/>
+    <meta name="cover" content="cover.jpg"/>
+    <meta name="calibre:title_sort" content="1984"/>
+    <meta name="calibre:user_categories" content="{}"/>
+  </metadata>
+  <manifest>
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/edition_note.html" id="edition_note.html" media-type="application/xhtml+xml"/>
+    <item href="Text/creditos.html" id="creditos.html" media-type="application/xhtml+xml"/>
+    <!-- <item href="Text/1984-1.html" id="x1984-1.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-2.html" id="x1984-2.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-3.html" id="x1984-3.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-4.html" id="x1984-4.html" media-type="application/xhtml+xml"/> -->
+    <item href="Text/1984-5.html" id="x1984-5.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-6.html" id="x1984-6.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-7.html" id="x1984-7.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-8.html" id="x1984-8.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-9.html" id="x1984-9.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-10.html" id="x1984-10.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-11.html" id="x1984-11.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-12.html" id="x1984-12.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-13.html" id="x1984-13.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-14.html" id="x1984-14.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-15.html" id="x1984-15.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-16.html" id="x1984-16.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-17.html" id="x1984-17.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-18.html" id="x1984-18.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-19.html" id="x1984-19.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-20.html" id="x1984-20.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-21.html" id="x1984-21.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-22.html" id="x1984-22.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-23.html" id="x1984-23.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-24.html" id="x1984-24.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-25.html" id="x1984-25.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-26.html" id="x1984-26.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-27.html" id="x1984-27.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-28.html" id="x1984-28.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-29.html" id="x1984-29.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-30.html" id="x1984-30.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-31.html" id="x1984-31.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-32.html" id="x1984-32.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-33.html" id="x1984-33.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-34.html" id="x1984-34.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-35.html" id="x1984-35.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-36.html" id="x1984-36.html" media-type="application/xhtml+xml"/>
+    <item href="Text/1984-37.html" id="x1984-37.html" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Styles/template.css" id="template.css" media-type="text/css"/>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Images/foto.jpg" id="foto.jpg" media-type="image/jpeg"/>
+    <item href="Images/foto2.jpg" id="foto2.jpg" media-type="image/jpeg"/>
+    <item href="Images/rosto.svg" id="rosto.svg" media-type="image/svg+xml"/>
+    <item href="Fonts/BellGothicStd-Bold.otf" id="BellGothicStd-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/BellGothicStd-Light.otf" id="BellGothicStd-Light.otf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/CaeciliaLTStd-Heavy.otf" id="CaeciliaLTStd-Heavy.otf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/CaeciliaLTStd-Italic.otf" id="CaeciliaLTStd-Italic.otf" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/CaeciliaLTStd-Roman.otf" id="CaeciliaLTStd-Roman.otf" media-type="application/vnd.ms-opentype"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="edition_note.html"/>
+    <itemref idref="creditos.html"/>
+    <!-- <itemref idref="x1984-1.html"/>
+    <itemref idref="x1984-2.html"/>
+    <itemref idref="x1984-3.html"/>
+    <itemref idref="x1984-4.html"/> -->
+    <itemref idref="x1984-5.html"/>
+    <itemref idref="x1984-6.html"/>
+    <itemref idref="x1984-7.html"/>
+    <itemref idref="x1984-8.html"/>
+    <itemref idref="x1984-9.html"/>
+    <itemref idref="x1984-10.html"/>
+    <itemref idref="x1984-11.html"/>
+    <itemref idref="x1984-12.html"/>
+    <itemref idref="x1984-13.html"/>
+    <itemref idref="x1984-14.html"/>
+    <itemref idref="x1984-15.html"/>
+    <itemref idref="x1984-16.html"/>
+    <itemref idref="x1984-17.html"/>
+    <itemref idref="x1984-18.html"/>
+    <itemref idref="x1984-19.html"/>
+    <itemref idref="x1984-20.html"/>
+    <itemref idref="x1984-21.html"/>
+    <itemref idref="x1984-22.html"/>
+    <itemref idref="x1984-23.html"/>
+    <itemref idref="x1984-24.html"/>
+    <itemref idref="x1984-25.html"/>
+    <itemref idref="x1984-26.html"/>
+    <itemref idref="x1984-27.html"/>
+    <itemref idref="x1984-28.html"/>
+    <itemref idref="x1984-29.html"/>
+    <itemref idref="x1984-30.html"/>
+    <itemref idref="x1984-31.html"/>
+    <itemref idref="x1984-32.html"/>
+    <!-- <itemref idref="x1984-33.html"/>
+    <itemref idref="x1984-34.html"/>
+    <itemref idref="x1984-35.html"/>
+    <itemref idref="x1984-36.html"/>
+    <itemref idref="x1984-37.html"/> -->
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>

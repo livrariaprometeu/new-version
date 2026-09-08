@@ -1,0 +1,168 @@
+/*Printmark - Alex*/
+
+@page {margin:2em 0 3em 0;}
+body {margin:0 auto; padding:1.00em 5%;}
+
+@font-face {
+	font-family : "Bell Gothic Std Light";
+	font-style : normal;
+	font-weight : bold;
+	src : url("../Fonts/BellGothicStd-Bold.otf");
+}
+@font-face {
+	font-family : "Bell Gothic Std Light";
+	font-style : normal;
+	font-weight : normal;
+	src : url("../Fonts/BellGothicStd-Light.otf");
+}
+@font-face {
+	font-family : "Caecilia LT Std Roman";
+	font-style : normal;
+	font-weight : normal;
+	src : url("../Fonts/CaeciliaLTStd-Heavy.otf");
+}
+@font-face {
+	font-family : "Caecilia LT Std Roman";
+	font-style : italic ;
+	font-weight : normal;
+	src : url("../Fonts/CaeciliaLTStd-Italic.otf");
+}
+@font-face {
+	font-family : "Caecilia LT Std Roman";
+	font-style : normal;
+	font-weight : normal;
+	src : url("../Fonts/CaeciliaLTStd-Roman.otf");
+}
+h1 {
+	font-family : "Bell Gothic Std Light";
+	font-weight : normal;
+	font-style : normal;
+	font-size : 1.33em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.13;
+	text-align : justify;
+	text-indent : 9px;
+	margin : 142px 0px 71px 0px;
+}
+h2 {
+	font-family : "Caecilia LT Std Roman";
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.79em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.51;
+	text-align : justify;
+	text-indent : 0px;
+	margin : 142px 0px 0px 0px;
+}
+h2.h2a {
+	font-family : "Bell Gothic Std Light";
+	font-size : 1.08em;
+	line-height : 1.1;
+	text-indent : 0px;
+	margin : 142px 0px 0px 0px;
+}
+p {
+	font-family : "Caecilia LT Std Roman";
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.58;
+	text-align : justify;
+	text-indent : 14px;
+	margin : 0px;
+}
+p.p1a {
+	text-indent : 0px;
+	margin : 0px;
+}
+p.p2 {
+	font-size : 0.75em;
+	line-height : 1.6;
+	text-align : center;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.p3 {
+	font-size : 0.75em;
+	line-height : 1.59;
+	text-indent : 14px;
+	margin : 0px 0px 0px 14px;
+}
+p.p3a {
+	font-size : 0.71em;
+	line-height : 1.68;
+	text-indent : 0px;
+	margin : 0px 0px 0px 14px;
+}
+p.p4 {
+	font-size : 1.5em;
+	line-height : 0.79;
+	text-align : center;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.nt {
+	font-size : 0.58em;
+	line-height : 1.43;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.sm {
+	font-family : "Bell Gothic Std Light";
+	font-size : 0.92em;
+	line-height : 1.5;
+	text-indent : 0px;
+	margin : 0px 0px 0px 57px;
+}
+p.sm2 {
+	font-family : "Bell Gothic Std Light";
+	font-size : 0.75em;
+	line-height : 1.5;
+	text-indent : 0px;
+	margin : 0px 0px 0px 57px;
+}
+p.title {
+	font-family : "Bell Gothic Std Light";
+	font-size : 1.33em;
+	line-height : 0.89;
+	text-indent : 0px;
+	margin : 0px 0px 43px 0px;
+}
+p.cred {
+	font-family : "Bell Gothic Std Light";
+	font-size : 0.58em;
+	line-height : 1.43;
+	text-indent : 0px;
+	margin : 0px;
+}
+/*Caracteres*/
+strong {
+	font-family : "Bell Gothic Std Light";
+	font-weight : bold;
+}
+em {
+	font-family : "Caecilia LT Std Roman";
+	font-style : italic;
+}
+small {
+	font-size : 80%;
+}
+span.num {
+	font-size : 0.83em;
+}
+sup {
+	line-height : 1;
+	font-size : 0.7em;
+	vertical-align : text-top;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+/*---------------------*/
+div.footnotes {margin-top: 40px;}
