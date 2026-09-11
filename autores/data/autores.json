@@ -1,5 +1,24 @@
 [
   {
+    "id": 9,
+    "autor": "Peter Drucker",
+    "nomeCompleto": "Peter Ferdinand Drucker",
+    "dataNascimento": "19 de novembro de 1909",
+    "localNascimento": "Viena, Áustria",
+    "dataFalecimento": "11 de novembro de 2005",
+    "localFalecimento": "Claremont, Califórnia, Estados Unidos",
+    "ocupacao": "Consultor de gestão, professor universitário e escritor",
+    "educacao": "Universidade de Frankfurt",
+    "conjuge": "Doris Schmitz",
+    "filhos": "Quatro filhos",
+    "generos": "Administração, gestão, economia, política e sociedade",
+    "movimento": "Teoria da administração e pensamento gerencial moderno",
+    "influencias": "Joseph Schumpeter, John Maynard Keynes e Alfred Sloan",
+    "obraFamosa": "The Practice of Management",
+    "periodoAtividade": "1932–2005",
+    "idade": 95
+  },
+  {
     "id": 8,
     "autor": "Immanuel Kant",
     "nomeCompleto": "Immanuel Kant",

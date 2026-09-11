@@ -216,9 +216,6 @@ Seu maior legado, portanto, talvez não seja uma técnica específica, mas uma m
 
 ## Principais obras
 
-| Ano | Obra | Gênero | Disponível |
-|------|-------|---------|-------------|## Principais obras
-
 | Ano  | Obra                                             | Gênero                      | Disponível |
 | ---- | ------------------------------------------------ | --------------------------- | ---------- |
 | 1939 | *The End of Economic Man*                        | Economia e sociedade        | —          |
