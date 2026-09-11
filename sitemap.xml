@@ -333,6 +333,17 @@
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/administracao-por-objetivos-as-ideias-de-peter-drucker-seus-beneficios-e-suas-limitacoes</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://livrariaprometeu.com/blog/artigo/administracao-cientifica-o-metodo-de-frederick-taylor-que-revolucionou-o-trabalho</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <!-- ==================== -->
     <!-- LIVROS -->
     <!-- ==================== -->

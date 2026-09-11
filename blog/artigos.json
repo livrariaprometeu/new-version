@@ -1,5 +1,13 @@
 [
   {
+    "id": 32,
+    "titulo": "Administração Científica: O Método de Frederick Taylor que Revolucionou o Trabalho",
+    "categoria": "Administração",
+    "idioma": "Português",
+    "caminho": "administracao-cientifica-o-metodo-de-frederick-taylor-que-revolucionou-o-trabalho",
+    "sobreAutor": "Frederick Winslow Taylor"
+  }, 
+  {
     "id": 31,
     "titulo": "Administração por Objetivos: as ideias de Peter Drucker, seus benefícios e suas limitações",
     "categoria": "Administração",
@@ -7,7 +15,7 @@
     "caminho": "administracao-por-objetivos-as-ideias-de-peter-drucker-seus-beneficios-e-suas-limitacoes",
     "sobreAutor": "Peter Drucker"
   },
-    {
+  {
     "id": 30,
     "titulo": "Os pensadores que fundaram a administração moderna: um guia",
     "categoria": "Administração",
