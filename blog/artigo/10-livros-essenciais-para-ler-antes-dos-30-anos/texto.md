@@ -1,4 +1,4 @@
-# 10 Livros Essenciais Para Ler Antes dos 30 Anos
+# 10 Livros Que Você Deveria Ler Antes dos 30 — Ou Pode Se Arrepender Depois
 
 Existem livros que nos ajudam a passar o tempo.
 
