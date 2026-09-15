@@ -1,5 +1,24 @@
 [
   {
+    "id": 10,
+    "autor": "Frederick Taylor",
+    "nomeCompleto": "Frederick Winslow Taylor",
+    "dataNascimento": "20 de março de 1856",
+    "localNascimento": "Filadélfia, Pensilvânia, Estados Unidos",
+    "dataFalecimento": "21 de março de 1915",
+    "localFalecimento": "Filadélfia, Pensilvânia, Estados Unidos",
+    "ocupacao": "Engenheiro mecânico, consultor de gestão e escritor",
+    "educacao": "Phillips Exeter Academy",
+    "conjuge": "Louise M. Spooner",
+    "filhos": "Nenhum",
+    "generos": "Administração, engenharia, gestão e produtividade",
+    "movimento": "Administração Científica",
+    "influencias": "Ciência, engenharia industrial e experiência na indústria metalúrgica",
+    "obraFamosa": "The Principles of Scientific Management",
+    "periodoAtividade": "1874–1915",
+    "idade": 59
+  },
+  {
     "id": 9,
     "autor": "Peter Drucker",
     "nomeCompleto": "Peter Ferdinand Drucker",
