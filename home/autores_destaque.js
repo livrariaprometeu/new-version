@@ -5,7 +5,7 @@ fetch("/autores/data/autores.json")
     const container = document.getElementById("lista-autores");
 
     // Limita a 6 autores
-    const autoresExibidos = dados.slice(0, 6);
+    const autoresExibidos = dados.slice(0, 20);
     let caminhoLer = "/autores/"
 
     autoresExibidos.forEach(item => {
